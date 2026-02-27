@@ -14,7 +14,7 @@ export default function Index() {
     <SafeAreaProvider>
       <SafeAreaView style={styles.container} edges={["top"]}>
         <ScrollView>
-          {prayers.map((prayer, index) => (
+          {prayers.map((prayer, _) => (
             <View style={{ marginBottom: 50 }}>
               <Link
                 key={prayer.id}

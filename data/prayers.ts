@@ -8,8 +8,7 @@ export const prayerData: Prayer[] = [
     {
         id: 0,
         title: "Reggelli Imák",
-        text: `
-Szent Atyáink imái által, Urunk Jézus Krisztus, Istenünk, irgalmazz nékünk.
+        text: `Szent Atyáink imái által, Urunk Jézus Krisztus, Istenünk, irgalmazz nékünk.
 
 Dicsőség Néked, Istenünk, dicsőség Néked.
 
@@ -43,10 +42,31 @@ Uram irgalmazz. (12-szer)
     {
         id: 1,
         title: "Kis Lenyugvási",
-        text: `
-Dicsőség az Atyának és Fiúnak és Szent Léleknek.
+        text: `Dicsőség az Atyának és Fiúnak és Szent Léleknek.
 
 Ámin.
 `
-    }
+    },
+    {
+        id: 2,
+        title: "Étkezéskor",
+        text: `Ámin.
+`
+    },
+    {
+        id: 3,
+        title: "Szentáldozás imái",
+        text: `Dicsőség az Atyának és Fiúnak és Szent Léleknek.
+
+Ámin.
+`
+    },
+    {
+        id: 4,
+        title: "Paraklisz",
+        text: `Dicsőség az Atyának és Fiúnak és Szent Léleknek.
+
+Ámin.
+`
+    },
 ]

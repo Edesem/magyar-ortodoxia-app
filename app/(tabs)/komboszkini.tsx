@@ -8,6 +8,7 @@ import {
 import React, { useEffect, useState } from "react";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
+import { COLOURS } from "../../constants/colours";
 
 export default function Index() {
   const [count, setCount] = useState(0);
@@ -27,7 +28,7 @@ export default function Index() {
           onPress={prayerRope}
           style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
         >
-          <Text style={{ fontSize: 100, fontFamily: "AlegreyaSC_400Regular" }}>
+          <Text style={{ fontSize: 100, fontFamily: "AlegreyaSC_400Regular", color: COLOURS.red }}>
             {count}
           </Text>
         </Pressable>

@@ -16,25 +16,36 @@ export default function PrayerScreen() {
     <SafeAreaProvider>
       <SafeAreaView style={styles.container} edges={["top"]}>
         <ScrollView>
-          {sections.map((section, index) =>
-            section.heading ? (
-              <React.Fragment key={index}>
-                <Text style={styles.heading}>{section.heading}</Text>
-                {section.subheading ? (
-                  <Text style={styles.subheading}>{section.subheading}</Text>
-                ) : null}
-                <Text style={styles.text}>{section.text}</Text>
-              </React.Fragment>
-            ) : (
-              <React.Fragment key={index}>
-                <Text style={styles.text}>{section.text}</Text>
+          {sections.map((section, sectionIndex) => {
+            const paragraphs = section.text.split("\n");
 
-                {section.postheading ? (
-                  <Text style={styles.postheading}>{section.postheading}</Text>
-                ) : null}
+            return (
+              <React.Fragment key={sectionIndex}>
+                {/* heading */}
+                {section.heading && (
+                  <Text style={styles.heading}>{section.heading}</Text>
+                )}
+
+                {/* subheading */}
+                {section.subheading && (
+                  <Text style={styles.subheading}>{section.subheading}</Text>
+                )}
+
+                {/* paragraphs */}
+                {paragraphs.map((paragraph, paragraphIndex) => {
+                  const firstLetter = paragraph.charAt(0);
+                  const rest = paragraph.slice(1);
+
+                  return (
+                    <Text style={styles.text} key={paragraphIndex}>
+                      <Text style={styles.dropCap}>{firstLetter}</Text>
+                      {rest}
+                    </Text>
+                  );
+                })}
               </React.Fragment>
-            )
-          )}
+            );
+          })}
         </ScrollView>
       </SafeAreaView>
     </SafeAreaProvider>
@@ -73,5 +84,10 @@ const styles = StyleSheet.create({
     paddingBottom: 25,
     color: COLOURS.red,
     fontFamily: "Alegreya_400Regular_Italic",
+  },
+  dropCap: {
+    lineHeight: 40,
+    fontSize: 32,
+    color: COLOURS.red,
   },
 });

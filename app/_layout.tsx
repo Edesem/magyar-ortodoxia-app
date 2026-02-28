@@ -18,6 +18,7 @@ export default function RootLayout() {
     Alegreya_400Regular_Italic,
     AlegreyaSC_400Regular,
     AlegreyaSC_700Bold,
+    Athonite: require("../assets/fonts/Athonite.ttf")
   });
 
   useEffect(() => {

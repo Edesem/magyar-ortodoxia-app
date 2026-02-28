@@ -8,7 +8,7 @@ export default function TabsLayout() {
     <NativeTabs
       tintColor={DynamicColorIOS({
         dark: "white",
-        light: COLOURS.red,
+        light: COLOURS.deep_red,
       })}
     >
       <NativeTabs.Trigger name="index">
@@ -17,7 +17,7 @@ export default function TabsLayout() {
       </NativeTabs.Trigger>
       <NativeTabs.Trigger name="komboszkini">
         <Label>Komboszkini</Label>
-        <Icon sf="k.circle.fill" />
+        <Icon sf="circle.grid.cross.fill" />
       </NativeTabs.Trigger>
     </NativeTabs>
   );

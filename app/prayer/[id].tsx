@@ -75,14 +75,14 @@ const styles = StyleSheet.create({
     fontSize: 25,
     textAlign: "center",
     paddingBottom: 25,
-    color: COLOURS.red,
+    color: COLOURS.light_red,
     fontFamily: "Alegreya_400Regular_Italic",
   },
   postheading: {
     fontSize: 24,
     textAlign: "left",
     paddingBottom: 25,
-    color: COLOURS.red,
+    color: COLOURS.light_red,
     fontFamily: "Alegreya_400Regular_Italic",
   },
   dropCap: {

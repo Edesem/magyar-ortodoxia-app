@@ -7,6 +7,7 @@ export interface PrayerSection {
 
 export interface Prayer {
   id: number;
+  heading?: string;
   title: string;
   sections: PrayerSection[];
 }
@@ -183,6 +184,7 @@ Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk
 export const prayerData: Prayer[] = [
   {
     id: 0,
+    heading: "Mindennapi imák",
     title: "Reggelli Imák",
     sections: [
       {
@@ -452,6 +454,7 @@ Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, 
   },
   {
     id: 3,
+    heading: "A szentáldozás imái",
     title: "Imádság a szentáldozás előtti estén",
     sections: [
       {
@@ -978,6 +981,7 @@ ${HOLY_FATHERS}
   },
   {
     id: 7,
+    heading: "Más imák",
     title: "Kis könyörgő kánon a legszentebb Istenszülőhöz",
     sections: [
       {

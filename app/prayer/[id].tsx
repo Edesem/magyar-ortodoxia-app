@@ -1,11 +1,9 @@
 import { useLocalSearchParams } from "expo-router";
 import React from "react";
-import { View, Text, StyleSheet, ScrollView } from "react-native";
+import { Text, StyleSheet, ScrollView } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Prayer, prayerData } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
-import { AlegreyaSC_400Regular } from "@expo-google-fonts/alegreya-sc";
-import { Alegreya_400Regular } from "@expo-google-fonts/alegreya";
 
 export default function PrayerScreen() {
   const { id } = useLocalSearchParams();
@@ -18,23 +16,23 @@ export default function PrayerScreen() {
     <SafeAreaProvider>
       <SafeAreaView style={styles.container} edges={["top"]}>
         <ScrollView>
-          {sections.map((section, _) =>
+          {sections.map((section, index) =>
             section.heading ? (
-              <>
+              <React.Fragment key={index}>
                 <Text style={styles.heading}>{section.heading}</Text>
                 {section.subheading ? (
                   <Text style={styles.subheading}>{section.subheading}</Text>
                 ) : null}
                 <Text style={styles.text}>{section.text}</Text>
-              </>
+              </React.Fragment>
             ) : (
-              <>
+              <React.Fragment key={index}>
                 <Text style={styles.text}>{section.text}</Text>
 
                 {section.postheading ? (
                   <Text style={styles.postheading}>{section.postheading}</Text>
                 ) : null}
-              </>
+              </React.Fragment>
             )
           )}
         </ScrollView>

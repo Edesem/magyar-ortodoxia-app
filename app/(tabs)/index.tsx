@@ -1,6 +1,6 @@
 import { StatusBar } from "expo-status-bar";
 import { Pressable, ScrollView, StyleSheet, Text, View } from "react-native";
-import { Prayer, prayerData } from "../data/prayers";
+import { Prayer, prayerData } from "../../data/prayers";
 import React, { useState } from "react";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Link } from "expo-router";
@@ -8,18 +8,16 @@ import { Link } from "expo-router";
 const prayers: Prayer[] = prayerData;
 
 export default function Index() {
-  const [selectedPrayerId, setSelectedPrayerId] = useState<number | null>(null);
-
   return (
     <SafeAreaProvider>
-      <SafeAreaView style={styles.container} edges={["top"]}>
+      <SafeAreaView style={styles.container}>
         <ScrollView>
           {prayers.map((prayer, _) => (
-            <View style={{ marginBottom: 50 }}>
+            <View style={{ marginBottom: 30 }} key={prayer.id}>
               <Link
                 key={prayer.id}
                 href={`./prayer/${prayer.id}`}
-                style={{ fontWeight: "bold" }}
+                style={{ fontFamily: "AlegreyaSC_700Bold", fontSize: 25 }}
               >
                 {prayer.title}
               </Link>

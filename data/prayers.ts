@@ -147,7 +147,7 @@ Ne szállj perbe a te szolgáddal, hiszen senki élő meg nem igazulhat előtted
 
 Íme, az ellenség üldözte lelkemet, a földig alázta életemet.
 
-A sötétségbe ültetett engem, mint azokat, akik mindörökre meghaltak, és elsüggedt a lelkem énbennem, megrettent bennem a szívem.
+A sötétségbe ültetett engem, mint azokat, akik mindörökre meghaltak, és elcsüggedt a lelkem énbennem, megrettent bennem a szívem.
 
 Megemlékeztem a régmúlt napokról, elmélkedtem minden dolgodról, kezednek műveiről elmélkedtem.
 
@@ -165,7 +165,7 @@ Szabadíts ki engem ellenségeim kezéből, Uram, oltalmadhoz menekültem! Taní
 
 Jóságos Lelked vezessen engem az egyenes földön! A te nevedért, Uram, éltess engem!
 
-Igazságosságodban vezesd ki lelkemet a sanyargatásból, irgalmadban irtsd ki ellenségeimet!
+Igazságosságodban vezesd ki lelkemet a sanyarúságból, irgalmadban irtsd ki ellenségeimet!
 
 Pusztítsd el mindazokat, akik szorongatják lelkemet, mert én a te szolgád vagyok!`
 
@@ -1011,7 +1011,7 @@ ${GOD_IS_THE_LORD}
       },
       {
         heading: `4. hang. Aki önként felmentél a keresztre...`,
-        text: `Isten Szülőjéhez állhatatosan folyamodjunk most, mi bűnösök és gyarlók, és boruljunk le Előtte, bűnbánattal kiáltva lelkünk mélyéből: Nagyasszonyunk segíts, könyörülj rajtunk! Siess, elveszünk vétkeink sokasága miatt. Ne engedd el szolgáidat üres kézzel, mert Te vagy az egyedüli reménységünk.
+        text: `Isten Szülőjéhez állhatatosan folyamodjunk most, mi bűnösök és gyarlók, és boruljunk le Előtte, bűnbánattal kiáltva lelkünk mélyéből: Nagyasszonyunk segíts, könyörülj rajtunk! Siess, elveszünk vétkeink sokasága miatt. Ne engedd el szolgáidat üres kézzel, mert Te vagy a mi egyedüli reménységünk!
 
 ${GLORY_BOTH}
 

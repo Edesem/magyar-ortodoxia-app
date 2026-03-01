@@ -25,7 +25,7 @@ export default function Index() {
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
         <ScrollView
-          contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 40 }}
+          contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 80 }}
         >
           <Text style={styles.banner}>Magyar Ortodoxia</Text>
 
@@ -68,7 +68,7 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#f5f5f5",
+    backgroundColor: COLOURS.background_white,
   },
   banner: {
     fontSize: 85,

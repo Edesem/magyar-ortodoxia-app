@@ -1,5 +1,6 @@
 import { SplashScreen, Stack } from "expo-router";
 import { useEffect } from "react";
+import * as NavigationBar from "expo-navigation-bar";
 import {
   useFonts,
   Alegreya_400Regular,

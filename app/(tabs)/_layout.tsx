@@ -5,12 +5,8 @@ import { COLOURS } from "../../constants/colours";
 
 export default function TabsLayout() {
   return (
-    <NativeTabs
-      tintColor={DynamicColorIOS({
-        dark: "white",
-        light: COLOURS.deep_red,
-      })}
-    >
+    <NativeTabs tintColor={COLOURS.deep_red}>
+      
       <NativeTabs.Trigger name="index">
         <Label>Imák</Label>
         <Icon sf="book.fill" />

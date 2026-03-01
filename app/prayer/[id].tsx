@@ -15,7 +15,9 @@ export default function PrayerScreen() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container} edges={["top"]}>
-        <ScrollView>
+        <ScrollView
+          contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 40 }}
+        >
           {sections.map((section, sectionIndex) => {
             const paragraphs = section.text.split("\n");
 
@@ -55,8 +57,6 @@ export default function PrayerScreen() {
 const styles = StyleSheet.create({
   container: {
     backgroundColor: "#fff",
-    paddingTop: 20,
-    paddingHorizontal: 20,
   },
   text: {
     fontSize: 24,

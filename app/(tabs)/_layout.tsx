@@ -3,6 +3,8 @@ import { Icon, Label, NativeTabs } from "expo-router/unstable-native-tabs";
 import { DynamicColorIOS, Platform, Image } from "react-native";
 import { COLOURS } from "../../constants/colours";
 import { Tabs } from "expo-router";
+import MaterialIcons from "@expo/vector-icons/MaterialCommunityIcons.js";
+import { FontAwesome6 } from "@expo/vector-icons";
 
 function IOSTabs() {
   return (
@@ -21,17 +23,14 @@ function IOSTabs() {
 
 function AndroidTabs() {
   return (
-    <Tabs screenOptions={{ tabBarActiveTintColor: "blue" }}>
+    <Tabs screenOptions={{ tabBarActiveTintColor: COLOURS.deep_red }}>
       <Tabs.Screen
         name="index"
         options={{
           title: "Imák",
+          headerShown: false,
           tabBarIcon: ({ color }) => (
-            <Image
-              source={require("../../assets/icons/book.png")}
-              resizeMode="contain"
-              style={{ width: 25, height: 25}}
-            />
+            <FontAwesome6 size={25} name="book-open" color={color} />
           ),
         }}
       />
@@ -39,12 +38,9 @@ function AndroidTabs() {
         name="komboszkini"
         options={{
           title: "Komboszkini",
+          headerShown: false,
           tabBarIcon: ({ color }) => (
-            <Image
-              source={require("../../assets/icons/grid.png")}
-              resizeMode="contain"
-              style={{ width: 25, height: 25}}
-            />
+            <MaterialIcons size={28} name="gamepad-circle" color={color} />
           ),
         }}
       />

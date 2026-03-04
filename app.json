@@ -4,7 +4,7 @@
     "slug": "magyar-ortodoxia-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/android-logo-primary.png",
+    "icon": "./assets/android-logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "scheme": "myapp",

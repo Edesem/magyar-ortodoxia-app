@@ -11,6 +11,7 @@ import {
   AlegreyaSC_700Bold,
 } from "@expo-google-fonts/alegreya-sc";
 import { COLOURS } from "../constants/colours";
+import { Platform } from "react-native";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -40,12 +41,24 @@ export default function RootLayout() {
           headerBackTitle: "Vissza",
           headerBackTitleStyle: { fontFamily: "AlegreyaSC_400Regular" },
 
-          headerLargeTitleEnabled: true,
-          headerLargeTitleStyle: {
-            fontFamily: "AlegreyaSC_700Bold",
-            fontSize: 50,
-            color: COLOURS.deep_red,
-          },
+          ...(Platform.OS === "ios" && {
+            headerLargeTitleEnabled: true,
+            headerLargeTitleStyle: {
+              fontFamily: "AlegreyaSC_700Bold",
+              fontSize: 50,
+              color: COLOURS.deep_red,
+            },
+          }),
+          ...(Platform.OS ==='android' && {
+            headerStyle: {
+              backgroundColor: COLOURS.background_white,
+            },
+            headerTitleStyle: {
+              fontFamily: "AlegreyaSC_700Bold",
+              fontSize: 35,
+              color: COLOURS.deep_red,
+            },
+          })
         }}
       />
     </Stack>

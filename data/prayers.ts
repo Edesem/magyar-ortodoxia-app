@@ -9,6 +9,7 @@ export interface Prayer {
   id: number;
   heading?: string;
   title: string;
+  header_title: string;
   sections: PrayerSection[];
 }
 
@@ -186,6 +187,7 @@ export const prayerData: Prayer[] = [
     id: 0,
     heading: "Mindennapi imák",
     title: "Reggelli Imák",
+    header_title: "Reggelli Imák",
     sections: [
       {
         text: INTRO,
@@ -268,6 +270,7 @@ ${HOLY_FATHERS}
   {
     id: 1,
     title: "Kis Lenyugvási",
+    header_title: "Kis Lenyugvási",
     sections: [
       {
         text:
@@ -403,6 +406,7 @@ ${HOLY_FATHERS}
   {
     id: 2,
     title: "Imádság étkezéskor",
+    header_title: "Étkezéskor",
     sections: [
       {
         heading: "Étkezés előtt",
@@ -456,6 +460,7 @@ Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, 
     id: 3,
     heading: "A szentáldozás imái",
     title: "Imádság a szentáldozás előtti estén",
+    header_title: "Előtti estén",
     sections: [
       {
         text: INTRO,
@@ -564,6 +569,7 @@ ${HOLY_FATHERS}
   {
     id: 4,
     title: "Imádság reggel, szentáldozás előtt",
+    header_title: "Reggel",
     sections: [
       {
         text: INTRO + INTO_KATHISMA,
@@ -855,6 +861,7 @@ Ez tesz engem vakmerővé,
   {
     id: 5,
     title: "Közvetlenül áldozás előtt",
+    header_title: "Áldozás előtt",
     sections: [
         {
             heading: "Közvetlenül áldozás előtt",
@@ -882,6 +889,7 @@ Emberszerető Uralkodó, Jézus Krisztus Urunk és Istenünk, ne legyenek ezek a
   {
     id: 6,
     title: "Hálaadás szentáldozás után",
+    header_title: "Áldozás után",
     sections: [
       {
         heading: "Buzdító versek",
@@ -983,9 +991,9 @@ ${HOLY_FATHERS}
     id: 7,
     heading: "Más imák",
     title: "Kis könyörgő kánon a legszentebb Istenszülőhöz",
+    header_title: "Parakliszisz",
     sections: [
       {
-        heading: `Parakliszisz`,
         text: NAME_OF,
       },
       {

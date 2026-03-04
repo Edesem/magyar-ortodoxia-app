@@ -1,5 +1,5 @@
-import { useLocalSearchParams } from "expo-router";
-import React from "react";
+import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
+import React, { useLayoutEffect } from "react";
 import { Text, StyleSheet, ScrollView } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Prayer, prayerData } from "../../data/prayers";
@@ -7,50 +7,59 @@ import { COLOURS } from "../../constants/colours";
 
 export default function PrayerScreen() {
   const { id } = useLocalSearchParams();
+  const navigation = useNavigation();
 
   // For prayers (p) check p.id and see if it's equal to id
   const prayer: Prayer = prayerData.find((p) => p.id === Number(id))!;
   const sections = prayer.sections;
 
+  useLayoutEffect(() => {
+    navigation.setOptions({
+      title: prayer.header_title ?? " ",
+    });
+  }, [navigation, prayer]);
+
   return (
-    <SafeAreaProvider>
-      <SafeAreaView style={styles.container} edges={["top"]}>
-        <ScrollView
-          contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 40 }}
-        >
-          {sections.map((section, sectionIndex) => {
-            const paragraphs = section.text.split("\n");
+    <ScrollView
+      contentInsetAdjustmentBehavior="automatic"
+      contentContainerStyle={{
+        paddingHorizontal: 25,
+        paddingBottom: 40,
+        paddingTop: 10,
+      }}
+      style={{ flex: 1 }}
+    >
+      {sections.map((section, sectionIndex) => {
+        const paragraphs = section.text.split("\n");
 
-            return (
-              <React.Fragment key={sectionIndex}>
-                {/* heading */}
-                {section.heading && (
-                  <Text style={styles.heading}>{section.heading}</Text>
-                )}
+        return (
+          <React.Fragment key={sectionIndex}>
+            {/* heading */}
+            {section.heading && (
+              <Text style={styles.heading}>{section.heading}</Text>
+            )}
 
-                {/* subheading */}
-                {section.subheading && (
-                  <Text style={styles.subheading}>{section.subheading}</Text>
-                )}
+            {/* subheading */}
+            {section.subheading && (
+              <Text style={styles.subheading}>{section.subheading}</Text>
+            )}
 
-                {/* paragraphs */}
-                {paragraphs.map((paragraph, paragraphIndex) => {
-                  const firstLetter = paragraph.charAt(0);
-                  const rest = paragraph.slice(1);
+            {/* paragraphs */}
+            {paragraphs.map((paragraph, paragraphIndex) => {
+              const firstLetter = paragraph.charAt(0);
+              const rest = paragraph.slice(1);
 
-                  return (
-                    <Text style={styles.text} key={paragraphIndex}>
-                      <Text style={styles.dropCap}>{firstLetter}</Text>
-                      {rest}
-                    </Text>
-                  );
-                })}
-              </React.Fragment>
-            );
-          })}
-        </ScrollView>
-      </SafeAreaView>
-    </SafeAreaProvider>
+              return (
+                <Text style={styles.text} key={paragraphIndex}>
+                  <Text style={styles.dropCap}>{firstLetter}</Text>
+                  {rest}
+                </Text>
+              );
+            })}
+          </React.Fragment>
+        );
+      })}
+    </ScrollView>
   );
 }
 

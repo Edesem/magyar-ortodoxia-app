@@ -10,6 +10,7 @@ import {
   AlegreyaSC_400Regular,
   AlegreyaSC_700Bold,
 } from "@expo-google-fonts/alegreya-sc";
+import { COLOURS } from "../constants/colours";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -19,11 +20,11 @@ export default function RootLayout() {
     Alegreya_400Regular_Italic,
     AlegreyaSC_400Regular,
     AlegreyaSC_700Bold,
-    Athonite: require("../assets/fonts/Athonite.ttf")
+    Athonite: require("../assets/fonts/Athonite.ttf"),
   });
 
   useEffect(() => {
-    SplashScreen.hide();
+    SplashScreen.hideAsync();
   });
 
   if (!fontsLoaded) {
@@ -31,8 +32,22 @@ export default function RootLayout() {
   }
 
   return (
-    <Stack screenOptions={{ headerShown: false }}>
+    <Stack screenOptions={{ headerShown: true }}>
       <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+      <Stack.Screen
+        name="prayer/[id]"
+        options={{
+          headerBackTitle: "Vissza",
+          headerBackTitleStyle: { fontFamily: "AlegreyaSC_400Regular" },
+
+          headerLargeTitleEnabled: true,
+          headerLargeTitleStyle: {
+            fontFamily: "AlegreyaSC_700Bold",
+            fontSize: 50,
+            color: COLOURS.deep_red,
+          },
+        }}
+      />
     </Stack>
   );
 }

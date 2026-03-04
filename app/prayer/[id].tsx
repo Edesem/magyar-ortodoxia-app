@@ -56,7 +56,7 @@ export default function PrayerScreen() {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: "#fff",
+    backgroundColor: COLOURS.background_white,
   },
   text: {
     fontSize: 24,

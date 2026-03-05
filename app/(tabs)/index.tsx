@@ -22,46 +22,42 @@ export default function Index() {
   };
 
   return (
-    <SafeAreaProvider>
-      <SafeAreaView style={styles.container}>
-        <ScrollView
-          contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 80 }}
-        >
-          <Text style={styles.banner}>Magyar Ortodoxia</Text>
+    <ScrollView
+      contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 80 }}
+    >
+      <Text style={styles.banner}>Magyar Ortodoxia</Text>
 
-          {prayers.map((prayer, _) => (
-            <View style={{ marginBottom: 10 }} key={prayer.id}>
-              {prayer.heading && (
-                <>
-                  <View style={{ alignItems: "center" }}>
-                    <Text style={styles.heading}>{prayer.heading}</Text>
-                  </View>
-                  <View style={styles.header_divider} />
-                </>
-              )}
-              <View style={styles.card}>
-                <Link
-                  key={prayer.id}
-                  href={`./prayer/${prayer.id}`}
-                  style={styles.prayer}
-                  onPress={haptic}
-                >
-                  {prayer.title}
-                </Link>
-                <View>
-                  <Image
-                    source={require("../../assets/orthodox/star1.png")}
-                    style={styles.chevron}
-                  />
-                </View>
+      {prayers.map((prayer, _) => (
+        <View style={{ marginBottom: 10 }} key={prayer.id}>
+          {prayer.heading && (
+            <>
+              <View style={{ alignItems: "center" }}>
+                <Text style={styles.heading}>{prayer.heading}</Text>
               </View>
-              <View style={styles.prayer_divider} />
+              <View style={styles.header_divider} />
+            </>
+          )}
+          <View style={styles.card}>
+            <Link
+              key={prayer.id}
+              href={`./prayer/${prayer.id}`}
+              style={styles.prayer}
+              onPress={haptic}
+            >
+              {prayer.title}
+            </Link>
+            <View>
+              <Image
+                source={require("../../assets/orthodox/star1.png")}
+                style={styles.chevron}
+              />
             </View>
-          ))}
-          <StatusBar style="auto" />
-        </ScrollView>
-      </SafeAreaView>
-    </SafeAreaProvider>
+          </View>
+          <View style={styles.prayer_divider} />
+        </View>
+      ))}
+      <StatusBar style="auto" />
+    </ScrollView>
   );
 }
 
@@ -99,7 +95,7 @@ const styles = StyleSheet.create({
   },
   chevron: {
     marginRight: 25,
-    opacity: 0.60,
+    opacity: 0.6,
     width: 30,
     height: 30,
   },

@@ -6,6 +6,7 @@ import {
   View,
   Image,
   Vibration,
+  ScrollView,
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
@@ -19,12 +20,13 @@ export default function Index() {
   const prayerRope = (event: GestureResponderEvent): void => {
     setCount(count + 1);
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
+    setRotation((prevRotation) => prevRotation - 7.2);
+
     if (rotation >= 360) {
       setRotation(0);
     }
-    setRotation((prevRotation) => prevRotation - 7.2);
 
-    if (count >= 50) {
+    if (count >= 49) {
       Vibration.vibrate();
       setCount(0);
     }
@@ -33,6 +35,7 @@ export default function Index() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
+        
         <View
           style={{
             alignItems: "center",

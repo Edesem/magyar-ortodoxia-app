@@ -1,6 +1,5 @@
-import { SplashScreen, Stack } from "expo-router";
+import { Stack } from "expo-router";
 import { useEffect } from "react";
-import * as NavigationBar from "expo-navigation-bar";
 import {
   useFonts,
   Alegreya_400Regular,
@@ -12,6 +11,7 @@ import {
 } from "@expo-google-fonts/alegreya-sc";
 import { COLOURS } from "../constants/colours";
 import { Platform } from "react-native";
+import * as SplashScreen from 'expo-splash-screen';
 
 SplashScreen.preventAutoHideAsync();
 
@@ -22,6 +22,11 @@ export default function RootLayout() {
     AlegreyaSC_400Regular,
     AlegreyaSC_700Bold,
     Athonite: require("../assets/fonts/Athonite.ttf"),
+  });
+
+  SplashScreen.setOptions({
+    duration: 1500,
+    fade: true,
   });
 
   useEffect(() => {

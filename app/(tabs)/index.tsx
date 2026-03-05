@@ -23,7 +23,7 @@ export default function Index() {
 
   return (
     <ScrollView
-      contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 80 }}
+      contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 0 }}
     >
       <Text style={styles.banner}>Magyar Ortodoxia</Text>
 

@@ -4,6 +4,7 @@ import { Text, StyleSheet, ScrollView } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Prayer, prayerData } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
+import { moderateScale } from "react-native-size-matters";
 
 export default function PrayerScreen() {
   const { id } = useLocalSearchParams();
@@ -68,35 +69,35 @@ const styles = StyleSheet.create({
     backgroundColor: COLOURS.background_white,
   },
   text: {
-    fontSize: 24,
-    lineHeight: 34,
+    fontSize: moderateScale(24),
+    lineHeight: moderateScale(34),
     textAlign: "left",
     fontFamily: "Alegreya_400Regular",
   },
   heading: {
-    fontSize: 30,
+    fontSize: moderateScale(30),
     textAlign: "center",
-    paddingVertical: 15,
+    paddingVertical: moderateScale(15),
     color: COLOURS.red,
     fontFamily: "AlegreyaSC_400Regular",
   },
   subheading: {
-    fontSize: 25,
+    fontSize: moderateScale(25),
     textAlign: "center",
     paddingBottom: 25,
     color: COLOURS.light_red,
     fontFamily: "Alegreya_400Regular_Italic",
   },
   postheading: {
-    fontSize: 24,
+    fontSize: moderateScale(24),
     textAlign: "left",
     paddingBottom: 25,
     color: COLOURS.light_red,
     fontFamily: "Alegreya_400Regular_Italic",
   },
   dropCap: {
-    lineHeight: 40,
-    fontSize: 32,
+    lineHeight: moderateScale(40),
+    fontSize: moderateScale(32),
     color: COLOURS.red,
   },
 });

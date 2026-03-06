@@ -12,6 +12,7 @@ import {
 import { COLOURS } from "../constants/colours";
 import { Platform } from "react-native";
 import * as SplashScreen from 'expo-splash-screen';
+import { moderateScale } from "react-native-size-matters";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -60,7 +61,7 @@ export default function RootLayout() {
             },
             headerTitleStyle: {
               fontFamily: "AlegreyaSC_700Bold",
-              fontSize: 35,
+              fontSize: moderateScale(35, 1.2),
               color: COLOURS.deep_red,
             },
           })

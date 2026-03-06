@@ -12,6 +12,7 @@ import React, { useEffect, useState } from "react";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
 import { COLOURS } from "../../constants/colours";
+import { moderateScale, verticalScale } from "react-native-size-matters";
 
 export default function Index() {
   const [count, setCount] = useState(0);
@@ -39,16 +40,14 @@ export default function Index() {
         <View
           style={{
             alignItems: "center",
-            position: "absolute",
-            paddingTop: 80,
-            left: 36,
+            //position: "absolute",
           }}
         >
           <Text
             style={{
               color: "grey",
               fontFamily: "Alegreya_400Regular_Italic",
-              fontSize: 20,
+              fontSize: moderateScale(20, 1.2),
               textAlign: "center",
             }}
           >
@@ -70,10 +69,11 @@ export default function Index() {
 
           <Text
             style={{
-              fontSize: 50,
+              fontSize: moderateScale(50, 1.2),
               fontFamily: "AlegreyaSC_400Regular",
               color: COLOURS.red,
               textAlign: "center",
+              paddingBottom: 20,
             }}
           >
             50 csomó
@@ -88,13 +88,13 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: COLOURS.background_white,
-    paddingTop: 40,
-    paddingHorizontal: 40,
-    color: "#000",
+    paddingTop: 0,
+    paddingHorizontal: 30,
   },
   komboszkini: {
-    width: 400,
-    height: 400,
+    width: "100%",
+    height: verticalScale(400),
+    resizeMode: "contain",
     tintColor: COLOURS.deep_red,
   },
 });

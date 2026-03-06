@@ -186,8 +186,8 @@ export const prayerData: Prayer[] = [
   {
     id: 0,
     heading: "Mindennapi imák",
-    title: "Reggelli Imák",
-    header_title: "Reggelli Imák",
+    title: "Reggeli Imák",
+    header_title: "Reggeli Imák",
     sections: [
       {
         text: INTRO,

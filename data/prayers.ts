@@ -21,7 +21,7 @@ const OUR_FATHER = `Mi Atyánk, ki a mennyekben vagy, szenteltessék meg a te ne
 
 const GLORY_BOTH = `Dicsőség az Atyának és Fiúnak és Szent Léleknek, most és mindenkor és mindörökkön örökké. Ámin.`
 
-const GLORY = `Dicsőség az Atyának és Fiúnak és Szent Léleknek`
+const GLORY = `Dicsőség az Atyának és Fiúnak és Szent Léleknek.`
 
 const BOTH_NOW = `Most és mindenkor és mindörökkön örökké. Ámin.`
 
@@ -194,25 +194,25 @@ export const prayerData: Prayer[] = [
       },
       {
         heading: "Apolitikionok",
-        text: `Álmunkból felkelvén, leborulunk Előtted, Jóságos, és az angyalok dicsérőénekét zengjük Néked, ó, Hatalmas: Szent, Szent, Szent vagy Isten, irgalmazz nekünk Isten Szülője által.
+        text: `Álmunkból felkelvén, leborulunk Előtted, Jóságos, és az angyalok dicsérőénekét zengjük néked, ó, Hatalmas: Szent, szent, szent vagy Isten, irgalmazz nekünk Isten Szülője által!
 
 ${GLORY}
 
-Felkeltvén engem ágyamról és álmomból, Uram, világosítsd meg elmémet és nyisd meg szívemet és ajkaimat a Te dicséretedre, Szent Háromság: Szent, Szent, Szent vagy Isten, irgalmazz nekünk Isten Szülője által.
+Felkeltvén engem ágyamról és álmomból, Uram, világosítsd meg elmémet és nyisd meg szívemet és ajkaimat a te dicséretedre, Szent Háromság: Szent, szent, szent vagy Isten, irgalmazz nekünk Isten Szülője által!
 
 ${BOTH_NOW}
 
-Váratlanul jő el a Bíró, és mindenkinek cselekedetei lelepleztetnek, kiáltsuk hát félelemmel az éj közepén: Szent, Szent, Szent vagy Isten, irgalmazz nekünk Isten Szülője által.
+Váratlanul jön el a Bíró, és mindenkinek cselekedetei lelepleztetnek. Kiáltsuk hát félelemmel az éj közepén: Szent, szent, szent vagy Isten, irgalmazz nekünk Isten Szülője által.
 
-Uram irgalmazz. (12x)`,
+Uram, irgalmazz! (12x)`,
       },
       {
         heading: "Könyörgő hálaima",
-        text: `Álmomból felkelvén, hálát adok Néked, Szent Háromság, mert nagy jóságosságodért és béketűrésedért nem haragudtál meg reám, a restre és bűnösre, és nem pusztítottál el törvényszegéseimmel együtt, hanem meghitt emberszeretetet mutattál irántam, és engem, aki a kétségbeeséshez álltam közel, fölkeltettél, hogy hajnalhasadáskor dicsőítsem a Te hatalmadat. Most pedig világosítsd meg értelmem szemét, nyisd meg ajkaimat, hogy a Te igédet tanuljam, a Te parancsolataidat megértsem, és a Te akaratodat teljesítsem, és szívem vallomásával énekeljem és dicsőítsem a Te szentséges Nevedet, az Atyáét és Fiúét és Szent Lélekét, most és mindenkor és mindörökkön örökké. Ámin.`,
+        text: `Álmomból felkelvén hálát adok néked, Szentháromság, mert nagy jóságodért és béketűrésedért nem haragudtál meg reám, a restre és bűnösre, és nem pusztítottál el törvényszegéseimmel együtt, hanem szokott emberszereteteddel fölkeltettél engem, aki a kétségbeeséshez álltam közel, hogy hajnalhasadáskor dicsőítsem a te hatalmadat. Most pedig világosítsd meg értelmem szemét, nyisd meg számat, hogy a te igéidet tanuljam, parancsolataidat megértsem, és a te akaratodat teljesítsem, szívem vallomásával énekeljek néked, és dicsőítsem a te szentséges nevedet, az Atyáét és Fiúét és Szentlélekét, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Másik imádság",
-        text: `Dicsőség néked, Királyom, mindenható Isten, mert emberszerető isteni gondviseléseddel arra méltattál engem, búnös és méltatlan szolgádat, hogy fölkeljek álmomból és eljöjjek szent házadba. Ugy fogadd el, Uram, az én könyörgésem hangját is, ahogyan szent szellemi erőid hangját fogadod, és engedd meg, hogy tiszta szívvel és alázatos lélekkel felajánljam néked beszennyezett ajkam dicsérő szavait, hogy lelkem fényes lámpásával társa lehessek az okos szüzeknek és dicsőitselek téged, az Atyával és a Szentlélekkel együtt dicsőített Isten Igét. Ámin.`,
+        text: `Dicsőség néked, Királyom, mindenható Isten, mert emberszerető isteni gondviseléseddel arra méltattál engem, búnös és méltatlan szolgádat, hogy fölkeljek álmomból és eljöjjek szent házadba. Úgy fogadd el, Uram, az én könyörgésem hangját is, ahogyan szent szellemi erőid hangját fogadod, és engedd meg, hogy tiszta szívvel és alázatos lélekkel felajánljam néked beszennyezett ajkam dicsérő szavait, hogy lelkem fényes lámpásával társa lehessek az okos szüzeknek és dicsőitselek téged, az Atyával és a Szentlélekkel együtt dicsőített Isten Igét. Ámin.`,
       },
       {
         heading: "50. zsoltár",
@@ -220,11 +220,79 @@ Uram irgalmazz. (12x)`,
       },
       {
         heading: "5. zsoltár",
-        text: `Hallgasd meg szavaimat, Uram, értsd meg kiáltásomat! Figyelj könyörgésem hangjára, én királyom és Istenem, mert hozzád imádkozom, Uram! Reggel halld meg hangomat! Reggel eléd állok, tekints le rám! Mert nem olyan Isten vagy, aki a törvénytelenséget akarja. Nem lakhat veled cselszövő, és a törvényszegők nem állhatnak meg színed előtt. Gyűlölöd mindazokat, akik törvénytelenséget cselekszenek, elpusztítod mindazokat, akik hazugságot beszélnek. A vérontó és alattomos férfiút utálja az Úr. Én azonban irgalmasságod sokasága által bemegyek a te házadba, leborulok szent templomod előtt a te félelmedben. Uram, vezess engem igazságosságodban ellenségeim miatt, irányítsd feléd az utamat! Mert nincs a szájukban igazság, szívük hívságos. Nyitott sírbolt a torkuk, nyelvükkel csalárd szavakat szólnak. Ítéld meg őket, ó, Isten! Essenek el saját cselszövéseik által, istentelenségük sokasága miatt taszítsd el őket, mert megkeserítettek téged, Uram! Örvendezzenek mindazok, akik benned reménykednek! Mindörökké vigadnak majd, és te bennük lakozol, és büszkélkednek tebenned mindazok, akik szeretik a te nevedet. Mert te megáldod az igaz embert, Uram, mintegy kegyességed fegyverével koszorúztál meg minket.`,
+        text: `Hallgasd meg szavaimat, Uram, értsd meg kiáltásomat! 
+        
+Figyelj könyörgésem hangjára, én királyom és Istenem, mert hozzád imádkozom, Uram! 
+
+Reggel halld meg hangomat! Reggel eléd állok, tekints le rám! Mert nem olyan Isten vagy, aki a törvénytelenséget akarja. 
+
+Nem lakhat veled cselszövő, és a törvényszegők nem állhatnak meg színed előtt. 
+
+Gyűlölöd mindazokat, akik törvénytelenséget cselekszenek, elpusztítod mindazokat, akik hazugságot beszélnek. 
+
+A vérontó és alattomos férfiút utálja az Úr. 
+
+Én azonban irgalmasságod sokasága által bemegyek a te házadba, leborulok szent templomod előtt a te félelmedben. 
+
+Uram, vezess engem igazságosságodban ellenségeim miatt, irányítsd feléd az utamat! 
+
+Mert nincs a szájukban igazság, szívük hívságos. 
+
+Nyitott sírbolt a torkuk, nyelvükkel csalárd szavakat szólnak. Ítéld meg őket, ó, Isten! 
+
+Essenek el saját cselszövéseik által, istentelenségük sokasága miatt taszítsd el őket, mert megkeserítettek téged, Uram! 
+
+Örvendezzenek mindazok, akik benned reménykednek! Mindörökké vigadnak majd, és te bennük lakozol, és büszkélkednek tebenned mindazok, akik szeretik a te nevedet. 
+
+Mert te megáldod az igaz embert, Uram, mintegy kegyességed fegyverével koszorúztál meg minket.`,
       },
       {
         heading: "33. zsoltár",
-        text: `Áldom az Urat minden időben, dicsérete mindig ajkamon van. Az Úrban dicsekszik az én lelkem. Hallják meg ezt a szelídek, és örvendezzenek! Dicsőítsétek velem együtt az Urat, és magasztaljuk együtt az ő nevét! Kértem az Urat, és meghallgatott, és minden gyötrelmemtől megszabadított. Járuljatok őhozzá, hogy megvilágosodjatok, és orcátok meg ne szégyenüljön. Ez a szegény kiáltott, az Úr meghallgatta őt, és minden gyötrelmétől megmentette őt. Tábort üt az Úrnak angyala azok körül, akik félik őt, és megszabadítja őket. Ízleljétek és lássátok, hogy jóságos az Úr, boldog az a férfi, aki belé veti reménységét! Féljétek az Urat, az ő szentjei, mert semmiben sem szenvednek hiányt azok, akik félik őt! Gazdagok elszegényedtek, és éheztek, akik viszont az Urat keresik, semmi jóban nem szűkölködnek. Jöjjetek, gyermekeim, hallgassatok rám! Az Úr félelmére tanítalak benneteket. Ki az az ember, aki élvezni akarja az életet, és jó napokat szeretne látni? Tartóztasd meg nyelvedet a gonoszságtól, és ajkadat attól, hogy csalárdságot beszéljen! Kerüld a rosszat és tedd a jót, keresd a békességet, és kövesd azt! Az Úr szeme az igazakon nyugszik, és fez, és megmenti az alázatos lelkűeket. Sok gyötrelmük van az igazaknak, de valamennyitől megszabadítja őket. Megőrzi az Úr minden csontjukat, és egy sem töretik meg azokból. Gonosz a bűnösök halála, és mindaz, aki gyűlöli az igaz embert, megbánja. Megmenti az Úr az ő szolgáinak lelkét, és senkit, aki őbenne reménykedik, nem ér bánat.`,
+        text: `Áldom az Urat minden időben, dicsérete mindig ajkamon van. 
+        
+Az Úrban dicsekszik az én lelkem. 
+
+Hallják meg ezt a szelídek, és örvendezzenek! 
+
+Dicsőítsétek velem együtt az Urat, és magasztaljuk együtt az ő nevét! 
+
+Kértem az Urat, és meghallgatott, és minden gyötrelmemtől megszabadított. 
+
+Járuljatok őhozzá, hogy megvilágosodjatok, és orcátok meg ne szégyenüljön. 
+
+Ez a szegény kiáltott, az Úr meghallgatta őt, és minden gyötrelmétől megmentette őt. 
+
+Tábort üt az Úrnak angyala azok körül, akik félik őt, és megszabadítja őket. 
+
+Ízleljétek és lássátok, hogy jóságos az Úr, boldog az a férfi, aki belé veti reménységét! 
+
+Féljétek az Urat, az ő szentjei, mert semmiben sem szenvednek hiányt azok, akik félik őt! 
+
+Gazdagok elszegényedtek, és éheztek, akik viszont az Urat keresik, semmi jóban nem szűkölködnek. 
+
+Jöjjetek, gyermekeim, hallgassatok rám! Az Úr félelmére tanítalak benneteket. 
+
+Ki az az ember, aki élvezni akarja az életet, és jó napokat szeretne látni? 
+
+Tartóztasd meg nyelvedet a gonoszságtól, és ajkadat attól, hogy csalárdságot beszéljen! 
+
+Kerüld a rosszat és tedd a jót, keresd a békességet, és kövesd azt! 
+
+Az Úr szeme az igazakon nyugszik, és füle meghallja azok könyörgését.
+
+Az Úr orcája viszont a gonosztevők felé fordul, hogy kiirtsa a földről emlékezetüket.
+
+Kiáltottak az igazak, és az Úr meghallgatta őket, és minden gyötrelmüktől megszabadította őket.
+
+Közel van az Úr a töredelmes szívűekhez, és megmenti az alázatos lelkűeket.
+
+Sok gyötrelmük van az igazaknak, de valamennyitől megszabadítja őket.
+
+Megőrzi az Úr minden csontjukat, és egy sem töretik meg azokból.
+
+Gonosz a bűnösök halála, és mindaz, aki gyűlöli az igaz embert, megbánja.
+
+Megmenti az Úr az Ő szolgáinak lelkét, és senkit, aki benne reménykedik, nem ér bánkódás.`
       },
       {
         heading: "Hitvallás",
@@ -236,13 +304,17 @@ Uram irgalmazz. (12x)`,
 
 ${GLORY}
 
-Gondolj ama szörnyű napra, én lelkem, világíts, mert nem tudod, mikor szólít meg a hang: „Íme, itt a Vőlegényed!" Ügyelj hát, lelkem, hogy el ne bóbiskolj, és ki ne zárjanak, mint az öt szüzet, hanem tarts ki a virrasztásban, hogy bőséges olajjal fogadd Krisztust, és bevezessen dicsőségének isteni nászszobájába.
+Gondolj ama szörnyű napra, én lelkem, virrassz, gyújtsd meg lámpásodat olajjal vilgáítva, mert nem tudod, mikor szólít meg a hang: „Íme, itt a Vőlegényed!" Ügyelj hát, lelkem, hogy el ne bóbiskolj, és ki ne zárjanak, mint az öt szüzet, hanem tarts ki a virrasztásban, hogy bőséges olajjal fogadd Krisztust, és ő bevezessen dicsőségének isteni nászszobájába.
 
 ${BOTH_NOW}`,
       },
       {
         heading: "Theotokion",
-        text: `Téged, Istenszülő Szűz, a bevehetetlen várfalat, az üdvösség erődjét kérünk: szórd szét az ellenség szándékait, változtasd örömre néped bánatát, övezd körül fallal városodat, harcolj a császár oldalán, hívd vissza magadhoz a te világodat, erősítsd meg az istenfélőket, járj közben a világ békéjéért, mert te vagy a mi reménységünk, ó, Istenszülő! Elteltünk reggel a te irgalmaddal, Urunk, és örvendeztünk és vigadtunk. Örvendezzünk életünknek minden napján annyi napig, ameddig sanyargattál bennünket, és annyi évig, ameddig rosszat láttunk! Tekints a te szolgáidra, a te műveidre, és vezéreld fiaikat! És legyen a mi Urunk Istenünk fénysége mirajtunk, kezünknek műveit igazítsa számunkra, és egyengesd kezünk művét!
+        text: `Téged, Istenszülő Szűz, a bevehetetlen várfalat, az üdvösség erődítményét kérünk: szórd szét az ellenség szándékait, változtasd örömre néped bánatát, övezd körül fallal városodat, harcolj a császár oldalán, hívd vissza magadhoz a te világodat, erősítsd meg az istenfélőket, járj közre a világ békéjéért, mert te vagy a mi reménységünk, ó, Istenszülő! 
+        
+Elteltünk reggel a te irgalmaddal, Urunk, és örvendeztünk és vigadtunk. Örvendezzünk életünknek minden napján annyi napig, ameddig sanyargattál bennünket, és annyi évig, ameddig rosszat láttunk! Tekints a te szolgáidra, a te műveidre, és vezéreld fiaikat! 
+
+És legyen a mi Urunk Istenünk fénysége mirajtunk, kezünknek műveit igazítsa számunkra, és egyengesd kezünk művét! 
 
 Jó dolog megvallani az Urat, és énekelni a te nevednek, ó, Magasságos, hirdetni reggelenként a te irgalmadat, és éjjelenként a te igazságodat.`,
       },
@@ -252,7 +324,7 @@ Jó dolog megvallani az Urat, és énekelni a te nevednek, ó, Magasságos, hird
       },
       {
         heading: "Másik imádság",
-        text: `Örökkévaló Isten, kezdet nélküli és örök Világosság, az egész teremtés Alkotója, irgalmasság kútfeje, jóságnak tengere és az emberszeretet kifürkészhetetlen mélysége, derítsd reánk, Urunk, orcádnak Világosságát! Aki az igazságosság értelemmel felfogható Napja vagy, ragyogj föl szívünkben, töltsd be lelkünket a te vidámságoddal, taníts meg minket, hogy mindenkor a te ítéleteiden elmélkedjünk, és azokról beszéljünk, és hogy szüntelenül megvalljunk téged, Uralkodónkat és jótevőnket! Irányítsd kezünk műveit akaratod útjára, és mutasd meg az utat, hogy azt cselekedjük, ami néked tetsző és kedves, hogy általunk, méltatlanok által is dicsőíttessék a te szent neved, az Atyáé, a Fiúé és a Szentléleké, az egy istenségé és királyságé, akit illet minden dicsőség, tisztelet és hódolat mindörökké! Ámin.`,
+        text: `Örökkévaló Isten, kezdetnélküli és örök Világosság, az egész teremtés Alkotója, irgalmasság kútfeje, jóságnak tengere és az emberszeretet kifürkészhetetlen mélysége, derítsd reánk, Urunk, orcádnak Világosságát! Aki az igazságosság értelemmel felfogható Napja vagy, ragyogj föl szívünkben, töltsd be lelkünket a te vidámságoddal, taníts meg minket, hogy mindenkor a te ítéleteiden elmélkedjünk, és azokról beszéljünk, és hogy szüntelenül megvalljunk téged, Uralkodónkat és jótevőnket! Irányítsd kezünk műveit akaratod útjára, és mutasd meg az utat, hogy azt cselekedjük, ami néked tetsző és kedves, hogy általunk, méltatlanok által is dicsőíttessék a te szent neved, az Atyáé, a Fiúé és a Szentléleké, az egy istenségé és királyságé, akit illet minden dicsőség, tisztelet és hódolat mindörökké! Ámin.`,
       },
       {
         heading: "Másik imádság",
@@ -427,12 +499,14 @@ ${GLORY_BOTH}
 
 Uram, irgalmazz! (3×)
 
-Áldott az Isten, aki ifjúságunk óta könyörül rajtunk, és táplál bennünket. Te, aki eledelt adsz minden testnek, töltsd el szívünket örömmel és vigassággal, hogy mindig mindennel teljesen ellátva még feleslegünk is legyen minden jócselekedetre Jézus Krisztusban, a mi Urunkban, akivel együtt illet téged dicsőség, hatalom, tisztelet és imádás a Szentlélekkel együtt, mindörökké. Ámin. Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.
+Áldott az Isten, aki ifjúságunk óta könyörül rajtunk, és táplál bennünket. Te, aki eleséget adsz minden testnek, töltsd el szívünket örömmel és vigassággal, hogy mindig mindennel teljesen ellátva még feleslegünk is legyen minden jócselekedetre Jézus Krisztusban, a mi Urunkban, akivel együtt illet téged dicsőség, hatalom, tisztelet és imádás a Szentlélekkel együtt, mindörökké. Ámin. 
+
+Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.
 `
       },
       {
         heading: "Vacsora előtt",
-        text: `Éheznek a szegények és jóllaknak, és dicsérik az Urat, akik keresik őt. Szívük élni fog mindörökkön örökké.
+        text: `Észnek a szegények és jóllaknak, és dicsérik az Urat, akik keresik őt. Szívük élni fog mindörökkön örökké.
 
 ${GLORY_BOTH}
 

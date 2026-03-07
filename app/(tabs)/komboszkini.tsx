@@ -7,12 +7,14 @@ import {
   Image,
   Vibration,
   ScrollView,
+  Button,
 } from "react-native";
 import React, { useEffect, useState } from "react";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
 import { COLOURS } from "../../constants/colours";
 import { moderateScale, verticalScale } from "react-native-size-matters";
+import { Stack } from "expo-router";
 
 export default function Index() {
   const [count, setCount] = useState(0);
@@ -36,7 +38,6 @@ export default function Index() {
   return (
     <SafeAreaProvider>
       <SafeAreaView style={styles.container}>
-        
         <View
           style={{
             alignItems: "center",

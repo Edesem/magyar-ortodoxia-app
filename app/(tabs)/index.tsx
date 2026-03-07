@@ -6,6 +6,7 @@ import {
   Text,
   View,
   Image,
+  useColorScheme,
 } from "react-native";
 import { Prayer, prayerData } from "../../data/prayers";
 import React, { useState } from "react";
@@ -21,6 +22,12 @@ export default function Index() {
   const haptic = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
   };
+
+  const colourScheme = useColorScheme();
+
+  const themeTextStyle = colourScheme === 'light' ? styles.lightThemeText : styles.darkThemeText;
+  const themeContainerStyle =
+    colourScheme === 'light' ? COLOURS.background_white : COLOURS.background_dark;
 
   return (
     <ScrollView

@@ -1255,7 +1255,7 @@ A Szentlélek által fakad a kegyelem árja, amely az egész teremtést éltető
         heading: "Prokimen",
         text: `Megemlékezem a te Nevedről nemzedékről nemzedékre. (2x)
 
-Vers: Halljad, leány, és lásd, és hajtsd ide füledet! Felejtsd el népedet és atyádnak házát, és megkívánja a Király a te szépségedet!
+      vers: Halljad, leány, és lásd, és hajtsd ide füledet! Felejtsd el népedet és atyádnak házát, és megkívánja a Király a te szépségedet!
 
 Megemlékezem a te Nevedről nemzedékről nemzedékre.
 `,
@@ -1280,7 +1280,7 @@ ${BOTH_NOW}
 
 Isten Szülőjének közbenjárásai által, ó, Irgalmas, töröld el vétkeimnek sokaságát!
 
-Vers: Irgalmazz nékem, Isten nagy irgalmasságod szerint, és könyörületed sokasága szerint töröld el az én vétkezéseimet!`,
+      vers: Irgalmazz nékem, Isten nagy irgalmasságod szerint, és könyörületed sokasága szerint töröld el az én vétkezéseimet!`,
       },
       {
         heading: "2. plagális hang",

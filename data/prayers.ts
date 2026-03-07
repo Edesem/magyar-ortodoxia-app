@@ -110,8 +110,7 @@ Uram irgalmazz. (3x)
 
 ${GLORY_BOTH}
 
-${OUR_FATHER}
-`;
+${OUR_FATHER}`;
 
 const COME_LET_US = `Jertek, hódoljunk Istennek, a mi Királyunknak!
 
@@ -341,8 +340,7 @@ Jó dolog megvallani az Urat, és énekelni a te nevednek, ó, Magasságos, hird
         heading: "Másik imádság",
         text: `Urunk, Istenünk, aki a te békességedet adtad az embereknek, és leküldted szentséges Lelked ajándékát tanítványaidra és apostolaidra, aki erőddel azok ajkát lángnyelvek által megnyitottad, nyisd meg nékünk, bűnösöknek ajkát is, és taníts meg bennünket arra, hogyan és miért kell imádkoznunk! Kormányozd életünket, ó, vihartól űzöttek szélcsendes kikötője, és mutasd meg az utat, amelyen haladnunk kell! Újítsd meg bensőnkben az egyenes Lelket, és ingatag elménket erősítsd meg vezérlő Lélekkel, hogy életünk minden napján a te jóságos Lelkedtől vezérelve arra, ami hasznunkra van: parancsolataid teljesítésére méltóvá legyünk. És hogy mindig megemlékezzünk a te dicsőséges eljöveteledről, amikor megvizsgálod majd az emberek cselekedeteit! Erősíts meg bennünket, hogy ne csaljanak meg e világ múlandó örömei, hanem az eljövendő gyönyörűség kincseire vágyakozzunk! Mert áldott és dicsőített vagy minden szentedben mindörökkön örökké. Ámin.
 
-${HOLY_FATHERS}
-`,
+${HOLY_FATHERS}`,
       },
     ],
   },
@@ -353,7 +351,8 @@ ${HOLY_FATHERS}
     sections: [
       {
         text:
-          `${INTRO} 
+          `${INTRO}
+
 ${INTO_KATHISMA}`
       },
       {
@@ -468,8 +467,7 @@ Benned örvendezik, Kegyelembefogadott, az egész teremtés, az angyalok rendje 
         
 Istennek Szűz Szülője, örvendezz, kegyelembefogadott Mária, az Úr van teveled! Áldott vagy te az asszonyok között, és áldott a te méhednek gyümölcse, mert a mi lelkünk Üdvözítőjét szülted. (3x)
 
-A te könyörületedhez folyamodunk, Istennek Szülője, ne feledkezz meg esedezéseinkről nyomorúságunkban, hanem szabadíts meg minket a veszedelmektől, egyedülvaló tiszta, egyedülvaló áldott!
-        `,
+A te könyörületedhez folyamodunk, Istennek Szülője, ne feledkezz meg esedezéseinkről nyomorúságunkban, hanem szabadíts meg minket a veszedelmektől, egyedülvaló tiszta, egyedülvaló áldott!`,
       },
       {
         heading: "Pünkösdi apolitikion",
@@ -529,8 +527,7 @@ Uram, irgalmazz! (3×)
 
 Áldott az Isten, aki irgalmaz nekünk, és gazdag ajándékaival táplál bennünket kegyelméből és emberszeretetéből mindig, most és mindenkor és mindörökkön örökké. Ámin.
 
-Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.
-`
+Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.`
       },
     ],
   },
@@ -639,18 +636,19 @@ Tűzzé és fénnyé legyen számomra, ó, Üdvözítőm, legdrágább tested é
         heading: "Theotokion",
         text: `Isten testesült meg a te tisztaságos véredből. Ezért minden nemzedék magasztal téged, Nagyasszonyunk, az értelmek sokasága is dicsőít, mert általad láthatta meg tisztán a mindenek Uralkodóját, aki magára öltötte az emberi lényeget.
         
-${HOLY_FATHERS}
-`,
+${HOLY_FATHERS}`,
       },
     ],
   },
   {
     id: 4,
     title: "Imádság reggel, szentáldozás előtt",
-    header_title: "Reggel",
+    header_title: "Imádság reggel",
     sections: [
       {
-        text: INTRO + INTO_KATHISMA,
+        text: `${INTRO} 
+        
+${INTO_KATHISMA}`,
       },
       {
         heading: "22. zsoltár",
@@ -931,8 +929,7 @@ Ez tesz engem vakmerővé,
       {
         heading: "Tizedik ima",
         subheading: "Aranyszájú Szent Jánostól",
-        text: `Hiszem, Uram, és vallom, hogy valóban Te vagy a Krisztus, az élő Isten Fia, aki eljöttél a világra, hogy a bűnösöket üdvözítsd, akik között az első én vagyok. Hiszem még, hogy ez maga a te szeplőtlen tested, és ez maga a te drága véred. Könyörgök tehát hozzád, irgalmazz nekem, és bocsásd meg szándékos és szándéktalan vétkezéseimet, amelyeket szóval, cselekedettel, tudatosan vagy öntudatlanul követtem el, és méltass engem arra, hogy elítéltetés nélkül részesüljek legtisztább misztériumaidból a bűnök bocsánatára és az örök életre. Ámin.
-        `,
+        text: `Hiszem, Uram, és vallom, hogy valóban Te vagy a Krisztus, az élő Isten Fia, aki eljöttél a világra, hogy a bűnösöket üdvözítsd, akik között az első én vagyok. Hiszem még, hogy ez maga a te szeplőtlen tested, és ez maga a te drága véred. Könyörgök tehát hozzád, irgalmazz nekem, és bocsásd meg szándékos és szándéktalan vétkezéseimet, amelyeket szóval, cselekedettel, tudatosan vagy öntudatlanul követtem el, és méltass engem arra, hogy elítéltetés nélkül részesüljek legtisztább misztériumaidból a bűnök bocsánatára és az örök életre. Ámin.`,
       },
     ],
   },
@@ -959,8 +956,7 @@ Szentélyed ragyogásába hogyan lépjek be, én méltatlan? Hiszen ha bemennék
 Emberszerető Uralkodó, Jézus Krisztus Urunk és Istenünk, ne legyenek ezek a szentségek elítéltetésemre méltatlanságom miatt, hanem lelkem és testem megtisztulására és megszentelésére, és eljegyzésemre az eljövendő élettel és országgal! Mert jó nekem az Istenhez ragaszkodnom, és az Úrba helyeznem üdvözülésem reményét.`},
 {
   subheading: "Majd újból:",
-  text: `Titokzatos vacsorádnak részesévé fogadj ma engem, Istennek Fia, mert nem mondom el ellenségeidnek a titkot, sem csókot nem adok néked, mint Júdás, de megvallak, akár a lator: Emlékezz meg rólam, Uram, a te országodban! Emlékezz meg rólam, Uralkodóm, midőn eljössz a te országodban! Emlékezz meg rólam, Szent, midőn eljössz a te országodban!
-`,
+  text: `Titokzatos vacsorádnak részesévé fogadj ma engem, Istennek Fia, mert nem mondom el ellenségeidnek a titkot, sem csókot nem adok néked, mint Júdás, de megvallak, akár a lator: Emlékezz meg rólam, Uram, a te országodban! Emlékezz meg rólam, Uralkodóm, midőn eljössz a te országodban! Emlékezz meg rólam, Szent, midőn eljössz a te országodban!`,
         },
     ]
   },
@@ -1060,8 +1056,7 @@ ${GLORY_BOTH}
 
 Ki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sértetlenül szülted, Istennek valóságos Szülője, téged magasztalunk.
 
-${HOLY_FATHERS}
-`,
+${HOLY_FATHERS}`,
       },
     ],
   },
@@ -1411,8 +1406,7 @@ Te vagy közbenjáróm az emberszerető Istenhez, hogy ne fedje fel tetteimet az
 
 Arannyal bevont torony, tizenkétfalú város, a Király napsugarat árasztó trónusa és királyi széke, felfoghatatlan csoda, hogyan szoptathatod az Uralkodót?
 
-${HOLY_FATHERS}
-`,
+${HOLY_FATHERS}`,
       },
     ],
   },

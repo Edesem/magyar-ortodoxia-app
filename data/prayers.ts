@@ -118,7 +118,9 @@ Jertek, hódoljunk és boruljunk le Krisztus Isten, a mi Királyunk előtt!
 
 Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk előtt!`
 
-const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk.`
+const AKI_A_KERUB = "Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk."
+
+const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. ${AKI_A_KERUB}`
 
 const MIDDLE = `${AXION}
 
@@ -436,7 +438,7 @@ Uram, irgalmazz! (3×)
 
 ${GLORY_BOTH}
 
-Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk.
+${AKI_A_KERUB}
 
 Uram, irgalmazz! (12×)
 
@@ -973,7 +975,7 @@ Dicsőség néked, Isten (3×)`,
       {
         heading: "Hálaadó imák",
         subheading: "Ismeretlen szerzőtől",
-        text: `Hálát adok neked, Uram Istenem, hogy nem taszítottál el engem, bűnöst, hanem arra méltattál, hogy szentségeid részesévé legyek. Hálát adok néked, hogy méltattál engem, méltatlant arra, hogy szeplőtelen és mennyei adományaidban részesüljek. Mégis, emberszerető Uralkodóm, aki érettünk meghaltál és feltámadtál, aki lelkünk és testünk javára és megszentelésére nekünk ajándékoztad e félelmetes és életadó titkokat, add, hogy ezek nekem is legyenek lelkem és testem gyógyulására, minden ellenség elhárítására, szívem szemének megvilágítására, lelki képességeim békességére, megszégyeníthetetlen hitre, színlelés nélküli szeretetre, a bölcsesség beteljesedésére, parancsolataid megtartására, isteni kegyelmed gyarapodására és a te országodban való részesülésre! Hogy megszentelésedben azok által megőrizve mindenkor megemlékezzem a te kegyelmedről, és többé ne magamnak éljek, hanem néked, Uralkodónknak és Jótevőnknek. És hogy így az örök élet reményében végezzem be jelenvaló életemet, és az örök nyugalomra jussak, ahol szüntelen az ünneplők hangja, és végtelen a gyönyörűségük azoknak, akik a te orcádnak kimondhatatlan szépségét látják. Mert te vagy, ó, Krisztus Istenünk, a téged szeretők igazi kívánsága és kifejezhetetlen örvendezése, és téged dicsőít az egész teremtés mindörökké. Ámin.`,
+        text: `Hálát adok néked, Uram Istenem, hogy nem taszítottál el engem, bűnöst, hanem arra méltattál, hogy szentségeid részesévé legyek. Hálát adok néked, hogy méltattál engem, méltatlant arra, hogy szeplőtelen és mennyei adományaidban részesüljek. Mégis, emberszerető Uralkodóm, aki érettünk meghaltál és feltámadtál, aki lelkünk és testünk javára és megszentelésére nekünk ajándékoztad e félelmetes és életadó titkokat, add, hogy ezek nekem is legyenek lelkem és testem gyógyulására, minden ellenség elhárítására, szívem szemének megvilágítására, lelki képességeim békességére, megszégyeníthetetlen hitre, színlelés nélküli szeretetre, a bölcsesség beteljesedésére, parancsolataid megtartására, isteni kegyelmed gyarapodására és a te országodban való részesülésre! Hogy megszentelésedben azok által megőrizve mindenkor megemlékezzem a te kegyelmedről, és többé ne magamnak éljek, hanem néked, Uralkodónknak és Jótevőnknek. És hogy így az örök élet reményében végezzem be jelenvaló életemet, és az örök nyugalomra jussak, ahol szüntelen az ünneplők hangja, és végtelen a gyönyörűségük azoknak, akik a te orcádnak kimondhatatlan szépségét látják. Mert te vagy, ó, Krisztus Istenünk, a téged szeretők igazi kívánsága és kifejezhetetlen örvendezése, és téged dicsőít az egész teremtés mindörökké. Ámin.`,
       },
       {
         subheading: "Nagy Szent Vazultól",
@@ -981,7 +983,15 @@ Dicsőség néked, Isten (3×)`,
       },
       {
         subheading: "Fordító Simeontól",
-        text: `Önként adtad ételünkül testedet, ki tűz vagy, és a méltatlant megégeted, ne égess el most, Alkotóm és Istenem, de járd át minden tagomat, bensőmet is, vesémet, minden ízemet, s a szívemet! Égesd el vétkeim tüskéit teljesen, tisztítsd meg lelkem, és szenteld meg testemet, és szilárdítsd meg porcaim s a csontomat, világítsd így meg mind az öt érzékemet, és járja át félelmed testemet s lelkemet! Örökké védelmezz s oltalmazz, Istenem, a lélekgyilkos szótól és tettektől is! Tisztíts meg, szentelj meg, adjál egészséget, szépíts meg, tégy okossá és világíts meg, legyek hajlékod, Szentléleknek temploma, s ne lakjék bennem többé bűnös szenvedély! Így, mint tüzet kerüljön démonok hada, hisz tested s véred által házaddá leszek. A vértanúk s az aszkéták mind járjanak tenálad közre, s mind a testetlen karok, Keresztelőd, a bölcs apostolok, s Anyád, a tisztaságos szeplőtlen Szűz Mária! Fogadd imáikat, jóságos Krisztusom, s fény gyermekévé tedd szolgádat általuk! Te egymagad vagy lelkeinknek orvosa, megszentelője, megvilágító Ura, és minden nap neked zengünk dicsőítést, szent Istenünk és jóságos Uralkodónk!`,
+        text: `Ki önként adtad ételünkül testedet, ki tűz vagy, és a méltatlant megégeted, ne égess el most, Alkotóm és Istenem, de járd át minden tagomat, bensőmet is, vesémet, minden ízemet, s a szívemet! Égesd el vétkeim tüskéit teljesen, tisztítsd meg lelkem, és szenteld meg testemet, és szilárdítsd meg porcaim s a csontomat, világítsd így meg mind az öt érzékemet, és járja át félelmed testemet s lelkemet! 
+        
+Örökké védelmezz s oltalmazz, Istenem, a lélekgyilkos szótól és tettektől is! 
+
+Tisztíts meg, szentelj meg, adjál egészséget, szépíts meg, tégy okossá és világíts meg, legyek hajlékod, Szentléleknek temploma, s ne lakjék bennem többé bűnös szenvedély! Így, mint tüzet kerüljön démonok hada, hisz tested s véred által házaddá leszek. 
+
+A vértanúk s az aszkéták mind járjanak tenálad közre, s mind a testetlen karok, Keresztelőd, a bölcs apostolok, s Anyád, a tisztaságos szeplőtlen Szűz Mária! Fogadd imáikat, jóságos Krisztusom, s fény gyermekévé tedd szolgádat általuk! 
+
+Te egymagad vagy lelkeinknek orvosa, megszentelője, megvilágító Ura, és minden nap neked zengünk dicsőítést, szent Istenünk és jóságos Uralkodónk!`,
       },
       {
         subheading: "Ismeretlen szerzőtől",
@@ -1007,7 +1017,7 @@ ${GLORY}`,
       },
       {
         heading: "Kondákion (6. hang)",
-        text: `A mennyekből nyerted az isteni kegyelmet, és ajkaddal mindenkit arra tanítasz, hogy Háromságban imádja az egy Istent. Aranyszájú János, áldott szentéletű atyánk, méltóképpen dicsőítünk téged, mert az isteni titkok bölcs ismerője és a földkerekség tanítója vagy. Most és mindenkor és mindörökkön örökké. Ámin.
+        text: `A mennyekből nyerted az isteni kegyelmet, és ajkaddal mindenkit arra tanítasz, hogy Háromságban imádja az egy Istent. Aranyszájú János, áldott szentéletű atyánk, méltóképpen dicsőítünk téged, mert az isteni titkok bölcs ismerője és a földkerekség tanítója vagy. 
         
 ${BOTH_NOW}`,
       },
@@ -1026,14 +1036,14 @@ ${BOTH_NOW}`,
       {
         heading: "Előreszentelt adományok liturgiája után",
         subheading: ",,Az isteni hit...\" dallamára",
-        text: `Éber értelemmel ajándékozott meg téged az Isten, ó, Gergely főpap, és az isteni ige hirdetőjének bizonyultál. Az erények kinyilatkoztatójaként megmutatod az igazság ragyogását. Szentéletű atyánk, esedezz Krisztus Istenhez, hogy adja meg nekünk a nagy irgalmat!
+        text: `Éber értelmet, ó, Gergely főpap, ajándékozott néked az Isten, s az isteni ige hirdetőjének bizonyultál. Az erények kinyilatkoztatójaként megmutatod az igazság ragyogását. Szentéletű atyánk, esedezz Krisztus Istenhez, hogy adja meg nekünk a nagy irgalmat!
         
 ${GLORY}`,
       },
       {
         heading: "Kondákion (8. hang)",
         subheading: "A ,,Védelmező hadvezérnőnk...\" dallamára",
-        text: `Az Egyháznak ihletett, sokhúrú lantját és a bölcsességnek Istent hirdető nyelvét méltóképpen dicsőítsük, a Dialógus szerzőjét! Az apostolok buzgóságát követve azoknak nyomdokaiban jártál. Ezért így kiáltsunk: Örvendezz, Szent Gergely főpap atyánk!
+        text: `Az Egyháznak ihletett, sokhúrú lantját és a bölcsességnek Istent hirdető nyelvét méltóképpen dicsőítsük a Dialógus szerzőjét! Az apostolok buzgóságát követvén azoknak nyomdokaiban jártál. Ezért így kiáltsunk: Örvendezz, Szent Gergely főpap atyánk!
 
 ${BOTH_NOW}`,
       },
@@ -1047,13 +1057,13 @@ ${GLORY_BOTH}`,
       },
       {
         heading: "Theotokion",
-        text: `Keresztények csalhatatlan oltalma, az Alkotóhoz való állhatatos közvetítője, ne vesd el a bűnösök könyörgő hangját, hanem igyekezz, mint jóságos, segítségünkre,kik híven kiáltjuk hozzád: Légy gyors a közbenjárásban, siess az esedezésben, Istennek Szülője, ki mindenkor oltalmazod tisztelőidet!
+        text: `Keresztények csalhatatlan oltalma, az Alkotóhoz való állhatatos közvetítője, ne vesd el a bűnösök könyörgő hangját, hanem igyekezz, mint jóságos segítségünkre, kik híven kiáltjuk hozzád: légy gyors a közbenjárásban és siess az esedezésben, Istennek Szülője, ki mindenkor oltalmazod tisztelőidet!
 
 Uram, irgalmazz! (12×)
 
 ${GLORY_BOTH}
 
-Ki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sértetlenül szülted, Istennek valóságos Szülője, téged magasztalunk.
+${AKI_A_KERUB}
 
 ${HOLY_FATHERS}`,
       },

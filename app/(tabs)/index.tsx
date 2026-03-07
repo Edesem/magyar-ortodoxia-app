@@ -25,6 +25,7 @@ export default function Index() {
   return (
     <ScrollView
       contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 80 }}
+      style={styles.container}
     >
       <Text style={styles.banner} numberOfLines={2} adjustsFontSizeToFit>
         Magyar Ortodoxia

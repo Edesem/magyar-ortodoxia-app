@@ -17,7 +17,7 @@ const NAME_OF = `Az Atyának és Fiúnak és Szentléleknek nevében. Ámin.`
 
 const HOLY_FATHERS = `Szent atyáink imái által, Urunk, Jézus Krisztus Istenünk, irgalmazz nekünk, és üdvözíts minket! Ámin.`
 
-const OUR_FATHER = `Mi Atyánk, ki a mennyekben vagy, szenteltessék meg a te neved, jöjjön el a te országod, legyen meg a Te akaratod, miképpen a mennyben, úgy a földön is. Mindennapi kenyerünket add meg nekünk ma; és bocsásd meg a mi vétkeinket, miképpen mi is megbocsátunk az ellenünk vétkezőknek, és ne vígy minket kísértésbe, hanem szabadíts meg a gonosztól.`
+const OUR_FATHER = `Mi Atyánk, ki a mennyekben vagy, szenteltessék meg a te neved, jöjjön el a te országod, legyen meg a te akaratod, miképpen a mennyben, úgy a földön is. Mindennapi kenyerünket add meg nekünk ma; és bocsásd meg a mi vétkeinket, miképpen mi is megbocsátunk az ellenünk vétkezőknek; és ne vígy minket kísértésbe, hanem szabadíts meg a gonosztól.`
 
 const GLORY_BOTH = `Dicsőség az Atyának és Fiúnak és Szent Léleknek, most és mindenkor és mindörökkön örökké. Ámin.`
 
@@ -113,6 +113,12 @@ ${GLORY_BOTH}
 ${OUR_FATHER}
 `;
 
+const COME_LET_US = `Jertek, hódoljunk Istennek, a mi Királyunknak!
+
+Jertek, hódoljunk és boruljunk le Krisztus Isten, a mi Királyunk előtt!
+
+Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk előtt!`
+
 const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk.`
 
 const MIDDLE = `${AXION}
@@ -180,11 +186,7 @@ const INTO_KATHISMA = `Uram, irgalmazz! (12x)
 
 ${GLORY_BOTH}
 
-Jertek, hódoljunk Istennek, a mi Királyunknak!
-
-Jertek, hódoljunk és boruljunk le Krisztus Isten, a mi Királyunk előtt!
-
-Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk előtt!`
+${COME_LET_US}`
 
 export const prayerData: Prayer[] = [
   {
@@ -216,7 +218,9 @@ Uram, irgalmazz! (12x)`,
       },
       {
         heading: "Másik imádság",
-        text: `Dicsőség néked, Királyom, mindenható Isten, mert emberszerető isteni gondviseléseddel arra méltattál engem, búnös és méltatlan szolgádat, hogy fölkeljek álmomból és eljöjjek szent házadba. Úgy fogadd el, Uram, az én könyörgésem hangját is, ahogyan szent szellemi erőid hangját fogadod, és engedd meg, hogy tiszta szívvel és alázatos lélekkel felajánljam néked beszennyezett ajkam dicsérő szavait, hogy lelkem fényes lámpásával társa lehessek az okos szüzeknek és dicsőitselek téged, az Atyával és a Szentlélekkel együtt dicsőített Isten Igét. Ámin.`,
+        text: `Dicsőség néked, Királyom, mindenható Isten, mert emberszerető isteni gondviseléseddel arra méltattál engem, búnös és méltatlan szolgádat, hogy fölkeljek álmomból és eljöjjek szent házadba. Úgy fogadd el, Uram, az én könyörgésem hangját is, ahogyan szent szellemi erőid hangját fogadod, és engedd meg, hogy tiszta szívvel és alázatos lélekkel felajánljam néked beszennyezett ajkam dicsérő szavait, hogy lelkem fényes lámpásával társa lehessek az okos szüzeknek és dicsőitselek téged, az Atyával és a Szentlélekkel együtt dicsőített Isten Igét. Ámin.
+        
+${COME_LET_US}`,
       },
       {
         heading: "50. zsoltár",
@@ -1225,7 +1229,7 @@ Szabadítsd meg a veszedelmektől szolgáidat, Istennek Szülője, mert Isten ut
       },
       {
         heading: "Kontákion (2. hang)",
-        text: `Keresztények csalhatatlan oltalma, az Alkotóhoz való állhatatos közvetítője, ne vesd el a bűnösök könyörgő hangját, hanem igyekezz, mint jóságos segítségünkre, kik híven kiáltjuk hozzád: légy gyors a közbenjárásban és siess az esedezésben, Istennek Szülője, ki mindenkor oltalmazod tisztelõidet!`,
+        text: `Keresztények csalhatatlan oltalma, az Alkotóhoz való állhatatos közvetítője, ne vesd el a bűnösök könyörgő hangját, hanem igyekezz, mint jóságos segítségünkre, kik híven kiáltjuk hozzád: légy gyors a közbenjárásban és siess az esedezésben, Istennek Szülője, ki mindenkor oltalmazod tisztelőidet!`,
       },
       {
         heading: "Első antifóna (4. hang)",

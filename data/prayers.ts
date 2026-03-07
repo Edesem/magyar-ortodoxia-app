@@ -544,10 +544,9 @@ Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, 
       {
         heading: "1. óda",
         subheading: "2. hang. Jöjjetek népek...",
-        text: `Az örök élet kenyerévé legyen nékem szent Tested és drága Véred, ó, könyörületes Uram, és számtalan betegség ellenszerévé!
+        text: `Az örök élet kenyerévé legyen nékem szent Tested és drága véred, ó, könyörületes Uram, és számtalan betegség ellenszerévé!
         
-Megfertőzve a helytelen tettektől, én nyomorult, méltatlan vagyok szeplőtelen tested és isteni véred befogadására, amelyre is tégy méltóvá engem, ó, Krisztus!
-        `,
+Megfertőzve a helytelen tettektől, én nyomorult, méltatlan vagyok szeplőtelen tested és isteni véred befogadására, amelyre is tégy méltóvá engem, ó, Krisztus!`,
       },
       {
         heading: "Theotokion",

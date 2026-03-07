@@ -657,11 +657,11 @@ ${INTO_KATHISMA}`,
 
 Csöndes víz mellett táplál engem, visszaadta lelkemet.
 
-Az igazságosság ösvényeire vezetett engem az ő nevéért.
+Az igazságosság ösvényeire vezetett engem az ő Nevéért.
 
 Hiszen, ha a halál árnyékában járok is, nem félek a bajtól, mert te velem vagy.
 
-Pálcád és pásztorbotod megvigasztal engem.
+Pálcád és pásztorbotod megvigasztal.
 
 Asztalt terítettél nekem gyötrőim szeme láttára.
 
@@ -673,15 +673,21 @@ Az Úr házában lakozom hosszú időn át.`,
       },
       {
         heading: "23. zsoltár",
-        text: `Az Úré a föld és annak teljessége, a földkerekség és mindaz, ami rajta lakik. Ő alapozta meg azt a tengereken, és szilárdította meg a folyókon.
+        text: `Az Úré a föld és annak teljessége, a földkerekség és annak minden lakója. 
+        
+Ő alapozta meg azt a tengereken, és szilárdította meg a folyókon.
 
-Kicsoda megy fel az Úr hegyére, és kicsoda áll meg az ő szent helyén? Az, akinek keze ártatlan és szíve tiszta, aki nem adta lelkét hiábavalóságra, és nem esküdött hamisan felebarátjának.
+Kicsoda megy fel az Úr hegyére, és kicsoda áll meg az ő szent helyén? 
 
-Az nyer áldást az Úrtól, és irgalmat üdvözítő Istenétől. Ez azok nemzedéke, akik keresik őt, akik Jákob Istenének orcáját keresik.
+Az, akinek keze ártatlan és szíve tiszta, aki nem adta lelkét hazugsára, és nem esküdött hamisan felebarátjának.
 
-Emeljétek föl kapuitokat, ti fejedelmek, és emelkedjetek föl, örökkévaló kapuk, hogy bemenjen a dicsőség Királya!
+Az nyer áldást az Úrtól, és könyörületet üdvözítő Istenétől. 
 
-Kicsoda ez a dicsőség Királya? Az erős és hatalmas Úr, az Úr, aki hatalmas a harcban.
+Ez azok nemzetsége, akik keresik az Urat, akik Jákob Istenének orcáját keresik.
+
+Emeljétek föl kapuitokat, ti fejedelmek, és emelkedjetek föl, örökkévaló kapuk, hogy bemenjen a dicsőség Királya.
+
+Kicsoda ez a dicsőség Királya? A hatalmas és erős Úr, az Úr, aki erős a háborúban.
 
 Emeljétek föl kapuitokat, ti fejedelmek, és emelkedjetek föl, örökkévaló kapuk, hogy bemenjen a dicsőség Királya!
 
@@ -689,13 +695,13 @@ Kicsoda ez a dicsőség Királya? A seregek Ura, ő a dicsőség Királya.`,
       },
       {
         heading: "115. zsoltár",
-        text: `Hittem, azért szóltam, pedig igen megaláztattam.
+        text: `Hittem, ezért szóltam, pedig megaláztattam nagyon.
 
-Így szóltam önkívületemben: „Minden ember hazug.”
+Így szóltam önkívületemben: „Minden ember hazug!”
 
 Mivel viszonozhatom az Úrnak mindazt, amit velem cselekedett?
 
-Az üdvösség kelyhét veszem magamhoz, és az Úr nevét hívom segítségül.
+Az üdvösség kelyhét veszem magamhoz, és az Úr nevét szólítom.
 
 Az Úrnak tett fogadalmaimat megtartom egész népe előtt.
 
@@ -703,9 +709,9 @@ Drága az Úr előtt kegyeltjeinek halála.
 
 Ó, Uram, én a te szolgád vagyok, a te szolgád vagyok és szolgálóleányod fia. Széttörted bilincseimet.
 
-Néked mutatom be a dicséret áldozatát, és az Úr nevét hívom segítségül. 
+Néked mutatom be a dicséret áldozatát, és az Úr nevét szólítom. 
 
-Az Úrnak tett fogadalmaimat megtartom egész népe előtt, az Úr házának tornácaiban, városod közepén, Jeruzsálemben.
+Az Úrnak tett fogadalmaimat megtartom az ő egész népe előtt, az Úr házának tornácaiban, városod közepén, Jeruzsálem.
 
 ${GLORY}
 
@@ -719,24 +725,24 @@ Uram, irgalmazz! (3×)`,
 
 ${GLORY}
 
-Hogyan merészkedjem szentségeidben való részesülésre, én méltatlan? Hiszen, ha a méltókkal merészelnék hozzád járulni, köntösöm elárul, mert nem illik a lakomához, és ítéletet vonok sokat vétkezett lelkemre. Tisztítsd meg lelkemnek szennyét, ó, Uram, és üdvözíts, mint emberszerető!
+Szentségeidben való részesülésre hogyan merészkedjem, én méltatlan? Hiszen, ha a méltókkal merészelnék hozzád járulni, köntösöm elárul, mert nem illik a lakomához, és ítéletet vonok sokat vétkezett lelkemre. Tisztítsd meg lelkemnek szennyét, ó, Uram, és üdvözíts, mint emberszerető!
 
 ${BOTH_NOW}`,
       },
       {
         heading: "Theotokion",
-        text: `Nagy az én vétkeim sokasága, Istennek Szülője! Hozzád menekültem, Tisztaságos, üdvösségért könyörögve. Látogasd meg beteg lelkemet, és járj közbe Fiadnál és Istenünknél, hogy adja meg elkövetett gonoszságaim bocsánatát, ó, egyedül Áldott!`,
+        text: `Nagy az én vétkeim sokasága, Istennek Szülője! Hozzád menekültem, Tisztaságos, üdvösségért könyörögve. Látogasd meg beteg lelkemet, és járj közre Fiadnál és Istenünknél, hogy adja meg elkövetett gonoszságaim bocsánatát, ó, egyedül Áldott!`,
       },
       {
         subheading: "Nagycsütörtökön hozzáfűzzük",
-        text: `Amikor a dicsőséges tanítványok megvilágosodtak a vacsorán a lábmosás által, akkor az istentelen Júdás elsötétült a kapzsiság betegségétől, és elárult téged, az igazságos Bírót, a törvénytelen bíráknak. Lásd, ó pénzimádó, azt, aki ezért kötéllel lakolt! Kerüld a telhetetlen lelket, amely ilyet merészelt tenni a Tanítóval! Mindenkihez jóságos Urunk, dicsőség néked!
+        text: `Amikor a dicsőséges tanítványok megvilágosodtak a vacsorán a lábmosás által, akkor az istentelen Júdás elsötétült a kapzsiság betegségétől, és elárult törvénytelen bíráknak téged, az igazságos Bírót. Lásd, ó pénzimádó, azt, aki ezért kötéllel lakolt! Kerüld a telhetetlen lelket, amely ilyet merészelt tenni a tanítóval! Mindenkihez jóságos Urunk, dicsőség néked!
 
 Uram, irgalmazz! (40×)`,
       },
       {
         heading: "Tanító vers",
         subheading: "Fordító Simeontól arról, miképpen járulj a szentségekhez",
-        text: `Ha ennétek Urunk testét, testvéreim, nagy félelemmel jöjjetek, hisz éget az; és ha tisztaságos vérét innátok, békéljetek meg mindenképp mindenkivel, és vegyétek úgy a titokzatos lakomát!`,
+        text: `Ha ennétek Urunk testét, testvéreim, nagy félelemmel jöjjetek, hisz éget az, s ha tisztaságos vérét innátok megint, békéljetek meg mindenképp mindenkivel, s vegyétek úgy a titokzatos lakomát!`,
       },
       {
         heading: "Hasonló vers",
@@ -745,12 +751,12 @@ Uram, irgalmazz! (40×)`,
       {
         heading: "Első ima",
         subheading: "Nagy Szent Vazultól",
-        text: `Urunk és Uralkodónk, Jézus Krisztus Istenünk, élet és halhatatlanság Forrása, minden látható és láthatatlan alkotás Teremtője, a kezdet nélkül való Atyának szintén öröktől fogva és kezdet nélkül való Fia, aki jóságod bőségében az utolsó napokban testet öltöttél, keresztre feszíttettél és feláldoztattál érettünk, hálátlanokért és érdemtelenekért, aki tulajdon véreddel újjáalkottad a bűntől megrontott természetünket: Te magad, halhatatlan Királyunk, fogadd el nekem, bűnösnek megtérését, hajtsd füledet hozzám, és hallgasd meg szavamat! Mert vétkeztem, Uram, vétkeztem az ég ellen és teellened, és nem vagyok méltó feltekinteni dicsőséged magasságára, mert megharagítottalak, ó Jóságos, megszegtem parancsolataidat, és nem engedelmeskedtem rendeléseidnek. Te azonban, Uram, aki türelmes, hosszantűrő és nagy irgalmú vagy, nem adtál át engem romlásra bűneim miatt, hanem minden módon vártad megtérésemet. Mert nem akarod, Uralkodóm, hogy kezed alkotása elvesszen, és nem gyönyörködsz az emberek vesztében, hanem azt akarod, hogy mindenki üdvözüljön és eljusson az igazság ismeretére (vö. 1Tim 2,4). Ezért én is, bár méltatlan vagyok a mennyre és a földre, sőt erre a mulandó életre is, mert egész valómat a bűnnek vetettem alá, és a gyönyörök rabjává lettem, és így eltorzítottam képmásodat, mégsem veszítem el az üdvözülésembe vetett reményemet, hanem mérhetetlen könyörületedben bízva járulok hozzád. Fogadj hát engem, emberszerető Krisztus, mint a paráznát, a latort, a vámszedőt és a tékozló fiút, és vedd el bűneim súlyos terhét, aki elveszed a világ bűneit, és meggyógyítod az emberek betegségeit, aki magadhoz szólítod és megnyugtatod a megfáradtakat és megterhelteket, aki nem azért jöttél, hogy az igazakat hívd, hanem a bűnösöket a megtérésre. Tisztíts meg engem a test és a lélek minden fertőzetétől; taníts meg szentül élni a te félelmedben, hogy tiszta lelkiismeretem tanúságában fogadva be szentségeid részét, egyesüljek szent testeddel és véreddel, és énbennem lakozzál és bennem maradjál az Atyával és a Szentlélekkel együtt. Igen, Uram, ne legyen kárhozatomra a te tisztaságos és életet adó szentségeidben való részesülés, és ne legyek beteg lélekben és testben, amiért méltatlanul részesülök azokban; hanem add meg nekem, hogy utolsó leheletemig elítéltetés nélkül fogadjam szentségeid részét a Szentlélekkel való közösségre, az örök élet elnyerésére, és elfogadható védelemre félelmetes ítélőszéked előtt, hogy minden választottaddal együtt én is részesévé legyek kifogyhatatlan javaidnak, amelyeket azok számára készítettél, akik szeretnek téged, Uram, és akikben megdicsőíttettél mindörökké. Ámin.`,
+        text: `Urunk és Uralkodónk, Jézus Krisztus Istenünk, élet és halhatatlanság Forrása, minden látható és láthatatlan alkotás Teremtője, a kezdet nélkül való Atyának szintén öröktől fogva és kezdet nélkül való Fia, aki jóságod bőségében az utolsó napokban testet öltöttél, keresztre feszíttettél és feláldoztattál érettünk, hálátlanokért és érdemtelenekért, aki tulajdon véreddel újjáalkottad a bűntől megrontott természetünket; te magad, halhatatlan Királyunk, fogadd el nekem, bűnösnek megtérését, hajtsd füledet hozzám, és hallgasd meg szavamat! Mert vétkeztem, Uram, vétkeztem az ég ellen és teellened, és nem vagyok méltó feltekinteni dicsőséged magasságára, mert megharagítottalak, ó Jóságos, megszegtem parancsolataidat, és nem engedelmeskedtem rendeléseidnek. Te azonban, Uram, aki türelmes, hosszantűrő és nagyirgalmú vagy, nem engedted, hogy törvényszegéseimmel együtt pusztuljak el, hanem mindenek ellenére vártad megtérésemet. Mert te mondottad, Emberszerető, prófétád által: „Akarva nem akarom a bűnösnek halálát, hanem hogy megtérjen, és éljen" (Ez 18, 23). Mert nem akarod, Uralkodóm, hogy kezednek alkotása elvesszen, és nem gyönyörködsz az emberek vesztén, hanem azt akarod, hogy mindenki üdvözüljön, és eljusson az igazság ismeretére (1 Tim 2,4). Ezért én is, habár méltatlan vagyok a mennyre és a földre, de még erre a mulandó életre is, mert egész valómat a bűnnek vetettem alá, és a gyönyörök rabjává lettem, és így haszontalanná tettem a te képmásodat, mégis, mivel a te teremtményed és alkotásod vagyok, nem veszítem el az üdvözülésembe vetett reményemet, én nyomorult, hanem mérhetetlen könyörületedben bizakodva járulok hozzád. Fogadj hát engem, emberszerető Krisztus, mint a paráznát, a latort, a vámszedőt és a tékozló fiút, és vedd el bűneimnek súlyos terhét, aki elveszed a világ bűneit, és meggyógyítod az emberek betegségeit, aki magadhoz szólítod és megnyugosztalod a megfáradtakat és megterhelteket, aki nem azért jöttél, hogy az igazakat elhívd, hanem a bűnösöket a megtérésre. Tisztíts meg engem a test és a lélek minden fertőzetétől; taníts meg szentül élni a te félelmedben, hogy tiszta lelkiismeretem tanúbizonyságában fogadva be szentségeidnek részét, egyesüljek szent testeddel és véreddel, és énbennem lakozzál és bennem maradjál az Atyával és a Szentlélekkel együtt. Igen, Jézus Krisztus, Uram Istenem, ne legyen kárhozatomra a te tisztaságos és életet adó szentségeidben való részesülés, sem pedig beteg ne legyek lélekben és testben, amiért méltatlanul részesülök azokban, hanem add meg nekem, hogy utolsó leheletemig elítéltetés nélkül fogadjam szentségeidnek részét a Szentlélekkel való közösségre, az örök élet elnyerésére, és elfogadható védelemre félelmetes ítélőszéked előtt. Hogy minden választottaddal együtt én is részesévé legyek kifogyhatatlan javaidnak, amelyeket azok számára készítettél, akik szeretnek téged, Uram, és akikben megdicsőíttettél mindörökké. Ámin.`,
       },
       {
         heading: "Második ima",
         subheading: "Nagy Szent Vazultól",
-        text: `Tudom, Uram, hogy méltatlanul részesülök szeplőtelen testedben és drága véredben, és bűnös vagyok, és a magam kárhozatát eszem és iszom, amikor nem különböztetem meg Krisztusom és Istenem testét és vérét. De könyörületedben bízva hozzád járulok, aki ezt mondottad: „Aki eszi a testemet és issza a véremet, bennem marad, és én benne.” (Jn 6,56) Szánj meg, Uram, és ne bélyegezz meg engem, bűnöst, hanem cselekedj velem irgalmasságod szerint, és legyenek nekem ezek a szentségek gyógyulásomra, megtisztulásomra, megvilágosodásomra, oltalmamra és üdvözülésemre, lelkem és testem megszentelésére, minden képzelődés, gonosztett és ördögi tevékenység elhárítására, a hozzád való bizodalmamra és szeretetemre, életvitelem kiigazítására és megerősítésére, erényem és tökéletességem gyarapítására, parancsolataid teljesítésére, a Szentlélekkel való közösségre, az örök élet elnyerésére és elfogadható védelmemre félelmetes ítélőszéked előtt, ne pedig kárhozatomra vagy elítéltetésemre. Ámin.`,
+        text: `Tudom, Uram, hogy méltatlanul részesülök szeplőtelen testedben és drága véredben, és bűnös vagyok, és a magam kárhozatát eszem és iszom, amikor nem különböztetem meg az én Krisztusom és Istenem testét és vérét. Ámde könyörületedben bízva hozzád járulok, aki ezt mondottad: „Aki eszi a testemet és issza a véremet, bennem marad, és én őbenne” (Jn 6,56). Szánj meg, Uram, és ne bélyegezz meg engem, bűnöst, hanem cselekedj velem irgalmasságod szerint, és legyenek nekem ezek a szentségek gyógyulásomra, megtisztulásomra, megvilágosodásomra, oltalmamra és üdvözülésemre, lelkem és testem megszentelésére, minden képzelődés, gonosztett és ördögi tevékenység elhárítására, a hozzád való bizodalmamra és szeretetemre, életvitelem kiigazítására és megerősítésére, erényem és tökéletességem gyarapítására, parancsolataid teljesítésére, a Szentlélekkel való közösségre, az örök élet elnyerésére és elfogadható védelmemre félelmetes ítélőszéked előtt, ne pedig kárhozatomra vagy elítéltetésemre. Ámin.`,
       },
       {
         heading: "Harmadik ima",
@@ -765,7 +771,7 @@ Uram, irgalmazz! (40×)`,
       {
         heading: "Ötödik ima",
         subheading: "Aranyszájú Szent Jánostól",
-        text: `Uram, Jézus Krisztus, Istenem, nézd el, engedd el, könyörülj és bocsásd meg nekem, bűnös, haszontalan és méltatlan szolgádnak vétkezéseimet, mulasztásaimat és hibáimat, amelyeket ifjúságom óta eddig a napig és óráig elkövettem, akár tudatosan, akár öntudatlanul, akár szóban, akár cselekedetben, akár szándékomban, akár gondolatban, akár próbálkozással és összes érzékemmel. A téged mag nélkül szülő Anyádnak, a tisztaságos és örökszűz Máriának, egyedüli csalhatatlan reménységemnek, oltalmazómnak és menedékemnek közbenjárására méltass engem arra, hogy elítéltetés nélkül részesüljek tisztaságos, halhatatlan, életadó és félelmetes titkaidban bűneim bocsánatára és az örök életre, megszentelésemre, megvilágosodásomra, megerősödésemre és meggyógyulásomra, lelkem és testem egészségére; gonosz gondolataim, okoskodásaim, tévképzeteim és a sötét és gonosz lelkek éjjeli rémképeinek eltörlésére és teljes megsemmisítésére. Mert tiéd az ország, az erő, a dicsőség, a tisztelet és a hódolat, az Atyával és a Szentlélekkel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
+        text: `Uram, Jézus Krisztus, Istenem, nézd el, engedd el, könyörülj és bocsásd meg nekem, bűnös, haszontalan és méltatlan szolgádnak vétkezéseimet, mulasztásaimat és hibáimat, amelyeket ifjúságom óta eddig a napig és óráig elkövettem, akár tudatosan, akár öntudatlanul, akár szóban, akár cselekedetben, akár szándékomban, akár gondolatban, akár próbálkozással és összes érzékemmel. A téged mag nélkül szülő Anyádnak, a tisztaságos és örökszűz Máriának, egyedüli csalhatatlan reménységemnek, oltalmazómnak és menedékemnek közbenjárására méltass engem arra, hogy elítéltetés nélkül részesüljek tisztaságos, halhatatlan, életadó és félelmetes titkaidban bűneim bocsánatára és az örök életre, megszentelésemre, megvilágosodásomra, megerősödésemre és meggyógyulásomra, lelkem és testem egészségére; gonosz gondolataim, okoskodásaim, tévképzeteim, és a sötét és gonosz lelkek éjjeli rémképeinek eltörlésére és teljes megsemmisítésére. Mert tiéd az ország, az erő, a dicsőség, a tisztelet és a hódolat, az Atyával és a Szentlélekkel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Hatodik ima",
@@ -780,7 +786,7 @@ Uram, irgalmazz! (40×)`,
  tisztátalan nyelvem által,
  bemocskolt lelkem mélyéből
  fogadd, Krisztus, könyörgésem,
- és ne is vess el engem, 
+ és ne is vessél el engem, 
  sem szavam, viselkedésem,
  sem nagy szégyentelenségem!
  Engedd, hogy bátran elmondjam, 
@@ -796,8 +802,8 @@ Vétkeztem, mint a parázna,
  Uralkodóm és Megváltóm.
  Ahogyan őt el nem űzted,
  aki szívből járult hozzád,
- Isten Ige, ne utálj meg engem sem,
- engedd, hogy lábad 
+ Isten Ige, ne utálj meg 
+ engem sem, engedd, hogy lábad 
  megöleljem és csókoljam,
  és könnyemnek záporával,
  mint a legdrágább olajjal
@@ -920,7 +926,7 @@ Ez tesz engem vakmerővé,
       {
         heading: "Nyolcadik ima",
         subheading: "Fordító Simeontól",
-        text: `Egyedüli tiszta és szeplőtelen Uram, aki emberszereteted kifejezhetetlen együttérzése folytán természetünk teljességét magadra vetted annak tiszta és szűzi véréből, aki természetfölötti módon szült téged az isteni Lélek alászállása által és az örökkévaló Atya jóakaratából, Krisztus Jézus, Isten Bölcsessége, Békessége és Ereje! Aki fölvett természetünkben elvállaltad az életadó és megváltó kínszenvedéseket, a keresztet, a szögeket, a kopját és a halált, öld meg testemnek lélekölő szenvedélyeit! Aki eltemettetéseddel kifosztottad a pokol birodalmát, a jó gondolatok által temesd el a gonosz sugallatokat, és szórd szét a gonoszság szellemeit. Aki harmadnapi életadó feltámadásoddal feltámasztottad az elesett atyát, támassz fel engem is, aki a bűn által elbuktam, megmutatva nekem a bűnbánat módját. Aki testednek dicsőséges mennybemenetelével megistenítetted fölvett természetünket, és azt Atyádnak jobbján való üléssel tisztelted meg, méltass engem is a te szent misztériumaidból való részesülés által, hogy az üdvözülőknek jobbod felől álló csoportjában lehessek. Aki a Vigasztaló Lélek alászállása által szent tanítványaidat annak drága edényeivé tetted, engem is tégy az ő alászállásának befogadó edényévé. Aki újból eljövendő vagy, hogy igazságosan ítélkezz a földkerekség fölött, kegyesen engedd meg, hogy minden szenteddel együtt én is a fellegekben fogadjalak téged, Teremtőmet és Formálómat, hogy véget nem érően dicsőítselek és magasztaljalak téged kezdet nélküli Atyáddal és szentséges, jóságos és éltető Lelkeddel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
+        text: `Egyedüli tiszta és szeplőtelen Uram, aki emberszereteted kifejezhetetlen együttérzése folytán természetünk teljességét magadra vetted annak tiszta és szűzi véréből, aki természetfölötti módon szült téged az isteni Lélek alászállása által és az örökkévaló Atya jóakaratából, Krisztus Jézus, Isten Bölcsessége, Békessége és Ereje! Aki fölvett természetünkben elvállaltad az életadó és megváltó kínszenvedéseket, a keresztet, a szögeket, a kopját és a halált, öld meg testemnek lélekölő szenvedélyeit! Aki eltemettetéseddel kifosztottad a pokol birodalmát, a jó gondolatok által temesd el a gonosz sugallatokat, és szórd szét a gonoszság szellemeit. Aki harmadnapi életadó feltámadásoddal feltámasztottad az elesett ősatyát, támassz fel engem is, aki a bűn által elbuktam, megmutatva nekem a bűnbánat módját. Aki testednek dicsőséges mennybemenetelével megistenítetted fölvett természetünket, és azt Atyádnak jobbján való üléssel tisztelted meg, méltass engem is a te szent misztériumaidból való részesülés által, hogy az üdvözülőknek jobbod felől álló csoportjában lehessek. Aki a Vigasztaló Lélek alászállása által szent tanítványaidat annak drága edényeivé tetted, engem is tegyél az ő alászállásának befogadó edényévé. Aki újból eljövendő vagy, hogy igazságosan ítélkezz a földkerekség fölött, kegyesen engedd meg, hogy minden szenteddel együtt én is a fellegekben fogadjalak téged, Teremtőmet és Formálómat, hogy véget nem érően dicsőítselek és magasztaljalak téged kezdet nélküli Atyáddal és szentséges, jóságos és éltető Lelkeddel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Kilencedik ima",

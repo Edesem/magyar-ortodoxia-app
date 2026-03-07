@@ -127,8 +127,7 @@ Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)
 
 ${GLORY_BOTH}
 
-Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg 
-törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
+Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
 
 Uram irgalmazz. (3x)
 
@@ -432,8 +431,7 @@ Minden szenteknek és Isten Szülőjének közbenjárásai által, Urunk, add me
 
 Uram, irgalmazz! (40×)
 
-Akit minden időben és minden órában, a mennyben és a földön imádnak és dicsőítenek, Krisztus Isten, aki hosszantűrő, nagyirgalmú és igen könyörületes vagy, aki az igazakat szereted és a bűnösöknek irgalmazol, és aki az eljövendő javak ígéretével üdvösségre hívsz mindeneket, te magad, Urunk, fogadd el ebben az órában is a mi fohászkodásunkat, és vezéreld életünket parancsolataid szerint.
-Szenteld meg lelkünket, tisztítsd meg testünket, igazítsd ki gondolatainkat, tisztítsd meg értelmünket, és szabadíts meg minket minden keserűségtől, bajtól és gyötrődéstől! Végy körül bennünket szent angyalaiddal, hogy az őrködésüktől oltalmazva és vezérelve eljussunk a hit egységére és a te megközelíthetetlen dicsőséged ismeretére, mert áldott vagy mindörökkön örökké. Ámin.
+Akit minden időben és minden órában, a mennyben és a földön imádnak és dicsőítenek, Krisztus Isten, aki hosszantűrő, nagyirgalmú és igen könyörületes vagy, aki az igazakat szereted és a bűnösöknek irgalmazol, és aki az eljövendő javak ígéretével üdvösségre hívsz mindeneket, te magad, Urunk, fogadd el ebben az órában is a mi fohászkodásunkat, és vezéreld életünket parancsolataid szerint. Szenteld meg lelkünket, tisztítsd meg testünket, igazítsd ki gondolatainkat, tisztítsd meg értelmünket, és szabadíts meg minket minden keserűségtől, bajtól és gyötrődéstől! Végy körül bennünket szent angyalaiddal, hogy az őrködésüktől oltalmazva és vezérelve eljussunk a hit egységére és a te megközelíthetetlen dicsőséged ismeretére, mert áldott vagy mindörökkön örökké. Ámin.
 
 Uram, irgalmazz! (3×)
 
@@ -452,18 +450,17 @@ Legszentebb Istenszülő, ments meg és segíts meg bennünket!`,
       },
       {
         heading: `Ima a mi Urunkhoz, Jézus Krisztushoz`,
-        subheading: `Antiokhosztól,
-a Pandektisz monostor szerzetesétől`,
-        text: `Amikor pedig aludni térünk, adj Uralkodónk, testünknek és lelkünknek nyugodalmat, és őrizz meg bennünket a bűn fekete álmától és minden sötét éjszakai kéjérzettől. Csendesítsd le szenvedélyeink háborgását, oltsd ki a gonosz tüzes nyilait, amelyeket alattomban röpít felénk. Nyugtasd meg testünk lázadozását, és altasd el minden földies és anyagias gondolatunkat. Ajándékozz nekünk, Istenünk, éber értelmet, józan gondolatot, virrasztó szívet, könnyű és minden sátáni képzettől mentes álmot! Ébressz fel bennünket az imádság idején, megszilárdítva bennünket a te parancsolataidban, és add meg, hogy ítéleteid emlékét töretlenül elménkben hordozzuk! Ajándékozz meg azzal, hogy egész éjjel dicsőítő éneket zengjünk neked, hogy magasztaljuk, áldjuk és dicsőítsük a te legbecsesebb és legmagasztosabb Nevedet, az Atyáét és Fiúét és Szentléleét, most és mindenkor és mindörökkön örökké! Ámin.
+        subheading: `Antiokhosztól, a Pandektisz
+monostor szerzetesétől`,
+        text: `Amikor pedig aludni térünk, adj Uralkodónk, testünknek és lelkünknek nyugodalmat, és őrizz meg bennünket a bűn fekete álmától és minden sötét éjszakai kéjérzettől. Csendesítsd le szenvedélyeink háborgását, oltsd ki a gonosz tüzes nyilait, amelyeket alattomban röpít felénk. Nyugtasd meg testünk lázadozását, és altasd el minden földies és anyagias gondolatunkat. Ajándékozz nekünk, Istenünk, éber értelmet, józan gondolatot, virrasztó szívet, könnyű és minden sátáni képzettől mentes álmot! Ébressz fel bennünket az imádság idején, megszilárdítva bennünket a te parancsolataidban, és add meg, hogy ítéleteid emlékét töretlenül elménkben hordozzuk! Ajándékozz meg azzal, hogy egész éjjel dicsőítő éneket zengjünk neked, hogy magasztaljuk, áldjuk és dicsőítsük a te legbecsesebb és legmagasztosabb Nevedet, az Atyáét és Fiúét és Szentlélekét, most és mindenkor és mindörökkön örökké! Ámin.
 
 Legdicsőségesebb Örökszűz, Istennek áldott Szülője, vezesd a mi imádságunkat a te Fiad és a mi Istenünk elé, és esedezz, hogy üdvözítse teáltalad a mi lelkünket.
 
 Reménységem az Atya, menedékem a Fiú, oltalmam a Szentlélek. Szentháromság, dicsőség néked!
 
-Minden reménységemet beléd vetem, Istennek Anyja, őrizd meg engem a te oltalmad alatt.
+Minden reménységemet beléd vetem, Istennek Anyja, őrizz meg engem a te oltalmad alatt.
 
-Benned örvendezik, Kegyelembefogadott, az egész teremtés, az angyalok rendje és az emberek nemzetsége. Megszentelt Templom, szellemi Paradicsom, szűzi büszkeségünk, aki által megtestesült az Isten, és gyermekké lett a mi öröktől fogva való Istenünk. Mert a te méhedet trónusává tette, és öledet az egeknél tágasabbá változtatta. Benned örvendezik, Kegyelembefogadott, az egész teremtés, dicsőség néked!
-        `,        
+Benned örvendezik, Kegyelembefogadott, az egész teremtés, az angyalok rendje és az emberek nemzetsége. Megszentelt Templom, szellemi Paradicsom, szűzi büszkeségünk, aki által megtestesült az Isten, és gyermekké lett a mi öröktől fogva való Istenünk. Mert a te méhedet trónusává tette, és öledet az egeknél tágasabbá változtatta. Benned örvendezik, Kegyelembefogadott, az egész teremtés, dicsőség néked!`,        
       },
       {
         heading: "Ima az őrangyalhoz",
@@ -478,8 +475,7 @@ A te könyörületedhez folyamodunk, Istennek Szülője, ne feledkezz meg esedez
         heading: "Pünkösdi apolitikion",
         text: `Áldott vagy Te, Krisztus Istenünk, aki a halászokat bölcsekké tetted, leküldvén nekik a Szentlelket, és általuk hálódba vontad a földkerekséget. Emberszerető, dicsőséged néked!
 
-${HOLY_FATHERS}
-`,
+${HOLY_FATHERS}`,
       },
     ],
   },

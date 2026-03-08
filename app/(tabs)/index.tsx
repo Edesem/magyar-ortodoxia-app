@@ -15,6 +15,7 @@ import * as Haptics from "expo-haptics";
 import { moderateScale, verticalScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
+import useOrientation from "../../hooks/useOrientation";
 
 const prayers: Prayer[] = prayerData;
 
@@ -24,8 +25,11 @@ export default function Index() {
   };
 
   const theme = useTheme();
-
   const androidPadding = Platform.OS === 'android' ? 80 : 0
+
+  const orientationHorizontalPadding = useOrientation() === 'landscape' ? 80 : 25;
+  const orientationVerticalPadding = useOrientation() === 'landscape' ? 20 : 0;
+
 
   const infoPage = () => {
     haptic();
@@ -33,11 +37,11 @@ export default function Index() {
 
   return (
     <ScrollView
-      contentContainerStyle={{ paddingHorizontal: 25, paddingTop: androidPadding }}
+      contentContainerStyle={{ paddingHorizontal: orientationHorizontalPadding, paddingTop: androidPadding }}
       style={[styles.container, { backgroundColor: theme.bg }]}
     >
       
-      <Link href={'./information'} style={{marginTop: 0}} onPress={infoPage}>
+      <Link href={'./information'} style={{marginTop: orientationVerticalPadding}} onPress={infoPage}>
         <MaterialCommunityIcons
           name="information-variant-circle"
           size={35}

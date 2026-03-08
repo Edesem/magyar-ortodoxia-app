@@ -1,11 +1,12 @@
 import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
-import React, { useLayoutEffect, useState } from "react";
-import { Text, StyleSheet, ScrollView, View } from "react-native";
+import React, { useEffect, useLayoutEffect, useState } from "react";
+import { Text, StyleSheet, ScrollView, View, Dimensions } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Prayer, prayerData } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
 import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
+import useOrientation from "../../hooks/useOrientation";
 
 export default function PrayerScreen() {
   const [progress, setProgress] = useState(0);
@@ -35,14 +36,15 @@ export default function PrayerScreen() {
     });
   }, [navigation, prayer]);
 
+  const orientationPadding = useOrientation() === "landscape" ? 80 : 25;
+
   return (
-    <View style={{flexDirection: "row"}}>
+    <View style={{ flexDirection: "row" }}>
       <ScrollView
         onScroll={handleScroll}
-
         contentInsetAdjustmentBehavior="automatic"
         contentContainerStyle={{
-          paddingHorizontal: 25,
+          paddingHorizontal: orientationPadding,
           paddingBottom: 40,
           paddingTop: 10,
         }}
@@ -89,8 +91,15 @@ export default function PrayerScreen() {
         })}
       </ScrollView>
 
-      <View style={{width: 6, height: "100%", position: "absolute"}}>
-        <View style={{ width: "100%", backgroundColor: theme.header, height: `${progress * 100}%`, borderBottomRightRadius: 10 }} />
+      <View style={{ width: 6, height: "100%", position: "absolute" }}>
+        <View
+          style={{
+            width: "100%",
+            backgroundColor: theme.header,
+            height: `${progress * 100}%`,
+            borderBottomRightRadius: 10,
+          }}
+        />
       </View>
     </View>
   );

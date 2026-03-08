@@ -5,10 +5,12 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import useTheme from "../hooks/useTheme";
 import * as Application from "expo-application";
 import { moderateScale } from "react-native-size-matters";
+import useOrientation from "../hooks/useOrientation";
 
 export default function info() {
   const navigation = useNavigation();
   const theme = useTheme();
+  const orientationHorizontalPadding = useOrientation() === 'landscape' ? 60 : 10;
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -22,7 +24,7 @@ export default function info() {
     <ScrollView
       contentInsetAdjustmentBehavior="automatic"
       contentContainerStyle={{
-        paddingHorizontal: 10,
+        paddingHorizontal: orientationHorizontalPadding,
         paddingBottom: 40,
         paddingTop: 10,
       }}

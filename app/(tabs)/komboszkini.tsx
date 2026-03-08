@@ -43,10 +43,21 @@ export default function Index() {
     Vibration.vibrate();
   };
 
-  function PortraitLayout() {
-    return (
-      <SafeAreaProvider>
-        <SafeAreaView style={[styles.container, { backgroundColor: theme.bg }]}>
+  const isLandscape = orientation === "landscape";
+
+  return (
+    <SafeAreaProvider>
+      <SafeAreaView
+        style={[
+          styles.container,
+          {
+            backgroundColor: theme.bg,
+            flexDirection: isLandscape ? "row" : "column",
+            justifyContent: "center",
+          },
+        ]}
+      >
+        {isLandscape ? null : (
           <View
             style={{
               alignItems: "center",
@@ -64,152 +75,61 @@ export default function Index() {
               hagyományos komboszkinít.”
             </Text>
           </View>
-          <Pressable
-            onPress={prayerRope}
-            onLongPress={reset}
-            delayLongPress={1000}
-            style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
-          >
-            <Image
-              source={require("../../assets/50komboszkini.png")}
-              style={[
-                styles.komboszkini,
-                {
-                  transform: [{ rotate: `${rotation}deg` }],
-                  tintColor: theme.heading,
-                  height: verticalScale(400),
-                },
-              ]}
-            />
+        )}
 
-            <Pressable
+        <Pressable
+          onPress={prayerRope}
+          onLongPress={reset}
+          delayLongPress={1000}
+          style={{
+            flex: 1,
+            justifyContent: "center",
+            alignItems: "center",
+            flexDirection: isLandscape ? "row" : "column",
+            gap: 100
+          }}
+        >
+          <Image
+            source={require("../../assets/50komboszkini.png")}
+            style={[
+              styles.komboszkini,
+              {
+                transform: [{ rotate: `${rotation}deg` }],
+                tintColor: theme.heading,
+                height: isLandscape ? verticalScale(150) : verticalScale(300),
+                width: isLandscape ? verticalScale(250) : verticalScale(300),
+              },
+            ]}
+          />
+
+          <View>
+            <Text
               style={{
-                flexDirection: "row",
-                alignItems: "baseline",
-                gap: 10,
+                fontSize: isLandscape
+                  ? moderateScale(30, 1.2)
+                  : moderateScale(50, 1.2),
+                fontFamily: "AlegreyaSC_400Regular",
+                color: theme.heading,
               }}
             >
-              <Text
-                style={{
-                  fontSize: moderateScale(50, 1.2),
-                  fontFamily: "AlegreyaSC_400Regular",
-                  color: theme.heading,
-                }}
-              >
-                50 csomó
-              </Text>
+              50 csomó
+            </Text>
 
-              <FontAwesome
-                name="chevron-circle-down"
-                size={40}
-                color={theme.heading}
-              />
-            </Pressable>
             <Text
               style={{
                 color: theme.subtext,
                 fontFamily: "Alegreya_400Regular",
                 marginBottom: 40,
-                fontSize: 20,
-              }}
-            >
-              Hosszan nyomva nullázás
-            </Text>
-          </Pressable>
-        </SafeAreaView>
-      </SafeAreaProvider>
-    );
-  }
-
-  function LandscapeLayout() {
-    return (
-      <SafeAreaProvider>
-        <SafeAreaView style={[styles.container, { backgroundColor: theme.bg, flexDirection: "row" }]}>
-          <View style={styles.horizontalContainer}>
-            <Pressable
-              onPress={prayerRope}
-              onLongPress={reset}
-              delayLongPress={1000}
-              style={{
-                flex: 1,
-                justifyContent: "center",
-                alignItems: "center",
-              }}
-            >
-              <Image
-                source={require("../../assets/50komboszkini.png")}
-                style={[
-                  styles.komboszkini,
-                  {
-                    transform: [{ rotate: `${rotation}deg` }],
-                    tintColor: theme.heading,
-                    height: verticalScale(250),
-                  },
-                ]}
-              />
-            </Pressable>
-          </View>
-
-          <View style={styles.horizontalContainer}>
-            <View
-              style={{
-                alignItems: "center",
-              }}
-            >
-              <Text
-                style={{
-                  color: theme.subtext,
-                  fontFamily: "Alegreya_400Regular_Italic",
-                  fontSize: moderateScale(20, 1.2),
-                  textAlign: "center",
-                }}
-              >
-                „Digitális komboszkini – ez egy kiegészítő, nem helyettesíti a
-                hagyományos komboszkinít.”
-              </Text>
-            </View>
-
-            <Pressable
-              style={{
-                flexDirection: "row",
-                alignItems: "baseline",
-                gap: 20,
-                marginTop: 50,
-              }}
-            >
-              <Text
-                style={{
-                  fontSize: moderateScale(50, 1.2),
-                  fontFamily: "AlegreyaSC_400Regular",
-                  color: theme.heading,
-                }}
-              >
-                50 csomó
-              </Text>
-
-              <FontAwesome
-                name="chevron-circle-down"
-                size={40}
-                color={theme.heading}
-              />
-            </Pressable>
-            <Text
-              style={{
-                color: theme.subtext,
-                fontFamily: "Alegreya_400Regular",
-                marginBottom: 40,
-                fontSize: 20,
+                fontSize: moderateScale(18, 1.2),
               }}
             >
               Hosszan nyomva nullázás
             </Text>
           </View>
-        </SafeAreaView>
-      </SafeAreaProvider>
-    );
-  }
-
-  return orientation === "landscape" ? <LandscapeLayout /> : <PortraitLayout />;
+        </Pressable>
+      </SafeAreaView>
+    </SafeAreaProvider>
+  );
 }
 
 const styles = StyleSheet.create({

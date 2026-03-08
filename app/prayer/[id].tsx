@@ -1,6 +1,6 @@
 import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
-import React, { useLayoutEffect } from "react";
-import { Text, StyleSheet, ScrollView } from "react-native";
+import React, { useLayoutEffect, useState } from "react";
+import { Text, StyleSheet, ScrollView, View } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Prayer, prayerData } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
@@ -8,6 +8,8 @@ import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 
 export default function PrayerScreen() {
+  const [progress, setProgress] = useState(0);
+
   const { id } = useLocalSearchParams();
   const navigation = useNavigation();
   const theme = useTheme();
@@ -16,6 +18,17 @@ export default function PrayerScreen() {
   const prayer: Prayer = prayerData.find((p) => p.id === Number(id))!;
   const sections = prayer.sections;
 
+  const handleScroll = (event) => {
+    const { contentOffset, contentSize, layoutMeasurement } = event.nativeEvent;
+
+    const scrollY = contentOffset.y;
+    const height = contentSize.height - layoutMeasurement.height;
+
+    if (height > 0) {
+      setProgress(scrollY / height);
+    }
+  };
+
   useLayoutEffect(() => {
     navigation.setOptions({
       title: prayer.header_title ?? " ",
@@ -23,46 +36,65 @@ export default function PrayerScreen() {
   }, [navigation, prayer]);
 
   return (
-    <ScrollView
-      contentInsetAdjustmentBehavior="automatic"
-      contentContainerStyle={{
-        paddingHorizontal: 25,
-        paddingBottom: 40,
-        paddingTop: 10,
-      }}
-      style={{ flex: 1, backgroundColor: theme.bg }}
-    >
-      {sections.map((section, sectionIndex) => {
-        const paragraphs = section.text.split("\n");
+    <View style={{flexDirection: "row"}}>
 
-        return (
-          <React.Fragment key={sectionIndex}>
-            {/* heading */}
-            {section.heading && (
-              <Text style={[styles.heading, {color: theme.header}]}>{section.heading}</Text>
-            )}
 
-            {/* subheading */}
-            {section.subheading && (
-              <Text style={[styles.subheading, {color: theme.header}]}>{section.subheading}</Text>
-            )}
+      <ScrollView
+        onScroll={handleScroll}
 
-            {/* paragraphs */}
-            {paragraphs.map((paragraph, paragraphIndex) => {
-              const firstLetter = paragraph.charAt(0);
-              const rest = paragraph.slice(1);
+        contentInsetAdjustmentBehavior="automatic"
+        contentContainerStyle={{
+          paddingHorizontal: 25,
+          paddingBottom: 40,
+          paddingTop: 10,
+        }}
+        style={{ flex: 1, backgroundColor: theme.bg }}
+      >
+        {sections.map((section, sectionIndex) => {
+          const paragraphs = section.text.split("\n");
 
-              return (
-                <Text style={[styles.text, {color: theme.text}]} key={paragraphIndex}>
-                  <Text style={[styles.dropCap, {color: theme.subheading}]}>{firstLetter}</Text>
-                  {rest}
+          return (
+            <React.Fragment key={sectionIndex}>
+              {/* heading */}
+              {section.heading && (
+                <Text style={[styles.heading, { color: theme.header }]}>
+                  {section.heading}
                 </Text>
-              );
-            })}
-          </React.Fragment>
-        );
-      })}
-    </ScrollView>
+              )}
+
+              {/* subheading */}
+              {section.subheading && (
+                <Text style={[styles.subheading, { color: theme.header }]}>
+                  {section.subheading}
+                </Text>
+              )}
+
+              {/* paragraphs */}
+              {paragraphs.map((paragraph, paragraphIndex) => {
+                const firstLetter = paragraph.charAt(0);
+                const rest = paragraph.slice(1);
+
+                return (
+                  <Text
+                    style={[styles.text, { color: theme.text }]}
+                    key={paragraphIndex}
+                  >
+                    <Text style={[styles.dropCap, { color: theme.subheading }]}>
+                      {firstLetter}
+                    </Text>
+                    {rest}
+                  </Text>
+                );
+              })}
+            </React.Fragment>
+          );
+        })}
+      </ScrollView>
+
+      <View style={{width: 6, height: "100%", position: "absolute"}}>
+        <View style={{ width: "100%", backgroundColor: theme.header, height: `${progress * 100}%` }} />
+      </View>
+    </View>
   );
 }
 

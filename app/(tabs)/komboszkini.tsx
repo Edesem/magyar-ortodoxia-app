@@ -6,16 +6,13 @@ import {
   View,
   Image,
   Vibration,
-  ScrollView,
-  Button,
 } from "react-native";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import * as Haptics from "expo-haptics";
-import { COLOURS } from "../../constants/colours";
 import { moderateScale, verticalScale } from "react-native-size-matters";
-import { Stack } from "expo-router";
 import useTheme from "../../hooks/useTheme";
+import FontAwesome from "@expo/vector-icons/FontAwesome";
 
 export default function Index() {
   const [count, setCount] = useState(0);
@@ -46,7 +43,7 @@ export default function Index() {
 
   return (
     <SafeAreaProvider>
-      <SafeAreaView style={[styles.container, {backgroundColor: theme.bg}]}>
+      <SafeAreaView style={[styles.container, { backgroundColor: theme.bg }]}>
         <View
           style={{
             alignItems: "center",
@@ -55,7 +52,7 @@ export default function Index() {
         >
           <Text
             style={{
-              color: "grey",
+              color: theme.subtext,
               fontFamily: "Alegreya_400Regular_Italic",
               fontSize: moderateScale(20, 1.2),
               textAlign: "center",
@@ -75,20 +72,45 @@ export default function Index() {
             source={require("../../assets/50komboszkini.png")}
             style={[
               styles.komboszkini,
-              { transform: [{ rotate: `${rotation}deg` }], tintColor: theme.heading },
+              {
+                transform: [{ rotate: `${rotation}deg` }],
+                tintColor: theme.heading,
+              },
             ]}
           />
 
-          <Text
+          <Pressable
             style={{
-              fontSize: moderateScale(50, 1.2),
-              fontFamily: "AlegreyaSC_400Regular",
-              color: theme.heading,
-              textAlign: "center",
-              paddingBottom: 20,
+              flexDirection: "row",
+              alignItems: "baseline",
+              gap: 10,
             }}
           >
-            50 csomó
+            <Text
+              style={{
+                fontSize: moderateScale(50, 1.2),
+                fontFamily: "AlegreyaSC_400Regular",
+                color: theme.heading,
+              }}
+            >
+              50 csomó
+            </Text>
+
+            <FontAwesome
+              name="chevron-circle-down"
+              size={40}
+              color={theme.heading}
+            />
+          </Pressable>
+          <Text
+            style={{
+              color: theme.subtext,
+              fontFamily: "Alegreya_400Regular",
+              marginBottom: 40,
+              fontSize: 20,
+            }}
+          >
+            Hosszan nyomva nullázás
           </Text>
         </Pressable>
       </SafeAreaView>

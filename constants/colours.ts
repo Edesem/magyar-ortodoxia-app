@@ -5,6 +5,7 @@ export const COLOURS = {
     subheading: "#C70915",
     bg: "#f5f5f5",
     text: "#000",
+    subtext: "#444444"
   },
   dark: {
     header: "#B11226",
@@ -12,5 +13,6 @@ export const COLOURS = {
     subheading: "#C70915",
     bg: "#121212",
     text: "#B0B0B0",
+    subtext: "#888888"
   },
 };

@@ -14,6 +14,7 @@ export default function useTheme() {
 
   const theme = {
     text: colourScheme === "light" ? COLOURS.light.text : COLOURS.dark.text,
+    subtext: colourScheme === "light" ? COLOURS.light.subtext : COLOURS.dark.subtext,
     bg: colourScheme === "light" ? COLOURS.light.bg : COLOURS.dark.bg,
     header:
       colourScheme === "light" ? COLOURS.light.header : COLOURS.dark.header,

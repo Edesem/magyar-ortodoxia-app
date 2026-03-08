@@ -7,11 +7,6 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "scheme": "myapp",
-    "splash": {
-      "image": "./assets/cross.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#f5f5f5"
-    },
     "ios": {
       "supportsTablet": true,
       "icon": "assets/magyar-ortodox.icon",
@@ -22,7 +17,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/cross.png",
+        "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#f5f5f5"
       },
       "edgeToEdgeEnabled": true,
@@ -37,14 +32,26 @@
       "expo-font",
       [
       "expo-build-properties",
-      {
-          "android": {
-            "colorPrimary": "#fff",
+        {
+            "android": {
+              "colorPrimary": "#fff",
               "colorPrimaryDark": "#121212",
               "colorAccent": "#8B0000"
-          }
-      }
-    ]
+            }
+        }
+      ],
+      [
+      "expo-splash-screen",
+        {
+          "backgroundColor": "#f5f5f5",
+          "image": "./assets/images/splash-icon-light.png",
+          "dark": {
+            "image": "./assets/images/splash-icon-dark.png",
+            "backgroundColor": "#121212"
+          },
+          "imageWidth": 200
+        }
+      ]
     ],
     "extra": {
       "router": {},

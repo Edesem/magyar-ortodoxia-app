@@ -80,6 +80,33 @@ export default function RootLayout() {
             }),
           }}
         />
+
+        <Stack.Screen
+          name="information"
+          options={{
+            headerBackTitle: "Vissza",
+            headerBackTitleStyle: { fontFamily: "AlegreyaSC_400Regular" },
+
+            ...(Platform.OS === "ios" && {
+              headerLargeTitleEnabled: true,
+              headerLargeTitleStyle: {
+                fontFamily: "AlegreyaSC_700Bold",
+                fontSize: 50,
+                color: theme.header,
+              },
+            }),
+            ...(Platform.OS === "android" && {
+              headerStyle: {
+                backgroundColor: theme.bg,
+              },
+              headerTitleStyle: {
+                fontFamily: "AlegreyaSC_700Bold",
+                fontSize: moderateScale(35, 1.2),
+                color: theme.header,
+              },
+            }),
+          }}
+        />
       </Stack>
     </ThemeProvider>
   );

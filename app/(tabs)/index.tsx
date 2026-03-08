@@ -6,16 +6,15 @@ import {
   Text,
   View,
   Image,
-  useColorScheme,
+  Platform,
 } from "react-native";
 import { Prayer, prayerData } from "../../data/prayers";
-import React, { useState } from "react";
-import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
+import React from "react";
 import { Link } from "expo-router";
-import { COLOURS } from "../../constants/colours";
 import * as Haptics from "expo-haptics";
 import { moderateScale, verticalScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
+import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 
 const prayers: Prayer[] = prayerData;
 
@@ -26,11 +25,27 @@ export default function Index() {
 
   const theme = useTheme();
 
+  const androidPadding = Platform.OS === 'android' ? 80 : 0
+
+  const infoPage = () => {
+    haptic();
+  }
+
   return (
     <ScrollView
-      contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 80 }}
+      contentContainerStyle={{ paddingHorizontal: 25, paddingTop: androidPadding }}
       style={[styles.container, { backgroundColor: theme.bg }]}
     >
+      
+      <Link href={'./information'} style={{marginTop: 0}} onPress={infoPage}>
+        <MaterialCommunityIcons
+          name="information-variant-circle"
+          size={35}
+          color={theme.subtext}
+          style={{ position: "absolute" }}
+        />
+      </Link>
+
       <Text
         style={[styles.banner, { color: theme.header }]}
         numberOfLines={2}
@@ -49,10 +64,7 @@ export default function Index() {
                 </Text>
               </View>
               <View
-                style={[
-                  styles.header_divider,
-                  { backgroundColor: theme.text },
-                ]}
+                style={[styles.header_divider, { backgroundColor: theme.text }]}
               />
             </>
           )}
@@ -73,10 +85,7 @@ export default function Index() {
             </View>
           </View>
           <View
-            style={[
-              styles.prayer_divider,
-              { backgroundColor: theme.text },
-            ]}
+            style={[styles.prayer_divider, { backgroundColor: theme.text }]}
           />
         </View>
       ))}

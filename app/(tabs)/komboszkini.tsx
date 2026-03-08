@@ -86,7 +86,7 @@ export default function Index() {
             justifyContent: "center",
             alignItems: "center",
             flexDirection: isLandscape ? "row" : "column",
-            gap: 100
+            gap: isLandscape ? 100 : 0,
           }}
         >
           <Image

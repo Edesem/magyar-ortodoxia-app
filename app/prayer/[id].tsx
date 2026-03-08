@@ -37,8 +37,6 @@ export default function PrayerScreen() {
 
   return (
     <View style={{flexDirection: "row"}}>
-
-
       <ScrollView
         onScroll={handleScroll}
 
@@ -92,7 +90,7 @@ export default function PrayerScreen() {
       </ScrollView>
 
       <View style={{width: 6, height: "100%", position: "absolute"}}>
-        <View style={{ width: "100%", backgroundColor: theme.header, height: `${progress * 100}%` }} />
+        <View style={{ width: "100%", backgroundColor: theme.header, height: `${progress * 100}%`, borderBottomRightRadius: 10 }} />
       </View>
     </View>
   );

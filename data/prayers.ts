@@ -74,8 +74,7 @@ const CREED = `Hiszek egy Istenben, mindenható Atyában, mennynek és földnek,
 
 Világosságtól való Világosságban, igaz Istentől való igaz Istenben, aki született és nem teremtetett, aki egylényegű az Atyával és aki által mindenek lettek; 
 
-Aki miérettünk, emberekért és a mi üdvösségünkért leszállt a mennyekből és megtestesült a Szent Lélektől és Szűz Máriától és 
-emberré lett; 
+Aki miérettünk, emberekért és a mi üdvösségünkért leszállt a mennyekből és megtestesült a Szent Lélektől és Szűz Máriától és emberré lett; 
 
 Aki keresztre feszíttetett érettünk Poncius Pilátus idejében, és szenvedett és eltemettetett;
 

@@ -1,8 +1,16 @@
 export const COLOURS = {
-    red: "#B31329",
-    light_red: "#C70915",
-    deep_red: "#8B0000",
-    background_white: '#f5f5f5',
-
-    background_dark: '#000'
-}
+  light: {
+    header: "#8B0000",
+    heading: "#9B1C1C",
+    subheading: "#C70915",
+    bg: "#f5f5f5",
+    text: "#000",
+  },
+  dark: {
+    header: "#B11226",
+    heading: "#B31329",
+    subheading: "#C70915",
+    bg: "#121212",
+    text: "#B0B0B0",
+  },
+};

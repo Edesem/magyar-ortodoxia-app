@@ -15,10 +15,13 @@ import * as Haptics from "expo-haptics";
 import { COLOURS } from "../../constants/colours";
 import { moderateScale, verticalScale } from "react-native-size-matters";
 import { Stack } from "expo-router";
+import useTheme from "../../hooks/useTheme";
 
 export default function Index() {
   const [count, setCount] = useState(0);
   const [rotation, setRotation] = useState(0);
+
+  const theme = useTheme();
 
   const prayerRope = (event: GestureResponderEvent): void => {
     setCount(count + 1);
@@ -37,7 +40,7 @@ export default function Index() {
 
   return (
     <SafeAreaProvider>
-      <SafeAreaView style={styles.container}>
+      <SafeAreaView style={[styles.container, {backgroundColor: theme.bg}]}>
         <View
           style={{
             alignItems: "center",
@@ -64,7 +67,7 @@ export default function Index() {
             source={require("../../assets/50komboszkini.png")}
             style={[
               styles.komboszkini,
-              { transform: [{ rotate: `${rotation}deg` }] },
+              { transform: [{ rotate: `${rotation}deg` }], tintColor: theme.heading },
             ]}
           />
 
@@ -72,7 +75,7 @@ export default function Index() {
             style={{
               fontSize: moderateScale(50, 1.2),
               fontFamily: "AlegreyaSC_400Regular",
-              color: COLOURS.red,
+              color: theme.heading,
               textAlign: "center",
               paddingBottom: 20,
             }}
@@ -88,7 +91,6 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLOURS.background_white,
     paddingTop: 0,
     paddingHorizontal: 30,
   },
@@ -96,6 +98,5 @@ const styles = StyleSheet.create({
     width: "100%",
     height: verticalScale(400),
     resizeMode: "contain",
-    tintColor: COLOURS.deep_red,
   },
 });

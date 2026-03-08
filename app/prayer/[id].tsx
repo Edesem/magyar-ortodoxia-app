@@ -5,10 +5,12 @@ import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Prayer, prayerData } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
 import { moderateScale } from "react-native-size-matters";
+import useTheme from "../../hooks/useTheme";
 
 export default function PrayerScreen() {
   const { id } = useLocalSearchParams();
   const navigation = useNavigation();
+  const theme = useTheme();
 
   // For prayers (p) check p.id and see if it's equal to id
   const prayer: Prayer = prayerData.find((p) => p.id === Number(id))!;
@@ -28,7 +30,7 @@ export default function PrayerScreen() {
         paddingBottom: 40,
         paddingTop: 10,
       }}
-      style={{ flex: 1 }}
+      style={{ flex: 1, backgroundColor: theme.bg }}
     >
       {sections.map((section, sectionIndex) => {
         const paragraphs = section.text.split("\n");
@@ -37,12 +39,12 @@ export default function PrayerScreen() {
           <React.Fragment key={sectionIndex}>
             {/* heading */}
             {section.heading && (
-              <Text style={styles.heading}>{section.heading}</Text>
+              <Text style={[styles.heading, {color: theme.header}]}>{section.heading}</Text>
             )}
 
             {/* subheading */}
             {section.subheading && (
-              <Text style={styles.subheading}>{section.subheading}</Text>
+              <Text style={[styles.subheading, {color: theme.header}]}>{section.subheading}</Text>
             )}
 
             {/* paragraphs */}
@@ -51,8 +53,8 @@ export default function PrayerScreen() {
               const rest = paragraph.slice(1);
 
               return (
-                <Text style={styles.text} key={paragraphIndex}>
-                  <Text style={styles.dropCap}>{firstLetter}</Text>
+                <Text style={[styles.text, {color: theme.text}]} key={paragraphIndex}>
+                  <Text style={[styles.dropCap, {color: theme.subheading}]}>{firstLetter}</Text>
                   {rest}
                 </Text>
               );
@@ -65,9 +67,6 @@ export default function PrayerScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    backgroundColor: COLOURS.background_white,
-  },
   text: {
     fontSize: moderateScale(24),
     lineHeight: moderateScale(34),
@@ -78,26 +77,22 @@ const styles = StyleSheet.create({
     fontSize: moderateScale(30),
     textAlign: "center",
     paddingVertical: moderateScale(15),
-    color: COLOURS.red,
     fontFamily: "AlegreyaSC_400Regular",
   },
   subheading: {
     fontSize: moderateScale(25),
     textAlign: "center",
     paddingBottom: 25,
-    color: COLOURS.light_red,
     fontFamily: "Alegreya_400Regular_Italic",
   },
   postheading: {
     fontSize: moderateScale(24),
     textAlign: "left",
     paddingBottom: 25,
-    color: COLOURS.light_red,
     fontFamily: "Alegreya_400Regular_Italic",
   },
   dropCap: {
     lineHeight: moderateScale(40),
     fontSize: moderateScale(32),
-    color: COLOURS.red,
   },
 });

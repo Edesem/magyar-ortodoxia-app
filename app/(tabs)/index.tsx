@@ -15,6 +15,7 @@ import { Link } from "expo-router";
 import { COLOURS } from "../../constants/colours";
 import * as Haptics from "expo-haptics";
 import { moderateScale, verticalScale } from "react-native-size-matters";
+import useTheme from "../../hooks/useTheme";
 
 const prayers: Prayer[] = prayerData;
 
@@ -23,18 +24,18 @@ export default function Index() {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
   };
 
-  const colourScheme = useColorScheme();
-
-  const themeTextStyle = colourScheme === 'light' ? styles.lightThemeText : styles.darkThemeText;
-  const themeContainerStyle =
-    colourScheme === 'light' ? COLOURS.background_white : COLOURS.background_dark;
+  const theme = useTheme();
 
   return (
     <ScrollView
       contentContainerStyle={{ paddingHorizontal: 25, paddingBottom: 80 }}
-      style={styles.container}
+      style={[styles.container, { backgroundColor: theme.bg }]}
     >
-      <Text style={styles.banner} numberOfLines={2} adjustsFontSizeToFit>
+      <Text
+        style={[styles.banner, { color: theme.header }]}
+        numberOfLines={2}
+        adjustsFontSizeToFit
+      >
         Magyar Ortodoxia
       </Text>
 
@@ -43,16 +44,23 @@ export default function Index() {
           {prayer.heading && (
             <>
               <View style={{ alignItems: "center" }}>
-                <Text style={styles.heading}>{prayer.heading}</Text>
+                <Text style={[styles.heading, { color: theme.heading }]}>
+                  {prayer.heading}
+                </Text>
               </View>
-              <View style={styles.header_divider} />
+              <View
+                style={[
+                  styles.header_divider,
+                  { backgroundColor: theme.text },
+                ]}
+              />
             </>
           )}
           <View style={styles.card}>
             <Link
               key={prayer.id}
               href={`./prayer/${prayer.id}`}
-              style={styles.prayer}
+              style={[styles.prayer, { color: theme.text }]}
               onPress={haptic}
             >
               {prayer.title}
@@ -60,11 +68,16 @@ export default function Index() {
             <View>
               <Image
                 source={require("../../assets/orthodox/star1.png")}
-                style={styles.chevron}
+                style={[styles.chevron, { tintColor: theme.text }]}
               />
             </View>
           </View>
-          <View style={styles.prayer_divider} />
+          <View
+            style={[
+              styles.prayer_divider,
+              { backgroundColor: theme.text },
+            ]}
+          />
         </View>
       ))}
       <StatusBar style="auto" />
@@ -75,18 +88,15 @@ export default function Index() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: COLOURS.background_white,
   },
   banner: {
     fontSize: moderateScale(70, 1.2),
     fontFamily: "Athonite",
-    color: COLOURS.deep_red,
     textAlign: "center",
     paddingVertical: 40,
   },
   heading: {
     fontSize: moderateScale(30, 1.2),
-    color: COLOURS.red,
     fontFamily: "AlegreyaSC_400Regular",
   },
   prayer: {
@@ -112,7 +122,6 @@ const styles = StyleSheet.create({
   },
   header_divider: {
     height: 1,
-    backgroundColor: "#000",
     marginVertical: 14,
     opacity: 0.2,
   },
@@ -121,7 +130,6 @@ const styles = StyleSheet.create({
     width: "85%",
     marginVertical: 8,
     alignSelf: "center",
-    backgroundColor: "#000",
     opacity: 0.2,
   },
 });

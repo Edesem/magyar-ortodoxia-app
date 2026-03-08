@@ -1,29 +1,39 @@
 import React from "react";
 import { Icon, Label, NativeTabs } from "expo-router/unstable-native-tabs";
-import { DynamicColorIOS, Platform, Image } from "react-native";
+import { DynamicColorIOS, Platform, Image, useColorScheme } from "react-native";
 import { COLOURS } from "../../constants/colours";
 import { Tabs } from "expo-router";
 import MaterialIcons from "@expo/vector-icons/MaterialCommunityIcons.js";
 import { FontAwesome6 } from "@expo/vector-icons";
+import useTheme, { Theme } from "../../hooks/useTheme";
+import {
+  ThemeProvider,
+  DarkTheme,
+  DefaultTheme,
+} from "@react-navigation/native";
 
-function IOSTabs() {
+function IOSTabs({ theme }: { theme: Theme }) {
+  const colorScheme = useColorScheme();
+  
   return (
-    <NativeTabs tintColor={COLOURS.deep_red}>
-      <NativeTabs.Trigger name="index">
-        <Label>Imák</Label>
-        <Icon sf={"book.fill"} />
-      </NativeTabs.Trigger>
-      <NativeTabs.Trigger name="komboszkini">
-        <Label>Komboszkini</Label>
-        <Icon sf={"circle.grid.cross.fill"} />
-      </NativeTabs.Trigger>
-    </NativeTabs>
+    <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
+      <NativeTabs tintColor={theme.header}>
+        <NativeTabs.Trigger name="index">
+          <Label>Imák</Label>
+          <Icon sf={"book.fill"} />
+        </NativeTabs.Trigger>
+        <NativeTabs.Trigger name="komboszkini">
+          <Label>Komboszkini</Label>
+          <Icon sf={"circle.grid.cross.fill"} />
+        </NativeTabs.Trigger>
+      </NativeTabs>
+    </ThemeProvider>
   );
 }
 
-function AndroidTabs() {
+function AndroidTabs({ theme }: { theme: Theme }) {
   return (
-    <Tabs screenOptions={{ tabBarActiveTintColor: COLOURS.deep_red }}>
+    <Tabs screenOptions={{ tabBarActiveTintColor: theme.header }}>
       <Tabs.Screen
         name="index"
         options={{
@@ -49,5 +59,11 @@ function AndroidTabs() {
 }
 
 export default function TabsLayout() {
-  return Platform.OS === "ios" ? <IOSTabs /> : <AndroidTabs />;
+  const theme: Theme = useTheme();
+
+  return Platform.OS === "ios" ? (
+    <IOSTabs theme={theme} />
+  ) : (
+    <AndroidTabs theme={theme} />
+  );
 }

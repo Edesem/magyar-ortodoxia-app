@@ -4,7 +4,6 @@
     "slug": "magyar-ortodoxia-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/android-logo.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "scheme": "myapp",
@@ -41,8 +40,8 @@
       {
           "android": {
             "colorPrimary": "#fff",
-            "colorPrimaryDark": "#fff",
-            "colorAccent": "#fff"
+              "colorPrimaryDark": "#121212",
+              "colorAccent": "#8B0000"
           }
       }
     ]

@@ -38,6 +38,12 @@ export default function Index() {
     }
   };
 
+  const reset = (): void => {
+    setCount(0);
+    setRotation(0);
+    Vibration.vibrate();
+  };
+
   return (
     <SafeAreaProvider>
       <SafeAreaView style={[styles.container, {backgroundColor: theme.bg}]}>
@@ -61,6 +67,8 @@ export default function Index() {
         </View>
         <Pressable
           onPress={prayerRope}
+          onLongPress={reset}
+          delayLongPress={1000}
           style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
         >
           <Image

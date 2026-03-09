@@ -6,6 +6,9 @@ import {
   View,
   Image,
   Vibration,
+  Modal,
+  Button,
+  Platform,
 } from "react-native";
 import React, { useState } from "react";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
@@ -14,10 +17,13 @@ import { moderateScale, verticalScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import useOrientation from "../../hooks/useOrientation";
+import { Picker } from "@react-native-picker/picker";
 
 export default function Index() {
   const [count, setCount] = useState(0);
   const [rotation, setRotation] = useState(0);
+  const [komboszkini, setKomboszkini] = useState(100);
+  const [showPicker, setShowPicker] = useState(false);
 
   const theme = useTheme();
   const orientation = useOrientation();
@@ -34,6 +40,7 @@ export default function Index() {
     if (count >= 49) {
       Vibration.vibrate();
       setCount(0);
+      ``;
     }
   };
 
@@ -44,6 +51,9 @@ export default function Index() {
   };
 
   const isLandscape = orientation === "landscape";
+  const pickerPadding = Platform.OS === "ios" ? "35" : "25";
+  const pickerHeight = Platform.OS === "ios" ? 220 : 50;
+  const androidGap = Platform.OS === "ios" ? 0 : 20;
 
   return (
     <SafeAreaProvider>
@@ -103,17 +113,91 @@ export default function Index() {
           />
 
           <View>
-            <Text
-              style={{
-                fontSize: isLandscape
-                  ? moderateScale(30, 1.2)
-                  : moderateScale(50, 1.2),
-                fontFamily: "AlegreyaSC_400Regular",
-                color: theme.heading,
-              }}
-            >
-              50 csomó
-            </Text>
+            <Pressable onPress={() => setShowPicker(true)}>
+              <View
+                style={{
+                  flexDirection: "row",
+                  alignItems: "baseline",
+                  gap: 30,
+                }}
+              >
+                <Text
+                  style={{
+                    fontSize: isLandscape
+                      ? moderateScale(30, 1.2)
+                      : moderateScale(50, 1.2),
+                    fontFamily: "AlegreyaSC_400Regular",
+                    color: theme.heading,
+                  }}
+                >
+                  {komboszkini} csomó
+                </Text>
+
+                <FontAwesome
+                  name="chevron-circle-down"
+                  size={40}
+                  color={theme.heading}
+                />
+              </View>
+
+              <Modal visible={showPicker} transparent animationType="fade">
+                <Pressable
+                  style={{ flex: 1, backgroundColor: "rgba(0,0,0,0.4)" }}
+                  onPress={() => setShowPicker(false)}
+                >
+                  <View
+                    style={{
+                      flex: 1,
+                      justifyContent: "flex-end",
+                      backgroundColor: "rgba(0,0,0,0.4)",
+                    }}
+                  >
+                    <View
+                      style={{
+                        backgroundColor: theme.bg,
+                        height: `${pickerPadding}%`,
+                        borderTopLeftRadius: 20,
+                        borderTopRightRadius: 20,
+                        gap: androidGap
+                      }}
+                    >
+                      <Pressable onPress={() => {}}>
+                        <Picker
+                          mode="dropdown"
+                          style={{ height: pickerHeight, width: 250, alignSelf: "center"}}
+                          selectedValue={komboszkini}
+                          onValueChange={(komboszkini) =>
+                            setKomboszkini(komboszkini)
+                          }
+                          itemStyle={{
+                            fontSize: 25,
+                            color: "#111"
+                          }}
+                        >
+                          <Picker.Item label="100 csomó" value={100} />
+                          <Picker.Item label="50 csomó" value={50} />
+                          <Picker.Item label="33 csomó" value={33} />
+                        </Picker>
+                      </Pressable>
+
+                      <Pressable
+                        onPress={() => setShowPicker(false)}
+                        style={{ alignItems: "center" }}
+                      >
+                        <Text
+                          style={{
+                            fontSize: 20,
+                            color: "#111"
+                          }}
+                        >
+                          Kész
+                        </Text>
+                      </Pressable>
+                    </View>
+                  </View>
+                </Pressable>
+              </Modal>
+            </Pressable>
 
             <Text
               style={{

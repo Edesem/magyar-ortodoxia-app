@@ -91,7 +91,7 @@ export default function PrayerScreen() {
         })}
       </ScrollView>
 
-      <View style={{ width: 6, height: "100%", position: "absolute" }}>
+      <View style={{ width: 10, height: "100%", position: "absolute" }}>
         <View
           style={{
             width: "100%",

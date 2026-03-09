@@ -83,7 +83,7 @@ export default function Index() {
               style={{
                 color: theme.subtext,
                 fontFamily: "Alegreya_400Regular_Italic",
-                fontSize: moderateScale(20, 1.2),
+                fontSize: moderateScale(20, 0.8),
                 textAlign: "center",
               }}
             >
@@ -130,8 +130,8 @@ export default function Index() {
                 <Text
                   style={{
                     fontSize: isLandscape
-                      ? moderateScale(30, 1.2)
-                      : moderateScale(50, 1.2),
+                      ? moderateScale(30, 0.8)
+                      : moderateScale(50, 0.8),
                     fontFamily: "AlegreyaSC_400Regular",
                     color: theme.heading,
                   }}
@@ -141,7 +141,7 @@ export default function Index() {
 
                 <FontAwesome
                   name="chevron-circle-down"
-                  size={40}
+                  size={moderateScale(35, 0.8)}
                   color={theme.heading}
                 />
               </View>
@@ -214,7 +214,7 @@ export default function Index() {
                 color: theme.subtext,
                 fontFamily: "Alegreya_400Regular",
                 marginBottom: 40,
-                fontSize: moderateScale(18, 1.2),
+                fontSize: moderateScale(18, 0.8),
                 alignSelf: "center"
               }}
             >

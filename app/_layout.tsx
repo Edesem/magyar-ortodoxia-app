@@ -64,7 +64,7 @@ export default function RootLayout() {
               headerLargeTitleEnabled: true,
               headerLargeTitleStyle: {
                 fontFamily: "AlegreyaSC_700Bold",
-                fontSize: 50,
+                fontSize: moderateScale(50, 0.8),
                 color: theme.header,
               },
             }),
@@ -74,7 +74,7 @@ export default function RootLayout() {
               },
               headerTitleStyle: {
                 fontFamily: "AlegreyaSC_700Bold",
-                fontSize: moderateScale(35, 1.2),
+                fontSize: moderateScale(35, 0.8),
                 color: theme.header,
               },
             }),
@@ -91,7 +91,7 @@ export default function RootLayout() {
               headerLargeTitleEnabled: true,
               headerLargeTitleStyle: {
                 fontFamily: "AlegreyaSC_700Bold",
-                fontSize: 50,
+                fontSize: moderateScale(50, 0.8),
                 color: theme.header,
               },
             }),
@@ -101,7 +101,7 @@ export default function RootLayout() {
               },
               headerTitleStyle: {
                 fontFamily: "AlegreyaSC_700Bold",
-                fontSize: moderateScale(35, 1.2),
+                fontSize: moderateScale(35, 0.8),
                 color: theme.header,
               },
             }),

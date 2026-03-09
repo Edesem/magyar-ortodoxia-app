@@ -103,18 +103,18 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   banner: {
-    fontSize: moderateScale(70, 1.2),
+    fontSize: moderateScale(70, ),
     fontFamily: "Athonite",
     textAlign: "center",
     paddingVertical: 40,
   },
   heading: {
-    fontSize: moderateScale(30, 1.2),
+    fontSize: moderateScale(30, 0.8),
     fontFamily: "AlegreyaSC_400Regular",
   },
   prayer: {
     fontFamily: "Alegreya_400Regular",
-    fontSize: moderateScale(25, 1.2),
+    fontSize: moderateScale(25, 0.8),
     maxWidth: "80%",
     flex: 1,
     paddingLeft: 25,

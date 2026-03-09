@@ -35,7 +35,7 @@ export default function info() {
           style={[styles.text, { color: theme.text }]}
         >{`Ennek az alkalmazásnak a célja, hogy egy digitális platformot biztosítson a magyar ortodox keresztények számára hitük gyakorlására, a fizikai eszközök kiegészítéseként.
 
-Ezt az alkalmazást Őeminenciája Arszeniosz, Ausztria Metropolitája, Magyarország és Közép-Európa Exarchája megáldotta.
+Az alkalmazást kifejlesztésére Őeminenciája Arszeniosz, Ausztria Metropolitája, Magyarország és Közép-Európa Exarchája áldását adta.
 
 A szöveg fő forrása a 2025-ben kiadott I. kiadású Imakönyv.
 

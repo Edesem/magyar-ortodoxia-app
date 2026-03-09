@@ -181,7 +181,7 @@ export default function Index() {
                           }
                           itemStyle={{
                             fontSize: 25,
-                            color: "#111",
+                            color: theme.text,
                           }}
                         >
                           <Picker.Item label="100 csomó" value={100} />
@@ -197,7 +197,7 @@ export default function Index() {
                         <Text
                           style={{
                             fontSize: 20,
-                            color: "#111",
+                            color: theme.subtext,
                           }}
                         >
                           Kész

@@ -217,7 +217,7 @@ Uram, irgalmazz! (12x)`,
       },
       {
         heading: "Másik imádság",
-        text: `Dicsőség néked, Királyom, mindenható Isten, mert emberszerető isteni gondviseléseddel arra méltattál engem, búnös és méltatlan szolgádat, hogy fölkeljek álmomból és eljöjjek szent házadba. Úgy fogadd el, Uram, az én könyörgésem hangját is, ahogyan szent szellemi erőid hangját fogadod, és engedd meg, hogy tiszta szívvel és alázatos lélekkel felajánljam néked beszennyezett ajkam dicsérő szavait, hogy lelkem fényes lámpásával társa lehessek az okos szüzeknek és dicsőitselek téged, az Atyával és a Szentlélekkel együtt dicsőített Isten Igét. Ámin.
+        text: `Dicsőség néked, Királyom, mindenható Isten, mert emberszerető isteni gondviseléseddel arra méltattál engem, bűnös és méltatlan szolgádat, hogy fölkeljek álmomból és eljöjjek szent házadba. Úgy fogadd el, Uram, az én könyörgésem hangját is, ahogyan szent szellemi erőid hangját fogadod, és engedd meg, hogy tiszta szívvel és alázatos lélekkel felajánljam néked beszennyezett ajkam dicsérő szavait, hogy lelkem fényes lámpásával társa lehessek az okos szüzeknek és dicsőitselek téged, az Atyával és a Szentlélekkel együtt dicsőített Isten Igét. Ámin.
         
 ${COME_LET_US}`,
       },

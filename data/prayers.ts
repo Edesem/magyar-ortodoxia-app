@@ -1079,7 +1079,7 @@ ${HOLY_FATHERS}`,
     id: 7,
     heading: "Más imák",
     title: "Kis könyörgő kánon a legszentebb Istenszülőhöz",
-    header_title: "Parakliszisz",
+    header_title: "Paraklisz",
     sections: [
       {
         text: NAME_OF,

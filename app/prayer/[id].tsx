@@ -72,7 +72,19 @@ export default function PrayerScreen() {
               {/* paragraphs */}
               {paragraphs.map((paragraph, paragraphIndex) => {
                 const firstLetter = paragraph.charAt(0);
-                const rest = paragraph.slice(1);
+                const firstChunk = paragraph.slice(1);
+
+                const regex = /\(\d{1,2}x\)/;
+                let match = null;
+                let rest = firstChunk;
+
+                console.log("(40×)".match(/\(\d{1,2}x\)/)); // ["(40x)"]
+
+                if (regex.test(firstChunk)) {
+                  match = firstChunk.match(regex);
+                  console.log(match)
+                  rest = firstChunk.replace(regex, "")
+                }
 
                 return (
                   <Text
@@ -83,6 +95,9 @@ export default function PrayerScreen() {
                       {firstLetter}
                     </Text>
                     {rest}
+                    <Text style={[styles.text, { color: theme.subheading }]}>
+                      {match}
+                    </Text>
                   </Text>
                 );
               })}

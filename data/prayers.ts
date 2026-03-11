@@ -678,7 +678,7 @@ Az Úr házában lakozom hosszú időn át.`,
 
 Kicsoda megy fel az Úr hegyére, és kicsoda áll meg az ő szent helyén? 
 
-Az, akinek keze ártatlan és szíve tiszta, aki nem adta lelkét hazugsára, és nem esküdött hamisan felebarátjának.
+Az, akinek keze ártatlan és szíve tiszta, aki nem adta lelkét hazugságra, és nem esküdött hamisan felebarátjának.
 
 Az nyer áldást az Úrtól, és könyörületet üdvözítő Istenétől. 
 
@@ -712,7 +712,7 @@ Néked mutatom be a dicséret áldozatát, és az Úr nevét szólítom.
 
 Az Úrnak tett fogadalmaimat megtartom az ő egész népe előtt, az Úr házának tornácaiban, városod közepén, Jeruzsálem.
 
-${GLORY}
+${GLORY_BOTH}
 
 Alliluia, alliluia, alliluia. Dicsőség néked, Isten! (3×)
 
@@ -788,7 +788,8 @@ Uram, irgalmazz! (40×)`,
  és ne is vessél el engem, 
  sem szavam, viselkedésem,
  sem nagy szégyentelenségem!
- Engedd, hogy bátran elmondjam, 
+ Engedd, hogy bátran 
+ elmondjam, 
  Krisztusom, amit szeretnék,
  de még taníts is meg engem, 
  hogy mit tegyek, miként szóljak!

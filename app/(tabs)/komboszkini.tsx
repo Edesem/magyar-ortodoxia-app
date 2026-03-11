@@ -124,7 +124,12 @@ export default function Index() {
                 style={{
                   flexDirection: "row",
                   alignItems: "baseline",
-                  gap: 20,
+                  gap: 10,
+                  backgroundColor: theme.header,
+                  paddingHorizontal: 20,
+                  paddingVertical: 5,
+                  borderRadius: 40,
+                  marginBottom: 20,
                 }}
               >
                 <Text
@@ -133,7 +138,7 @@ export default function Index() {
                       ? moderateScale(30, 0.8)
                       : moderateScale(50, 0.8),
                     fontFamily: "AlegreyaSC_400Regular",
-                    color: theme.heading,
+                    color: theme.bg,
                   }}
                 >
                   {komboszkini} csomó
@@ -142,7 +147,7 @@ export default function Index() {
                 <FontAwesome
                   name="chevron-circle-down"
                   size={moderateScale(35, 0.8)}
-                  color={theme.heading}
+                  color={theme.bg}
                 />
               </View>
 

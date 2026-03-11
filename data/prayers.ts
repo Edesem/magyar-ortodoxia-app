@@ -429,17 +429,17 @@ ${BOTH_NOW}
 
 Minden szenteknek és Isten Szülőjének közbenjárásai által, Urunk, add meg nekünk a te békédet, és irgalmazz nekünk, mint egyedüli könyörületes.
 
-Uram, irgalmazz! (40×)
+Uram, irgalmazz! (40x)
 
 Akit minden időben és minden órában, a mennyben és a földön imádnak és dicsőítenek, Krisztus Isten, aki hosszantűrő, nagyirgalmú és igen könyörületes vagy, aki az igazakat szereted és a bűnösöknek irgalmazol, és aki az eljövendő javak ígéretével üdvösségre hívsz mindeneket, te magad, Urunk, fogadd el ebben az órában is a mi fohászkodásunkat, és vezéreld életünket parancsolataid szerint. Szenteld meg lelkünket, tisztítsd meg testünket, igazítsd ki gondolatainkat, tisztítsd meg értelmünket, és szabadíts meg minket minden keserűségtől, bajtól és gyötrődéstől! Végy körül bennünket szent angyalaiddal, hogy az őrködésüktől oltalmazva és vezérelve eljussunk a hit egységére és a te megközelíthetetlen dicsőséged ismeretére, mert áldott vagy mindörökkön örökké. Ámin.
 
-Uram, irgalmazz! (3×)
+Uram, irgalmazz! (3x)
 
 ${GLORY_BOTH}
 
 ${AKI_A_KERUB}
 
-Uram, irgalmazz! (12×)
+Uram, irgalmazz! (12x)
 
 Legszentebb Istenszülő, ments meg és segíts meg bennünket!`,
       },
@@ -500,7 +500,7 @@ Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent
 
 ${GLORY_BOTH}
 
-Uram, irgalmazz! (3×)
+Uram, irgalmazz! (3x)
 
 Áldott az Isten, aki ifjúságunk óta könyörül rajtunk, és táplál bennünket. Te, aki eleséget adsz minden testnek, töltsd el szívünket örömmel és vigassággal, hogy mindig mindennel teljesen ellátva még feleslegünk is legyen minden jócselekedetre Jézus Krisztusban, a mi Urunkban, akivel együtt illet téged dicsőség, hatalom, tisztelet és imádás a Szentlélekkel együtt, mindörökké. Ámin. 
 
@@ -513,7 +513,7 @@ Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, 
 
 ${GLORY_BOTH}
 
-Uram, irgalmazz! (3×)
+Uram, irgalmazz! (3x)
 
 Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.
 `
@@ -524,7 +524,7 @@ Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent
 
 ${GLORY_BOTH}
 
-Uram, irgalmazz! (3×)
+Uram, irgalmazz! (3x)
 
 Áldott az Isten, aki irgalmaz nekünk, és gazdag ajándékaival táplál bennünket kegyelméből és emberszeretetéből mindig, most és mindenkor és mindörökkön örökké. Ámin.
 
@@ -714,9 +714,9 @@ Az Úrnak tett fogadalmaimat megtartom az ő egész népe előtt, az Úr házán
 
 ${GLORY_BOTH}
 
-Alliluia, alliluia, alliluia. Dicsőség néked, Isten! (3×)
+Alliluia, alliluia, alliluia. Dicsőség néked, Isten! (3x)
 
-Uram, irgalmazz! (3×)`,
+Uram, irgalmazz! (3x)`,
       },
       {
         heading: "Tropárionok (2. plagális hang)",
@@ -736,7 +736,7 @@ ${BOTH_NOW}`,
         subheading: "Nagycsütörtökön hozzáfűzzük",
         text: `Amikor a dicsőséges tanítványok megvilágosodtak a vacsorán a lábmosás által, akkor az istentelen Júdás elsötétült a kapzsiság betegségétől, és elárult törvénytelen bíráknak téged, az igazságos Bírót. Lásd, ó pénzimádó, azt, aki ezért kötéllel lakolt! Kerüld a telhetetlen lelket, amely ilyet merészelt tenni a tanítóval! Mindenkihez jóságos Urunk, dicsőség néked!
 
-Uram, irgalmazz! (40×)`,
+Uram, irgalmazz! (40x)`,
       },
       {
         heading: "Tanító vers",
@@ -976,7 +976,7 @@ Emberszerető Uralkodó, Jézus Krisztus Urunk és Istenünk, ne legyenek ezek a
         heading: "Buzdító versek",
         text: `Midőn Urunk titokzatos és éltető ajándékát magadhoz vetted tisztesen, köszönd meg rögtön, énekelj dicséretet, s lelked mélyéből Istenünkhöz így kiálts: 
         
-Dicsőség néked, Isten (3×)`,
+Dicsőség néked, Isten (3x)`,
       },
       {
         heading: "Hálaadó imák",
@@ -1057,7 +1057,7 @@ ${BOTH_NOW}`,
         heading: "Utána",
         text: `Sok fénnyel ragyogó égnek bizonyult az Egyház, amely minden hívőt megvilágosít. Ott állva így kiáltsunk: Ezt a házat erősítsd meg, Urunk!
         
-Uram, irgalmazz! (12×)
+Uram, irgalmazz! (12x)
 
 ${GLORY_BOTH}`,
       },
@@ -1065,7 +1065,7 @@ ${GLORY_BOTH}`,
         heading: "Theotokion",
         text: `Keresztények csalhatatlan oltalma, az Alkotóhoz való állhatatos közvetítője, ne vesd el a bűnösök könyörgő hangját, hanem igyekezz, mint jóságos segítségünkre, kik híven kiáltjuk hozzád: légy gyors a közbenjárásban és siess az esedezésben, Istennek Szülője, ki mindenkor oltalmazod tisztelőidet!
 
-Uram, irgalmazz! (12×)
+Uram, irgalmazz! (12x)
 
 ${GLORY_BOTH}
 

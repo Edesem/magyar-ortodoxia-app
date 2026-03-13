@@ -78,11 +78,8 @@ export default function PrayerScreen() {
                 let match = null;
                 let rest = firstChunk;
 
-                console.log("(40×)".match(/\(\d{1,2}x\)/)); // ["(40x)"]
-
                 if (regex.test(firstChunk)) {
                   match = firstChunk.match(regex);
-                  console.log(match)
                   rest = firstChunk.replace(regex, "")
                 }
 

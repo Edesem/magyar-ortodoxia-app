@@ -1,6 +1,6 @@
 import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import { Text, StyleSheet, ScrollView, View, Dimensions } from "react-native";
+import { Text, StyleSheet, ScrollView, View, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
 import { Prayer, prayerData } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
@@ -10,7 +10,6 @@ import useOrientation from "../../hooks/useOrientation";
 
 export default function PrayerScreen() {
   const [progress, setProgress] = useState(0);
-
   const { id } = useLocalSearchParams();
   const navigation = useNavigation();
   const theme = useTheme();
@@ -18,6 +17,8 @@ export default function PrayerScreen() {
   // For prayers (p) check p.id and see if it's equal to id
   const prayer: Prayer = prayerData.find((p) => p.id === Number(id))!;
   const sections = prayer.sections;
+
+  const imageSize = prayer.imageSize ? prayer.imageSize: 100;
 
   const handleScroll = (event) => {
     const { contentOffset, contentSize, layoutMeasurement } = event.nativeEvent;
@@ -80,7 +81,7 @@ export default function PrayerScreen() {
 
                 if (regex.test(firstChunk)) {
                   match = firstChunk.match(regex);
-                  rest = firstChunk.replace(regex, "")
+                  rest = firstChunk.replace(regex, "");
                 }
 
                 return (
@@ -101,6 +102,13 @@ export default function PrayerScreen() {
             </React.Fragment>
           );
         })}
+
+        <View style={{alignItems: "center", paddingTop: 70}}>
+          <Image
+            source={prayer.image}
+            style={{ height: imageSize, resizeMode: "contain", tintColor: theme.heading }}
+          />
+        </View>
       </ScrollView>
 
       <View style={{ width: 10, height: "100%", position: "absolute" }}>

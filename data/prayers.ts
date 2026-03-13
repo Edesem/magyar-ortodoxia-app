@@ -11,21 +11,23 @@ export interface Prayer {
   title: string;
   header_title: string;
   sections: PrayerSection[];
+  image: string;
+  imageSize?: number;
 }
 
-const NAME_OF = `Az Atyának és Fiúnak és Szentléleknek nevében. Ámin.`
+const NAME_OF = `Az Atyának és Fiúnak és Szentléleknek nevében. Ámin.`;
 
-const HOLY_FATHERS = `Szent atyáink imái által, Urunk, Jézus Krisztus Istenünk, irgalmazz nekünk, és üdvözíts minket! Ámin.`
+const HOLY_FATHERS = `Szent atyáink imái által, Urunk, Jézus Krisztus Istenünk, irgalmazz nekünk, és üdvözíts minket! Ámin.`;
 
-const OUR_FATHER = `Mi Atyánk, ki a mennyekben vagy, szenteltessék meg a te neved, jöjjön el a te országod, legyen meg a te akaratod, miképpen a mennyben, úgy a földön is. Mindennapi kenyerünket add meg nekünk ma; és bocsásd meg a mi vétkeinket, miképpen mi is megbocsátunk az ellenünk vétkezőknek; és ne vígy minket kísértésbe, hanem szabadíts meg a gonosztól.`
+const OUR_FATHER = `Mi Atyánk, ki a mennyekben vagy, szenteltessék meg a te neved, jöjjön el a te országod, legyen meg a te akaratod, miképpen a mennyben, úgy a földön is. Mindennapi kenyerünket add meg nekünk ma; és bocsásd meg a mi vétkeinket, miképpen mi is megbocsátunk az ellenünk vétkezőknek; és ne vígy minket kísértésbe, hanem szabadíts meg a gonosztól.`;
 
-const GLORY_BOTH = `Dicsőség az Atyának és Fiúnak és Szent Léleknek, most és mindenkor és mindörökkön örökké. Ámin.`
+const GLORY_BOTH = `Dicsőség az Atyának és Fiúnak és Szent Léleknek, most és mindenkor és mindörökkön örökké. Ámin.`;
 
-const GLORY = `Dicsőség az Atyának és Fiúnak és Szent Léleknek.`
+const GLORY = `Dicsőség az Atyának és Fiúnak és Szent Léleknek.`;
 
-const BOTH_NOW = `Most és mindenkor és mindörökkön örökké. Ámin.`
+const BOTH_NOW = `Most és mindenkor és mindörökkön örökké. Ámin.`;
 
-const MOST_HOLY = `Legszentebb Istenszülő, ments meg minket.`
+const MOST_HOLY = `Legszentebb Istenszülő, ments meg minket.`;
 
 const PSALM_50: string = `Irgalmazz nékem, Isten, a te nagy irgalmasságod szerint, és könyörületességed sokasága szerint töröld el vétkezéseimet!
 
@@ -113,11 +115,12 @@ const COME_LET_US = `Jertek, hódoljunk Istennek, a mi Királyunknak!
 
 Jertek, hódoljunk és boruljunk le Krisztus Isten, a mi Királyunk előtt!
 
-Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk előtt!`
+Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk előtt!`;
 
-const AKI_A_KERUB = "Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk."
+const AKI_A_KERUB =
+  "Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk.";
 
-const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. ${AKI_A_KERUB}`
+const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. ${AKI_A_KERUB}`;
 
 const MIDDLE = `${AXION}
 
@@ -173,15 +176,15 @@ Jóságos Lelked vezessen engem az egyenes földön! A te nevedért, Uram, élte
 
 Igazságosságodban vezesd ki lelkemet a sanyarúságból, irgalmadban irtsd ki ellenségeimet!
 
-Pusztítsd el mindazokat, akik szorongatják lelkemet, mert én a te szolgád vagyok!`
+Pusztítsd el mindazokat, akik szorongatják lelkemet, mert én a te szolgád vagyok!`;
 
-const GOD_IS_THE_LORD = `Isten az Úr és megjelent nékünk, áldott, aki az Úr nevében jön.`
+const GOD_IS_THE_LORD = `Isten az Úr és megjelent nékünk, áldott, aki az Úr nevében jön.`;
 
 const INTO_KATHISMA = `Uram, irgalmazz! (12x)
 
 ${GLORY_BOTH}
 
-${COME_LET_US}`
+${COME_LET_US}`;
 
 export const prayerData: Prayer[] = [
   {
@@ -295,7 +298,7 @@ Megőrzi az Úr minden csontjukat, és egy sem töretik meg azokból.
 
 Gonosz a bűnösök halála, és mindaz, aki gyűlöli az igaz embert, megbánja.
 
-Megmenti az Úr az Ő szolgáinak lelkét, és senkit, aki benne reménykedik, nem ér bánkódás.`
+Megmenti az Úr az Ő szolgáinak lelkét, és senkit, aki benne reménykedik, nem ér bánkódás.`,
       },
       {
         heading: "Hitvallás",
@@ -340,6 +343,7 @@ Jó dolog megvallani az Urat, és énekelni a te nevednek, ó, Magasságos, hird
 ${HOLY_FATHERS}`,
       },
     ],
+    image: require(`../assets/orthodox/ByzantineCross.png`),
   },
   {
     id: 1,
@@ -347,10 +351,9 @@ ${HOLY_FATHERS}`,
     header_title: "Kis Lenyugvási",
     sections: [
       {
-        text:
-          `${INTRO}
+        text: `${INTRO}
 
-${INTO_KATHISMA}`
+${INTO_KATHISMA}`,
       },
       {
         heading: "50. zsoltár",
@@ -456,7 +459,7 @@ Reménységem az Atya, menedékem a Fiú, oltalmam a Szentlélek. Szentháromsá
 
 Minden reménységemet beléd vetem, Istennek Anyja, őrizz meg engem a te oltalmad alatt.
 
-Benned örvendezik, Kegyelembefogadott, az egész teremtés, az angyalok rendje és az emberek nemzetsége. Megszentelt Templom, szellemi Paradicsom, szűzi büszkeségünk, aki által megtestesült az Isten, és gyermekké lett a mi öröktől fogva való Istenünk. Mert a te méhedet trónusává tette, és öledet az egeknél tágasabbá változtatta. Benned örvendezik, Kegyelembefogadott, az egész teremtés, dicsőség néked!`,        
+Benned örvendezik, Kegyelembefogadott, az egész teremtés, az angyalok rendje és az emberek nemzetsége. Megszentelt Templom, szellemi Paradicsom, szűzi büszkeségünk, aki által megtestesült az Isten, és gyermekké lett a mi öröktől fogva való Istenünk. Mert a te méhedet trónusává tette, és öledet az egeknél tágasabbá változtatta. Benned örvendezik, Kegyelembefogadott, az egész teremtés, dicsőség néked!`,
       },
       {
         heading: "Ima az őrangyalhoz",
@@ -473,6 +476,7 @@ A te könyörületedhez folyamodunk, Istennek Szülője, ne feledkezz meg esedez
 ${HOLY_FATHERS}`,
       },
     ],
+    image: require("../assets/orthodox/CrossAndDots.png"),
   },
   {
     id: 2,
@@ -499,7 +503,7 @@ Uram, irgalmazz! (3x)
 
 Áldott az Isten, aki ifjúságunk óta könyörül rajtunk, és táplál bennünket. Te, aki eleséget adsz minden testnek, töltsd el szívünket örömmel és vigassággal, hogy mindig mindennel teljesen ellátva még feleslegünk is legyen minden jócselekedetre Jézus Krisztusban, a mi Urunkban, akivel együtt illet téged dicsőség, hatalom, tisztelet és imádás a Szentlélekkel együtt, mindörökké. Ámin. 
 
-Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.`
+Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.`,
       },
       {
         heading: "Vacsora előtt",
@@ -509,7 +513,7 @@ ${GLORY_BOTH}
 
 Uram, irgalmazz! (3x)
 
-Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.`
+Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Vacsora után",
@@ -521,9 +525,10 @@ Uram, irgalmazz! (3x)
 
 Áldott az Isten, aki irgalmaz nekünk, és gazdag ajándékaival táplál bennünket kegyelméből és emberszeretetéből mindig, most és mindenkor és mindörökkön örökké. Ámin.
 
-Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.`
+Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.`,
       },
     ],
+    image: require("../assets/orthodox/GolgothaCross.png"),
   },
   {
     id: 3,
@@ -533,7 +538,8 @@ Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, 
     sections: [
       {
         text: INTRO,
-        postheading: "Amikor a tisztaságos misztériumokhoz készülsz járulni, bűnbánattal mondd el az alábbi kánont, amelynek akrosztichonja a 9. óda theotokionjában ezt adja: Theognosztosztól."
+        postheading:
+          "Amikor a tisztaságos misztériumokhoz készülsz járulni, bűnbánattal mondd el az alábbi kánont, amelynek akrosztichonja a 9. óda theotokionjában ezt adja: Theognosztosztól.",
       },
       {
         heading: "1. óda",
@@ -632,6 +638,7 @@ Tűzzé és fénnyé legyen számomra, ó, Üdvözítőm, legdrágább tested é
 ${HOLY_FATHERS}`,
       },
     ],
+    image: require("../assets/orthodox/JerusalemCross.png"),
   },
   {
     id: 4,
@@ -932,16 +939,17 @@ Ez tesz engem vakmerővé,
         text: `Hiszem, Uram, és vallom, hogy valóban Te vagy a Krisztus, az élő Isten Fia, aki eljöttél a világra, hogy a bűnösöket üdvözítsd, akik között az első én vagyok. Hiszem még, hogy ez maga a te szeplőtlen tested, és ez maga a te drága véred. Könyörgök tehát hozzád, irgalmazz nekem, és bocsásd meg szándékos és szándéktalan vétkezéseimet, amelyeket szóval, cselekedettel, tudatosan vagy öntudatlanul követtem el, és méltass engem arra, hogy elítéltetés nélkül részesüljek legtisztább misztériumaidból a bűnök bocsánatára és az örök életre. Ámin.`,
       },
     ],
+    image: require("../assets/orthodox/Seraph.png"),
   },
   {
     id: 5,
     title: "Közvetlenül áldozás előtt",
     header_title: "Áldozás előtt",
     sections: [
-        {
-            heading: "Közvetlenül áldozás előtt",
-            subheading: "Fordító Simeontól",
-            text: `Lám, rettegéssel szentségedhez járulok, Formálóm, meg ne égess engem általa,
+      {
+        heading: "Közvetlenül áldozás előtt",
+        subheading: "Fordító Simeontól",
+        text: `Lám, rettegéssel szentségedhez járulok, Formálóm, meg ne égess engem általa,
 
 Hisz tűz vagy, mely a méltatlant elégeti, de tisztíts meg minden szennyfolttól, Krisztusom!
 
@@ -953,12 +961,15 @@ Elbűvöltél vágyaddal, ó Krisztus, és átváltoztattál isteni szerelmeddel
 
 Szentélyed ragyogásába hogyan lépjek be, én méltatlan? Hiszen, ha bemennék a nászcsarnokba, köntösöm elárulna engem, mert nem menyegzőre való, s az angyalok megkötözve kivetnek onnan. Tisztítsd meg lelkemnek szennyét, Uram, és üdvözíts engem, mint emberszerető.
 
-Emberszerető Uralkodó, Jézus Krisztus Urunk és Istenünk, ne legyenek ezek a szentségek elítéltetésemre méltatlanságom miatt, hanem lelkem és testem megtisztulására és megszentelésére, és eljegyzésemre az eljövendő élettel és országgal! Mert jó nekem az Istenhez ragaszkodnom, és az Úrba helyeznem üdvözülésemnek reménységét.`},
-{
-  subheading: "Majd újból:",
-  text: `Titokzatos vacsorádnak részesévé fogadj ma engem, Istennek Fia, mert nem mondom el ellenségeidnek a titkot, sem csókot nem adok néked, mint Júdás, de megvallak, akár a lator: Emlékezz meg rólam, Uram, a te országodban! Emlékezz meg rólam, Uralkodóm, midőn eljössz a te országodban! Emlékezz meg rólam, Szent, midőn eljössz a te országodban!`,
-        },
-    ]
+Emberszerető Uralkodó, Jézus Krisztus Urunk és Istenünk, ne legyenek ezek a szentségek elítéltetésemre méltatlanságom miatt, hanem lelkem és testem megtisztulására és megszentelésére, és eljegyzésemre az eljövendő élettel és országgal! Mert jó nekem az Istenhez ragaszkodnom, és az Úrba helyeznem üdvözülésemnek reménységét.`,
+      },
+      {
+        subheading: "Majd újból:",
+        text: `Titokzatos vacsorádnak részesévé fogadj ma engem, Istennek Fia, mert nem mondom el ellenségeidnek a titkot, sem csókot nem adok néked, mint Júdás, de megvallak, akár a lator: Emlékezz meg rólam, Uram, a te országodban! Emlékezz meg rólam, Uralkodóm, midőn eljössz a te országodban! Emlékezz meg rólam, Szent, midőn eljössz a te országodban!`,
+      },
+    ],
+    image: require("../assets/orthodox/ProsphoraSeal.png"),
+    imageSize: 200,
   },
   {
     id: 6,
@@ -1006,7 +1017,8 @@ Te egymagad vagy lelkeinknek orvosa, megszentelője, megvilágító Ura, és min
         text: `Most bocsásd el szolgádat, Uralkodóm, ígéreted szerint békességben, mert meglátták szemeim üdvösségedet, amelyet minden nép szemeláttára készítettél világosságul a nemzetek megvilágosítására és népednek, Izraelnek dicsőségére.
         
 ${MIDDLE_NO_AXION}`,
-        postheading: "A napi apolitikion és kondákion, valamint azé a szenté, akinek isteni liturgiáját végeztük."
+        postheading:
+          "A napi apolitikion és kondákion, valamint azé a szenté, akinek isteni liturgiáját végeztük.",
       },
       {
         heading: "Aranyszájú Szent János Liturgiája után Apolitikion (8. hang)",
@@ -1034,14 +1046,14 @@ ${BOTH_NOW}`,
       },
       {
         heading: "Előreszentelt adományok liturgiája után",
-        subheading: ",,Az isteni hit...\" dallamára",
+        subheading: ',,Az isteni hit..." dallamára',
         text: `Éber értelmet, ó, Gergely főpap, ajándékozott néked az Isten, s az isteni ige hirdetőjének bizonyultál. Az erények kinyilatkoztatójaként megmutatod az igazság ragyogását. Szentéletű atyánk, esedezz Krisztus Istenhez, hogy adja meg nekünk a nagy irgalmat!
         
 ${GLORY}`,
       },
       {
         heading: "Kondákion (8. hang)",
-        subheading: "A ,,Védelmező hadvezérnőnk...\" dallamára",
+        subheading: 'A ,,Védelmező hadvezérnőnk..." dallamára',
         text: `Az Egyháznak ihletett, sokhúrú lantját és a bölcsességnek Istent hirdető nyelvét méltóképpen dicsőítsük a Dialógus szerzőjét! Az apostolok buzgóságát követvén azoknak nyomdokaiban jártál. Ezért így kiáltsunk: Örvendezz, Szent Gergely főpap atyánk!
 
 ${BOTH_NOW}`,
@@ -1067,6 +1079,7 @@ ${AKI_A_KERUB}
 ${HOLY_FATHERS}`,
       },
     ],
+    image: require("../assets/orthodox/star3.png"),
   },
   {
     id: 7,
@@ -1103,7 +1116,7 @@ ${GOD_IS_THE_LORD}`,
 
 ${GLORY_BOTH}
 
-Sohasem szűnünk meg, Istennek Szülője, hirdetni a te hatalmadat, mi méltatlanok. Hiszen, ha te közbenjárásoddal nem védelmeztél volna bennünket, ki mentett volna ki minket annyi veszedelemből? Ki őrzött volna meg bennünket mindmáig szabadnak? Nem pártolunk el tőled, Nagyasszonyunk, mert te mindenkor megmented szolgáidat minden bajtól.`
+Sohasem szűnünk meg, Istennek Szülője, hirdetni a te hatalmadat, mi méltatlanok. Hiszen, ha te közbenjárásoddal nem védelmeztél volna bennünket, ki mentett volna ki minket annyi veszedelemből? Ki őrzött volna meg bennünket mindmáig szabadnak? Nem pártolunk el tőled, Nagyasszonyunk, mert te mindenkor megmented szolgáidat minden bajtól.`,
       },
       {
         heading: "50. zsoltár",
@@ -1128,7 +1141,7 @@ Esedezem hozzád ó, Szűz, aki a Megváltót és Istent szülted, szabadíts me
 
 ${BOTH_NOW}
 
-Méltasd beteg testemet és lelkemet isteni meglátogatásra, és a te gondviselésedre, egyedüli Istenanyja, mert jóságos vagy, és a Jónak Szülője.`
+Méltasd beteg testemet és lelkemet isteni meglátogatásra, és a te gondviselésedre, egyedüli Istenanyja, mert jóságos vagy, és a Jónak Szülője.`,
       },
       {
         heading: "3. óda, Irmosz",
@@ -1361,7 +1374,6 @@ Némák az istentelenek ajkai, akik nem hódolnak a legszentebb Lukács apostol 
 Angyalok összes serege, az Úr Előhírnöke, tizenkét apostol, és minden szentek, az Isten szülőjével együtt járjatok közre üdvözülésünkért!
 
 ${MIDDLE_NO_AXION}`,
-
       },
       {
         heading: "Tropárionok (2. plagális hang)",
@@ -1405,5 +1417,7 @@ Arannyal bevont torony, tizenkétfalú város, a Király napsugarat árasztó tr
 ${HOLY_FATHERS}`,
       },
     ],
+    image: require("../assets/orthodox/annunciation.png"),
+    imageSize: 300,
   },
 ];

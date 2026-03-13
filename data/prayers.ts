@@ -37,6 +37,8 @@ export const U_I_40 = `Uram, irgalmazz! (40x)`;
 
 export const MOST_HOLY = `Legszentebb Istenszülő, ments meg minket.`;
 
+export const TRISAGION = `Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)`
+
 const PSALM_50: string = `Irgalmazz nékem, Isten, a te nagy irgalmasságod szerint, és könyörületességed sokasága szerint töröld el vétkezéseimet!
 
 Teljesen moss meg törvényszegésemtől, és bűnömtől tisztíts meg engem!
@@ -107,7 +109,7 @@ ${GLORY_TO_YOU}
 
 Mennyei Király, Vigasztaló, igazságnak Lelke, aki mindenütt jelen vagy és mindeneket betöltesz, minden javak kincsestára és az élet adományozója, jöjj, és lakozzál mibennünk, és tisztíts meg minket minden szennyfolttól, és üdvözítsd, Jóságos, a mi lelkünket.
 
-Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)
+${TRISAGION}
 
 ${GLORY_BOTH}
 
@@ -132,7 +134,7 @@ const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az
 
 const MIDDLE = `${AXION}
 
-Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)
+${TRISAGION}
 
 ${GLORY_BOTH}
 
@@ -144,7 +146,7 @@ ${GLORY_BOTH}
 
 ${OUR_FATHER}`;
 
-const MIDDLE_NO_AXION = `Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)
+const MIDDLE_NO_AXION = `${TRISAGION}
 
 ${GLORY_BOTH}
 

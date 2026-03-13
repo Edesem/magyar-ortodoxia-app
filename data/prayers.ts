@@ -65,8 +65,7 @@ Kegyeskedj jót cselekedni, Uram, Sionnal, és épüljenek fel Jeruzsálem falai
 
 Akkor kegyesen fogadod majd az igazságosság áldozatát, a felajánlást és az égőáldozatokat.
 
-Akkor majd borjakat visznek oltárodra.
-`;
+Akkor majd borjakat visznek oltárodra.`;
 
 const CREED = `Hiszek egy Istenben, mindenható Atyában, mennynek és földnek, minden látható és láthatatlan dolgoknak Teremtőjében;
 
@@ -90,8 +89,7 @@ Egy keresztséget vallok a bűnök bocsánatára;
 
 Várom a holtak feltámadását;
 
-És az eljövendő örök életet. Ámin.
-`;
+És az eljövendő örök életet. Ámin.`;
 
 const INTRO = `${NAME_OF}
 
@@ -133,8 +131,7 @@ Uram irgalmazz. (3x)
 
 ${GLORY_BOTH}
 
-${OUR_FATHER}
-`;
+${OUR_FATHER}`;
 
 const MIDDLE_NO_AXION = `Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)
 
@@ -146,8 +143,7 @@ Uram irgalmazz. (3x)
 
 ${GLORY_BOTH}
 
-${OUR_FATHER}
-`;
+${OUR_FATHER}`;
 
 const PSALM_142 = `Uram, hallgasd meg imádságomat, halld meg könyörgésemet a te igazságodban, hallgass meg engem igazságosságodban!
 
@@ -491,8 +487,7 @@ ${GLORY_BOTH}
 
 Uram, irgalmazz! (3x)
 
-Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.
-        `,
+Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Hálaadás étkezés után",
@@ -504,8 +499,7 @@ Uram, irgalmazz! (3x)
 
 Áldott az Isten, aki ifjúságunk óta könyörül rajtunk, és táplál bennünket. Te, aki eleséget adsz minden testnek, töltsd el szívünket örömmel és vigassággal, hogy mindig mindennel teljesen ellátva még feleslegünk is legyen minden jócselekedetre Jézus Krisztusban, a mi Urunkban, akivel együtt illet téged dicsőség, hatalom, tisztelet és imádás a Szentlélekkel együtt, mindörökké. Ámin. 
 
-Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.
-`
+Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.`
       },
       {
         heading: "Vacsora előtt",
@@ -515,8 +509,7 @@ ${GLORY_BOTH}
 
 Uram, irgalmazz! (3x)
 
-Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.
-`
+Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.`
       },
       {
         heading: "Vacsora után",
@@ -1102,8 +1095,7 @@ ${GOD_IS_THE_LORD}
 
       3. vers: Az Úrtól lett ez, és csodálatos a mi szemünkben.
 
-${GOD_IS_THE_LORD}
-        `,
+${GOD_IS_THE_LORD}`,
       },
       {
         heading: `4. hang. Aki önként felmentél a keresztre...`,
@@ -1111,8 +1103,7 @@ ${GOD_IS_THE_LORD}
 
 ${GLORY_BOTH}
 
-Sohasem szűnünk meg, Istennek Szülője, hirdetni a te hatalmadat, mi méltatlanok. Hiszen, ha te közbenjárásoddal nem védelmeztél volna bennünket, ki mentett volna ki minket annyi veszedelemből? Ki őrzött volna meg bennünket mindmáig szabadnak? Nem pártolunk el tőled, Nagyasszonyunk, mert te mindenkor megmented szolgáidat minden bajtól.
-        `
+Sohasem szűnünk meg, Istennek Szülője, hirdetni a te hatalmadat, mi méltatlanok. Hiszen, ha te közbenjárásoddal nem védelmeztél volna bennünket, ki mentett volna ki minket annyi veszedelemből? Ki őrzött volna meg bennünket mindmáig szabadnak? Nem pártolunk el tőled, Nagyasszonyunk, mert te mindenkor megmented szolgáidat minden bajtól.`
       },
       {
         heading: "50. zsoltár",
@@ -1161,8 +1152,7 @@ Keserves betegségek és ártalmas szenvedélyek megpróbáltatásait szenvedem,
 
 Szabadítsd meg a veszedelmektől szolgáidat, Istennek Szülője, mert Isten után hozzád menekedünk mindnyájan, rendíthetetlen védőfalunkhoz és oltalmunkhoz!
 
-Legmagasztaltabb Istenszülő, jóakaratodban tekints testem keserves sínylődésére, és gyógyítsd meg lelkem fájdalmát!
-`,
+Legmagasztaltabb Istenszülő, jóakaratodban tekints testem keserves sínylődésére, és gyógyítsd meg lelkem fájdalmát!`,
       },
       {
         heading: "Kathizma (2. hang)",
@@ -1230,8 +1220,7 @@ ${BOTH_NOW}
 
 Szabadítsd meg a veszedelmektől szolgáidat, Istennek Szülője, mert Isten után hozzád menekedünk mindnyájan, rendíthetetlen védőfalunkhoz és oltalmunkhoz!
 
-Ó, Tisztaságos, aki a végső napokban kifejezhetetlen módon szülted ige által az Igét, engeszteld őt, hiszen anyai bizodalmad van hozzá!
-`,
+Ó, Tisztaságos, aki a végső napokban kifejezhetetlen módon szülted ige által az Igét, engeszteld őt, hiszen anyai bizodalmad van hozzá!`,
       },
       {
         heading: "Kontákion (2. hang)",
@@ -1249,8 +1238,7 @@ A Szentlélek által minden lélek megelevenedik, és megtisztulva fölemelkedik
 
 ${BOTH_NOW}
 
-A Szentlélek által fakad a kegyelem árja, amely az egész teremtést éltetően öntözi.
-`,
+A Szentlélek által fakad a kegyelem árja, amely az egész teremtést éltetően öntözi.`,
       },
       {
         heading: "Prokimen",
@@ -1258,8 +1246,7 @@ A Szentlélek által fakad a kegyelem árja, amely az egész teremtést éltető
 
       vers: Halljad, leány, és lásd, és hajtsd ide füledet! Felejtsd el népedet és atyádnak házát, és megkívánja a Király a te szépségedet!
 
-Megemlékezem a te Nevedről nemzedékről nemzedékre.
-`,
+Megemlékezem a te Nevedről nemzedékről nemzedékre.`,
       },
       {
         heading: "Evangélium Lk 1, 39-49 és 56",
@@ -1311,8 +1298,7 @@ Az üdvösség kincsesházaként és a romolhatatlanság forrásaként, a bizton
 
 ${BOTH_NOW}
 
-Istennek Szülője, méltasd gyógyulásra a test gyöngeségeiből és a lélek betegségeiből azokat, akik vágyakozással közelítenek isteni oltalmadhoz, mert te szülted nekünk az Üdvözítő Krisztust!
-`,
+Istennek Szülője, méltasd gyógyulásra a test gyöngeségeiből és a lélek betegségeiből azokat, akik vágyakozással közelítenek isteni oltalmadhoz, mert te szülted nekünk az Üdvözítő Krisztust!`,
       },
       {
         heading: "8. óda, Irmosz",
@@ -1332,8 +1318,7 @@ Lelkem betegségeit és testem fájdalmait meggyógyítod, ó, Szűz, hogy dics�
 
 ${BOTH_NOW}
 
-Visszavered a kísértések rajtaütéseit és a szenvedélyek támadásait, ó, Szűz. Ezért dicsérünk téged mindörökkön örökké.
-`,
+Visszavered a kísértések rajtaütéseit és a szenvedélyek támadásait, ó, Szűz. Ezért dicsérünk téged mindörökkön örökké.`,
       },
       {
         heading: "9. óda, Irmosz",
@@ -1357,8 +1342,7 @@ Világosságod sugaraival tedd ragyogóvá, ó, Szűz, azokat, akik Téged isten
 
 ${BOTH_NOW}
 
-Megaláztattam a betegség és a gyötrelem helyén, gyógyíts meg engem, ó, Szűz, egészségre változtatván betegségemet!
-`,
+Megaláztattam a betegség és a gyötrelem helyén, gyógyíts meg engem, ó, Szűz, egészségre változtatván betegségemet!`,
       },
       {
         heading: "Megalinárionok",
@@ -1376,8 +1360,7 @@ Némák az istentelenek ajkai, akik nem hódolnak a legszentebb Lukács apostol 
 
 Angyalok összes serege, az Úr Előhírnöke, tizenkét apostol, és minden szentek, az Isten szülőjével együtt járjatok közre üdvözülésünkért!
 
-${MIDDLE_NO_AXION}
-`,
+${MIDDLE_NO_AXION}`,
 
       },
       {
@@ -1390,13 +1373,11 @@ Urunk, irgalmazz nekünk, mert benned bíztunk! Ne lobbanj nagy haragra irántun
 
 ${BOTH_NOW}
 
-A könyörületesség kapuját nyisd meg nékünk, Istennek áldott Szülője, hogy benned bízva el ne tévedjünk, hanem megszabaduljunk általad a nyomorúságoktól, mert te vagy a keresztények nemzetségének üdvössége!
-        `,
+A könyörületesség kapuját nyisd meg nékünk, Istennek áldott Szülője, hogy benned bízva el ne tévedjünk, hanem megszabaduljunk általad a nyomorúságoktól, mert te vagy a keresztények nemzetségének üdvössége!`,
       },
       {
         heading: "További tropárionok (2. hang)",
-        text: `Mindenkit oltalmazol, Jóságos, aki hittel a te hatalmas kezedhez menekedik. Hiszen nincs is nekünk, sok vétkünk súlya alatt görnyedő bűnösöknek, soha más közbenjárónk Isten előtt a veszedelmekben és nyomorúságokban, csak te, a magasságos Istennek Anyja. Ezért hát esedezünk hozzád: szabadítsd meg szolgáidat minden nyomorúságtól!
-`,
+        text: `Mindenkit oltalmazol, Jóságos, aki hittel a te hatalmas kezedhez menekedik. Hiszen nincs is nekünk, sok vétkünk súlya alatt görnyedő bűnösöknek, soha más közbenjárónk Isten előtt a veszedelmekben és nyomorúságokban, csak te, a magasságos Istennek Anyja. Ezért hát esedezünk hozzád: szabadítsd meg szolgáidat minden nyomorúságtól!`,
       },
       {
         heading: "Ugyanazon hangra",

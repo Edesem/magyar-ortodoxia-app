@@ -2,7 +2,7 @@ import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import { Text, StyleSheet, ScrollView, View, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { BOTH_NOW, GLORY, GLORY_BOTH, GLORY_TO_YOU, MOST_HOLY, Prayer, prayerData, TRISAGION, U_I_12, U_I_3, U_I_40 } from "../../data/prayers";
+import { BOTH_NOW, GLORY, GLORY_BOTH, GLORY_TO_YOU, MOST_HOLY, Prayer, prayerData, TRISAGION, U_I_12, U_I_3, U_I_40, XAIRE } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
 import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
@@ -76,8 +76,13 @@ export default function PrayerScreen() {
                 const firstChunk = paragraph.slice(1);
 
                 const centered = [U_I_3, U_I_12, U_I_40,GLORY, BOTH_NOW, GLORY_TO_YOU, MOST_HOLY, TRISAGION].includes(paragraph)
-
-                const centering = centered ? "center" : "left"
+                const right = [XAIRE].includes(paragraph)
+                
+                const centering: "left" | "center" | "right" = centered
+                ? "center"
+                : right
+                ? "right"
+                : "left";
 
                 const regex = /\(\d{1,2}x\)/;
                 let match = null;

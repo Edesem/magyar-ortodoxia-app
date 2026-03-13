@@ -424,7 +424,8 @@ Uram, a te irgalmad örökkévaló, ne vesd meg kezednek alkotásait. Téged ill
         text: CREED,
       },
       {
-        text: MIDDLE,
+        text: `
+${MIDDLE}`,
       },
       {
         heading: "Apolitikionok",

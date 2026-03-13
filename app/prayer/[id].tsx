@@ -2,7 +2,7 @@ import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import { Text, StyleSheet, ScrollView, View, Image } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { Prayer, prayerData } from "../../data/prayers";
+import { BOTH_NOW, GLORY, GLORY_BOTH, GLORY_TO_YOU, MOST_HOLY, Prayer, prayerData, U_I_12, U_I_3, U_I_40 } from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
 import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
@@ -75,6 +75,10 @@ export default function PrayerScreen() {
                 const firstLetter = paragraph.charAt(0);
                 const firstChunk = paragraph.slice(1);
 
+                const centered = [U_I_3, U_I_12, U_I_40,GLORY, BOTH_NOW, GLORY_TO_YOU, MOST_HOLY].includes(paragraph)
+
+                const centering = centered ? "center" : "left"
+
                 const regex = /\(\d{1,2}x\)/;
                 let match = null;
                 let rest = firstChunk;
@@ -86,7 +90,7 @@ export default function PrayerScreen() {
 
                 return (
                   <Text
-                    style={[styles.text, { color: theme.text }]}
+                    style={[styles.text, { color: theme.text, textAlign: centering }]}
                     key={paragraphIndex}
                   >
                     <Text style={[styles.dropCap, { color: theme.subheading }]}>

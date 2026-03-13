@@ -62,7 +62,6 @@ export default function Index() {
       <Pressable
         onPress={() => {
           Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
-          console.log(HEADERS[header]);
           if (header == HEADERS.length - 1) {
             setHeader(0);
           } else {

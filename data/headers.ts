@@ -1,0 +1,1 @@
+export const HEADERS: string[] = [`Magyar Ortodoxia`, `Ortodoxia Magyarul`, `Ορθοδοξία η θάνατος!`]

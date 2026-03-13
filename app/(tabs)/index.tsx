@@ -9,39 +9,48 @@ import {
   Platform,
 } from "react-native";
 import { Prayer, prayerData } from "../../data/prayers";
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "expo-router";
 import * as Haptics from "expo-haptics";
 import { moderateScale, verticalScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import useOrientation from "../../hooks/useOrientation";
+import { HEADERS } from "../../data/headers";
 
 const prayers: Prayer[] = prayerData;
 
 export default function Index() {
+  const [header, setHeader] = useState(0);
+
   const haptic = () => {
     Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
   };
 
   const theme = useTheme();
-  const androidPadding = Platform.OS === 'android' ? 80 : 0
+  const androidPadding = Platform.OS === "android" ? 80 : 0;
 
-  const orientationHorizontalPadding = useOrientation() === 'landscape' ? 80 : 25;
-  const orientationVerticalPadding = useOrientation() === 'landscape' ? 20 : 0;
-
+  const orientationHorizontalPadding =
+    useOrientation() === "landscape" ? 80 : 25;
+  const orientationVerticalPadding = useOrientation() === "landscape" ? 20 : 0;
 
   const infoPage = () => {
     haptic();
-  }
+  };
 
   return (
     <ScrollView
-      contentContainerStyle={{ paddingHorizontal: orientationHorizontalPadding, paddingTop: androidPadding }}
+      contentContainerStyle={{
+        paddingHorizontal: orientationHorizontalPadding,
+        paddingTop: androidPadding,
+      }}
       style={[styles.container, { backgroundColor: theme.bg }]}
     >
-      
-      <Link href={'./information'} style={{marginTop: orientationVerticalPadding}} onPress={infoPage}>
+      <Link
+        href={"./information"}
+        style={{ marginTop: orientationVerticalPadding }}
+        onPress={infoPage}
+      >
         <MaterialCommunityIcons
           name="information-variant-circle"
           size={35}
@@ -50,13 +59,25 @@ export default function Index() {
         />
       </Link>
 
-      <Text
-        style={[styles.banner, { color: theme.header }]}
-        numberOfLines={2}
-        adjustsFontSizeToFit
+      <Pressable
+        onPress={() => {
+          Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Heavy);
+          console.log(HEADERS[header]);
+          if (header == HEADERS.length - 1) {
+            setHeader(0);
+          } else {
+            setHeader(header + 1);
+          }
+        }}
       >
-        Magyar Ortodoxia
-      </Text>
+        <Text
+          style={[styles.banner, { color: theme.header }]}
+          numberOfLines={2}
+          adjustsFontSizeToFit
+        >
+          {HEADERS[header]}
+        </Text>
+      </Pressable>
 
       {prayers.map((prayer, _) => (
         <View style={{ marginBottom: 10 }} key={prayer.id}>

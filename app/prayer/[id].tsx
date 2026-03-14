@@ -112,10 +112,10 @@ export default function PrayerScreen() {
           );
         })}
 
-        <View style={{alignItems: "center", paddingTop: 70}}>
+        <View style={{alignItems: "center", paddingVertical: 70}}>
           <Image
             source={prayer.image}
-            style={{ height: imageSize, resizeMode: "contain", tintColor: theme.heading }}
+            style={{ height: imageSize, resizeMode: "contain", tintColor: theme.heading}}
           />
         </View>
       </ScrollView>

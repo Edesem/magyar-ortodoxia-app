@@ -175,7 +175,7 @@ export default function Index() {
                           mode="dropdown"
                           style={{
                             height: pickerHeight,
-                            width: 250,
+                            width: 200,
                             alignSelf: "center",
                           }}
                           selectedValue={komboszkini}

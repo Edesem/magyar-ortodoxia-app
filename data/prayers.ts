@@ -117,7 +117,7 @@ ${GLORY_BOTH}
 
 Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
 
-Uram irgalmazz. (3x)
+${U_I_3}
 
 ${GLORY_BOTH}
 
@@ -142,7 +142,7 @@ ${GLORY_BOTH}
 
 Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
 
-Uram irgalmazz. (3x)
+${U_I_3}
 
 ${GLORY_BOTH}
 
@@ -154,7 +154,7 @@ ${GLORY_BOTH}
 
 Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
 
-Uram irgalmazz. (3x)
+${U_I_3}
 
 ${GLORY_BOTH}
 

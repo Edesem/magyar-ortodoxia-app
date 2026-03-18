@@ -834,7 +834,8 @@ Tudod bajom sokaságát,
  s sóhajtásaim is hallod.
  Nem marad előtted rejtve, 
  Istenem, Uram, Megváltóm,
- egyetlenegy könnycseppem sem,
+ egyetlenegy könnycseppem 
+ sem,
  sem a könnycsepp kicsiny része.
  Azt, ami csak szándék bennem,
  szemed látja réges-régtől,

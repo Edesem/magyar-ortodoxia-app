@@ -1,38 +1,43 @@
-import { StatusBar } from "expo-status-bar";
 import {
-  Pressable,
+  Platform,
   ScrollView,
   StyleSheet,
   Text,
   View,
   Image,
-  Platform,
 } from "react-native";
+import useTheme from "../../hooks/useTheme";
+import useOrientation from "../../hooks/useOrientation";
+import { bookmarkService } from "../../services/bookmarkService";
+import { useEffect, useState } from "react";
 import { Prayer, prayerData } from "../../data/prayers";
-import React, { useState } from "react";
 import { Link } from "expo-router";
 import { moderateScale, verticalScale } from "react-native-size-matters";
-import useTheme from "../../hooks/useTheme";
-import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
-import useOrientation from "../../hooks/useOrientation";
-import { HEADERS } from "../../data/headers";
 import { haptic } from "../../utils/haptic";
 
 const prayers: Prayer[] = prayerData;
 
-export default function Index() {
-  const [header, setHeader] = useState(0);
+export default function kanon() {
+  const [bookmarks, setBookmarks] = useState<string[]>([]);
 
   const theme = useTheme();
+
   const androidPadding = Platform.OS === "android" ? 80 : 0;
 
   const orientationHorizontalPadding =
-    useOrientation() === "landscape" ? 80 : 25;
+    useOrientation() === "landscape" ? 80 : 10;
   const orientationVerticalPadding = useOrientation() === "landscape" ? 20 : 0;
 
-  const infoPage = () => {
-    haptic();
-  };
+  useEffect(() => {
+    const loadBookmarks = async () => {
+      const list = await bookmarkService.getAll();
+      setBookmarks(list);
+    };
+
+    loadBookmarks();
+  }, [bookmarks]);
+
+  const bookmark = prayers.filter((prayer) => bookmarks.includes(prayer.id));
 
   return (
     <ScrollView
@@ -40,58 +45,27 @@ export default function Index() {
         paddingHorizontal: orientationHorizontalPadding,
         paddingTop: androidPadding,
       }}
+      contentInsetAdjustmentBehavior="automatic"
       style={[styles.container, { backgroundColor: theme.bg }]}
     >
-      <Link
-        href={"./information"}
-        style={{ marginTop: orientationVerticalPadding }}
-        onPress={infoPage}
+      <Text
+        style={[styles.banner, { color: theme.header }]}
+        adjustsFontSizeToFit
       >
-        <MaterialCommunityIcons
-          name="information-variant-circle"
-          size={35}
-          color={theme.subtext}
-          style={{ position: "absolute" }}
-        />
-      </Link>
+        KÜnon
+      </Text>
 
-      <Pressable
-        onPress={() => {
-          haptic();
-          if (header == HEADERS.length - 1) {
-            setHeader(0);
-          } else {
-            setHeader(header + 1);
-          }
-        }}
-      >
-        <Text
-          style={[styles.banner, { color: theme.header }]}
-          numberOfLines={2}
-          adjustsFontSizeToFit
-        >
-          {HEADERS[header]}
-        </Text>
-      </Pressable>
-
-      {prayers.map((prayer, _) => (
+      {bookmark.map((prayer, _) => (
         <View style={{ marginBottom: 10 }} key={prayer.id}>
           {prayer.heading && (
             <>
-              <View style={{ alignItems: "center" }}>
-                <Text style={[styles.heading, { color: theme.heading }]}>
-                  {prayer.heading}
-                </Text>
-              </View>
-              <View
-                style={[styles.header_divider, { backgroundColor: theme.text }]}
-              />
+              <View style={{ alignItems: "center" }}></View>
             </>
           )}
           <View style={styles.card}>
             <Link
               key={prayer.id}
-              href={`./prayer/${prayer.id}`}
+              href={`../prayer/${prayer.id}`}
               style={[styles.prayer, { color: theme.text }]}
               onPress={haptic}
             >
@@ -99,7 +73,7 @@ export default function Index() {
             </Link>
             <View>
               <Image
-                source={require("../../assets/orthodox/star1.png")}
+                source={require("../../assets/orthodox/star3.png")}
                 style={[styles.chevron, { tintColor: theme.text }]}
               />
             </View>
@@ -109,10 +83,9 @@ export default function Index() {
           />
         </View>
       ))}
-      <StatusBar style="auto" />
 
       <Image
-        source={require("../../assets/orthodox/TwoBarCross.png")}
+        source={require("../../assets/orthodox/GolgothaCross.png")}
         style={{
           width: "100%",
           height: 300,
@@ -158,7 +131,7 @@ const styles = StyleSheet.create({
     marginRight: 25,
     opacity: 0.6,
     width: "100%",
-    height: verticalScale(20),
+    height: verticalScale(25),
   },
   header_divider: {
     height: 1,

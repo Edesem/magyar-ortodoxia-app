@@ -6,7 +6,7 @@ export interface PrayerSection {
 }
 
 export interface Prayer {
-  id: number;
+  id: string;
   heading?: string;
   title: string;
   header_title: string;
@@ -200,7 +200,7 @@ ${COME_LET_US}`;
 
 export const prayerData: Prayer[] = [
   {
-    id: 0,
+    id: "0",
     heading: "Mindennapi imák",
     title: "Reggeli Imák",
     header_title: "Reggeli Imák",
@@ -358,7 +358,7 @@ ${HOLY_FATHERS}`,
     image: require(`../assets/orthodox/ByzantineCross.png`),
   },
   {
-    id: 1,
+    id: "1",
     title: "Kis Lenyugvási",
     header_title: "Kis Lenyugvási",
     sections: [
@@ -492,7 +492,7 @@ ${HOLY_FATHERS}`,
     image: require("../assets/orthodox/CrossAndDots.png"),
   },
   {
-    id: 2,
+    id: "2",
     title: "Imádság étkezéskor",
     header_title: "Étkezéskor",
     sections: [
@@ -541,10 +541,10 @@ ${U_I_3}
 Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, mert eledelt adtál nekünk vigasságunkra! Tölts el bennünket Szentlélekkel is, hogy kedveltek legyünk a színed előtt, és ne szégyenüljünk meg, amikor mindenkinek megfizetsz cselekedetei szerint.`,
       },
     ],
-    image: require("../assets/orthodox/GolgothaCross.png"),
+    image: require("../assets/orthodox/ArmenianOrnament.png"),
   },
   {
-    id: 3,
+    id: "3",
     heading: "A szentáldozás imái",
     title: "Imádság a szentáldozás előtti estén",
     header_title: "Előtti estén",
@@ -654,7 +654,7 @@ ${HOLY_FATHERS}`,
     image: require("../assets/orthodox/JerusalemCross.png"),
   },
   {
-    id: 4,
+    id: "4",
     title: "Imádság reggel, szentáldozás előtt",
     header_title: "Imádság reggel",
     sections: [
@@ -956,7 +956,7 @@ Ez tesz engem vakmerővé,
     image: require("../assets/orthodox/Seraph.png"),
   },
   {
-    id: 5,
+    id: "5",
     title: "Közvetlenül áldozás előtt",
     header_title: "Áldozás előtt",
     sections: [
@@ -986,7 +986,7 @@ Emberszerető Uralkodó, Jézus Krisztus Urunk és Istenünk, ne legyenek ezek a
     imageSize: 200,
   },
   {
-    id: 6,
+    id: "6",
     title: "Hálaadás szentáldozás után",
     header_title: "Áldozás után",
     sections: [
@@ -1096,7 +1096,7 @@ ${HOLY_FATHERS}`,
     image: require("../assets/orthodox/star3.png"),
   },
   {
-    id: 7,
+    id: "7",
     heading: "Más imák",
     title: "Kis könyörgő kánon a legszentebb Istenszülőhöz",
     header_title: "Paraklisz",
@@ -1112,15 +1112,15 @@ ${HOLY_FATHERS}`,
         heading: `4. hang`,
         text: `${GOD_IS_THE_LORD}
 
-      1. vers: Valljátok meg az Urat, és hívjátok segítségül az ő szent nevét!
+ 1. vers: Valljátok meg az Urat, és hívjátok segítségül az ő szent nevét!
 
 ${GOD_IS_THE_LORD}
 
-      2. vers: Körülvettek engem a nemzetek, de az Úr nevével elűztem őket.
+ 2. vers: Körülvettek engem a nemzetek, de az Úr nevével elűztem őket.
 
 ${GOD_IS_THE_LORD}
 
-      3. vers: Az Úrtól lett ez, és csodálatos a mi szemünkben.
+ 3. vers: Az Úrtól lett ez, és csodálatos a mi szemünkben.
 
 ${GOD_IS_THE_LORD}`,
       },
@@ -1271,7 +1271,7 @@ A Szentlélek által fakad a kegyelem árja, amely az egész teremtést éltető
         heading: "Prokimen",
         text: `Megemlékezem a te Nevedről nemzedékről nemzedékre. (2x)
 
-      vers: Halljad, leány, és lásd, és hajtsd ide füledet! Felejtsd el népedet és atyádnak házát, és megkívánja a Király a te szépségedet!
+ vers: Halljad, leány, és lásd, és hajtsd ide füledet! Felejtsd el népedet és atyádnak házát, és megkívánja a Király a te szépségedet!
 
 Megemlékezem a te Nevedről nemzedékről nemzedékre.`,
       },
@@ -1295,7 +1295,7 @@ ${BOTH_NOW}
 
 Isten Szülőjének közbenjárásai által, ó, Irgalmas, töröld el vétkeimnek sokaságát!
 
-      vers: Irgalmazz nékem, Isten nagy irgalmasságod szerint, és könyörületed sokasága szerint töröld el az én vétkezéseimet!`,
+ vers: Irgalmazz nékem, Isten nagy irgalmasságod szerint, és könyörületed sokasága szerint töröld el az én vétkezéseimet!`,
       },
       {
         heading: "2. plagális hang",
@@ -1435,7 +1435,7 @@ ${HOLY_FATHERS}`,
     imageSize: 300,
   },
   {
-    id: 8,
+    id: "8",
     title: "Himnusz a legszentebb Istenszülőhöz",
     header_title: "Ἁγνὴ Παρθένε",
     sections: [

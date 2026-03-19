@@ -1,24 +1,51 @@
 import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import { Text, StyleSheet, ScrollView, View, Image } from "react-native";
+import {
+  Text,
+  StyleSheet,
+  ScrollView,
+  View,
+  Image,
+  Pressable,
+} from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { BOTH_NOW, GLORY, GLORY_BOTH, GLORY_TO_YOU, MOST_HOLY, Prayer, prayerData, TRISAGION, U_I_12, U_I_3, U_I_40, XAIRE } from "../../data/prayers";
+import {
+  BOTH_NOW,
+  GLORY,
+  GLORY_BOTH,
+  GLORY_TO_YOU,
+  MOST_HOLY,
+  Prayer,
+  prayerData,
+  TRISAGION,
+  U_I_12,
+  U_I_3,
+  U_I_40,
+  XAIRE,
+} from "../../data/prayers";
 import { COLOURS } from "../../constants/colours";
 import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import useOrientation from "../../hooks/useOrientation";
+import { storage } from "../../services/storage";
+import { STORAGE_KEYS } from "../../services/storageKeys";
+import { Ionicons } from "@expo/vector-icons";
+import { bookmarkService } from "../../services/bookmarkService";
 
 export default function PrayerScreen() {
   const [progress, setProgress] = useState(0);
+  const [isBookmarked, setIsBookedmarked] = useState(false);
+
   const { id } = useLocalSearchParams();
+  const prayerId = id as string;
   const navigation = useNavigation();
   const theme = useTheme();
 
   // For prayers (p) check p.id and see if it's equal to id
-  const prayer: Prayer = prayerData.find((p) => p.id === Number(id))!;
+  const prayer: Prayer = prayerData.find((p) => p.id === id)!;
   const sections = prayer.sections;
 
-  const imageSize = prayer.imageSize ? prayer.imageSize: 100;
+  const imageSize = prayer.imageSize ? prayer.imageSize : 100;
 
   const handleScroll = (event) => {
     const { contentOffset, contentSize, layoutMeasurement } = event.nativeEvent;
@@ -31,11 +58,36 @@ export default function PrayerScreen() {
     }
   };
 
+  useEffect(() => {
+    const loadBookmark = async () => {
+      const saved = bookmarkService.isBookmarked(prayerId);
+      setIsBookedmarked(await saved);
+    };
+
+    loadBookmark();
+  }, [prayerId]);
+
   useLayoutEffect(() => {
     navigation.setOptions({
       title: prayer.header_title ?? " ",
+      headerRight: () => (
+        <Pressable
+          onPress={async () => {
+            const next = await bookmarkService.toggle(prayerId);
+            setIsBookedmarked(next);
+            
+          }}
+          style={{ paddingHorizontal: 8 }}
+        >
+          <Ionicons
+            name={isBookmarked ? "bookmark" : "bookmark-outline"}
+            size={24}
+            color={theme.text}
+          />
+        </Pressable>
+      ),
     });
-  }, [navigation, prayer]);
+  }, [navigation, prayer, isBookmarked]);
 
   const orientationPadding = useOrientation() === "landscape" ? 80 : 25;
 
@@ -72,38 +124,69 @@ export default function PrayerScreen() {
 
               {/* paragraphs */}
               {paragraphs.map((paragraph, paragraphIndex) => {
-                const firstLetter = paragraph.charAt(0);
-                const firstChunk = paragraph.slice(1);
+                const dropCap = paragraph.charAt(0);
+                const paragraphBody = paragraph.slice(1);
 
-                const centered = [U_I_3, U_I_12, U_I_40,GLORY, BOTH_NOW, GLORY_TO_YOU, MOST_HOLY, TRISAGION].includes(paragraph)
-                const right = [XAIRE].includes(paragraph)
-                
-                const centering: "left" | "center" | "right" = centered
-                ? "center"
-                : right
-                ? "right"
-                : "left";
+                const isCenteredParagraph = [
+                  U_I_3,
+                  U_I_12,
+                  U_I_40,
+                  GLORY,
+                  BOTH_NOW,
+                  GLORY_TO_YOU,
+                  MOST_HOLY,
+                  TRISAGION,
+                ].includes(paragraph);
+                const isRightAlignedParagraph = [XAIRE].includes(paragraph);
 
-                const regex = /\(\d{1,2}x\)/;
-                let match = null;
-                let rest = firstChunk;
+                const textAlign: "left" | "center" | "right" =
+                  isCenteredParagraph
+                    ? "center"
+                    : isRightAlignedParagraph
+                    ? "right"
+                    : "left";
 
-                if (regex.test(firstChunk)) {
-                  match = firstChunk.match(regex);
-                  rest = firstChunk.replace(regex, "");
+                const repetitionMarkerRegex = /\(\d{1,2}x\)/;
+                let repetitionMarker = null;
+                let bodyWithoutRepetitionMarker = paragraphBody;
+
+                if (repetitionMarkerRegex.test(paragraphBody)) {
+                  repetitionMarker = paragraphBody.match(repetitionMarkerRegex);
+                  bodyWithoutRepetitionMarker = paragraphBody.replace(
+                    repetitionMarkerRegex,
+                    ""
+                  );
+                }
+
+                const verseLabelRegex = /\d?.? ?vers:/g;
+                let verseLabel = null;
+                let bodyWithoutVerseLabel = bodyWithoutRepetitionMarker;
+
+                if (verseLabelRegex.test(paragraph)) {
+                  verseLabel = paragraph.match(verseLabelRegex);
+                  bodyWithoutVerseLabel = bodyWithoutRepetitionMarker.replace(
+                    verseLabelRegex,
+                    ""
+                  );
                 }
 
                 return (
                   <Text
-                    style={[styles.text, { color: theme.text, textAlign: centering }]}
+                    style={[
+                      styles.text,
+                      { color: theme.text, textAlign: textAlign },
+                    ]}
                     key={paragraphIndex}
                   >
                     <Text style={[styles.dropCap, { color: theme.subheading }]}>
-                      {firstLetter}
+                      {dropCap}
                     </Text>
-                    {rest}
                     <Text style={[styles.text, { color: theme.subheading }]}>
-                      {match}
+                      {verseLabel}
+                    </Text>
+                    {bodyWithoutVerseLabel}
+                    <Text style={[styles.text, { color: theme.subheading }]}>
+                      {repetitionMarker}
                     </Text>
                   </Text>
                 );
@@ -112,10 +195,14 @@ export default function PrayerScreen() {
           );
         })}
 
-        <View style={{alignItems: "center", paddingVertical: 70}}>
+        <View style={{ alignItems: "center", paddingVertical: 70 }}>
           <Image
             source={prayer.image}
-            style={{ height: imageSize, resizeMode: "contain", tintColor: theme.heading}}
+            style={{
+              height: imageSize,
+              resizeMode: "contain",
+              tintColor: theme.heading,
+            }}
           />
         </View>
       </ScrollView>

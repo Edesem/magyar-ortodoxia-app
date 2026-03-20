@@ -31,6 +31,7 @@ import { storage } from "../../services/storage";
 import { STORAGE_KEYS } from "../../services/storageKeys";
 import { Ionicons } from "@expo/vector-icons";
 import { bookmarkService } from "../../services/bookmarkService";
+import { haptic } from "../../utils/haptic";
 
 export default function PrayerScreen() {
   const [progress, setProgress] = useState(0);
@@ -75,7 +76,7 @@ export default function PrayerScreen() {
           onPress={async () => {
             const next = await bookmarkService.toggle(prayerId);
             setIsBookedmarked(next);
-            
+            haptic();
           }}
           style={{ paddingHorizontal: 8 }}
         >

@@ -1219,7 +1219,7 @@ Istennek tisztaságos Anyja, jöjj, válts ki minket a veszedelmekből, aki az �
 
 ${GLORY}
 
-Oszlasd el vétkeimnek sötétségét, Isten menyaszszonya, ragyogásod világosságával, mert te szülted az isteni és örökkévalóság előtti Világosságot!
+Oszlasd el vétkeimnek sötétségét, Isten menyasszonya, ragyogásod világosságával, mert te szülted az isteni és örökkévalóság előtti Világosságot!
 
 ${BOTH_NOW}
 

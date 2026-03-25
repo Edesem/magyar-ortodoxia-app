@@ -110,3 +110,5 @@ export const INTO_KATHISMA = `${U_I_12}
 ${GLORY_BOTH}
 
 ${COME_LET_US}`;
+
+export const CHRIST_IS_RISEN = `Krisztus feltámadt halottaiból, halállal eltiporván a halált, és a sírban lévőknek életet ajándékozván.`;

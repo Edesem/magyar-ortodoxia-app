@@ -1,3 +1,55 @@
+export const PSALM_6 = `Uram, felindulásodban ne feddj meg engem, és haragodban ne büntess engem!
+Irgalmazz nékem, Uram, mert erőtlen vagyok!
+Gyógyíts meg, Uram, mert csontjaim megrettentek, és lelkem is igencsak megrettent! Te pedig, Urunk, meddig még?
+Téríts vissza, Urunk, szabadítsd meg lelkemet,
+ments meg engem a te irgalmadért!
+Mert a halálban nincs, aki megemlékeznék rólad, és az alvilágban ki fog magasztalni téged?
+Elfáradtam sóhajtozásomban, minden éjjel áztatom ágyamat, könnyemmel öntözöm fekhelyemet.
+Szemem megrettent haragod miatt, elsorvadtam ellenségeim között.
+Távozzatok tőlem mind, akik törvénytelenséget cselekedtek, mert meghallgatta az Úr jajveszékelésem hangját!
+Meghallgatta az Úr könyörgésemet, az Úr elfogadta imádságomat.
+Szégyenüljön meg és rettenjen meg minden
+ellenségem, hátráljon meg és valljon szégyent
+mihamarabb!`;
+
+export const PSALM_22 = `Az Úr pásztorol engem, semmiben sem
+szűkölködöm. Pázsitos réten ad nekem
+szállást.
+Csöndes víz mellett táplál engem, visszaadta
+lelkemet.
+Az igazságosság ösvényeire vezetett engem az
+ő nevéért.
+Hiszen, ha a halál árnyékában járok is, nem félek a bajoktól, mert te velem vagy.
+Pálcád és pásztorbotod megvigasztal.
+Asztalt terítettél nekem gyötrőim szeme láttára.
+Fejemet bekented olajjal, és poharad teljesen
+megrészegít.
+Irgalmad követ engem életemnek minden
+napján.
+Az Úr házában lakozom sok-sok időn át.`;
+
+export const PSALM_31 = `Boldogok, akiknek megbocsáttattak törvényszegéseik és elfedeztettek bűneik.
+Boldog az a férfiú, akinek az Úr nem tulajdonít
+bűnt, és akinek szájában nincsen álnokság.
+Mert elhallgattam, csontjaim elsorvadtak,
+amíg egész nap hozzád kiáltottam.
+Mert nappal és éjjel reám nehezedett a te kezed. Nyomorúságba estem, midőn tövis fúródott belém.
+Beismerem bűnömet, és nem rejtem el törvényszegésemet. Így szóltam: tanúságot teszek magam ellen törvényszegésemről az Úrnak. Te viszont megbocsátottad szívem istentelenségét.
+Ezért imádkozzék hozzád minden szent ember alkalmas időben; így a nagy vizek áradása
+nem jut el hozzá.
+Te vagy menedékem a szorongattatásban,
+amely körülvesz engem; örvendezésem vagy,
+ments meg azok kezéből, akik körülvettek
+engem.
+Intelek és irányítalak az úton, amelyen jársz;
+terajtad tartom szemeimet.
+Ne legyetek olyanok, mint a ló és az öszvér,
+amelyekben nincsen értelem, hanem kantárral
+és zablával szorítod pofájukat, hogy ne támadjanak reád.
+Sok csapás sújtja a bűnöst, de aki az Úrban reménykedik, irgalom öleli azt körül.
+Örvendezzetek az Úrban és vigadjatok, ti igazak, és dicsekedjetek mindnyájan, ti egyenes
+szívűek.`;
+
 export const PSALM_50: string = `Irgalmazz nékem, Isten, a te nagy irgalmasságod szerint, és könyörületességed sokasága szerint töröld el vétkezéseimet!
 
 Teljesen moss meg törvényszegésemtől, és bűnömtől tisztíts meg engem!
@@ -40,7 +92,7 @@ Akkor majd borjakat visznek oltárodra.`;
 
 export const PSALM_116 = `Dicsérje az Urat minden nemzet, magasztalja őt minden nép,
 mert irgalma megerősödött mirajtunk, és az
-Úr igazsága megmarad mindörökké.`
+Úr igazsága megmarad mindörökké.`;
 
 export const PSALM_129 = `A mélységből kiáltottam hozzád, Uram,
 Uram, hallgasd meg hangomat!
@@ -53,8 +105,7 @@ A reggeli őrségváltástól az éjszakáig, a reggeli
 őrségváltástól reménykedjék Izrael az Úrban!
 Mert az Úrnál van az irgalom, bőséges nála a
 megváltás, és ő váltja meg Izraelt minden törvényszegésétől.
-`
-
+`;
 
 export const PSALM_140 = `Uram, hozzád kiáltottam, hallgass meg engem, hallgass meg engem, Uram! Uram,
 hozzád kiáltottam, hallgass meg, figyelj könyörgésem hangjára, amikor hozzád kiáltok,
@@ -78,7 +129,7 @@ helyeztem reményemet, ne vedd el az életemet!
 Őrizz meg engem a kelepcétől, melyet nekem
 állítottak, és a törvénytelenséget cselekvők
 botrányaitól!
-Tulajdon hálójukba esnek a bűnösök, egymagam vagyok, amíg átmegyek köztük.`
+Tulajdon hálójukba esnek a bűnösök, egymagam vagyok, amíg átmegyek köztük.`;
 
 export const PSALM_141 = `Hangommal az Úrhoz kiáltottam, hangommal az Úrhoz könyörögtem.
 Kiöntöm elébe könyörgésemet, elé tárom nyomorúságomat,
@@ -96,7 +147,7 @@ vagy reménységem, te vagy osztályrészem az
 Figyelj fel könyörgésemre, mert nagyon megaláztattam!
 Szabadíts meg üldözőimtől, mert erősebbek
 lettek nálam!
-Vezesd ki a tömlöcből lelkemet, hogy megvalljam a nevedet! Engem várnak az igazak mindaddig, amíg megadod jutalmadat.`
+Vezesd ki a tömlöcből lelkemet, hogy megvalljam a nevedet! Engem várnak az igazak mindaddig, amíg megadod jutalmadat.`;
 
 export const PSALM_142 = `Uram, hallgasd meg imádságomat, halld meg könyörgésemet a te igazságodban, hallgass meg engem igazságosságodban!
 

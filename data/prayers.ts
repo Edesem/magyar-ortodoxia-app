@@ -1,202 +1,28 @@
-export interface PrayerSection {
-  heading?: string;
-  subheading?: string;
-  postheading?: string;
-  text: string;
-}
-
-export interface Prayer {
-  id: string;
-  heading?: string;
-  title: string;
-  header_title: string;
-  sections: PrayerSection[];
-  image: string;
-  imageSize?: number;
-}
-
-const NAME_OF = `Az Atyának és Fiúnak és Szentléleknek nevében. Ámin.`;
-
-const HOLY_FATHERS = `Szent atyáink imái által, Urunk, Jézus Krisztus Istenünk, irgalmazz nekünk, és üdvözíts minket! Ámin.`;
-
-const OUR_FATHER = `Mi Atyánk, ki a mennyekben vagy, szenteltessék meg a te neved, jöjjön el a te országod, legyen meg a te akaratod, miképpen a mennyben, úgy a földön is. Mindennapi kenyerünket add meg nekünk ma; és bocsásd meg a mi vétkeinket, miképpen mi is megbocsátunk az ellenünk vétkezőknek; és ne vígy minket kísértésbe, hanem szabadíts meg a gonosztól.`;
-
-export const GLORY_TO_YOU = `Dicsőség Néked, Istenünk, dicsőség Néked.`;
-
-export const GLORY_BOTH = `Dicsőség az Atyának és Fiúnak és Szent Léleknek, most és mindenkor és mindörökkön örökké. Ámin.`;
-
-export const GLORY = `Dicsőség az Atyának és Fiúnak és Szent Léleknek.`;
-
-export const BOTH_NOW = `Most és mindenkor és mindörökkön örökké. Ámin.`;
-
-export const U_I_3 = `Uram, irgalmazz! (3x)`;
-
-export const U_I_12 = `Uram, irgalmazz! (12x)`;
-
-export const U_I_40 = `Uram, irgalmazz! (40x)`;
-
-export const MOST_HOLY = `Legszentebb Istenszülő, ments meg minket.`;
-
-export const TRISAGION = `Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)`
-
-export const XAIRE = `Örvendj érintetlen Ara`
-
-const PSALM_50: string = `Irgalmazz nékem, Isten, a te nagy irgalmasságod szerint, és könyörületességed sokasága szerint töröld el vétkezéseimet!
-
-Teljesen moss meg törvényszegésemtől, és bűnömtől tisztíts meg engem!
-
-Mert ismerem törvényszegésemet, és bűnöm előttem van szüntelen.
-
-Csak ellened vétkeztem, és a gonoszságot előtted cselekedtem, hogy szavaid igaznak bizonyuljanak, és győzelmet arass, amikor megítélnek.
-
-Mert íme, törvénytelenségben fogantam, és anyám bűnökben hordozott.
-
-Íme, te az igazságot szereted, bölcsességed rejtett és titkos dolgait megmutattad nékem.
-
-Hints meg izsóppal, és megtisztulok; mosdass meg, és fehérebb leszek a hónál!
-
-Hallass velem örömet és vigasságot, hogy örvendezzenek megalázott csontjaim!
-
-Fordítsd el orcádat bűneimtől, és töröld el minden törvényszegésemet!
-
-Tiszta szívet teremts bennem, Istenem, és újítsd meg bensőmben az egyenes Lelket!
-
-Ne vess el a színed elől, és Szentlelkedet ne vedd el éntőlem!
-
-Add meg nekem, hogy üdvözítéseden örvendezzem, és vezérlő Lélekkel erősíts meg engem!
-
-Hadd tanítsam a törvényteleneket a te útjaidra, és az istentelenek megtérnek hozzád!
-
-Szabadíts meg a vérbűntől, Istenem, üdvösségemnek Istene, hogy örömmel hirdesse nyelvem igazságosságodat!
-
-Uram, nyisd meg ajkamat, és szám a te dicséretedet fogja hirdetni!
-
-Mert ha áldozatot kívánnál, adnék, de az égőáldozatokban nem gyönyörködsz.
-
-Istenhez illő áldozat a töredelmes lélek, töredelmes és megalázkodott szívet nem vet meg az Isten.
-
-Kegyeskedj jót cselekedni, Uram, Sionnal, és épüljenek fel Jeruzsálem falai!
-
-Akkor kegyesen fogadod majd az igazságosság áldozatát, a felajánlást és az égőáldozatokat.
-
-Akkor majd borjakat visznek oltárodra.`;
-
-const CREED = `Hiszek egy Istenben, mindenható Atyában, mennynek és földnek, minden látható és láthatatlan dolgoknak Teremtőjében;
-
-És az egy Úr Jézus Krisztusban, Istennek egyszülött Fiában, aki az Atyától minden időknek előtte született; 
-
-Világosságtól való Világosságban, igaz Istentől való igaz Istenben, aki született és nem teremtetett, aki egylényegű az Atyával és aki által mindenek lettek; 
-
-Aki miérettünk, emberekért és a mi üdvösségünkért leszállt a mennyekből és megtestesült a Szent Lélektől és Szűz Máriától és emberré lett; 
-
-Aki keresztre feszíttetett érettünk Poncius Pilátus idejében, és szenvedett és eltemettetett;
-
-És feltámadott a harmadik napon az Írások szerint; és felment a mennyekbe és ül az Atyának jobbján;
-
-És újból eljő dicsőséggel, ítélni élőket és holtakat, és az Ő Országának nem lesz vége;
-
-És a Szent Lélekben, Úrban és Éltetőben, aki az Atyától ered, akit az Atyával és Fiúval együtt imádunk és dicsőítünk, aki a próféták által szólott;
-
-Egy, szent, egyetemes és apostoli Egyházban;
-
-Egy keresztséget vallok a bűnök bocsánatára;
-
-Várom a holtak feltámadását;
-
-És az eljövendő örök életet. Ámin.`;
-
-const INTRO = `${NAME_OF}
-
-${GLORY_TO_YOU}
-
-Mennyei Király, Vigasztaló, igazságnak Lelke, aki mindenütt jelen vagy és mindeneket betöltesz, minden javak kincsestára és az élet adományozója, jöjj, és lakozzál mibennünk, és tisztíts meg minket minden szennyfolttól, és üdvözítsd, Jóságos, a mi lelkünket.
-
-${TRISAGION}
-
-${GLORY_BOTH}
-
-Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
-
-${U_I_3}
-
-${GLORY_BOTH}
-
-${OUR_FATHER}`;
-
-const COME_LET_US = `Jertek, hódoljunk Istennek, a mi Királyunknak!
-
-Jertek, hódoljunk és boruljunk le Krisztus Isten, a mi Királyunk előtt!
-
-Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk előtt!`;
-
-const AKI_A_KERUB =
-  "Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk.";
-
-const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. ${AKI_A_KERUB}`;
-
-const MIDDLE = `${AXION}
-
-${TRISAGION}
-
-${GLORY_BOTH}
-
-Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
-
-${U_I_3}
-
-${GLORY_BOTH}
-
-${OUR_FATHER}`;
-
-const MIDDLE_NO_AXION = `${TRISAGION}
-
-${GLORY_BOTH}
-
-Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
-
-${U_I_3}
-
-${GLORY_BOTH}
-
-${OUR_FATHER}`;
-
-const PSALM_142 = `Uram, hallgasd meg imádságomat, halld meg könyörgésemet a te igazságodban, hallgass meg engem igazságosságodban!
-
-Ne szállj perbe a te szolgáddal, hiszen senki élő meg nem igazulhat előtted!
-
-Íme, az ellenség üldözte lelkemet, a földig alázta életemet.
-
-A sötétségbe ültetett engem, mint azokat, akik mindörökre meghaltak, és elcsüggedt a lelkem énbennem, megrettent bennem a szívem.
-
-Megemlékeztem a régmúlt napokról, elmélkedtem minden dolgodról, kezednek műveiről elmélkedtem.
-
-Kitártam feléd karjaimat, olyan a lelkem hozzád, mint a szikkadt föld.
-
-Hamar hallgass meg, Uram, megfogyatkozott a lelkem!
-
-Ne fordítsd el orcádat tőlem, ne legyek olyan, mint akik alászállnak a mélységbe!
-
-Virradatkor add tudtomra irgalmadat, mert benned reménykedem.
-
-Uram, mutasd meg nekem az utat, amelyen járjak, mert hozzád emeltem lelkemet!
-
-Szabadíts ki engem ellenségeim kezéből, Uram, oltalmadhoz menekültem! 
-
-Taníts meg akaratodat cselekednem, mert te vagy az én Istenem!
-
-Jóságos Lelked vezessen engem az egyenes földön! A te nevedért, Uram, éltess engem!
-
-Igazságosságodban vezesd ki lelkemet a sanyarúságból, irgalmadban irtsd ki ellenségeimet!
-
-Pusztítsd el mindazokat, akik szorongatják lelkemet, mert én a te szolgád vagyok!`;
-
-const GOD_IS_THE_LORD = `Isten az Úr és megjelent nékünk, áldott, aki az Úr nevében jön.`;
-
-const INTO_KATHISMA = `${U_I_12}
-
-${GLORY_BOTH}
-
-${COME_LET_US}`;
+import { Prayer } from "../types/types";
+import { PSALM_50, PSALM_142, PSALM_140, PSALM_141, PSALM_129, PSALM_116 } from "./psalms";
+import {
+  INTRO,
+  GLORY,
+  BOTH_NOW,
+  U_I_12,
+  COME_LET_US,
+  CREED,
+  HOLY_FATHERS,
+  INTO_KATHISMA,
+  MIDDLE,
+  U_I_40,
+  U_I_3,
+  GLORY_BOTH,
+  AKI_A_KERUB,
+  OUR_FATHER,
+  MIDDLE_NO_AXION,
+  NAME_OF,
+  GOD_IS_THE_LORD,
+  MOST_HOLY,
+  AXION,
+  XAIRE,
+  TRISAGION,
+} from "./repeatedPrayers";
 
 export const prayerData: Prayer[] = [
   {
@@ -356,6 +182,191 @@ ${HOLY_FATHERS}`,
       },
     ],
     image: require(`../assets/orthodox/ByzantineCross.png`),
+  },
+  {
+    id: "",
+    title: "Az alkonyati szolgálatimáiból",
+    header_title: "Alkonyati",
+    sections: [
+      {
+        text: `${NAME_OF}
+        
+${COME_LET_US}`,
+      },
+      {
+        heading: `103. zsoltár`,
+        text: `Áldjad, én lelkem, az Urat! Én Uram, Istenem, felmagasztaltattál nagyon.
+Vallomásba és fenségbe öltöztél, fényt öltöttél
+köntösként magadra,
+amikor sátorponyvaként feszítetted ki az eget;
+te vagy, aki vizekkel fedte be az ő magasságát,
+aki a felhőkön lépdel és a szelek szárnyán jár,
+aki angyalait lelkekké teszi, és szolgáit a tűz
+lángjává.
+A földet szilárdságára alapozta, nem rendül
+meg mindörökkön örökké.
+A mélység, mint köntös az öltözete, a hegyek
+fölött vizek állnak.
+Megdorgálod őket és elmenekülnek, mennydörgő hangodtól megriadnak.
+Felemelkednek a hegyek, és a síkságok alászállnak a helyre, amelyet megalapoztál nekik.
+Határt vontál, amelyet nem hágnak át a vizek, és nem térnek vissza, hogy újra elborítsák
+a földet.
+Te vagy az, aki felfakasztja a forrásokat a szorosokban, hogy a hegyek között folyjanak a vizek,
+hogy megitassanak minden vadat a mezőkön,
+és a vadszamarak is eloltsák szomjúságukat.
+A hegyeken raknak fészket az ég madarai, a
+sziklák közül hallatják hangjukat.
+Magasságodból öntözöd a hegyeket, műveid
+gyümölcsével lakik jól a föld.
+Füvet hajtasz a barmoknak, és sarjút az emberek munkálkodására, hogy kenyeret termeljenek a földből.
+A bor megvidámítja az ember szívét, hogy
+arca olajtól ragyogjon, és a kenyér megerősíti
+az ember szívét.
+Eloltják szomjukat a síkság erdei, a Libanon
+cédrusai, amelyeket elültettél.
+Ott raknak fészket a verebek, föléjük magasodik a gém hajléka.
+A magas hegyek a szarvasoknak, a szikla pedig a nyulaknak menedéke.
+Teremtett holdat időszakok jelzésére, a nap
+nyugovóra tért.
+Sötétséget szerzett és éjszaka lett, abban jár az
+erdő valamennyi vadja,
+üvöltő oroszlánkölykök, akik zsákmány után
+járnak, és az Istentől kérik eledelüket.
+Felkel a nap, és összegyűlnek, barlangjaikban
+nyugovóra térnek.
+Kimegy az ember az ő dolgára és a munkájára
+napestig.
+Mily fenségesek a te műveid, Urunk, mindent
+bölcsességben teremtettél, megtelt a föld a te
+alkotásaiddal!
+Íme, a hatalmas és tágas tenger, ott van számtalan csúszómászó, apró állatok nagyokkal
+együtt.
+Ott járnak a hajók, íme, a sárkány, melyet arra
+teremtettél, hogy játszadozzék benne.
+Mindenek rád várnak, hogy megadd eledelüket alkalmas időben.
+Amikor megadod nekik, összegyűjtik azt, ha
+megnyitod kezedet, a mindenség megtelik
+jósággal.
+Amikor elfordítod orcádat, megrendülnek, elveszed lelküket és meghalnak, és visszatérnek
+a porba, amelyből vétettek.
+Kibocsátod Lelkedet, és újra teremtődnek, és
+megújítod a föld színét.
+Legyen az Úrnak dicsősége mindörökké, örvendezzék az Úr a műveiben!
+Ő az, aki letekint a földre, és megrengeti azt,
+aki megérinti a hegyeket, és füstölögnek azok.
+Énekelek az Úrnak egész életemben, zsoltárt
+éneklek neki, amíg csak vagyok.
+Legyen beszédem kedves őelőtte, én pedig örvendezzem az Úrban!
+Vesszenek el a földről a bűnösök és a törvényszegők, hogy ne legyenek többé!
+Áldjad én lelkem az Urat!`,
+      },
+      {
+        heading: `És ismét`,
+        text: `A nap nyugovóra tért, sötétséget szerzett, és
+éjszaka lett.
+Mily fenségesek a te műveid, Urunk, mindent
+bölcsességben teremtettél.
+Dicsőség az Atyának és Fiúnak és Szentléleknek, most és mindenkor és mindörökkön örökké. Ámin.
+Alliluia, alliluia, alliluia. Dicsőség Néked,
+Isten. (3x)
+Urunk, reménységünk, dicsőség Néked.`,
+      },
+      {
+        heading: `A lámpagyújtás szolgálatának zsoltárai`,
+        subheading: "140. zsoltár",
+        text: `${PSALM_140}`,
+      },
+      {
+        heading: `141. zsoltár`,
+        text: `${PSALM_141}`,
+      },
+      {
+        heading: `129. zsoltár`,
+        text: `${PSALM_129}`,
+      },
+      {
+        heading: `116. zsoltár`,
+        text: `${PSALM_116}`,
+      },
+      {
+        heading: `Hálaadás lámpagyújtáskor`,
+        text: `Derűs világossága a halhatatlan, mennyei,
+szent, boldog Atya szent dicsőségének,
+Jézus Krisztus! Eljővén napáldozatkor, látván
+az estéli fényt, magasztaljuk az Atya, Fiú és
+Szentlélek Istent. Minden időben méltó boldog
+hangon magasztalni téged, Istennek Fia, aki az
+életet adtad, miért is a világ dicsőít téged.
+
+Méltass minket, Urunk, hogy ezen az estén bűntelenül maradhassunk meg. Áldott vagy Urunk, atyáinknak Istene, és dicséretes és dicsőített a te neved mindörökké. Ámin.
+
+Legyen, Urunk, irgalmad mirajtunk, amiképpen bíztunk tebenned. Áldott vagy,
+Uram, taníts meg engem a te rendeléseidre!
+Áldott vagy, Uralkodó, okosíts fel engem a te
+rendeléseidre! Áldott vagy, Szent, világosíts
+meg engem a te rendeléseiddel!
+
+Urunk, a te irgalmad örökkévaló, ne vesd
+meg kezed alkotásait. Téged illet a dicséret, téged illet a magasztalás, a dicsőség téged illet, az Atyát és Fiút és Szentlelket, most és
+mindenkor és mindörökkön örökké. Ámin.`,
+      },
+      {
+        heading: `Istenfogadó Szent Simeon éneke`,
+        text: `Most bocsásd el, Uralkodóm, a te szolgádat ígéreted szerint békességben, mert
+meglátták szemeim üdvözítésedet, amelyet
+minden nép szemeláttára készítettél világosságul a nemzetek megvilágosítására, és a te népednek, Izraelnek dicsőségére.
+
+${MIDDLE_NO_AXION}`,
+      },
+      {
+        heading: `Imádság`,
+        text: `Nagy és csodálatos Isten, aki elmondhatatlan jósággal és gazdag előrelátással kormányzod a mindenséget, aki nekünk ajándékoztad az evilági javakat, és az immár nekünk
+adományozott javakat a megígért ország zálogául adtad; aki megadtad nekünk, hogy a mai
+napból eltelt időben elkerüljünk minden gonoszságot, add, hogy a hátralevő időt is feddhetetlenül töltsük el a te szent dicsőségedet
+tartva szemünk előtt, és téged magasztaljunk,
+a mi egyedüli jó és emberszerető Istenünket!
+Mert te vagy a mi Istenünk, és néked zengünk
+dicsőséget, az Atyának és Fiúnak és Szentléleknek, most és mindenkor és mindörökkön örökké. Ámin.`,
+      },
+      {
+        heading: `Másik imádság`,
+        subheading: `Szíriai Szent Efrémtől`,
+        text: `Urunk, Jézus Krisztus, Istenünk, aki szent
+Anyádat minden mennyei erőnél becsesebbé tetted; kérünk téged, ó, Jóságos, hogy
+az ő, és minden szentednek közbenjárására
+engesztelődj meg irántam, és bocsásd meg
+nekem, méltatlan szolgádnak mindazt, amit
+a mai napon emberként, vagy inkább embertelenül vétkeztem; szándékos és szándéktalan
+botlásaimat, amelyeket tudatosan vagy öntudatlanul, felindulásból vagy figyelmetlenségből, nagy restségemben és hanyagságomban
+elkövettem; ha szent nevedre esküdtem vagy
+esküdöztem, vagy gondolatban káromoltam
+azt; ha bármivel is megharagítottalak; ha loptam vagy hazudtam, ha barátom segítségért
+folyamodott hozzám és én semmibe vettem; ha
+testvéremet megbántottam és elkeserítettem;
+ha imádság és zsoltáréneklés közben gonosz
+elmém gonoszságokon és az élet hívságain
+járt; ha az illendőnél több élvezetet kerestem,
+ha illetlen dolgokat beszéltem vagy ostobán
+nevettem, ha kérkedtem vagy felfuvalkodtam;
+ha hiú szépségre vetettem szemem és elmémet
+az magához vonzotta, ha kifecsegtem, amit
+nem lett volna szabad, vagy ha felebarátom
+hibáit fürkésztem, és megítéltem őt, míg megfeledkeztem a magam számtalan hiányosságáról; ha imádságomat elhanyagoltam, vagy
+bármi más gonoszságot eszeltem ki. Mindezt
+és minden egyebet, amit cselekedtem, bár nem
+is emlékszem rá, bocsásd meg nékem, haszontalan szolgádnak, és irgalmazz nekem, mint jóságos és emberszerető, hogy békességben térjek nyugovóra és aludjak el én, tékozló fiú, és
+dicsőítselek téged az Atyával és szentséges, jóságos és megelevenítő Lelkeddel együtt, most
+és mindenkor és mindörökkön örökké. Ámin.`,
+      },
+      {
+        heading: `Tropárion`,
+        text: `Minden szentednek és az Istenszülőnek
+közbenjárására add meg nékünk a te békédet, Urunk, és irgalmazz nekünk, mint egyedüli könyörületes.
+
+${HOLY_FATHERS}`,
+      },
+    ],
+    image: "",
   },
   {
     id: "1",
@@ -1535,16 +1546,15 @@ ${XAIRE}
 
 És tégy az örök életnek öröksévé Királynőm 
 
-${XAIRE}`
+${XAIRE}`,
       },
       {
         heading: `Ima a legszentebb istenszülőhöz`,
         subheading: `Neofitosz patriarcha imagyűjteményéből`,
-        text: `Légszentebb Istenszülő Nagyasszonyunk, világ Úrnője, büszkeségem, reménységem, menedékem, védelmezőm, oltalmam, vigasztalásom és örvendezésem, könyörülj rajtam, akit fogva tart sok vétkezésem! Mutasd meg nekem, bűnös és beszennyezett embernek emberszerető irgalmadat te, aki az igazi világosságot szülted, világosítsd meg szívemnek értelmi szemét! Aki a halhatatlanság forrását magadban hordoztad, kelts életre engem, aki a bűn által elpusztultam! Ó, jóságos, aki a Jóságost, emberszerető, aki az Emberszeretőt, könyörületes, aki a könyörületes és mindenek iránt irgalmas Istent szülted, irgalmazz nekem, kelts bűnbánatot és töredelmet a szívemben, és adj szabadulást gondolataim rabságából! Ajándékozz meg azzal, hogy mostani magasztaló énekemet töredelmes és fájdalmas elmével végezzem, és add nekem a megbánás és a bűnvallás könnyeit, hogy dicsőítsem és magasztaljam az Atya, a Fiú és a Szentlélek legszentebb nevét, most és mindenkor és mindörökkön örökké. Ámin.`
-      }
+        text: `Légszentebb Istenszülő Nagyasszonyunk, világ Úrnője, büszkeségem, reménységem, menedékem, védelmezőm, oltalmam, vigasztalásom és örvendezésem, könyörülj rajtam, akit fogva tart sok vétkezésem! Mutasd meg nekem, bűnös és beszennyezett embernek emberszerető irgalmadat te, aki az igazi világosságot szülted, világosítsd meg szívemnek értelmi szemét! Aki a halhatatlanság forrását magadban hordoztad, kelts életre engem, aki a bűn által elpusztultam! Ó, jóságos, aki a Jóságost, emberszerető, aki az Emberszeretőt, könyörületes, aki a könyörületes és mindenek iránt irgalmas Istent szülted, irgalmazz nekem, kelts bűnbánatot és töredelmet a szívemben, és adj szabadulást gondolataim rabságából! Ajándékozz meg azzal, hogy mostani magasztaló énekemet töredelmes és fájdalmas elmével végezzem, és add nekem a megbánás és a bűnvallás könnyeit, hogy dicsőítsem és magasztaljam az Atya, a Fiú és a Szentlélek legszentebb nevét, most és mindenkor és mindörökkön örökké. Ámin.`,
+      },
     ],
     image: require("../assets/orthodox/Theotokos.png"),
     imageSize: 300,
   },
 ];
-

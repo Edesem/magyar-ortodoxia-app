@@ -9,6 +9,11 @@ import {
   PSALM_6,
   PSALM_31,
   PSALM_22,
+  PSALM_23,
+  PSALM_5,
+  PSALM_33,
+  PSALM_103,
+  PSALM_69,
 } from "./psalms";
 import {
   INTRO,
@@ -76,79 +81,11 @@ ${COME_LET_US}`,
       },
       {
         heading: "5. zsoltár",
-        text: `Hallgasd meg szavaimat, Uram, értsd meg kiáltásomat! 
-        
-Figyelj könyörgésem hangjára, én királyom és Istenem, mert hozzád imádkozom, Uram! 
-
-Reggel halld meg hangomat! Reggel eléd állok, tekints le rám! Mert nem olyan Isten vagy, aki a törvénytelenséget akarja. 
-
-Nem lakhat veled cselszövő, és a törvényszegők nem állhatnak meg színed előtt. 
-
-Gyűlölöd mindazokat, akik törvénytelenséget cselekszenek, elpusztítod mindazokat, akik hazugságot beszélnek. 
-
-A vérontó és alattomos férfiút utálja az Úr. 
-
-Én azonban irgalmasságod sokasága által bemegyek a te házadba, leborulok szent templomod előtt a te félelmedben. 
-
-Uram, vezess engem igazságosságodban ellenségeim miatt, irányítsd feléd az utamat! 
-
-Mert nincs a szájukban igazság, szívük hívságos. 
-
-Nyitott sírbolt a torkuk, nyelvükkel csalárd szavakat szólnak. Ítéld meg őket, ó, Isten! 
-
-Essenek el saját cselszövéseik által, istentelenségük sokasága miatt taszítsd el őket, mert megkeserítettek téged, Uram! 
-
-Örvendezzenek mindazok, akik benned reménykednek! Mindörökké vigadnak majd, és te bennük lakozol, és büszkélkednek tebenned mindazok, akik szeretik a te nevedet. 
-
-Mert te megáldod az igaz embert, Uram, mintegy kegyességed fegyverével koszorúztál meg minket.`,
+        text: `${PSALM_5}`,
       },
       {
         heading: "33. zsoltár",
-        text: `Áldom az Urat minden időben, dicsérete mindig ajkamon van. 
-        
-Az Úrban dicsekszik az én lelkem. 
-
-Hallják meg ezt a szelídek, és örvendezzenek! 
-
-Dicsőítsétek velem együtt az Urat, és magasztaljuk együtt az ő nevét! 
-
-Kértem az Urat, és meghallgatott, és minden gyötrelmemtől megszabadított. 
-
-Járuljatok őhozzá, hogy megvilágosodjatok, és orcátok meg ne szégyenüljön. 
-
-Ez a szegény kiáltott, az Úr meghallgatta őt, és minden gyötrelmétől megmentette őt. 
-
-Tábort üt az Úrnak angyala azok körül, akik félik őt, és megszabadítja őket. 
-
-Ízleljétek és lássátok, hogy jóságos az Úr, boldog az a férfi, aki belé veti reménységét! 
-
-Féljétek az Urat, az ő szentjei, mert semmiben sem szenvednek hiányt azok, akik félik őt! 
-
-Gazdagok elszegényedtek, és éheztek, akik viszont az Urat keresik, semmi jóban nem szűkölködnek. 
-
-Jöjjetek, gyermekeim, hallgassatok rám! Az Úr félelmére tanítalak benneteket. 
-
-Ki az az ember, aki élvezni akarja az életet, és jó napokat szeretne látni? 
-
-Tartóztasd meg nyelvedet a gonoszságtól, és ajkadat attól, hogy csalárdságot beszéljen! 
-
-Kerüld a rosszat és tedd a jót, keresd a békességet, és kövesd azt! 
-
-Az Úr szeme az igazakon nyugszik, és füle meghallja azok könyörgését.
-
-Az Úr orcája viszont a gonosztevők felé fordul, hogy kiirtsa a földről emlékezetüket.
-
-Kiáltottak az igazak, és az Úr meghallgatta őket, és minden gyötrelmüktől megszabadította őket.
-
-Közel van az Úr a töredelmes szívűekhez, és megmenti az alázatos lelkűeket.
-
-Sok gyötrelmük van az igazaknak, de valamennyitől megszabadítja őket.
-
-Megőrzi az Úr minden csontjukat, és egy sem töretik meg azokból.
-
-Gonosz a bűnösök halála, és mindaz, aki gyűlöli az igaz embert, megbánja.
-
-Megmenti az Úr az Ő szolgáinak lelkét, és senkit, aki benne reménykedik, nem ér bánkódás.`,
+        text: `${PSALM_33}`,
       },
       {
         heading: "Hitvallás",
@@ -207,70 +144,7 @@ ${COME_LET_US}`,
       },
       {
         heading: `103. zsoltár`,
-        text: `Áldjad, én lelkem, az Urat! Én Uram, Istenem, felmagasztaltattál nagyon.
-Vallomásba és fenségbe öltöztél, fényt öltöttél
-köntösként magadra,
-amikor sátorponyvaként feszítetted ki az eget;
-te vagy, aki vizekkel fedte be az ő magasságát,
-aki a felhőkön lépdel és a szelek szárnyán jár,
-aki angyalait lelkekké teszi, és szolgáit a tűz
-lángjává.
-A földet szilárdságára alapozta, nem rendül
-meg mindörökkön örökké.
-A mélység, mint köntös az öltözete, a hegyek
-fölött vizek állnak.
-Megdorgálod őket és elmenekülnek, mennydörgő hangodtól megriadnak.
-Felemelkednek a hegyek, és a síkságok alászállnak a helyre, amelyet megalapoztál nekik.
-Határt vontál, amelyet nem hágnak át a vizek, és nem térnek vissza, hogy újra elborítsák
-a földet.
-Te vagy az, aki felfakasztja a forrásokat a szorosokban, hogy a hegyek között folyjanak a vizek,
-hogy megitassanak minden vadat a mezőkön,
-és a vadszamarak is eloltsák szomjúságukat.
-A hegyeken raknak fészket az ég madarai, a
-sziklák közül hallatják hangjukat.
-Magasságodból öntözöd a hegyeket, műveid
-gyümölcsével lakik jól a föld.
-Füvet hajtasz a barmoknak, és sarjút az emberek munkálkodására, hogy kenyeret termeljenek a földből.
-A bor megvidámítja az ember szívét, hogy
-arca olajtól ragyogjon, és a kenyér megerősíti
-az ember szívét.
-Eloltják szomjukat a síkság erdei, a Libanon
-cédrusai, amelyeket elültettél.
-Ott raknak fészket a verebek, föléjük magasodik a gém hajléka.
-A magas hegyek a szarvasoknak, a szikla pedig a nyulaknak menedéke.
-Teremtett holdat időszakok jelzésére, a nap
-nyugovóra tért.
-Sötétséget szerzett és éjszaka lett, abban jár az
-erdő valamennyi vadja,
-üvöltő oroszlánkölykök, akik zsákmány után
-járnak, és az Istentől kérik eledelüket.
-Felkel a nap, és összegyűlnek, barlangjaikban
-nyugovóra térnek.
-Kimegy az ember az ő dolgára és a munkájára
-napestig.
-Mily fenségesek a te műveid, Urunk, mindent
-bölcsességben teremtettél, megtelt a föld a te
-alkotásaiddal!
-Íme, a hatalmas és tágas tenger, ott van számtalan csúszómászó, apró állatok nagyokkal
-együtt.
-Ott járnak a hajók, íme, a sárkány, melyet arra
-teremtettél, hogy játszadozzék benne.
-Mindenek rád várnak, hogy megadd eledelüket alkalmas időben.
-Amikor megadod nekik, összegyűjtik azt, ha
-megnyitod kezedet, a mindenség megtelik
-jósággal.
-Amikor elfordítod orcádat, megrendülnek, elveszed lelküket és meghalnak, és visszatérnek
-a porba, amelyből vétettek.
-Kibocsátod Lelkedet, és újra teremtődnek, és
-megújítod a föld színét.
-Legyen az Úrnak dicsősége mindörökké, örvendezzék az Úr a műveiben!
-Ő az, aki letekint a földre, és megrengeti azt,
-aki megérinti a hegyeket, és füstölögnek azok.
-Énekelek az Úrnak egész életemben, zsoltárt
-éneklek neki, amíg csak vagyok.
-Legyen beszédem kedves őelőtte, én pedig örvendezzem az Úrban!
-Vesszenek el a földről a bűnösök és a törvényszegők, hogy ne legyenek többé!
-Áldjad én lelkem az Urat!`,
+        text: `${PSALM_103}`,
       },
       {
         heading: `És ismét`,
@@ -396,15 +270,7 @@ ${INTO_KATHISMA}`,
       },
       {
         heading: "69. zsoltár",
-        text: `Istenem, segíts meg engem, Uram, siess segítségemre!
-
-Szégyenkezzenek és valljanak kudarcot azok, akik a lelkemre törnek!
-
-Futamodjanak meg és forduljanak vissza tüstént szégyenkezve, akik gúnyolnak engem!
-
-Vigadjanak és örvendjenek neked mindazok, akik keresnek téged, Istenem, és mondják mindenkor azok, akik szeretik a te üdvösségedet: magasztaltassék az Úr!
-
-Én pedig szegény és nyomorult vagyok, segíts meg, ó, Istenem! Segítőm és szabadítóm vagy te, Uram, ne késlekedj!`,
+        text: `${PSALM_69}`,
       },
       {
         heading: "142. zsoltár",
@@ -688,65 +554,15 @@ ${INTO_KATHISMA}`,
       },
       {
         heading: "22. zsoltár",
-        text: `Az Úr pásztorol engem, semmiben sem szűkölködöm. Pázsitos réten ad nekem szállást.
-
-Csöndes víz mellett táplál engem, visszaadta lelkemet.
-
-Az igazságosság ösvényeire vezetett engem az ő Nevéért.
-
-Hiszen, ha a halál árnyékában járok is, nem félek a bajtól, mert te velem vagy.
-
-Pálcád és pásztorbotod megvigasztal.
-
-Asztalt terítettél nekem gyötrőim szeme láttára.
-
-Fejemet bekented olajjal, és poharad teljesen megrészegít.
-
-Irgalmad követ engem életemnek minden napján,
-
-Az Úr házában lakozom hosszú időn át.`,
+        text: `${PSALM_22}`,
       },
       {
         heading: "23. zsoltár",
-        text: `Az Úré a föld és annak teljessége, a földkerekség és annak minden lakója. 
-        
-Ő alapozta meg azt a tengereken, és szilárdította meg a folyókon.
-
-Kicsoda megy fel az Úr hegyére, és kicsoda áll meg az ő szent helyén? 
-
-Az, akinek keze ártatlan és szíve tiszta, aki nem adta lelkét hazugságra, és nem esküdött hamisan felebarátjának.
-
-Az nyer áldást az Úrtól, és könyörületet üdvözítő Istenétől. 
-
-Ez azok nemzetsége, akik keresik az Urat, akik Jákob Istenének orcáját keresik.
-
-Emeljétek föl kapuitokat, ti fejedelmek, és emelkedjetek föl, örökkévaló kapuk, hogy bemenjen a dicsőség Királya.
-
-Kicsoda ez a dicsőség Királya? A hatalmas és erős Úr, az Úr, aki erős a háborúban.
-
-Emeljétek föl kapuitokat, ti fejedelmek, és emelkedjetek föl, örökkévaló kapuk, hogy bemenjen a dicsőség Királya!
-
-Kicsoda ez a dicsőség Királya? A seregek Ura, ő a dicsőség Királya.`,
+        text: `${PSALM_23}`,
       },
       {
         heading: "115. zsoltár",
-        text: `Hittem, ezért szóltam, pedig megaláztattam nagyon.
-
-Így szóltam önkívületemben: „Minden ember hazug!”
-
-Mivel viszonozhatom az Úrnak mindazt, amit velem cselekedett?
-
-Az üdvösség kelyhét veszem magamhoz, és az Úr nevét szólítom.
-
-Az Úrnak tett fogadalmaimat megtartom egész népe előtt.
-
-Drága az Úr előtt kegyeltjeinek halála.
-
-Ó, Uram, én a te szolgád vagyok, a te szolgád vagyok és szolgálóleányod fia. Széttörted bilincseimet.
-
-Néked mutatom be a dicséret áldozatát, és az Úr nevét szólítom. 
-
-Az Úrnak tett fogadalmaimat megtartom az ő egész népe előtt, az Úr házának tornácaiban, városod közepén, Jeruzsálem.
+        text: `
 
 ${GLORY_BOTH}
 

@@ -1,4 +1,4 @@
-import { INTRO, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { INTRO, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 export const night_before = {
   id: "night_before",
@@ -106,7 +106,7 @@ Tűzzé és fénnyé legyen számomra, ó, Üdvözítőm, legdrágább tested é
       heading: "Theotokion",
       text: `Isten testesült meg a te tisztaságos véredből. Ezért minden nemzedék magasztal téged, Nagyasszonyunk, az értelmek sokasága is dicsőít, mert általad láthatta meg tisztán a mindenek Uralkodóját, aki magára öltötte az emberi lényeget.
         
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

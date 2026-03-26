@@ -2,9 +2,9 @@ import {
   CHRIST_IS_RISEN,
   GLORY,
   BOTH_NOW,
-  U_I_40,
+  LORD_HAVE_MERCY_40,
   GLORY_BOTH,
-  AKI_A_KERUB,
+  MORE_HONOURABLE,
 } from "../constants/repeatedPrayers";
 
 export const paschal_hours = {
@@ -33,11 +33,11 @@ ${BOTH_NOW}
 
 A Magasságbéli megszentelt isteni lakhelye, Örvendezz, ó, Istenszülő, mert általad adatott az öröm azoknak, kik így kiáltanak: Áldott vagy te az asszonyok között, ó, szeplőtelen Úrnőnk!
 
-${U_I_40}
+${LORD_HAVE_MERCY_40}
 
 ${GLORY_BOTH}
 
-${AKI_A_KERUB}
+${MORE_HONOURABLE}
 
 ${CHRIST_IS_RISEN} (3x)`,
       postheading: `Ezt az imádságot naponta háromszor ismételjük.`,

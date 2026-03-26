@@ -1,4 +1,4 @@
-import { INTRO, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { INTRO, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 export const student = {
   id: "student",
@@ -24,7 +24,7 @@ export const student = {
 
 Hálát adunk neked, Istenünk és Teremtőnk, hogy kegyelmeddel a tanulás iránti buzgalomra méltattál bennünket. Áldd meg életünket, és vezess minket a jónak ismeretére! Erősíts meg és szilárdíts meg bennünket, hogy akaratod szerint növekedjünk és erősödjünk lélekben most és mindenkor és mindörökkön örökké! Ámin.
 
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

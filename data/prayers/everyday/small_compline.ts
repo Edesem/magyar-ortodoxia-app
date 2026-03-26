@@ -1,5 +1,5 @@
 import { PSALM_50, PSALM_69, PSALM_142 } from "../constants/psalms";
-import { INTRO, INTO_KATHISMA, CREED, MIDDLE, GLORY, BOTH_NOW, U_I_40, U_I_3, GLORY_BOTH, AKI_A_KERUB, U_I_12, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { INTRO, INTO_KATHISMA, CREED, MIDDLE, GLORY, BOTH_NOW, LORD_HAVE_MERCY_40, LORD_HAVE_MERCY_3, GLORY_BOTH, MORE_HONOURABLE, LORD_HAVE_MERCY_12, THROUGH_THE_PRAYERS, WHO_AT_ALL_TIMES } from "../constants/repeatedPrayers";
 
 export const small_compline = {
   id: "small_compline",
@@ -78,17 +78,17 @@ ${BOTH_NOW}
 
 Minden szenteknek és Isten Szülőjének közbenjárásai által, Urunk, add meg nekünk a te békédet, és irgalmazz nekünk, mint egyedüli könyörületes.
 
-${U_I_40}
+${LORD_HAVE_MERCY_40}
 
-Akit minden időben és minden órában, a mennyben és a földön imádnak és dicsőítenek, Krisztus Isten, aki hosszantűrő, nagyirgalmú és igen könyörületes vagy, aki az igazakat szereted és a bűnösöknek irgalmazol, és aki az eljövendő javak ígéretével üdvösségre hívsz mindeneket, te magad, Urunk, fogadd el ebben az órában is a mi fohászkodásunkat, és vezéreld életünket parancsolataid szerint. Szenteld meg lelkünket, tisztítsd meg testünket, igazítsd ki gondolatainkat, tisztítsd meg értelmünket, és szabadíts meg minket minden keserűségtől, bajtól és gyötrődéstől! Végy körül bennünket szent angyalaiddal, hogy az őrködésüktől oltalmazva és vezérelve eljussunk a hit egységére és a te megközelíthetetlen dicsőséged ismeretére, mert áldott vagy mindörökkön örökké. Ámin.
+${WHO_AT_ALL_TIMES}
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 ${GLORY_BOTH}
 
-${AKI_A_KERUB}
+${MORE_HONOURABLE}
 
-${U_I_12}
+${LORD_HAVE_MERCY_12}
 
 Legszentebb Istenszülő, ments meg és segíts meg bennünket!`,
     },
@@ -123,7 +123,7 @@ A te könyörületedhez folyamodunk, Istennek Szülője, ne feledkezz meg esedez
       heading: "Pünkösdi apolitikion",
       text: `Áldott vagy Te, Krisztus Istenünk, aki a halászokat bölcsekké tetted, leküldvén nekik a Szentlelket, és általuk hálódba vontad a földkerekséget. Emberszerető, dicsőséged néked!
 
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

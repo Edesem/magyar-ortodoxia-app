@@ -18,15 +18,15 @@ import { haptic } from "../../utils/haptic";
 import { prayerData } from "../../data/prayers";
 import { Prayer } from "../../types/types";
 import {
-  U_I_3,
-  U_I_12,
-  U_I_40,
+  LORD_HAVE_MERCY_3,
+  LORD_HAVE_MERCY_12,
+  LORD_HAVE_MERCY_40,
   GLORY,
   BOTH_NOW,
   GLORY_TO_YOU,
   MOST_HOLY,
-  TRISAGION,
-  XAIRE,
+  HOLY_GOD,
+  REJOICE,
 } from "../../data/prayers/constants/repeatedPrayers";
 
 export default function PrayerScreen() {
@@ -125,16 +125,16 @@ export default function PrayerScreen() {
                 const paragraphBody = paragraph.slice(1);
 
                 const isCenteredParagraph = [
-                  U_I_3,
-                  U_I_12,
-                  U_I_40,
+                  LORD_HAVE_MERCY_3,
+                  LORD_HAVE_MERCY_12,
+                  LORD_HAVE_MERCY_40,
                   GLORY,
                   BOTH_NOW,
                   GLORY_TO_YOU,
                   MOST_HOLY,
-                  TRISAGION,
+                  HOLY_GOD,
                 ].includes(paragraph);
-                const isRightAlignedParagraph = [XAIRE].includes(paragraph);
+                const isRightAlignedParagraph = [REJOICE].includes(paragraph);
 
                 const textAlign: "left" | "center" | "right" =
                   isCenteredParagraph

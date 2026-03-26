@@ -1,5 +1,5 @@
 import { PSALM_6, PSALM_31 } from "../constants/psalms";
-import { NAME_OF, COME_LET_US, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { IN_THE_NAME, COME_LET_US, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 export const repentance = {
   id: "repentance",
@@ -8,7 +8,7 @@ export const repentance = {
   image: "",
   sections: [
     {
-      text: `${NAME_OF}
+      text: `${IN_THE_NAME}
         
 ${COME_LET_US}`,
     },
@@ -31,7 +31,7 @@ ${COME_LET_US}`,
 Második plagális hang`,
       text: `Én lelkem, én lelkem, serkenj föl, miért alszol? Közeleg a vég, és gyötrődni fogsz; ébredj hát, hogy megkönyörüljön rajtad Krisztus Isten, aki mindenütt jelen van és mindeneket betölt.
 
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

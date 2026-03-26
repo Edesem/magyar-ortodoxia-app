@@ -1,5 +1,5 @@
 import { PSALM_142, PSALM_22 } from "../constants/psalms";
-import { INTRO, COME_LET_US, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { INTRO, COME_LET_US, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 export const in_sickness = {
   id: "in_sickness",
@@ -33,7 +33,7 @@ ${COME_LET_US}`,
       heading: "Tropárion, 4. plagális hang",
       text: `Csodatévő szent szegények, keressétek fel a mi betegségeinket! Ingyen vettétek, ingyen adjátok nekünk!
         
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

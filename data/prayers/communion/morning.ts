@@ -1,5 +1,5 @@
 import { PSALM_22, PSALM_23 } from "../constants/psalms";
-import { INTRO, INTO_KATHISMA, GLORY_BOTH, U_I_3, GLORY, BOTH_NOW, U_I_40 } from "../constants/repeatedPrayers";
+import { INTRO, INTO_KATHISMA, GLORY_BOTH, LORD_HAVE_MERCY_3, GLORY, BOTH_NOW, LORD_HAVE_MERCY_40 } from "../constants/repeatedPrayers";
 
 export const morning_before = {
   id: "morning_before",
@@ -28,7 +28,7 @@ ${GLORY_BOTH}
 
 Alliluia, alliluia, alliluia. Dicsőség néked, Isten! (3x)
 
-${U_I_3}`,
+${LORD_HAVE_MERCY_3}`,
     },
     {
       heading: "Tropárionok (2. plagális hang)",
@@ -48,7 +48,7 @@ ${BOTH_NOW}`,
       subheading: "Nagycsütörtökön hozzáfűzzük",
       text: `Amikor a dicsőséges tanítványok megvilágosodtak a vacsorán a lábmosás által, akkor az istentelen Júdás elsötétült a kapzsiság betegségétől, és elárult törvénytelen bíráknak téged, az igazságos Bírót. Lásd, ó pénzimádó, azt, aki ezért kötéllel lakolt! Kerüld a telhetetlen lelket, amely ilyet merészelt tenni a tanítóval! Mindenkihez jóságos Urunk, dicsőség néked!
 
-${U_I_40}`,
+${LORD_HAVE_MERCY_40}`,
     },
     {
       heading: "Tanító vers",

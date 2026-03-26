@@ -1,6 +1,6 @@
-export const NAME_OF = `Az Atyának és Fiúnak és Szentléleknek nevében. Ámin.`;
+export const IN_THE_NAME = `Az Atyának és Fiúnak és Szentléleknek nevében. Ámin.`;
 
-export const HOLY_FATHERS = `Szent atyáink imái által, Urunk, Jézus Krisztus Istenünk, irgalmazz nekünk, és üdvözíts minket! Ámin.`;
+export const THROUGH_THE_PRAYERS = `Szent atyáink imái által, Urunk, Jézus Krisztus Istenünk, irgalmazz nekünk, és üdvözíts minket! Ámin.`;
 
 export const OUR_FATHER = `Mi Atyánk, ki a mennyekben vagy, szenteltessék meg a te neved, jöjjön el a te országod, legyen meg a te akaratod, miképpen a mennyben, úgy a földön is. Mindennapi kenyerünket add meg nekünk ma; és bocsásd meg a mi vétkeinket, miképpen mi is megbocsátunk az ellenünk vétkezőknek; és ne vígy minket kísértésbe, hanem szabadíts meg a gonosztól.`;
 
@@ -12,17 +12,17 @@ export const GLORY = `Dicsőség az Atyának és Fiúnak és Szent Léleknek.`;
 
 export const BOTH_NOW = `Most és mindenkor és mindörökkön örökké. Ámin.`;
 
-export const U_I_3 = `Uram, irgalmazz! (3x)`;
+export const LORD_HAVE_MERCY_3 = `Uram, irgalmazz! (3x)`;
 
-export const U_I_12 = `Uram, irgalmazz! (12x)`;
+export const LORD_HAVE_MERCY_12 = `Uram, irgalmazz! (12x)`;
 
-export const U_I_40 = `Uram, irgalmazz! (40x)`;
+export const LORD_HAVE_MERCY_40 = `Uram, irgalmazz! (40x)`;
 
 export const MOST_HOLY = `Legszentebb Istenszülő, ments meg minket.`;
 
-export const TRISAGION = `Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)`;
+export const HOLY_GOD = `Szent Isten, Szent Hatalmas, Szent Halhatatlan, irgalmazz nekünk. (3x)`;
 
-export const XAIRE = `Örvendj érintetlen Ara`;
+export const REJOICE = `Örvendj érintetlen Ara`;
 
 export const CREED = `Hiszek egy Istenben, mindenható Atyában, mennynek és földnek, minden látható és láthatatlan dolgoknak Teremtőjében;
 
@@ -48,19 +48,19 @@ Várom a holtak feltámadását;
 
 És az eljövendő örök életet. Ámin.`;
 
-export const INTRO = `${NAME_OF}
+export const INTRO = `${IN_THE_NAME}
 
 ${GLORY_TO_YOU}
 
 Mennyei Király, Vigasztaló, igazságnak Lelke, aki mindenütt jelen vagy és mindeneket betöltesz, minden javak kincsestára és az élet adományozója, jöjj, és lakozzál mibennünk, és tisztíts meg minket minden szennyfolttól, és üdvözítsd, Jóságos, a mi lelkünket.
 
-${TRISAGION}
+${HOLY_GOD}
 
 ${GLORY_BOTH}
 
 Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 ${GLORY_BOTH}
 
@@ -72,32 +72,32 @@ Jertek, hódoljunk és boruljunk le Krisztus Isten, a mi Királyunk előtt!
 
 Jertek, hódoljunk és boruljunk le maga Krisztus, a mi Királyunk és Istenünk előtt!`;
 
-export const AKI_A_KERUB =
+export const MORE_HONOURABLE =
   "Aki a keruboknál tiszteltebb és a szeráfoknál hasonlíthatatlanul dicsőbb vagy, aki az Isten Igét sérületlenül szülted, Istennek valóságos Szülője, téged magasztalunk.";
 
-export const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. ${AKI_A_KERUB}`;
+export const AXION = `Valóban méltó boldognak nevezni téged, Istennek Szülője, az örökké boldogságost és feddhetetlent, és a mi Istenünknek Anyját. ${MORE_HONOURABLE}`;
 
 export const MIDDLE = `${AXION}
 
-${TRISAGION}
+${HOLY_GOD}
 
 ${GLORY_BOTH}
 
 Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 ${GLORY_BOTH}
 
 ${OUR_FATHER}`;
 
-export const MIDDLE_NO_AXION = `${TRISAGION}
+export const MIDDLE_NO_AXION = `${HOLY_GOD}
 
 ${GLORY_BOTH}
 
 Szentséges Háromság, irgalmazz nekünk! Urunk, könyörülj a mi bűneinken. Uralkodónk, bocsásd meg törvényszegéseinket! Szent, keresd fel és gyógyítsd meg a mi betegségeinket a te nevedért!
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 ${GLORY_BOTH}
 
@@ -105,10 +105,18 @@ ${OUR_FATHER}`;
 
 export const GOD_IS_THE_LORD = `Isten az Úr és megjelent nékünk, áldott, aki az Úr nevében jön.`;
 
-export const INTO_KATHISMA = `${U_I_12}
+export const INTO_KATHISMA = `${LORD_HAVE_MERCY_12}
 
 ${GLORY_BOTH}
 
 ${COME_LET_US}`;
 
 export const CHRIST_IS_RISEN = `Krisztus feltámadt halottaiból, halállal eltiporván a halált, és a sírban lévőknek életet ajándékozván.`;
+
+export const ALLELUIA = `${GLORY_BOTH}
+
+Alliluia, Alliluia, Alliluia. Dicsőség Néked, Isten (3x)
+
+${LORD_HAVE_MERCY_3}`
+
+export const WHO_AT_ALL_TIMES = `Akit minden időben és minden órában, a mennyben és a földön imádnak és dicsőítenek, Krisztus Isten, aki hosszantűrő, nagyirgalmú és igen könyörületes vagy, aki az igazakat szereted és a bűnösöknek irgalmazol, és aki az eljövendő javak ígéretével üdvösségre hívsz mindeneket, te magad, Urunk, fogadd el ebben az órában is a mi fohászkodásunkat, és vezéreld életünket parancsolataid szerint. Szenteld meg lelkünket, tisztítsd meg testünket, igazítsd ki gondolatainkat, tisztítsd meg értelmünket, és szabadíts meg minket minden keserűségtől, bajtól és gyötrődéstől! Végy körül bennünket szent angyalaiddal, hogy az őrködésüktől oltalmazva és vezérelve eljussunk a hit egységére és a te megközelíthetetlen dicsőséged ismeretére, mert áldott vagy mindörökkön örökké. Ámin.`

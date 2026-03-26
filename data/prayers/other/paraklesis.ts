@@ -1,5 +1,5 @@
 import { PSALM_142, PSALM_50 } from "../constants/psalms";
-import { NAME_OF, GOD_IS_THE_LORD, GLORY_BOTH, MOST_HOLY, GLORY, BOTH_NOW, AXION, MIDDLE_NO_AXION, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { IN_THE_NAME, GOD_IS_THE_LORD, GLORY_BOTH, MOST_HOLY, GLORY, BOTH_NOW, AXION, MIDDLE_NO_AXION, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 export const paraklesis = {
   id: "paraklesis",
@@ -9,7 +9,7 @@ export const paraklesis = {
   imageSize: 300,
   sections: [
     {
-      text: NAME_OF,
+      text: IN_THE_NAME,
     },
     {
       heading: `142. Zsoltár`,
@@ -336,7 +336,7 @@ Te vagy közbenjáróm az emberszerető Istenhez, hogy ne fedje fel tetteimet az
 
 Arannyal bevont torony, tizenkétfalú város, a Király napsugarat árasztó trónusa és királyi széke, felfoghatatlan csoda, hogyan szoptathatod az Uralkodót?
 
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

@@ -1,4 +1,4 @@
-import { GLORY_BOTH, OUR_FATHER, U_I_3 } from "../constants/repeatedPrayers";
+import { GLORY_BOTH, OUR_FATHER, LORD_HAVE_MERCY_3 } from "../constants/repeatedPrayers";
 
 export const mealtime = {
   id: "mealtime",
@@ -12,7 +12,7 @@ export const mealtime = {
         
 ${GLORY_BOTH}
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.`,
     },
@@ -22,7 +22,7 @@ Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent
 
 ${GLORY_BOTH}
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 Áldott az Isten, aki ifjúságunk óta könyörül rajtunk, és táplál bennünket. Te, aki eleséget adsz minden testnek, töltsd el szívünket örömmel és vigassággal, hogy mindig mindennel teljesen ellátva még feleslegünk is legyen minden jócselekedetre Jézus Krisztusban, a mi Urunkban, akivel együtt illet téged dicsőség, hatalom, tisztelet és imádás a Szentlélekkel együtt, mindörökké. Ámin. 
 
@@ -34,7 +34,7 @@ Dicsőség néked, Urunk, dicsőség néked, Szent, dicsőség néked, Király, 
 
 ${GLORY_BOTH}
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent vagy mindig, most és mindenkor és mindörökkön örökké. Ámin.`,
     },
@@ -44,7 +44,7 @@ Krisztus Istenünk, áldd meg a Te szolgáidnak ételét és italát, mert szent
 
 ${GLORY_BOTH}
 
-${U_I_3}
+${LORD_HAVE_MERCY_3}
 
 Áldott az Isten, aki irgalmaz nekünk, és gazdag ajándékaival táplál bennünket kegyelméből és emberszeretetéből mindig, most és mindenkor és mindörökkön örökké. Ámin.
 

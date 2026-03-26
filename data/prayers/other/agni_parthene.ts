@@ -1,4 +1,4 @@
-import { XAIRE } from "../constants/repeatedPrayers";
+import { REJOICE } from "../constants/repeatedPrayers";
 
 export const agni_parthene = {
   id: "agni_parthene",
@@ -11,99 +11,99 @@ export const agni_parthene = {
       heading: "Szent Nektáriosz pentapoliszi érsektől",
       text: `Nagyasszonnyunk és tiszta Szűz ó szentséges Istenszülő 
 
-${XAIRE}
+${REJOICE}
 
 Ó Királynő és Szűzanya ó harmatos Gyapjúfürt 
 
-${XAIRE}
+${REJOICE}
 
 Mennyeknél is fénséggessebb napsugaraknál fénynyesebb 
 
-${XAIRE}
+${REJOICE}
 
 Szüzek karának öröme angyalloknál magasztosabb 
 
-${XAIRE}
+${REJOICE}
 
 A mennyeknél is ragyogóbb a fénynél is világosabb 
 
-${XAIRE}
+${REJOICE}
 
 Ki szentebb vagy az angyalok mennyei seregeinél 
 
-${XAIRE}
+${REJOICE}
 
 Ó szent örökszűz Mária egész világ Nagyaszszonya 
 
-${XAIRE}
+${REJOICE}
 
 Ó érintetlen tiszta Szűz szentséges Úrnőnk 
 
-${XAIRE}
+${REJOICE}
 
 Ó Menyasszony és Királynő minden örömnek kútfeje 
 
-${XAIRE}
+${REJOICE}
 
 Szemérmetes Királyleány szentséges Istenhordozó 
 
-${XAIRE}
+${REJOICE}
 
 A keruboknál rangosabb ezerszeresen is dicsőbb 
 
-${XAIRE}
+${REJOICE}
 
 A testetlen szeráfoknál és trónoknál magasztosabb 
 
-${XAIRE}
+${REJOICE}
 
 A szent kerubok énneke örvendj angyalok himnusza 
 
-${XAIRE}
+${REJOICE}
 
 A szeráfok dicshimnusza arkangyaloknak öröme 
 
-${XAIRE}
+${REJOICE}
 
 Örvendj békesség és öröm üdvösségünknek révpartja 
 
-${XAIRE}
+${REJOICE}
 
 Az Ige szent nászcsarnoka romolhatatlanság virága 
 
-${XAIRE}
+${REJOICE}
 
 Örvendj az örök életnek és a gyönyöröknek kertje 
 
-${XAIRE}
+${REJOICE}
 
 Örvendj az életnek  fája halhatatlanság forrása 
 
-${XAIRE}
+${REJOICE}
 
 Úrnőm könyörgök tehozzád segítségül téged hívlak 
 
-${XAIRE}
+${REJOICE}
 
 Ó mindenség Királynéja áraszd reám kegyelmedet 
 
-${XAIRE}
+${REJOICE}
 
 Ó feddhetetlen Hajadon ó szentséges Nagyasszonnyom 
 
-${XAIRE}
+${REJOICE}
 
 Hallgass meg engem tiszta Szűz egész világ Királynéja 
 
-${XAIRE}
+${REJOICE}
 
 Oltalmazz mentsd meg életem az ellenség csapdáitól 
 
-${XAIRE}
+${REJOICE}
 
 És tégy az örök életnek öröksévé Királynőm 
 
-${XAIRE}`,
+${REJOICE}`,
     },
     {
       heading: `Ima a legszentebb istenszülőhöz`,

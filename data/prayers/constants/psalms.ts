@@ -42,6 +42,9 @@ Meghallgatta az Úr könyörgésemet, az Úr elfogadta imádságomat.
 
 Szégyenüljön meg és rettenjen meg minden ellenségem, hátráljon meg és valljon szégyent mihamarabb!`;
 
+export const PSALM_16 = `Hallgasd meg, Uram, igazságomat, figyelj föl könyörgésemre, mely nem álnok ajkakról való. Színed elől jőjjön megigazító ítéletem, szemeim lássák meg az egyenességet. Megvizsgáltad a szívemet, meglátogattál éjjel, tűzben megpróbáltál, és nem volt bennem igaztalanság. Ne hirdesse szám az emberek műveit, ajkaid igéi miatt tartottam meg én a kemény utakat. Vezesd lépteimet a Te ösvényeiden, hogy meg ne inogjanak az én lépteim. Én kiáltottam Hozzád, mert meghallgatsz engem, Isten. Hajtsd hozzám füledet, és hallgasd meg beszédeimet. Csodáltasd meg irgalmadat, ki megszabadítod a Benned reménykedőket azoktól, akik szembeszegülnek a Te jobbodnak. Őrizz meg engem, mint szemedfényét, szárnyaid takarójával rejts el engem a gonoszok elől, kik gyötörnek engem. Ellenségeim körülfogták lelkemet, javaikat elzárták, szájuk gőgösen beszél. Miután kivetettek, most körülvettek engem, és szemükkel azt lesik, hogy földre terítsenek. Úgy leselkednek reám, mint a zsákmányolásra kész oroszlán, 
+és mint a rejtekén megbúvó oroszlánkölyök. Kelj föl, Uram, előzd meg és terítsd le őket. Szabadítsd meg az én lelkemet a gonosztól, pallosodat a Te kezed ellenségeitől. Uram, elűzve őket a földről, oszlasd szét őket még életükben. És teljék meg a gyomruk azzal, amit félretettél nekik, és fiaik is lakjanak jól vele, és a maradékot hagyják meg csecsemőiknek. Én pedig igazságban látni fogom orcádat, és jóllakom dicsőséged látásával.`;
+
 export const PSALM_22 = `Az Úr pásztorol engem, semmiben sem szűkölködöm. Pázsitos réten ad nekem szállást.
 
 Csöndes víz mellett táplál engem, visszaadta lelkemet.
@@ -79,6 +82,8 @@ Kicsoda ez a dicsőség Királya? A hatalmas és erős Úr, az Úr, aki erős a 
 Emeljétek föl kapuitokat, ti fejedelmek, és emelkedjetek föl, örökkévaló kapuk, hogy bemenjen a dicsőség Királya!
 
 Kicsoda ez a dicsőség Királya? A seregek Ura, ő a dicsőség Királya.`;
+
+export const PSALM_24 = `Hozzád emelem, Uram, lelkemet; Istenem, Tebenned bízom, meg ne szégyenüljek; ne nevessenek rajtam ellenségeim. Hiszen senki sem szégyenül meg, aki Téged vár; azok szégyenüljenek meg, akik hívságosan törvénytelenséget cselekesznek. Uram, ismertesd meg velem a Te utaidat, és ösvényeidre taníts meg engem. Vezess engem a Te igazságodra, és taníts arra engem, mert Te vagy az én üdvözítő Istenem, és egész nap Téged vártalak. Emlékezz meg, Uram, a Te könyörületedről és irgalmadról, mert öröktől fogva vannak azok. Ifjúságom bűneiről és tudatlanságomról ne emlékezz meg; a Te irgalmasságod szerint emlékezz meg rólam, a Te jóságodért, Uram. Jóságos és pártatlan az Úr; ezért eligazítja az úton tévedezőket. A szelídeket igazságban vezeti, és megtanítja a szelídeket az útjaira. Az Úrnak minden útja irgalom és igazság azoknak, akik az szövetségét és bizonyságait keresik. A Te nevedért, Uram, könyörülj bűnömön, mert sok az. Ki az az ember, aki féli az Urat? Eligazítja őt az úton, amelyet választott. Az ő lelke a jók között lakozik, és magva örökölni fogja a földet. Erőssége az Úr az Őt félőknek, és az Ő szövetségét kinyilatkoztatja nekik. Szemeim mindenkor az Úrra tekintenek, mert Ő ragadja ki a csapdából lábaimat. Tekints reám és irgalmazz nékem, mert egyedül vagyok és szegény. Szívemnek gyötrelmei megsokasodtak; nyomorúságomból vezess ki engem. Lásd megalázkodásomat és fáradságomat, és engedd el minden bűneimet. Lásd ellenségeimet, hogy megsokasodtak, és igaztalan gyűlölettel gyűlölnek engem. Őrizd meg lelkemet és szabadíts meg engem; ne szégyenüljek meg, mert Benned reménykedem. Ártatlanok és igazak hozzám ragaszkodnak, mert Téged vártalak, Uram. Mentsd meg, óh Isten, Izráelt minden szorongatásából.`;
 
 export const PSALM_31 = `Boldogok, akiknek megbocsáttattak törvényszegéseik és elfedeztettek bűneik.
 
@@ -188,6 +193,60 @@ Akkor kegyesen fogadod majd az igazságosság áldozatát, a felajánlást és a
 
 Akkor majd borjakat visznek oltárodra.`;
 
+export const PSALM_53 = `Istenem, a Te nevedben üdvözíts engem, és a Te hatalmadban ítélj meg engem. 
+
+Istenem, hallgasd meg imádságomat, fogadd füledbe szájamnak igéit. 
+
+Mert idegenek támadtak reám, és hatalmasok követelik lelkemet, akik nem veszik észre maguk előtt az Istent. 
+
+İme pedig Isten megsegít engem, és az Úr az én lelkemnek oltalmazója. 
+
+Visszafordítja a rosszat ellenségeimre. A Te igazságodban semmisítsd meg őket. 
+
+Önszántamból áldozok Néked, megvallom a Te nevedet, Uram, mert jó. Mert minden bánkódástól megszabadítottál engem, és az ellenségeim felett néz el az én szemem.`;
+
+export const PSALM_54 = `Fogadd füledbe, Isten, az én imádságomat, és ne vesd meg könyörgésemet; figyelj reám és hallgass meg engem. 
+
+Elszomorodtam a szóváltásban és megrendültem az ellenség hangjától és a bűnös szorongatásától; mert törvénytelenséget zúdítottak reám, és haraggal támadtak ellenem. 
+
+Szívem megrendült bensőmben, és halálos rémület szállt meg engem. 
+
+Félelem és rettegés jött reám, és sötétség borított el engem. 
+
+Ezért ezt mondtam: Ki ad nékem szárnyakat, mint a galambé, hogy elrepüljek és megpihenjek? 
+
+Bizony messzire menekülnék és a pusztaságban szállnék meg. 
+
+Várnám azt, aki megszabadít a kétségbeeséstől és a vihartól. 
+
+Uram, tedd tönkre és zavard össze a nyelvüket, mert törvénytelenséget és viszályt láttam a városban. 
+
+Éjjel-nappal járják körül várfalait, törvénytelenség és nyomor van benne, és igazságtalanság, és nem távozik el tereiről az uzsora és a csalárdság. 
+
+Ha az ellenség gyalázna engem, azt elviselném, és ha a gyűlölőm kerekednék fölém, elrejtőzném előle. 
+
+De te teszed azt, velem egylelkű ember, vezérem és bizalmasom, aki megédesítetted egykor ételemet, és akivel együtt jártam Isten házába egyetértésben. 
+
+Rontson rájuk a halál, és szálljanak alá élve az alvilágba, mert gonoszság van lakóhelyükön, bensőjükben. 
+
+Én pedig Istenhez kiáltok, és az Úr meghallgat engem. 
+
+Este és reggel és délben szólok, beszélek, és meghallgatja az én hangomat. Megszabadítja békeségben az én lelkemet bántalmazóimtól, bár sokan vannak ellenem. 
+
+Meghallgat engem és megalázza őket az Isten, aki öröktől fogva van. Mert nincsen számukra váltság, és nem félik az Istent. 
+
+Kinyújtja kezét, hogy megfizessen nekik, mert meggyalázták az Ő szövetségét. 
+
+Szétfutnak az Ő orcájának haragja elől, és közel van az Ő szíve. 
+
+Lágyabbak a szavai az olajnál, pedig olyanok, mint a kopják. 
+
+Az Úrra vesd a gondodat, és Ő eltart téged; soha nem enged megingást az igaznak. 
+
+Óh Isten, Te taszítsd el őket a romlás vermébe; a vérontó és álnok férfiak napjaik felét se érjék el. 
+
+Én pedig Tebenned reménykedem, Uram.`;
+
 export const PSALM_69 = `Istenem, segíts meg engem, Uram, siess segítségemre!
 
 Szégyenkezzenek és valljanak kudarcot azok, akik a lelkemre törnek!
@@ -197,6 +256,81 @@ Futamodjanak meg és forduljanak vissza tüstént szégyenkezve, akik gúnyolnak
 Vigadjanak és örvendjenek neked mindazok, akik keresnek téged, Istenem, és mondják mindenkor azok, akik szeretik a te üdvösségedet: magasztaltassék az Úr!
 
 Én pedig szegény és nyomorult vagyok, segíts meg, ó, Istenem! Segítőm és szabadítóm vagy te, Uram, ne késlekedj!`;
+
+export const PSALM_83 = `Mily kedvesek a Te hajlékaid, Seregeknek Ura! Vágyódik és epedezik az én lelkem az Úr 
+tornácai után. Szívem és testem örvendezik az élő Istenben. Mert a madár is talált magának házat, és a gerlice is fészket, ahová letegye fiókáit: a Te oltárodat, Seregeknek Ura, én Királyom és Istenem. Boldogok, akik a Te házadban lakoznak, mindörökön dicsérhetnek Téged. Boldog az a férfiú, akinek Tőled van az oltalma, és aki szívében zarándoklást határozott. A siralom völgyében, a helyen, amelyen áthalad, áldást áraszt reá a Törvényhozó. Erőről erőre haladnak, míg megjelenik nekik az istenek Istene a Sionon. Seregeknek Ura Istene, hallgasd meg imádságomat, halld meg azt Jákobnak Istene. Védelmező Istenünk, nézz le és tekints a Te felkentednek orcájára. Mert jobb egy nap a Te tornácaidban ezer másnál. Inkább legyek félrehúzódva az Isten házában, hogysem a bűnösök hajlékában lakozzam. Mert az irgalmasságot és az igazságot szereti az Úr Isten, kegyelmet és dicsőséget ád. Nem vonja meg az Úr a jót azoktól, akik ártatlanságban járnak. Seregeknek Ura, boldog az az ember, aki Tebenned reménykedik.`;
+
+export const PSALM_84 = `Megkegyelmeztél, Urunk, a Te földednek, visszahoztad Jákob foglyait, megbocsátottad néped törvénytelenségeit, elfedezted minden bűneiket. Megszüntetted minden haragodat, elfordultál felindulásod gerjedelmétől. Téríts vissza minket, üdvösségünk Istene, és fordítsd el haragodat tőlünk. Vajjon örökké haragszol-e reánk, és nemzedékről nemzedékre tartod-e haragodat? Óh Isten, visszatérve eleveníts meg minket, és néped örvendezni fog Tebenned. Mutasd meg nékünk, Urunk, a Te irgalmadat, és add nekünk üdvözítésedet. Hadd halljam, mit beszél nékem az Úr Isten. Bizony békeségről szól az Ő népéhez és az Ő kegyeltjeihez és azokhoz, kik szívükben visszatérnek Hozzá. Bizony közel van az Ő üdvözítése azokhoz, akik félik Őt, hogy dicsőség lakozzék a mi földünkön. Irgalom és igazság találkoztak, igazságosság és békeség megcsókolták egymást. Igazság kelt ki a földből, és igazságosság letekintett a mennyből. Mert az Úr megadja a jót, és földünk meghozza gyümölcsét. Igazságosság jár az Ő színe előtt, és irányítja az úton az Ő lépteit.`;
+
+export const PSALM_85 = `Hajtsd felém füledet, Uram, és hallgass meg engem, mert szegény és nyomorult vagyok én. Őrizd meg az én lelkemet, mert istenfélő vagyok; szabadítsd meg, Istenem, a Te szolgádat, aki Tebenned reménykedik. Irgalmazz nékem, Uram, mert Tehozzád kiáltottam egész napon át; örvendeztesd meg a Te szolgádnak lelkét, mert Tehozzád emeltem lelkemet. Mert Te, Uram, jóságos vagy, és elnéző és nagyirgalmú mindazokhoz, akik Téged segítségül hívnak. Hallgasd meg, Uram, az én imádságomat, és figyelj föl könyörgésem hangjára. Győtrődésem napján Hozzád kiáltottam, mert meghallgattál engem. Nincs hasonlatos Hozzád az istenek között, Uram, és cselekedeteid szerint sem. Minden nemzetek, melyeket alkottál, eljönnek és hódolnak Előtted, Uram, és dicsőítik a Te nevedet. Mert nagy vagy Te, és csodálatos dolgokat cselekszel; egyedül Te vagy Isten. Vezess engem, Uram, a Te utadon, és a Te igazságodban fogok járni; örvendezzék az én szívem a Te nevednek félelmében. Vallomást teszek Rólad, Uram, Istenem, teljes szívemből, és dicsőítem a Te nevedet mindörökké. Mert nagy a Te irgalmad énrajtam, és kiszabadítottad lelkemet az alvilág legmélyéből. Óh Isten, törvényszegők támadtak reám, és hatalmasok sokasága kereste az én lelkemet, és nem vettek figyelembe Téged. De Te, Uram Istenem, könyörületes és irgalmas, hosszantűrő és nagyirgalmú és igaz vagy. Tekints reám és irgalmazz nekem; add meg szolgádnak a Te erődet, és szabadítsd meg a Te szolgálód fiát. Add nékem a Te jóságod jelét, és lássák azt az én gyűlölőim, és szégyenüljenek meg; mert Te, Uram, megsegítettél és megvígasztaltál engem. Add nékem a Te jóságod jelét, és lássák azt az én gyűlölőim, és szégyenüljenek meg; mert Te, Uram, megsegítettél és megvígasztaltál engem.`;
+
+export const PSALM_89 = `Urunk, menedékünk voltál nemzedékről nemzedékre. 
+
+Mielőtt a hegyek lettek, és a föld és a világmindenség megalkottatott volna, öröktől fogva és mindörökké vagy Te. 
+
+Visszatéríted az embert a porba, és ezt mondod: Térjetek vissza, emberek fiai. 
+
+Mert ezer esztendő olyan a szemedben, mint a tegnapi nap, amely elmúlt, és mint egy őrségváltás az éjszakában. 
+
+Ugyanúgy tűnnek tova az évek. Reggelre mint a fű elmúlnak, amely reggelre kisarjad és elmúlik, estére ledől, elfonnyad és kiszárad. 
+
+Mert elsorvadtunk haragodtól, és felindulásodtól megrendültünk. 
+
+Szemeid elé tetted törvénytelenségeinket, időnk a Te orcád világosságában van. 
+
+Mert megfogyatkoztak minden napjaink, és haragodtól elsorvadtunk, éveink elszálltak, mint a pókháló. 
+
+Éveink napjai hetven esztendő, vagy legföljebb nyolcvan esztendő, és nagyobb részük fáradság és szenvedés; mert elpuhultság vett erőt rajtunk, és bűnhődünk, Kicsoda ismeri haragod erejét, és félelmedben a Te indulatodat? 
+
+Úgy tanítsd meg bölcsességben számolni a Te jobboddal a szívükben megkötözötteket. 
+
+Térj vissza, Urunk, - meddig még? - és könyörülj meg a Te szolgáidon. 
+
+Teljünk el reggel a Te irgalmaddal, és örvendezzünk és vígadjunk minden napjainkban. 
+
+Örvendezzünk annyi napig, ameddig sanyargattál minket, és annyi évig, ameddig rosszat láttunk. 
+
+És tekints a Te szolgáidra és a Te műveidre, és vezéreld az ő fiaikat. 
+
+És legyen a mi Urunk Istenünk fényessége mirajtunk, és kezeinknek műveit erősítsd meg rajtunk.`;
+
+export const PSALM_90 = `Aki a Magasságos oltalmában lakozik, az ég Istenének árnyékában táboroz. 
+
+Azt mondja az Úrnak: oltalmazóm és menedékem nékem az én Istenem, Őbenne reménykedem. 
+
+Mert Ő szabadít meg engem a vadászok csapdájától és a haragos beszédtől. 
+
+Vállaival beárnyékoz téged, és az szárnyai alatt bizodalommal lehetsz; fegyverként vesz körül az igazsága. 
+
+Nem félemedsz meg az éjjeli rettenéstől, a nappal repülő nyíltól, a sötétségben lopakodó bajtól, a déli démonok találkozásától. 
+
+Elhullanak mellőled ezeren, és jobbod felől miriádok, de hozzád mindez nem ér el. 
+
+Csak szemeiddel fogod fel és látod a bűnösök meglakolását. Mert Te vagy, Uram, az én reménységem; a Magasságost választottad magadnak menedékül. 
+
+Nem jutnak el hozzád a bajok, és csapás nem éri hajlékodat. 
+
+Mert az angyalainak megparancsolta felőled, hogy megőrizzenek téged minden utaidban; kezeiken hordoznak téged, nehogy lábadat kőbe üssed. 
+
+Áspiskígyóra és viperára taposol, oroszlánt és sárkányt eltiporsz. Mivel Énbennem bízott, megszabadítom őt, oltalmazom őt, mert megismerte az Én nevemet. 
+
+Hozzám kiált, és meghallgatom őt; vele vagyok szorongattatásában, és megmentem és megdicsőítem őt. 
+
+Hosszú élettel ajándékozom meg őt, és megmutatom néki az Én üdvösségemet.`;
+
+export const PSALM_100 = `Irgalomról és ítéletről énekelek Néked, Uram; magasztalom és figyelem a feddhetetlen utat: mikor jössz el hozzám? 
+
+Szívem ártatlanságában jártam házamnak közepette, nem tűrtem meg szemeim előtt törvénytelen dolgot. 
+
+Gyűlöltem a hitványságot cselekvőket, az álnok szív nemragaszkodhatott hozzám, a tőlem elhajló gonoszról tudni nem akartam. 
+
+Aki titkon rágalmazza felebarátját, azt kiűztem; a gőgös tekintetűvel és a telhetetlen szívűvel együtt nem étkeztem. 
+
+Szemeim a föld hűséges emberein vannak, hogy azok üljenek énvelem; aki a feddhetetlen utat járja, az szolgálhatott nékem. 
+
+Nem lakhatott az én házamban, aki kevélységet cselekszik; az igaztalanul beszélő szemeim előtt meg nem állhatott. 
+
+Reggelenként megöltem a földnek minden bűnöseit, hogy kipusztítsam az Úrnak városából mindazokat, akik törvénytelenséget cselekesznek.`;
 
 export const PSALM_103 = `Áldjad, én lelkem, az Urat! Én Uram, Istenem, felmagasztaltattál nagyon.
 

@@ -3,10 +3,10 @@ import {
   INTRO,
   GLORY,
   BOTH_NOW,
-  U_I_12,
+  LORD_HAVE_MERCY_12,
   COME_LET_US,
   CREED,
-  HOLY_FATHERS,
+  THROUGH_THE_PRAYERS,
 } from "../constants/repeatedPrayers";
 
 export const morning = {
@@ -31,7 +31,7 @@ ${BOTH_NOW}
 
 Váratlanul jön el a Bíró, és mindenkinek cselekedetei lelepleztetnek. Kiáltsuk hát félelemmel az éj közepén: Szent, szent, szent vagy Isten, irgalmazz nekünk Isten Szülője által.
 
-${U_I_12}`,
+${LORD_HAVE_MERCY_12}`,
     },
     {
       heading: "Könyörgő hálaima",
@@ -95,7 +95,7 @@ Jó dolog megvallani az Urat, és énekelni a te nevednek, ó, Magasságos, hird
       heading: "Másik imádság",
       text: `Urunk, Istenünk, aki a te békességedet adtad az embereknek, és leküldted szentséges Lelked ajándékát tanítványaidra és apostolaidra, aki erőddel azok ajkát lángnyelvek által megnyitottad, nyisd meg nékünk, bűnösöknek ajkát is, és taníts meg bennünket arra, hogyan és miért kell imádkoznunk! Kormányozd életünket, ó, vihartól űzöttek szélcsendes kikötője, és mutasd meg az utat, amelyen haladnunk kell! Újítsd meg bensőnkben az egyenes Lelket, és ingatag elménket erősítsd meg vezérlő Lélekkel, hogy életünk minden napján a te jóságos Lelkedtől vezérelve arra, ami hasznunkra van: parancsolataid teljesítésére méltóvá legyünk. És hogy mindig megemlékezzünk a te dicsőséges eljöveteledről, amikor megvizsgálod majd az emberek cselekedeteit! Erősíts meg bennünket, hogy ne csaljanak meg e világ múlandó örömei, hanem az eljövendő gyönyörűség kincseire vágyakozzunk! Mert áldott és dicsőített vagy minden szentedben mindörökkön örökké. Ámin.
 
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

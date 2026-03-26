@@ -1,5 +1,5 @@
 import { PSALM_103, PSALM_140, PSALM_141, PSALM_129, PSALM_116 } from "../constants/psalms";
-import { NAME_OF, COME_LET_US, MIDDLE_NO_AXION, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { IN_THE_NAME, COME_LET_US, MIDDLE_NO_AXION, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 
 export const vespers = {
@@ -10,7 +10,7 @@ export const vespers = {
   image: "",
   sections: [
     {
-      text: `${NAME_OF}
+      text: `${IN_THE_NAME}
         
 ${COME_LET_US}`,
     },
@@ -76,7 +76,7 @@ ${MIDDLE_NO_AXION}`,
       heading: `Tropárion`,
       text: `Minden szentednek és az Istenszülőnek közbenjárására add meg nékünk a te békédet, Urunk, és irgalmazz nekünk, mint egyedüli könyörületes.
 
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

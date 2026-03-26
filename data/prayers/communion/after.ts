@@ -1,4 +1,4 @@
-import { MIDDLE_NO_AXION, GLORY, BOTH_NOW, U_I_12, GLORY_BOTH, AKI_A_KERUB, HOLY_FATHERS } from "../constants/repeatedPrayers";
+import { MIDDLE_NO_AXION, GLORY, BOTH_NOW, LORD_HAVE_MERCY_12, GLORY_BOTH, MORE_HONOURABLE, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 export const right_after = {
   id: "right_after",
@@ -92,7 +92,7 @@ ${BOTH_NOW}`,
       heading: "Utána",
       text: `Sok fénnyel ragyogó égnek bizonyult az Egyház, amely minden hívőt megvilágosít. Ott állva így kiáltsunk: Ezt a házat erősítsd meg, Urunk!
         
-${U_I_12}
+${LORD_HAVE_MERCY_12}
 
 ${GLORY_BOTH}`,
     },
@@ -100,13 +100,13 @@ ${GLORY_BOTH}`,
       heading: "Theotokion",
       text: `Keresztények csalhatatlan oltalma, az Alkotóhoz való állhatatos közvetítője, ne vesd el a bűnösök könyörgő hangját, hanem igyekezz, mint jóságos segítségünkre, kik híven kiáltjuk hozzád: légy gyors a közbenjárásban és siess az esedezésben, Istennek Szülője, ki mindenkor oltalmazod tisztelőidet!
 
-${U_I_12}
+${LORD_HAVE_MERCY_12}
 
 ${GLORY_BOTH}
 
-${AKI_A_KERUB}
+${MORE_HONOURABLE}
 
-${HOLY_FATHERS}`,
+${THROUGH_THE_PRAYERS}`,
     },
   ],
 };

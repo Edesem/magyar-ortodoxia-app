@@ -367,7 +367,7 @@ Benned örvendezik, Kegyelembefogadott, az egész teremtés, az angyalok rendje 
         heading: "Ima az őrangyalhoz",
         text: `Szent angyalom, nyomorult lelkem és szerencsétlen életem oltalmazója! Ne hagyj el engem, bűnöst, és ne távozz el tőlem mértéktelenségem miatt. Ne engedd, hogy a gonosz démon hatalmába kerítsen, erőt véve halandó testemen. Ragadd meg nyomorult és ernyedt kezemet, és vezess az üdvösség útjára! Igen, Istennek szent angyala, nyomorult lelkem és testem őrizője és védelmezője, bocsáss meg nekem mindent, amivel életemnek minden napján megbántottalak, s amit ezen a napon is vétettem! Óvj meg engem ezen az éjszakán, és őrizz meg az Ellenség minden befolyásától, nehogy valamilyen bűnnel megharagítsam az én Istenemet! Járj közre értem az Úrnál, hogy erősítsen meg az ő félelmében, és tegyen jóságának érdemes szolgájává! Ámin.
         
-Istennek Szűz Szülője, örvendezz, kegyelembefogadott Mária, az Úr van teveled! Áldott vagy te az asszonyok között, és áldott a te méhednek gyümölcse, mert a mi lelkünk Üdvözítőjét szülted. (3x)
+Istennek Szűz Szülője, Örvendezz, kegyelembefogadott Mária, az Úr van teveled! Áldott vagy te az asszonyok között, és áldott a te méhednek gyümölcse, mert a mi lelkünk Üdvözítőjét szülted. (3x)
 
 A te könyörületedhez folyamodunk, Istennek Szülője, ne feledkezz meg esedezéseinkről nyomorúságunkban, hanem szabadíts meg minket a veszedelmektől, egyedülvaló tiszta, egyedülvaló áldott!`,
       },
@@ -1115,7 +1115,8 @@ A Szentlélek által fakad a kegyelem árja, amely az egész teremtést éltető
 Megemlékezem a te Nevedről nemzedékről nemzedékre.`,
       },
       {
-        heading: "Evangélium Lk 1, 39-49 és 56",
+        heading: "Evangélium",
+        subheading: "(Lk 1, 39-49 és 56)",
         text: `Azokban a napokban Mária felkelt, és sietve elment a hegyvidékre, Júda egyik városába. Betért Zakariás házába, és köszöntötte Erzsébetet. Történt pedig, hogy amint Erzsébet meghallotta Mária köszöntését, repesni kezdett méhében a magzat. Erzsébet eltelt Szentlélekkel, nagy hangon kiáltott, és így szólt: „Áldottabb vagy minden asszonynál, és áldott a te méhed gyümölcse! Hogyan lehet részem abban, hogy az én Uram anyja eljött hozzám? Mert íme, amint köszöntésed hangja a fülembe jutott, a magzat örömében repesni kezdett a méhemben. Boldog az, aki elhitte, hogy beteljesedik, amit az Úr mondott neki.”
 
  Mária így válaszolt: 
@@ -1395,47 +1396,21 @@ ${XAIRE}`,
         heading: "Húsvét után fényes héten szombatig",
         text: `${CHRIST_IS_RISEN} (3x)
         
-Látván Krisztus feltámadását, hódoljunk
-szent Urunk, Jézus előtt, aki egyedül bűn
-nélkül való. Kereszted előtt hódolunk, Krisztus, és a te szent feltámadásodat magasztaljuk
-és dicsőítjük. Mert te vagy a mi Istenünk, rajtad
-kívül mást nem ismerünk, a te nevedet szólítjuk. Jöjjetek mind, ti hívők, hódoljunk Krisztus
-szent feltámadásának, mert íme, a kereszt által
-öröm szállt az egész világra. Mindenkor áldva
-az Urat, dicsőítjük az ő feltámadását, mert eltűrve értünk a keresztet halálával elpusztította
-a halált. (3x)
+Látván Krisztus feltámadását, hódoljunk szent Urunk, Jézus előtt, aki egyedül bűn nélkül való. Kereszted előtt hódolunk, Krisztus, és a te szent feltámadásodat magasztaljuk és dicsőítjük. Mert te vagy a mi Istenünk, rajtad kívül mást nem ismerünk, a te nevedet szólítjuk. Jöjjetek mind, ti hívők, hódoljunk Krisztus szent feltámadásának, mert íme, a kereszt által öröm szállt az egész világra. Mindenkor áldva az Urat, dicsőítjük az ő feltámadását, mert eltűrve értünk a keresztet halálával elpusztította a halált. (3x)
 
-A Máriát követő asszonyok még hajnal előtt
-azt találták, hogy a sziklát valaki elhengerítette a sír szájától, és hallották, hogy az
-angyal így szól hozzájuk: Miért keresitek azt,
-aki az örök világosságban lakozik, emberként
-a halottak között? Lássátok a temetési gyolcsokat! Szaladjatok, és hirdessétek a világnak, 
-hogy feltámadt az Úr, és halálra adta a halált!
-Mert ő az Isten Fia, az emberi nem megmentője.
+A Máriát követő asszonyok még hajnal előtt azt találták, hogy a sziklát valaki elhengerítette a sír szájától, és hallották, hogy az angyal így szól hozzájuk: Miért keresitek azt, aki az örök világosságban lakozik, emberként a halottak között? Lássátok a temetési gyolcsokat! Szaladjatok, és hirdessétek a világnak, hogy feltámadt az Úr, és halálra adta a halált! Mert ő az Isten Fia, az emberi nem megmentője.
 
-Bár leszálltál a sírba, ó, Halhatatlan, mégis
-eltörölted az alvilág hatalmát, és győztesen feltámadtál, ó, Krisztus Isten! Így szóltál
-a kenethozó asszonyokhoz: „Örvendjetek!”
-Apostolaidnak békességet ajándékoztál, aki
-megadod az elbukottaknak a feltámadást.
+Bár leszálltál a sírba, ó, Halhatatlan, mégis eltörölted az alvilág hatalmát, és győztesen feltámadtál, ó, Krisztus Isten! Így szóltál a kenethozó asszonyokhoz: „Örvendjetek!” Apostolaidnak békességet ajándékoztál, aki megadod az elbukottaknak a feltámadást.
 
-Testben a sírban voltál, míg lelkeddel
-együtt Istenként a pokolban, a latorral
-együtt a Paradicsomban, az Atyával és a Lélekkel együtt pedig a trónuson, mert mindent betöltesz, ó, körülírhatatlan Krisztus!
+Testben a sírban voltál, míg lelkeddel együtt Istenként a pokolban, a latorral együtt a Paradicsomban, az Atyával és a Lélekkel együtt pedig a trónuson, mert mindent betöltesz, ó, körülírhatatlan Krisztus!
 
 ${GLORY}
 
-Életet hozónak, a Paradicsomnál gyönyörűségesebbnek, minden királyi hálóteremnél
-ragyogóbbnak bizonyult, Krisztus, a te sírod, a
-mi feltámadásunk forrása.
+Életet hozónak, a Paradicsomnál gyönyörűségesebbnek, minden királyi hálóteremnél ragyogóbbnak bizonyult, Krisztus, a te sírod, a mi feltámadásunk forrása.
 
 ${BOTH_NOW}
 
-A Magasságbéli megszentelt isteni lakhelye,
-örvendezz, ó, Istenszülő, mert általad adatott
-az öröm azoknak, kik így kiáltanak: Áldott
-vagy te az asszonyok között, ó, szeplőtelen
-Úrnőnk!
+A Magasságbéli megszentelt isteni lakhelye, Örvendezz, ó, Istenszülő, mert általad adatott az öröm azoknak, kik így kiáltanak: Áldott vagy te az asszonyok között, ó, szeplőtelen Úrnőnk!
 
 ${U_I_40}
 
@@ -1444,7 +1419,7 @@ ${GLORY_BOTH}
 ${AKI_A_KERUB}
 
 ${CHRIST_IS_RISEN} (3x)`,
-        subheading: `Ezt az imádságot naponta háromszor ismételjük.`,
+        postheading: `Ezt az imádságot naponta háromszor ismételjük.`,
       },
     ],
     image: "",
@@ -1456,345 +1431,248 @@ ${CHRIST_IS_RISEN} (3x)`,
     sections: [
       {
         heading: "Apolitikion (4. plagális hang)",
-        text: `A parancsot titkon tudomásul véve a testetlen, sietve megjelent József hajlékában,
-és így szólt a Férjezetlenhez: Az, aki alászállásával lehajlította az egeket, a maga egészében
-változatlanul bensődbe költözik. Őt látva méhedben, amint magára ölti a szolgai formát,
-ámulatomban így kiáltok hozzád: Örvendj,
-érintetlen Ara!`,
+        text: `A parancsot titkon tudomásul véve a testetlen, sietve megjelent József hajlékában, és így szólt a Férjezetlenhez: Az, aki alászállásával lehajlította az egeket, a maga egészében változatlanul bensődbe költözik. Őt látva méhedben, amint magára ölti a szolgai formát, ámulatomban így kiáltok hozzád: Örvendj, érintetlen Ara!`,
       },
       {
         heading: "1.",
-        text: `Az elöljáró Angyal elküldetett a mennyből,
-hogy így szóljon az Istenszülőhöz: „Örvendezz!”. (3x) Amikor látta, hogy a testetlen
-hangtól te megtestesülsz, Urunk, magán kívül
-került, megállt, s így kiáltott hozzá:
+        text: `Az elöljáró Angyal elküldetett a mennyből, hogy így szóljon az Istenszülőhöz: „Örvendezz!”. (3x) Amikor látta, hogy a testetlen hangtól te megtestesülsz, Urunk, magán kívül került, megállt, s így kiáltott hozzá:
 
 Örvendezz, ki által felragyog az öröm,
-örvendezz, ki által kialszik az átok.
+Örvendezz, ki által kialszik az átok.
 Örvendezz, visszahívása az elbukott Ádámnak,
-örvendezz, váltsága Éva könnyeinek.
-Örvendezz, emberi gondolatnak elérhetetlen
-magasság,
-örvendezz, angyali szemnek beláthatatlan
-mélység.
+Örvendezz, váltsága Éva könnyeinek.
+Örvendezz, emberi gondolatnak elérhetetlen magasság,
+Örvendezz, angyali szemnek beláthatatlan mélység.
 Örvendezz, mert te vagy a király trónusa,
-örvendezz, mert hordod azt, ki mindent
-hordoz.
+Örvendezz, mert hordod azt, ki mindent hordoz.
 Örvendezz, napkeltét megjelentő csillag,
-örvendezz, isteni testetöltés méhe.
+Örvendezz, isteni testetöltés méhe.
 Örvendezz, teremtett világot újító,
-örvendezz, benned lesz gyermek az Alkotó.
+Örvendezz, benned lesz gyermek az Alkotó.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "2.",
-        text: `Ismerve a szent Szűz önnön tisztaságát, bátor hangon így szólt Gábriel angyalhoz:
-Érthetetlen furcsa beszéded lelkemnek, mert
-hogy is mondhatod a fogamzást magtalannak,
-így kiáltva: Alliluia!
+        text: `Ismerve a szent Szűz önnön tisztaságát, bátor hangon így szólt Gábriel angyalhoz: Érthetetlen furcsa beszéded lelkemnek, mert hogy is mondhatod a fogamzást magtalannak, így kiáltva: Alliluia!
 
-A megismerhetetlen ismeret megismerését
-keresvén így szólt a Szűz a szolgálattevőhöz: Hogy fiam szülessék tisztaságos méhből,
-ily csoda hogy eshet, kérlek, mondd meg nékem! Amaz pedig félve bár, mégis így kiáltott:
-Örvendezz, beavatottja a kimondhatatlan
-tervnek,
-örvendezz, hite azoknak, mik hallgatást
-igényelnek.
+A megismerhetetlen ismeret megismerését keresvén így szólt a Szűz a szolgálattevőhöz: Hogy fiam szülessék tisztaságos méhből, ily csoda hogy eshet, kérlek, mondd meg nékem! Amaz pedig félve bár, mégis így kiáltott:
+
+Örvendezz, beavatottja a kimondhatatlan tervnek,
+Örvendezz, hite azoknak, mik hallgatást igényelnek.
 Örvendezz, Krisztus csodáinak bevezetése,
-örvendezz, tanításának betetőzése.
-Örvendezz, mennyei lépcső, melyen az Isten
-alászállt,
-örvendezz, híd, mely a földről az égbe vezet át.
+Örvendezz, tanításának betetőzése.
+Örvendezz, mennyei lépcső, melyen az Isten alászállt,
+Örvendezz, híd, mely a földről az égbe vezet át.
 Örvendezz, angyalok legendás csodája,
-örvendezz, démonok iszonyú csapása.
-Örvendezz, mert mondhatatlanul szülted
-a Fényt,
-örvendezz, mert senkinek nem mondtad el,
-miként.
+Örvendezz, démonok iszonyú csapása.
+Örvendezz, mert mondhatatlanul szülted a Fényt,
+Örvendezz, mert senkinek nem mondtad el, miként.
 Örvendezz, bölcsek tudását meghaladó,
-örvendezz, hívők értelmét megvilágosító.
+Örvendezz, hívők értelmét megvilágosító.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "3.",
-        text: `A Magasságos ereje akkor fogamzással árnyékolta be a Férjezetlent, és annak termékeny méhét édes termőfölddé tette mindazoknak, akik üdvösséget akarnak aratni, és így
-énekelnek: Alliluia!
+        text: `A Magasságos ereje akkor fogamzással árnyékolta be a Férjezetlent, és annak termékeny méhét édes termőfölddé tette mindazoknak, akik üdvösséget akarnak aratni, és így énekelnek: Alliluia!
 
-Istent befogadó méhe lévén a Szűznek, sietve
-kelt útra Erzsébethez; annak magzata pedig,
-meghallván az ő üdvözletét, megörült és repesve szinte énekelt Isten Szülőjéhez:
+Istent befogadó méhe lévén a Szűznek, sietve kelt útra Erzsébethez; annak magzata pedig, meghallván az ő üdvözletét, megörült és repesve szinte énekelt Isten Szülőjéhez:
+
 Örvendezz, hervadhatatlan hajtásnak vesszeje,
-örvendezz, tiszta szőlőnek tőkéje.
-Örvendezz, mert az emberszerető földművest
-műveled,
-örvendezz, mert életünk sarjasztóját sarjasztod.
-
+Örvendezz, tiszta szőlőnek tőkéje.
+Örvendezz, mert az emberszerető földművest műveled,
+Örvendezz, mert életünk sarjasztóját sarjasztod.
 Örvendezz, anyaföld, mely a könyörület bőségét termed,
-örvendezz, asztal, mely az engesztelés sokaságát hordozod.
+Örvendezz, asztal, mely az engesztelés sokaságát hordozod.
 Örvendezz, mert a gyönyörűség mezejét teríted,
-örvendezz, mert a lelkek révpartját készíted.
+Örvendezz, mert a lelkek révpartját készíted.
 Örvendezz, közbenjárásnak kellemes tömjénje,
-örvendezz, egész világnak engesztelése.
-Örvendezz, Istennek a halandókhoz való
-jóakarata,
-örvendezz, halandóknak Istenhez való
-bizodalma.
+Örvendezz, egész világnak engesztelése.
+Örvendezz, Istennek a halandókhoz való jóakarata,
+Örvendezz, halandóknak Istenhez való bizodalma.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "4.",
-        text: `A titkos kétkedő gondolatoktól gyötörve a
-józan életű József megzavarodott, mert
-Téged, ó feddhetetlen Szűz, házasságtöréssel
-gyanúsított. Amikor viszont megtudta, hogy a
-Szentlélektől fogantál, így szólt: Alliluia!
+        text: `A titkos kétkedő gondolatoktól gyötörve a józan életű József megzavarodott, mert Téged, ó feddhetetlen Szűz, házasságtöréssel gyanúsított. Amikor viszont megtudta, hogy a Szentlélektől fogantál, így szólt: Alliluia!
 
-Meghallották a pásztorok, hogy az angyalok Krisztus testi megjelenését hirdetik, 
-és a Pásztorhoz sietve szeplőtelen Bárányként
-látták meg őt, akit Mária méhében pásztorolt.
-Őt dicsérve így szóltak:
+Meghallották a pásztorok, hogy az angyalok Krisztus testi megjelenését hirdetik, és a Pásztorhoz sietve szeplőtelen Bárányként látták meg őt, akit Mária méhében pásztorolt. Őt dicsérve így szóltak:
+
 Örvendezz, Báránynak és Pásztornak Anyja,
-örvendezz, lelki juhoknak akla.
+Örvendezz, lelki juhoknak akla.
 Örvendezz, láthatatlan ellenség elhárítója,
-örvendezz, Paradicsom kapujának megnyitója.
-Örvendezz, mert az égiek együtt vigadnak a
-földdel,
-örvendezz, mert a földiek táncra perdülnek a
-mennyel.
+Örvendezz, Paradicsom kapujának megnyitója.
+Örvendezz, mert az égiek együtt vigadnak a földdel,
+Örvendezz, mert a földiek táncra perdülnek a mennyel.
 Örvendezz, apostoloknak soha el nem hallgató ajka,
-örvendezz, vértanúknak győzhetetlen bátorsága.
+Örvendezz, vértanúknak győzhetetlen bátorsága.
 Örvendezz, hitnek szilárd támasza,
-örvendezz, kegyelem tündöklő bélyege.
-Örvendezz, mert általad lemeztelenedett a
-pokol,
-örvendezz, mert nekünk dicső öltözetet hozol.
+Örvendezz, kegyelem tündöklő bélyege.
+Örvendezz, mert általad lemeztelenedett a pokol,
+Örvendezz, mert nekünk dicső öltözetet hozol.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "5.",
-        text: `Meglátván a bölcsek az Istenhez vezérlő csillagot, annak fényét követték, és
-mintha csak lámpásuk lett volna, általa kutatták fel a hatalmas Királyt. Akkor elérkezve az
-Elérhetetlenhez, örvendeztek, így kiáltva hozzá: Alliluia!
+        text: `Meglátván a bölcsek az Istenhez vezérlő csillagot, annak fényét követték, és mintha csak lámpásuk lett volna, általa kutatták fel a hatalmas Királyt. Akkor elérkezve az Elérhetetlenhez, örvendeztek, így kiáltva hozzá: Alliluia!
 
-A káldeusok fiai látták a Szűz kezében azt,
-aki kezével alkotta az embert. Felismerték, hogy Ő az Úr, habár szolga alakját öltötte
-magára, és siettek ajándékokkal szolgálni és
-kiáltani az áldott Szűzhöz:
+A káldeusok fiai látták a Szűz kezében azt, aki kezével alkotta az embert. Felismerték, hogy Ő az Úr, habár szolga alakját öltötte magára, és siettek ajándékokkal szolgálni és kiáltani az áldott Szűzhöz:
+
 Örvendezz, le nem nyugvó csillagnak Anyja,
-örvendezz, titokzatos napnak hajnala.
-Örvendezz, mert kioltottad a tévelygés tüzes
-kemencéjét,
-örvendezz, mert megvilágosítod a Háromság
-beavatottjait.
+Örvendezz, titokzatos napnak hajnala.
+Örvendezz, mert kioltottad a tévelygés tüzes kemencéjét,
+Örvendezz, mert megvilágosítod a Háromság beavatottjait.
 Örvendezz, mert kivetetted hatalmából az embertelen zsarnokot,
-örvendezz, mert felmutattad Krisztust, az emberszerető Urat.
+Örvendezz, mert felmutattad Krisztust, az emberszerető Urat.
 Örvendezz, mert megmentettél a barbár vallástól,
-örvendezz, mert megszabadítottál a fertő
-műveitől.
+Örvendezz, mert megszabadítottál a fertő műveitől.
 Örvendezz, mert megszüntetted a tűz imádását,
-örvendezz, mert kioltod a szenvedélyek lángját.
+Örvendezz, mert kioltod a szenvedélyek lángját.
 Örvendezz, hívőket józanságra vezérlő,
-örvendezz, minden nemzedéket örömre derítő.
+Örvendezz, minden nemzedéket örömre derítő.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "6.",
-        text: `I
-stenhordozó követekké lettek a bölcsek, és
-visszatértek Babilonba. Teljesítették jövendölésedet, és mindenkinek hirdettek téged,
-Krisztus. Magára hagyták az őrjöngő Heródest, aki nem tudta énekelni néked: Alliluia!
+        text: `Istenhordozó követekké lettek a bölcsek, és visszatértek Babilonba. Teljesítették jövendölésedet, és mindenkinek hirdettek téged, Krisztus. Magára hagyták az őrjöngő Heródest, aki nem tudta énekelni néked: Alliluia!
 
 Felragyogtatva Egyiptomban az igazság fényét, elűzted a hazugság sötétségét; ledőltek annak bálványai, mert nem bírtak ellenállni a te erődnek, Üdvözítő; akik pedig megszabadultak azoktól, így kiáltottak Isten Szülőjéhez:
+
 Örvendezz, emberek fölemelője,
-örvendezz, démonok romba döntője.
+Örvendezz, démonok romba döntője.
 Örvendezz, mert eltapostad a csalárd tévelygést,
-örvendezz, mert leleplezted a bálványok
-mételyét.
-Örvendezz, tenger, mely ellepted a szellemi
-fáraót,
-örvendezz, szikla, mely megitattad az életet
-szomjazót.
-Örvendezz, lángoszlop, mely vezeti a sötétben
-járókat,
-örvendezz, világnak felhőnél szélesebb leple.
+Örvendezz, mert leleplezted a bálványok mételyét.
+Örvendezz, tenger, mely ellepted a szellemi fáraót,
+Örvendezz, szikla, mely megitattad az életet szomjazót.
+Örvendezz, lángoszlop, mely vezeti a sötétben járókat,
+Örvendezz, világnak felhőnél szélesebb leple.
 Örvendezz, étel, a manna örököse,
-örvendezz, szent gyönyörnek kiszolgálója.
+Örvendezz, szent gyönyörnek kiszolgálója.
 Örvendezz, ígéretnek földje,
-örvendezz, tejjel és mézzel folyó ország.
+Örvendezz, tejjel és mézzel folyó ország.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "7.",
-        text: `Midőn Simeon elköltözni készült a jelenvaló csalóka világból, mint kisdedet vett
-a karjaiba téged, de mint tökéletes Isten is megmutatkoztál neki; elámult ezért kimondhatatlan bölcsességeden, így kiáltva fel: Alliluia!
-Új alkotást mutatott meg az Alkotó nekünk,
-akik általa lettünk, mag nélküli méhből
-sarjadva, és sértetlenül őrizve meg azt, amilyen volt, hogy látván a csodát, magasztaljuk a
-Szüzet, így kiáltva:
+        text: `Midőn Simeon elköltözni készült a jelenvaló csalóka világból, mint kisdedet vett a karjaiba téged, de mint tökéletes Isten is megmutatkoztál neki; elámult ezért kimondhatatlan bölcsességeden, így kiáltva fel: Alliluia! Új alkotást mutatott meg az Alkotó nekünk, akik általa lettünk, mag nélküli méhből sarjadva, és sértetlenül őrizve meg azt, amilyen volt, hogy látván a csodát, magasztaljuk a Szüzet, így kiáltva:
+
 Örvendezz, romolhatatlanság virága,
-örvendezz, megtartóztatás koszorúja.
-Örvendezz, mert felragyogtattad a feltámadás
-jelét,
-örvendezz, mert megmutattad az angyalok
-életét.
-Örvendezz, bőven termő gyümölcsfa, mely
-táplálja a hívőket,
-örvendezz, dús lombú fa, amely sokaknak
-nyújt árnyékot.
+Örvendezz, megtartóztatás koszorúja.
+Örvendezz, mert felragyogtattad a feltámadás jelét,
+Örvendezz, mert megmutattad az angyalok életét.
+Örvendezz, bőven termő gyümölcsfa, mely táplálja a hívőket,
+Örvendezz, dús lombú fa, amely sokaknak nyújt árnyékot.
 Örvendezz, mert hordozod a tévelygők útbaigazítóját,
-örvendezz, mert világra hozod a rabok megszabadítóját.
+Örvendezz, mert világra hozod a rabok megszabadítóját.
 Örvendezz, igazságos bíró kiengesztelése,
-örvendezz, sok vétkezőnek megkegyelmezése.
+Örvendezz, sok vétkezőnek megkegyelmezése.
 Örvendezz, köntöse azoknak, kik bátorság hiányában fáznak,
-örvendezz, gondoskodás, mely meghalad
-minden vágyat.
+Örvendezz, gondoskodás, mely meghalad minden vágyat.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "8.",
-        text: `Különös szülést látván, különüljünk el a
-világtól, az égbe emelve értelmünket.
-Hiszen a magasságos Isten azért jelent meg a
-földön alázatos emberként, hogy a magasba
-emelje azokat, kik így kiáltanak hozzá: Alliluia!
-Egészen a földiek között volt, de egyáltalán
-nem távozott el az égiek közül a leírhatat
-lan Ige; mert isteni leereszkedés történt, nem
-pedig helyváltoztatás, és az Istent befogadó
-Szűztől történt születése, aki ezt hallgatta:
+        text: `Különös szülést látván, különüljünk el a világtól, az égbe emelve értelmünket. Hiszen a magasságos Isten azért jelent meg a földön alázatos emberként, hogy a magasba emelje azokat, kik így kiáltanak hozzá: Alliluia! Egészen a földiek között volt, de egyáltalán nem távozott el az égiek közül a leírhatat lan Ige; mert isteni leereszkedés történt, nem pedig helyváltoztatás, és az Istent befogadó Szűztől történt születése, aki ezt hallgatta:
+
 Örvendezz, befogadhatatlan Isten befogadója,
-örvendezz, magasztos misztérium kapuja.
+Örvendezz, magasztos misztérium kapuja.
 Örvendezz, hitetlenek kétes hallomása,
-örvendezz, hívőknek biztos bizodalma.
-Örvendezz, legszentebb kocsija a kerubokon
-utazónak,
-örvendezz, legtökéletesebb hajléka a szeráfok
-fölött nyugvónak.
+Örvendezz, hívőknek biztos bizodalma.
+Örvendezz, legszentebb kocsija a kerubokon utazónak,
+Örvendezz, legtökéletesebb hajléka a szeráfok fölött nyugvónak.
 Örvendezz, mert az ellentétes dolgokat kiegyenlíted,
-örvendezz, mert a szüzességet az anyasággal
-egyesíted.
+Örvendezz, mert a szüzességet az anyasággal egyesíted.
 Örvendezz, mert általad feloldoztatott a vétek,
-örvendezz, mert általad megnyittatott az Éden.
+Örvendezz, mert általad megnyittatott az Éden.
 Örvendezz, Krisztus országának kulcsa,
-örvendezz, örök javaknak reménysége.
+Örvendezz, örök javaknak reménysége.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "9.",
-        text: `Az Angyalok egész természete elámult a Te
-megtestesülésed nagy művén, mert mindenki számára elérhető embernek látta az elérhetetlen Istent, aki közöttünk él, s ezt hallgatja
-mindnyájunktól: Alliluia!
-Az ékes beszédű szónokok oly némák, mint
-a halak, a te színed előtt, Istennek Szülője, mert nem tudják elmondani, miként tudtál szűz létedre gyermeket szülni. Mi viszont
-a misztériumot csodálva híven így kiáltunk
-hozzád:
+        text: `Az Angyalok egész természete elámult a Te megtestesülésed nagy művén, mert mindenki számára elérhető embernek látta az elérhetetlen Istent, aki közöttünk él, s ezt hallgatja mindnyájunktól: Alliluia!
+
+Az ékes beszédű szónokok oly némák, mint a halak, a te színed előtt, Istennek Szülője, mert nem tudják elmondani, miként tudtál szűz létedre gyermeket szülni. Mi viszont a misztériumot csodálva híven így kiáltunk hozzád:
+
 Örvendezz, Isten bölcsességének tárháza,
-örvendezz, az ő gondviselésének kincstára.
-Örvendezz, aki által a filozófusok balgákká
-lesznek,
-örvendezz, aki a szó művészeit szótlanná
-teszed.
+Örvendezz, az ő gondviselésének kincstára.
+Örvendezz, aki által a filozófusok balgákká lesznek,
+Örvendezz, aki a szó művészeit szótlanná teszed.
 Örvendezz, mert a nagy vitázók ostobává lettek,
-örvendezz, mert a mítoszköltők megsemmisültek.
+Örvendezz, mert a mítoszköltők megsemmisültek.
 Örvendezz, aki az athéni szónokok mesterkedését széttépted,
-örvendezz, aki a halászok hálóit megtöltötted.
+Örvendezz, aki a halászok hálóit megtöltötted.
 Örvendezz, mert a tudatlanság mélyéből kiemelsz,
-örvendezz, mert sokakat tudással ékesítesz.
+Örvendezz, mert sokakat tudással ékesítesz.
 Örvendezz, üdvösségre vágyóknak hajója,
-örvendezz, az élet hajósainak révpartja.
+Örvendezz, az élet hajósainak révpartja.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "10.",
-        text: `Üdvözíteni akarván a világot a mindenek
-Világossága, maga adott hírt önnön alászállásáról hozzá, és bár mint Isten pásztorunk
-volt, hozzánk hasonló emberként jelent meg
-érettünk. Aki a hasonlót a hasonlóval magához hívta, mint Isten, ezt hallgatja tőlünk:
-Alliluia!
-Várfala vagy a szüzeknek és minden hozzád folyamodónak, Istennek szűz Szülője, mert téged, ó, Tisztaságos, a menny és a föld
-Teremtője alkotott, aki a te méhedben lakozott,
-és mindeneket megtanított így szólítani téged:
+        text: `Üdvözíteni akarván a világot a mindenek Világossága, maga adott hírt önnön alászállásáról hozzá, és bár mint Isten pásztorunk volt, hozzánk hasonló emberként jelent meg érettünk. Aki a hasonlót a hasonlóval magához hívta, mint Isten, ezt hallgatja tőlünk: Alliluia!
+
+Várfala vagy a szüzeknek és minden hozzád folyamodónak, Istennek szűz Szülője, mert téged, ó, Tisztaságos, a menny és a föld Teremtője alkotott, aki a te méhedben lakozott, és mindeneket megtanított így szólítani téged:
+
 Örvendezz, szüzességnek oszlopa,
-örvendezz, üdvösségnek kapuja.
+Örvendezz, üdvösségnek kapuja.
 Örvendezz, értelmi újjáformálásunk kezdete,
-örvendezz, isteni jóságnak közvetítője.
+Örvendezz, isteni jóságnak közvetítője.
 Örvendezz, mert újjászülted azokat, kik bűnben fogantak,
-örvendezz, mert az eszteleneket eszessé
-változtattad.
-Örvendezz, mert megsemmisítetted az értelem
-megrontóját,
-örvendezz, mert megszülted a tisztaság
-magvetőjét.
+Örvendezz, mert az eszteleneket eszessé változtattad.
+Örvendezz, mert megsemmisítetted az értelem megrontóját,
+Örvendezz, mert megszülted a tisztaság magvetőjét.
 Örvendezz, magtalan menyegző csarnoka,
-örvendezz, mert a hívőket eljegyezted az Úrral.
+Örvendezz, mert a hívőket eljegyezted az Úrral.
 Örvendezz, szüzeknek jóságos nevelője,
-örvendezz, szentek lelkének koszorúslánya.
+Örvendezz, szentek lelkének koszorúslánya.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "11.",
-        text: `Minden dicsérőének hiába, ha a te könyörületed sokaságát akarja felsorolni, szent
-Királyunk. Hiszen, ha annyi éneket ajánlanánk
-is fel néked, mint a homokszem, még semmi
-méltót nem mondanánk ahhoz, amit nekünk
-adtál, kik így kiáltunk hozzád: Alliluia!
-A sötétben járók fényhordozó fáklyájának
-látjuk a szent Szüzet, aki meggyújtván az
-anyagtalan világosságot, isteni ismeretre vezet
-mindeneket, s míg ragyogásával megvilágítja
-az értelmet, ezzel a kiáltással arat tiszteletet:
+        text: `Minden dicsérőének hiába, ha a te könyörületed sokaságát akarja felsorolni, szent Királyunk. Hiszen, ha annyi éneket ajánlanánk is fel néked, mint a homokszem, még semmi méltót nem mondanánk ahhoz, amit nekünk adtál, kik így kiáltunk hozzád: Alliluia! A sötétben járók fényhordozó fáklyájának látjuk a szent Szüzet, aki meggyújtván az anyagtalan világosságot, isteni ismeretre vezet mindeneket, s míg ragyogásával megvilágítja az értelmet, ezzel a kiáltással arat tiszteletet:
+
 Örvendezz, értelmi napnak sugara,
-örvendezz, le nem nyugvó fényforrás ragyogása.
+Örvendezz, le nem nyugvó fényforrás ragyogása.
 Örvendezz, villám, mely megvilágítja a lelkeket,
-örvendezz, égzengés, mely megrémíti az
-ellenséget.
+Örvendezz, égzengés, mely megrémíti az ellenséget.
 Örvendezz, mert árasztod a sokfényű világosságot,
-örvendezz, mert a bővizű folyamot fakasztod.
+Örvendezz, mert a bővizű folyamot fakasztod.
 Örvendezz, keresztelőmedence előképe,
-örvendezz, mert lemosod a bűnnek szennyfoltját.
+Örvendezz, mert lemosod a bűnnek szennyfoltját.
 Örvendezz, medence, mely megtisztítja a lelkiismeretet,
-örvendezz, kehely, mely kínálja az örömet.
+Örvendezz, kehely, mely kínálja az örömet.
 Örvendezz, Krisztusnak kellemes jó illata,
-örvendezz, életnek rejtelmes lakomája.
+Örvendezz, életnek rejtelmes lakomája.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "12.",
-        text: `Kegyelmet akarván adni a régi vétkekért
-az, aki minden ember adósságát eltörli,
-ő maga jött el azokhoz, akik eltávolodtak az ő
-kegyelmétől, és mert az adósságlevelet eltépte,
-mindenektől ezt hallgatja: Alliluia!
-Szülésedet megénekelve, mindannyian magasztalunk téged, mint eleven templomot,
-Istennek Szülője. Mert a te méhedben lakozván
-az Úr, ki a kezében tartja a mindenséget, meg
-szentelt és megdicsőített bennünket, és megtanított mindnyájunkat így kiáltani hozzád:
+        text: `Kegyelmet akarván adni a régi vétkekért az, aki minden ember adósságát eltörli, ő maga jött el azokhoz, akik eltávolodtak az ő kegyelmétől, és mert az adósságlevelet eltépte, mindenektől ezt hallgatja: Alliluia!
+
+Szülésedet megénekelve, mindannyian magasztalunk téged, mint eleven templomot, Istennek Szülője. Mert a te méhedben lakozván az Úr, ki a kezében tartja a mindenséget, meg szentelt és megdicsőített bennünket, és megtanított mindnyájunkat így kiáltani hozzád:
+
 Örvendezz, Istennek és Igének sátra,
-örvendezz, aki nagyobb vagy a Szentek Szentjénél.
+Örvendezz, aki nagyobb vagy a Szentek Szentjénél.
 Örvendezz, Frigyszekrény, melyet bearanyozott a Lélek,
-örvendezz, életnek kimeríthetetlen kincstára.
+Örvendezz, életnek kimeríthetetlen kincstára.
 Örvendezz, istenfélő királyok drága koronája,
-örvendezz, jámbor papoknak tisztes büszkesége.
+Örvendezz, jámbor papoknak tisztes büszkesége.
 Örvendezz, az Egyház rendíthetetlen bástyája,
 Örvendezz, az ország bevehetetlen várfala.
 Örvendezz, mert általad emelkednek a győzelmi jelvények,
-örvendezz, mert általad elhullanak az ellenségek.
+Örvendezz, mert általad elhullanak az ellenségek.
 Örvendezz, testemnek gyógyulása,
-örvendezz, lelkemnek üdvössége.
+Örvendezz, lelkemnek üdvössége.
 Örvendj, érintetlen Ara!`,
       },
       {
         heading: "13.",
-        text: `Ó, legmagasztaltabb Anya, ki az összes
-szentek közt legszentebb Igét szülted (3x), elfogadva mostani felajánlásunkat, szabadíts meg mindnyájunkat minden csapástól, és
-az eljövendő kárhozattól ments meg bennünket, akik így kiáltunk hozzád: Alliluia!`,
+        text: `Ó, legmagasztaltabb Anya, ki az összes szentek közt legszentebb Igét szülted (3x), elfogadva mostani felajánlásunkat, szabadíts meg mindnyájunkat minden csapástól, és az eljövendő kárhozattól ments meg bennünket, akik így kiáltunk hozzád: Alliluia!`,
       },
       {
         heading: "Kondákion",
         subheading: "Plagális 4. hang",
-        text: `Megszabadulva a bajoktól én, a te városod, védelmező hadvezéremnek ülök
-győzelmi ünnepet. Legyőzhetetlen erejű Istenszülő, kérlek, szabadíts meg minden veszélytől, hogy így kiáltsak hozzád:
-Örvendj, érintetlen Ara!`,
+        text: `Megszabadulva a bajoktól én, a te városod, védelmező hadvezéremnek ülök győzelmi ünnepet. Legyőzhetetlen erejű Istenszülő, kérlek, szabadíts meg minden veszélytől, hogy így kiáltsak hozzád: Örvendj, érintetlen Ara!`,
       },
     ],
     image: "",
@@ -1806,68 +1684,23 @@ győzelmi ünnepet. Legyőzhetetlen erejű Istenszülő, kérlek, szabadíts meg
     sections: [
       {
         heading: "Első ima",
-        text: `Hálát adok neked, mindenható Urunk,
-amiért arra méltattál, hogy megvívjam
-az elmúlt nap küzdelmeit, megérjem ennek az
-éjszakának a kezdetét, és felajánljam néked ezt
-az esti könyörgést.
+        text: `Hálát adok neked, mindenható Urunk, amiért arra méltattál, hogy megvívjam az elmúlt nap küzdelmeit, megérjem ennek az éjszakának a kezdetét, és felajánljam néked ezt az esti könyörgést.
 
-Esedezem hát hozzád, emberszerető Uralkodóm, fogadd el ajkam könyörgését, és
-megbocsátva minden, szándékos és szándéktalan vétkezésemet, őrizz meg a hiábavaló gondolatoktól és a gonosz vágyaktól! Add, hogy
-az elkövetkező éjszaka és életemnek minden
-napja békességes és bűntelen legyen, a szent
-Istenszülőnek és minden szentednek közbenjárásai által, akik öröktől fogva kedvedben
-jártak.`,
+Esedezem hát hozzád, emberszerető Uralkodóm, fogadd el ajkam könyörgését, és megbocsátva minden, szándékos és szándéktalan vétkezésemet, őrizz meg a hiábavaló gondolatoktól és a gonosz vágyaktól! Add, hogy az elkövetkező éjszaka és életemnek minden napja békességes és bűntelen legyen, a szent Istenszülőnek és minden szentednek közbenjárásai által, akik öröktől fogva kedvedben jártak.`,
       },
       {
         heading: "Másik imádság",
-        text: `J
-óságos és emberszerető Uram Istenem, bocsásd meg nékem minden vétkezésemet,
-amit a mai napon szóval, cselekedettel és gondolattal elkövettem! Ajándékozz nekem békés
-és zavartalan álmot, ments meg a gonosznak
-minden befolyásától és ármánykodásától, és
-kelts fel alkalmas időben, hogy dicsőítselek
-téged. Mert áldott vagy egyszülött Fiaddal és
-szentséges Lelkeddel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
+        text: `Jóságos és emberszerető Uram Istenem, bocsásd meg nékem minden vétkezésemet, amit a mai napon szóval, cselekedettel és gondolattal elkövettem! Ajándékozz nekem békés és zavartalan álmot, ments meg a gonosznak minden befolyásától és ármánykodásától, és kelts fel alkalmas időben, hogy dicsőítselek téged. Mert áldott vagy egyszülött Fiaddal és szentséges Lelkeddel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Harmadik ima",
-        text: `Urunk, Istenünk, akiben bízunk, és akit
-minden nap segítségül hívunk; most,
-hogy nyugovóra térünk, adj megnyugvást testünknek-lelkünknek, és őrizz meg bennünket
-minden sötét képzelődéstől és éjszakai kéjérzettől. Szüntesd meg a szenvedélyek viharát,
-csöndesítsd le a test lázongását, és add meg
-nekünk, hogy józanul éljünk, és így erényes
-életvitelünknek köszönhetően ne essünk el a
-megígért javaktól! Mert áldott vagy mindörökké. Ámin.`,
+        text: `Urunk, Istenünk, akiben bízunk, és akit minden nap segítségül hívunk; most, hogy nyugovóra térünk, adj megnyugvást testünknek-lelkünknek, és őrizz meg bennünket minden sötét képzelődéstől és éjszakai kéjérzettől. Szüntesd meg a szenvedélyek viharát, csöndesítsd le a test lázongását, és add meg nekünk, hogy józanul éljünk, és így erényes életvitelünknek köszönhetően ne essünk el a megígért javaktól! Mert áldott vagy mindörökké. Ámin.`,
       },
       {
         heading: "Lefekvés előtti ima",
         subheading: `Szent Athanáz és Kirill
 alexandriai patriarchák szertartásából`,
-        text: `Uram, aki a nappal világosságát a munkára, az éjszaka sötétségét pedig a fáradtság
-kipihenésére rendelted, add meg nékem, aki
-most nyugovóra térek, hogy ezen az éjszakán
-testem úgy pihenjen, hogy míg ő alszik, lelkem éberen szüntelenül reád tekintsen, és az
-irántad való vágyakozástól szárnyra keljen! Ne
-hagyj el engem akkor sem, amikor leteszem az
-élet minden gondját, hogy amikor megadod
-gyöngeségemnek a pihenést, amelyre szüksége van, akkor se feledkezzem meg rólad, hanem maradjon meg lelkemben kitörölhetetlenül a te jóságod és kegyelmed emléke, hogy a
-testtel együtt tudatom is nyugalmat leljen. Ne
-engedd, hogy testem túlzottan gyönyörűségét
-lelje az álomban, s azt ne élvezzem azon mértéken felül, mely a fáradt testnek elegendő, hogy
-az álom elteltével jobban felkészüljön a te szolgálatodra. Végezetül kérlek, őrizz meg engem
-tisztán testileg-lelkileg, szabadíts meg minden
-veszedelemtől, hogy éjjeli nyugodalmam is a
-te szent neved dicséretére szolgáljon. És mivel
-oly igen hajlok a bűnre, hogy még ezt a napot
-sem tudtam eltölteni anélkül, hogy elbukjam,
-kérlek téged, hogy amiképpen lebocsátottad a
-földre az éj sötétségét, és most az mindent magába rejt, úgy rejtsd el irgalmadban az én vétkezéseimet is, hogy azok ne zárják el a hozzád
-vezető utat előlem! Hallgass meg engem, én
-Istenem, aki Atyám és Üdvözítőm vagy, a mi
-Urunk, Jézus Krisztus és legszentebb Lelked
-által. Ámin.`,
+        text: `Uram, aki a nappal világosságát a munkára, az éjszaka sötétségét pedig a fáradtság kipihenésére rendelted, add meg nékem, aki most nyugovóra térek, hogy ezen az éjszakán testem úgy pihenjen, hogy míg ő alszik, lelkem éberen szüntelenül reád tekintsen, és az irántad való vágyakozástól szárnyra keljen! Ne hagyj el engem akkor sem, amikor leteszem az élet minden gondját, hogy amikor megadod gyöngeségemnek a pihenést, amelyre szüksége van, akkor se feledkezzem meg rólad, hanem maradjon meg lelkemben kitörölhetetlenül a te jóságod és kegyelmed emléke, hogy a testtel együtt tudatom is nyugalmat leljen. Ne engedd, hogy testem túlzottan gyönyörűségét lelje az álomban, s azt ne élvezzem azon mértéken felül, mely a fáradt testnek elegendő, hogy az álom elteltével jobban felkészüljön a te szolgálatodra. Végezetül kérlek, őrizz meg engem tisztán testileg-lelkileg, szabadíts meg minden veszedelemtől, hogy éjjeli nyugodalmam is a te szent neved dicséretére szolgáljon. És mivel oly igen hajlok a bűnre, hogy még ezt a napot sem tudtam eltölteni anélkül, hogy elbukjam, kérlek téged, hogy amiképpen lebocsátottad a földre az éj sötétségét, és most az mindent magába rejt, úgy rejtsd el irgalmadban az én vétkezéseimet is, hogy azok ne zárják el a hozzád vezető utat előlem! Hallgass meg engem, én Istenem, aki Atyám és Üdvözítőm vagy, a mi Urunk, Jézus Krisztus és legszentebb Lelked által. Ámin.`,
       },
     ],
     image: "",
@@ -1893,26 +1726,13 @@ ${COME_LET_US}`,
       {
         heading: "Ima a bűntől való szabadulásért",
         subheading: `Anthimosz Vrienniosz szerzetespap imáiból`,
-        text: `Mindenható Urunk, Istenünk, aki azt akarod, hogy minden ember üdvözüljön
-és eljusson az igazság ismeretére; aki Izajás
-prófétád által mondtad: „Mosdjatok meg és
-legyetek tiszták, vessétek ki a gonoszságot szívetekből, tanuljatok meg jót cselekedni a szemem előtt; és ha olyanok volnának is bűneitek,
-mint a bíbor, olyan fehérré teszem őket, mint
-a hó” (Iz 1, 16-18) ! Teljesítsd be, Urunk, énrajtam, megtérő bűnös és méltatlan szolgádon is
-mindazt, amit prófétád által Izrael fiainak ígértél. Mert íme, szavamat adom néked a bűnbánatra, a szíveket ismerő Istennek, és mostantól
-bánom mindazt, amit helytelenül tettem, és
-megtagadom minden vétkemet és rossz cselekedetemet. Segítségeddel többé nem folytatom mindezt, hanem egész erőmből tisztán
-foglak szolgálni téged, hogy életemet a te szent
-akaratodhoz igazítva irgalmad által méltónak
-bizonyuljak az örök és boldog élet élvezetére. Mert végtelenül áldott vagy mindörökkön
-örökké. Ámin.`,
+        text: `Mindenható Urunk, Istenünk, aki azt akarod, hogy minden ember üdvözüljön és eljusson az igazság ismeretére; aki Izajás prófétád által mondtad: „Mosdjatok meg és legyetek tiszták, vessétek ki a gonoszságot szívetekből, tanuljatok meg jót cselekedni a szemem előtt; és ha olyanok volnának is bűneitek, mint a bíbor, olyan fehérré teszem őket, mint a hó” (Iz 1, 16-18)! Teljesítsd be, Urunk, énrajtam, megtérő bűnös és méltatlan szolgádon is mindazt, amit prófétád által Izrael fiainak ígértél. Mert íme, szavamat adom néked a bűnbánatra, a szíveket ismerő Istennek, és mostantól bánom mindazt, amit helytelenül tettem, és megtagadom minden vétkemet és rossz cselekedetemet. Segítségeddel többé nem folytatom mindezt, hanem egész erőmből tisztán foglak szolgálni téged, hogy életemet a te szent akaratodhoz igazítva irgalmad által méltónak bizonyuljak az örök és boldog élet élvezetére. Mert végtelenül áldott vagy mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Kondákion saját dallamra",
         subheading: `Krétai Szent Andrástól
 Második plagális hang`,
-        text: `Én lelkem, én lelkem, serkenj föl, miért alszol? Közeleg a vég, és gyötrődni fogsz;
-ébredj hát, hogy megkönyörüljön rajtad Krisztus Isten, aki mindenütt jelen van és mindeneket betölt.
+        text: `Én lelkem, én lelkem, serkenj föl, miért alszol? Közeleg a vég, és gyötrődni fogsz; ébredj hát, hogy megkönyörüljön rajtad Krisztus Isten, aki mindenütt jelen van és mindeneket betölt.
 
 ${HOLY_FATHERS}`,
       },
@@ -1926,142 +1746,59 @@ ${HOLY_FATHERS}`,
     sections: [
       {
         heading: "A mindenható és emberszerető Atyaistenhez",
-        text: `Mindenek Uralkodója és Istene, jónál is
-jóságosabb Atya, aki örökké létezel és
-örökre megmaradsz, aki több mint kezdettelenként előbb vagy minden világkorszaknál,
-és mindig ugyanúgy létezel kezdet és vég nélkül; akinek lényege felfoghatatlan, nagysága
-felmérhetetlen és jósága végtelen; az erő és a
-bölcsesség forrása és kifejezhetetlen mélysége, dicsőítelek téged, mert irgalommal és könyörülettel letekintettél nyomorúságomra, és
-megváltottál az agyagtól és a téglavetéstől,
-a gyötrelemmel teli és hiú világtól és annak
-számtalan és sokféle csapdájától, amit evilág
-sötétségének gonosz fejedelme készített.
-Áldalak téged, Uram, mert csodálatossá tetted irgalmadat irántam, bűnös iránt, és mindenben hatalmas emberszeretetet tanúsítottál
-irántam, táplálóm lettél, kormányzóm, őrizőm,
-pártfogóm, menedékem és üdvözítőm, lelkem
-és testem gondviselője.
-Áldalak téged, Uram, amiért kimutattad hatalmas és végtelen emberszeretetedet irántam,
-méltatlan iránt, mert bár hanyagságomban
-nap mint nap önként kiszolgáltatom magam
-az ördögnek, te mégis megőrzöl és megmentesz engem, és kiragadsz az ő csapdáiból.
-Áldalak téged, Uram, mert erőt adtál nekem arra,
-hogy megbánjam bűneimet, és számtalan alkalmat adsz rá, hogy gonoszságaimból megtérjek.
-Áldalak téged, Uram, mert bár erőtlen vagyok,
-megerősítesz gyöngeségemben, nem engeded,
-hogy egészen elbukjak, hanem azonnal kinyújtod odafentről segítő kezedet, és visszavezetsz
-magadhoz.
-Miként viszonozhatom néked, legjóságosabb
-Uralkodónk, mindazt a jótéteményt, amel -
-lyel elhalmoztál és most is elhalmozol engem,
-bűnöst? Milyen köszönetet ajánljak fel neked?
-Akár egy fecske, napkeltétől éjszakáig így kiáltok hozzád, és mint egy csalogány, így énekelek néked: Szüntelenül dicsőítelek téged
+        text: `Mindenek Uralkodója és Istene, jónál is jóságosabb Atya, aki örökké létezel és örökre megmaradsz, aki több mint kezdettelenként előbb vagy minden világkorszaknál, és mindig ugyanúgy létezel kezdet és vég nélkül; akinek lényege felfoghatatlan, nagysága felmérhetetlen és jósága végtelen; az erő és a bölcsesség forrása és kifejezhetetlen mélysége, dicsőítelek téged, mert irgalommal és könyörülettel letekintettél nyomorúságomra, és megváltottál az agyagtól és a téglavetéstől, a gyötrelemmel teli és hiú világtól és annak számtalan és sokféle csapdájától, amit evilág sötétségének gonosz fejedelme készített.
+
+Áldalak téged, Uram, mert csodálatossá tetted irgalmadat irántam, bűnös iránt, és mindenben hatalmas emberszeretetet tanúsítottál irántam, táplálóm lettél, kormányzóm, őrizőm, pártfogóm, menedékem és üdvözítőm, lelkem és testem gondviselője.
+
+Áldalak téged, Uram, amiért kimutattad hatalmas és végtelen emberszeretetedet irántam, méltatlan iránt, mert bár hanyagságomban nap mint nap önként kiszolgáltatom magam az ördögnek, te mégis megőrzöl és megmentesz engem, és kiragadsz az ő csapdáiból.
+
+Áldalak téged, Uram, mert erőt adtál nekem arra, hogy megbánjam bűneimet, és számtalan alkalmat adsz rá, hogy gonoszságaimból megtérjek.
+
+Áldalak téged, Uram, mert bár erőtlen vagyok, megerősítesz gyöngeségemben, nem engeded, hogy egészen elbukjak, hanem azonnal kinyújtod odafentről segítő kezedet, és visszavezetsz magadhoz.
+
+Miként viszonozhatom néked, legjóságosabb Uralkodónk, mindazt a jótéteményt, amelyel elhalmoztál és most is elhalmozol engem, bűnöst? Milyen köszönetet ajánljak fel neked? Akár egy fecske, napkeltétől éjszakáig így kiáltok hozzád, és mint egy csalogány, így énekelek néked: Szüntelenül dicsőítelek téged
 életemnek minden napján, mint Teremtőmet, Jótevőmet és Gondviselőmet. Ámde nem vagyok méltó arra, én Uram, hogy megszólítsalak, sok vétkem miatt.
-Hálát adok néked, Uram, mert türelmes voltál vétkeim iránt, és mindezidáig nem büntettél meg engem. Hálát adok néked, Uram,
-mert nem akarod a bűnös halálát, hanem hogy
-megtérjen és éljen. Mert bár megérdemelném,
-Uram, hogy sokat szenvedjek és hogy eltaszíts
-színed elől, ámde a te rosszat felejtő emberszereteted türelmet gyakorolt irántam. Hálát
-adok néked, Uram, habár nincs elegendő erőm
-arra, hogy hálát adjak könyörületedért.
-Irgalmazz nekem, Uram, igazítsd lelkem útját
-és életem útját a te akaratod szerint, és vezérelj
-engem könyörületed legjobb belátása szerint!
-Irgalmad sokaságáért tégy tökéletessé engem
-a néked tetsző minden jócselekedetre, és így
-oldozz el végül nyomorúságos testemtől! Mert
-egyedül te tudsz megkönyörülni rajtunk és
-üdvözíteni bennünket, ó, Istenünk, néked zengünk dicsőítést, hálaadást és hódolatot, egyszülött Fiaddal és szentséges, jóságos és éltető
-Lelkeddel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
+
+Hálát adok néked, Uram, mert türelmes voltál vétkeim iránt, és mindezidáig nem büntettél meg engem. Hálát adok néked, Uram, mert nem akarod a bűnös halálát, hanem hogy megtérjen és éljen. Mert bár megérdemelném, Uram, hogy sokat szenvedjek és hogy eltaszíts színed elől, ámde a te rosszat felejtő emberszereteted türelmet gyakorolt irántam. Hálát adok néked, Uram, habár nincs elegendő erőm arra, hogy hálát adjak könyörületedért.
+
+Irgalmazz nekem, Uram, igazítsd lelkem útját és életem útját a te akaratod szerint, és vezérelj engem könyörületed legjobb belátása szerint!
+
+Irgalmad sokaságáért tégy tökéletessé engem a néked tetsző minden jócselekedetre, és így oldozz el végül nyomorúságos testemtől! Mert egyedül te tudsz megkönyörülni rajtunk és üdvözíteni bennünket, ó, Istenünk, néked zengünk dicsőítést, hálaadást és hódolatot, egyszülött Fiaddal és szentséges, jóságos és éltető Lelkeddel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Bűnbánó imádság Urunkhoz, Jézus Krisztushoz",
         subheading: "Neofitosz patriarcha imagyűjteményéből",
-        text: `Uram, Jézus Krisztus, én Megváltóm,
-áraszd el szívemet kegyelmed harmatjával, hogy az megöntözze elmémet, és felékesítse a bűnbánat, az alázat, a szeretet és a türelem virágaival! De mit is mondok? Hiszen íme,
-imádságom gyönge, bűneim pedig nagyok és
-hatalmasak. Vétkeim nyomasztanak engem,
-és gyöngeségeim arra késztetnek, hogy így kiáltsak hozzád: Aki megnyitottad a vak szemét,
-nyisd meg értelmem szemét is, hogy örökké
-a te szépségedet szemlélhessem! Aki megnyitottad Bálám szamarának száját, nyisd meg az
-én számat is a te kegyelmed magasztalására
-és dicsőítésére! Aki parancsod szavával határt
-szabtál a tengernek, szabj határt az én szívemnek is kegyelmed által, hogy ne hajoljon el se jobbra, se balra a te parancsolataidtól! Aki a
-pusztaságban vizet fakasztottál az engedetlen
-és ellenszegülő népnek, fakaszd fel bennem is
-a bűnbánat könnyeit, hogy alázattal, szeretettel és tiszta szívvel éjjel és nappal sirassam bűneimet életem egész idején.
-Jusson eléd az én könyörgésem, Uram, és ajándékozd nekem kegyelmed szent magvetését,
-hogy a bűnbánat kévéit hozzam néked. Dicsőség néked azért, amit adtál, hogy legyen mit
-felajánlanom!
-Minden szentednek közbenjárása által hallgasd meg Uram szolgád imáját, aki ezt a bűnvallomást ajánlja fel néked! Vétkeztem, mindenható Uram Istenem, az ég ellen és ellened,
-és vétkeimnek sokasága miatt nem vagyok immár méltó arra, hogy fiadnak nevezzenek, sem
-arra, hogy feltekintsek, és meglássam a men -
-nyet, sem arra, hogy bűnös ajkamra vegyem
-dicsőséges nevedet. Hiszen méltatlanná tettem
-magam a mennyre és a földre, és megharagítottalak téged, ó, jóságos Uralkodóm.
+        text: `Uram, Jézus Krisztus, én Megváltóm, áraszd el szívemet kegyelmed harmatjával, hogy az megöntözze elmémet, és felékesítse a bűnbánat, az alázat, a szeretet és a türelem virágaival! De mit is mondok? Hiszen íme, imádságom gyönge, bűneim pedig nagyok és hatalmasak. Vétkeim nyomasztanak engem, és gyöngeségeim arra késztetnek, hogy így kiáltsak hozzád: Aki megnyitottad a vak szemét, nyisd meg értelmem szemét is, hogy örökké a te szépségedet szemlélhessem! Aki megnyitottad Bálám szamarának száját, nyisd meg az én számat is a te kegyelmed magasztalására és dicsőítésére! Aki parancsod szavával határt szabtál a tengernek, szabj határt az én szívemnek is kegyelmed által, hogy ne hajoljon el se jobbra, se balra a te parancsolataidtól! Aki a pusztaságban vizet fakasztottál az engedetlen és ellenszegülő népnek, fakaszd fel bennem is a bűnbánat könnyeit, hogy alázattal, szeretettel és tiszta szívvel éjjel és nappal sirassam bűneimet életem egész idején.
 
-Könyörgök ezért hozzád, Uram, ne vess el
-engem a te színed elől, és ne hagyj magamra,
-hogy el ne vesszek. Ha kegyelmed nem segített volna meg eddig is, már régen elvesztem
-volna, és most olyan lennék, mint aki nem létezik. Amióta elhagytalak téged, nem éltem meg
-egyetlen jó napot sem. Hiszen az a nap, amely
-jónak tűnik a bűn közepette, keserűbbnek bizonyul a legkeserűbbnél is. S ha ugyanaz a
-kegyelem nem segít meg most is, ismét csak
-olyanná leszek, mintha nem is volnék.
+Jusson eléd az én könyörgésem, Uram, és ajándékozd nekem kegyelmed szent magvetését, hogy a bűnbánat kévéit hozzam néked. Dicsőség néked azért, amit adtál, hogy legyen mit felajánlanom!
 
-Ezért bízvást remélem, én Uram, Istenem,
-hogy kegyelmeddel megerősítesz engem, hogy
-gondom legyen lelkem üdvösségére. Ezért leborulok eléd így esdekelve: Végy pártfogásodba engem, aki letértem az igazságosság útjáról.
-Áraszd reám könyörületed sokaságát, mint a
-tékozló fiúra, mivel méltatlan életemmel eltékozoltam kegyelmed gazdagságát. Irgalmazz
-nekem, én Istenem, és ne ródd fel nékem haszontalan életemet. Légy irgalmas hozzám,
-mint a parázna asszonyhoz, a vámoshoz és a latorhoz, mert őket földi életükben mindenki
-megvetette, de te, Urunk, pártfogásodba vetted, és a gyönyörteli Paradicsom lakosaivá tetted őket.
-Fogadj be hát engem is, haszontalan szolgádat, és fogadd el bűnbánatomat, mert engem
-is mindenki megvet. Hiszen nem azért jöttél,
-hogy az igazakat elhívd, hanem a bűnösöket a
-megtérésre. Mert téged illet a dicsőség mindörökkön örökké. Ámin.`,
+Minden szentednek közbenjárása által hallgasd meg Uram szolgád imáját, aki ezt a bűnvallomást ajánlja fel néked! Vétkeztem, mindenható Uram Istenem, az ég ellen és ellened, és vétkeimnek sokasága miatt nem vagyok immár méltó arra, hogy fiadnak nevezzenek, sem arra, hogy feltekintsek, és meglássam a men - nyet, sem arra, hogy bűnös ajkamra vegyem dicsőséges nevedet. Hiszen méltatlanná tettem magam a mennyre és a földre, és megharagítottalak téged, ó, jóságos Uralkodóm.
+
+Könyörgök ezért hozzád, Uram, ne vess el engem a te színed elől, és ne hagyj magamra, hogy el ne vesszek. Ha kegyelmed nem segített volna meg eddig is, már régen elvesztem volna, és most olyan lennék, mint aki nem létezik. Amióta elhagytalak téged, nem éltem meg egyetlen jó napot sem. Hiszen az a nap, amely jónak tűnik a bűn közepette, keserűbbnek bizonyul a legkeserűbbnél is. S ha ugyanaz a kegyelem nem segít meg most is, ismét csak olyanná leszek, mintha nem is volnék.
+
+Ezért bízvást remélem, én Uram, Istenem, hogy kegyelmeddel megerősítesz engem, hogy gondom legyen lelkem üdvösségére. Ezért leborulok eléd így esdekelve: Végy pártfogásodba engem, aki letértem az igazságosság útjáról. Áraszd reám könyörületed sokaságát, mint a tékozló fiúra, mivel méltatlan életemmel eltékozoltam kegyelmed gazdagságát. Irgalmazz nekem, én Istenem, és ne ródd fel nékem haszontalan életemet. Légy irgalmas hozzám, mint a parázna asszonyhoz, a vámoshoz és a latorhoz, mert őket földi életükben mindenki megvetette, de te, Urunk, pártfogásodba vetted, és a gyönyörteli Paradicsom lakosaivá tetted őket.
+
+Fogadj be hát engem is, haszontalan szolgádat, és fogadd el bűnbánatomat, mert engem is mindenki megvet. Hiszen nem azért jöttél, hogy az igazakat elhívd, hanem a bűnösöket a megtérésre. Mert téged illet a dicsőség mindörökkön örökké. Ámin.`,
       },
       {
         heading:
           "Az Atyával és a Fiúval egylényegű és egy trónusú Szentlélekhez",
         subheading: "Új Teológus Szent Simeontól",
-        text: `Jöjj, örömteli és örök élet, a Mindenható
-Jobbkeze, szentséges, életadó és teremtő
-Lélek, aki hatalmadban egyenrangú vagy az
-Atyával és a Fiúval, akiknek azonossága, rangja, istensége és akarata három személyben harmóniába és egységbe olvad!
-Jöjj, Uram, akire vágyott és vágyik elgyötört
-lelkem, jöjj, aki magad lettél vággyá bennem,
-és arra késztetsz, hogy reád vágyjak, a tökéletesen elérhetetlenre!
+        text: `Jöjj, örömteli és örök élet, a Mindenható Jobbkeze, szentséges, életadó és teremtő Lélek, aki hatalmadban egyenrangú vagy az Atyával és a Fiúval, akiknek azonossága, rangja, istensége és akarata három személyben harmóniába és egységbe olvad!
+
+Jöjj, Uram, akire vágyott és vágyik elgyötört lelkem, jöjj, aki magad lettél vággyá bennem, és arra késztetsz, hogy reád vágyjak, a tökéletesen elérhetetlenre!
+
 Jöjj, szüntelen örömöm, gyönyörűségem, dicsőségem!
-Jöjj, lélegzetem, életem, lelkem vigasza! Légy
-velem egy Lélekké összevegyülés, változás
-és átalakulás nélkül, ó, jóságosnál jóságosabb
-Uralkodóm, ó, mindenek fölötti Isten!
-Te magad légy számomra minden mindenekben, elbeszélhetetlen és soha ki nem fogyó étek,
-aki szüntelenül túlcsordulsz lelkem ajkán,
- és bőséggel fakadsz fel szívemnek forrásában;
-tündöklő köntös, aki elhamvasztod a démonokat; megtisztulás, aki romolhatatlan, szent
-könnyekben mosdatsz meg engem, amelyeket
-a te eljöveteled ad meg azoknak, akiket meglátogatsz.
-Légy számomra alkony nélküli világossággá és
-lenyugvást nem ismerő nappá, amely mindenütt megvilágosít engem, te, aki soha senkitől
-el nem fordulsz, hogy ne rejtőzzünk el bűneink sötétségébe, mert nem akarunk elébed járulni. Távoztass el tőlem, Uram, minden pusztító szétszórtságot, adj józanságot szememnek,
-helyezz gyeplőt a nyelvemre, tedd fülemet
-készségessé szent parancsolataid meghallgatására, adj türelmet a sanyarúság közepette,
-okosítsd fel és erősítsd meg szívemet kitartásra, jóságra, önmegtartóztatásra, együttérzésre,
-irgalmasságra, szeretetre, alázatra, békességre
-önmagammal és másokkal, hogy elforduljak a
-démonok sugallta nemtörődömségtől és lustaságtól, amelyekben, mint édes illatokban gyönyörködtem!
-Adj nekem biztos ítéletet a gondolatok megkülönböztetésére, melyiket válasszam, és melyiket vessem el, add, hogy felismerjem az ördög
-mesterkedéseit, s hogy elvessem azokat ővele
-együtt, hogy mindenben megtagadjam önnön
-akaratomat, és minden dolgomat a te gondviselésedtől tegyem függővé, és onnan reméljem, ami hasznos!
-Mert nálad van az én életem, világosságom
-és üdvösségem, és téged áldalak, dicsőítelek
-és imádlak a kezdet nélküli, téged kibocsátó
-Atyával és vele egytermészetű Fiával együtt
-mindig, most és mindenkor, és mindörökkön
-örökké. Ámin.`,
+
+Jöjj, lélegzetem, életem, lelkem vigasza! Légy velem egy Lélekké összevegyülés, változás és átalakulás nélkül, ó, jóságosnál jóságosabb Uralkodóm, ó, mindenek fölötti Isten!
+
+Te magad légy számomra minden mindenekben, elbeszélhetetlen és soha ki nem fogyó étek, aki szüntelenül túlcsordulsz lelkem ajkán, és bőséggel fakadsz fel szívemnek forrásában; tündöklő köntös, aki elhamvasztod a démonokat; megtisztulás, aki romolhatatlan, szent könnyekben mosdatsz meg engem, amelyeket a te eljöveteled ad meg azoknak, akiket meglátogatsz.
+
+Légy számomra alkony nélküli világossággá és lenyugvást nem ismerő nappá, amely mindenütt megvilágosít engem, te, aki soha senkitől el nem fordulsz, hogy ne rejtőzzünk el bűneink sötétségébe, mert nem akarunk elébed járulni. Távoztass el tőlem, Uram, minden pusztító szétszórtságot, adj józanságot szememnek, helyezz gyeplőt a nyelvemre, tedd fülemet készségessé szent parancsolataid meghallgatására, adj türelmet a sanyarúság közepette, okosítsd fel és erősítsd meg szívemet kitartásra, jóságra, önmegtartóztatásra, együttérzésre, irgalmasságra, szeretetre, alázatra, békességre önmagammal és másokkal, hogy elforduljak a démonok sugallta nemtörődömségtől és lustaságtól, amelyekben, mint édes illatokban gyönyörködtem!
+
+Adj nekem biztos ítéletet a gondolatok megkülönböztetésére, melyiket válasszam, és melyiket vessem el, add, hogy felismerjem az ördög mesterkedéseit, s hogy elvessem azokat ővele együtt, hogy mindenben megtagadjam önnön akaratomat, és minden dolgomat a te gondviselésedtől tegyem függővé, és onnan reméljem, ami hasznos!
+
+Mert nálad van az én életem, világosságom és üdvösségem, és téged áldalak, dicsőítelek és imádlak a kezdet nélküli, téged kibocsátó Atyával és vele egytermészetű Fiával együtt mindig, most és mindenkor, és mindörökkön örökké. Ámin.`,
       },
     ],
     image: "",
@@ -2077,336 +1814,250 @@ Eugenikosz János diakónus és nomophylax költeménye`,
         heading: "Kondákion",
         subheading:
           "(4. plagális hang, a „Megszabadulva a bajoktól” dallamára)",
-        text: `Dicsőítjük a háromszemélyű egy Istenséget, a kezdetnélküli Atyát, a Fiút és a
-Szentlelket. Méltass bennünket, akik téged, a
-lényegiség egyesült Egyedüliségét imádunk,
-vétkeink bocsánatára és a te dicsőséged elnyerésére, hogy így énekeljünk néked: Dicsőség
-néked, egyedüli Istenünk!`,
+        text: `Dicsőítjük a háromszemélyű egy Istenséget, a kezdetnélküli Atyát, a Fiút és a Szentlelket. Méltass bennünket, akik téged, a lényegiség egyesült Egyedüliségét imádunk, vétkeink bocsánatára és a te dicsőséged elnyerésére, hogy így énekeljünk néked: Dicsőség néked, egyedüli Istenünk!`,
       },
       {
         heading: "1.",
-        text: `Kezdet nélküli Istenfejedelemség, Atya, Ige
-és Lélek, Háromság, egyedüli Istenként
-egységes egylényegű, de három formára elkülönült természet; a teremtés, amelyet puszta
-Szavad hozott létre, így kiált hozzád, Teremtőjéhez:
+        text: `Kezdet nélküli Istenfejedelemség, Atya, Ige és Lélek, Háromság, egyedüli Istenként egységes egylényegű, de három formára elkülönült természet; a teremtés, amelyet puszta Szavad hozott létre, így kiált hozzád, Teremtőjéhez:
+
 Dicsőség néked, háromszemélyű Isten,
-dicsőség néked, egyedüli Oszthatatlan!
+Dicsőség néked, egyedüli Oszthatatlan!
 Dicsőség néked, Atya, Fiú és Lélek,
-dicsőség néked, egyetlen háromszoros-napú Isten!
-Dicsőség néked, aki kezeddel formáltad
-Ádámot,
-dicsőség néked, aki leheleteddel életre keltetted!
+Dicsőség néked, egyetlen háromszoros-napú Isten!
+Dicsőség néked, aki kezeddel formáltad Ádámot,
+Dicsőség néked, aki leheleteddel életre keltetted!
 Dicsőség a te mindenben segítő bölcs akaratodnak,
-dicsőség mindenestül kifejezhetetlen isteni
-alászállásodnak!
-Dicsőség néked, mindenek kimondhatatlan
-élete,
-dicsőség néked, élők isteni lehelete!
+Dicsőség mindenestül kifejezhetetlen isteni alászállásodnak!
+Dicsőség néked, mindenek kimondhatatlan élete,
+Dicsőség néked, élők isteni lehelete!
 Dicsőség elbeszélhetetlen bölcsességednek,
-dicsőség mindenekre kiterjedő gondoskodásodnak!
+Dicsőség mindenekre kiterjedő gondoskodásodnak!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "2.",
-        text: `Minden természet számára felfoghatatlan
-a te félelmetes és isteni misztériumod
-mélységének mibenléte, az, hogy miközben
-egy az Isten, miként jelenhet meg tökéletesen világosan három személyben azoknak, akik
-kétely nélküli hittel kegyesen himnuszt zengenek néked: Alliluia!
+        text: `Minden természet számára felfoghatatlan a te félelmetes és isteni misztériumod mélységének mibenléte, az, hogy miközben egy az Isten, miként jelenhet meg tökéletesen világosan három személyben azoknak, akik kétely nélküli hittel kegyesen himnuszt zengenek néked: Alliluia!
 
-Imádva a Fiú születését és a Lélek kiáradását
-a kezdet nélküli Atyától, az Istent, aki egy
-lényegben van, de alakjában három személyű,
-a te dicsőségednek mutatunk be isteni szolgálatot így kiáltva:
+Imádva a Fiú születését és a Lélek kiáradását a kezdet nélküli Atyától, az Istent, aki egy lényegben van, de alakjában három személyű, a te dicsőségednek mutatunk be isteni szolgálatot így kiáltva:
+
 Dicsőség az Atyának, aki nem született,
-dicsőség a Fiúnak, aki megszületett!
+Dicsőség a Fiúnak, aki megszületett!
 Dicsőség a kiárasztott szentséges Léleknek,
-dicsőség a Háromságban egy Istennek!
+Dicsőség a Háromságban egy Istennek!
 Dicsőség néked, mindent-tehető Atya, mindenek Teremtője!
-dicsőség néked, életetadó Ige, emberek
-Megváltója!
-Dicsőség néked, Isteni Lélek, aki betöltöd az
-egész teremtést,
-dicsőség néked, mindenek Istene, lényegfölötti
-Természet!
+Dicsőség néked, életetadó Ige, emberek Megváltója!
+Dicsőség néked, Isteni Lélek, aki betöltöd az egész teremtést,
+Dicsőség néked, mindenek Istene, lényegfölötti Természet!
 Dicsőség néked, mert te vagy a mindenek Oka,
-dicsőség néked, mert erőd mindent felülmúl!
-Dicsőség néked, Háromság, egylényegű
-Hatalom,
-dicsőség néked, Egység, háromszemélyű
-Szépség!
+Dicsőség néked, mert erőd mindent felülmúl!
+Dicsőség néked, Háromság, egylényegű Hatalom,
+Dicsőség néked, Egység, háromszemélyű Szépség!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "3.",
-        text: `Miután kifeszítetted az eget mint sátorponyvát a vizek fölé, parancsoddal mint
-mindenható Isten, megalapoztad a szárazföldet, ó, egyedüli magasztos Király, és az embereknek és az állatoknak adtad, hogy ott lakjanak, és így énekeljenek néked: Alliluia!
-Szóltál: „Legyen világosság!” – és az angyali
-rendek azonnal megszülettek, hogy ott álljanak
-rettegéssel a te félelmetes trónod előtt, dicsőítve megközelíthetetlen dicsőséged hatalmát:
+        text: `Miután kifeszítetted az eget mint sátorponyvát a vizek fölé, parancsoddal mint mindenható Isten, megalapoztad a szárazföldet, ó, egyedüli magasztos Király, és az embereknek és az állatoknak adtad, hogy ott lakjanak, és így énekeljenek néked: Alliluia! 
+ Szóltál: „Legyen világosság!” – és az angyali rendek azonnal megszülettek, hogy ott álljanak rettegéssel a te félelmetes trónod előtt, dicsőítve megközelíthetetlen dicsőséged hatalmát:
+
 Dicsőség néked, az egész föld Alapjának,
-dicsőség a menny Pólusának!
+Dicsőség a menny Pólusának!
 Dicsőség néked, angyalok isteni Fensége,
-dicsőség, arkangyalok kifejezhetetlen
-Tisztessége!
-Dicsőség néked, Fény, aki túlragyogsz minden
-fényességes fejedelemséget,
-dicsőség, Ragyogás, megközelíthetetlen minden hatalmasságnak!
+Dicsőség, arkangyalok kifejezhetetlen Tisztessége!
+Dicsőség néked, Fény, aki túlragyogsz minden fényességes fejedelemséget,
+Dicsőség, Ragyogás, megközelíthetetlen minden hatalmasságnak!
 Dicsőség néked, az erők végtelen Hatalmának,
-dicsőség az uralmak káprázatos Szépségének!
+Dicsőség az uralmak káprázatos Szépségének!
 Dicsőség néked, trónusok páratlan Méltósága,
-dicsőség, anyagtalan természetek Ruhája!
+Dicsőség, anyagtalan természetek Ruhája!
 Dicsőség néked, kerubok éneket zengő Hangja,
-dicsőség, szeráfok háromszorszent Himnusza!
+Dicsőség, szeráfok háromszorszent Himnusza!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "4.",
-        text: `Elválasztottad a sötétség homályát a nappal
-fényétől, és éjszakának nevezted el, mert
-azt akartad, hogy az ember megpihenjen a test
-nappali munkájától, és dicsőítse istenséged háromsugarú ragyogását így kiáltva: Alliluia!
-Bevilágítottad a világmindenséget, amikor felerősítetted a nagy lámpásokat a
-menny magasára, hogy a nagyobbik uralkodjék
-örökké a nappal fölött, a kisebbik pedig a csillagokkal együtt az éjszaka fölött. Ezért elgondolva
-háromszoros napod világosságát így kiáltsunk:
+        text: `Elválasztottad a sötétség homályát a nappal fényétől, és éjszakának nevezted el, mert azt akartad, hogy az ember megpihenjen a test nappali munkájától, és dicsőítse istenséged háromsugarú ragyogását így kiáltva: Alliluia!
+
+Bevilágítottad a világmindenséget, amikor felerősítetted a nagy lámpásokat a menny magasára, hogy a nagyobbik uralkodjék örökké a nappal fölött, a kisebbik pedig a csillagokkal együtt az éjszaka fölött. Ezért elgondolva háromszoros napod világosságát így kiáltsunk:
+
 Dicsőség háromszoros napod világosságának,
-dicsőség a háromsugarú fényárnak!
+Dicsőség a háromsugarú fényárnak!
 Dicsőség szépséged felragyogásának;
-dicsőség az egyedüli istenség kisugárzásának!
+Dicsőség az egyedüli istenség kisugárzásának!
 Dicsőség néked, egy Istenség aranyos csillámlása,
-dicsőség, angyali formák beragyogása!
+Dicsőség, angyali formák beragyogása!
 Dicsőség néked, aki fényárba öltözteted a Napot,
-dicsőség néked, aki ragyogóvá teszed a Holdat
-és minden csillagot!
+Dicsőség néked, aki ragyogóvá teszed a Holdat és minden csillagot!
 Dicsőség végtelen fényességednek,
-dicsőség anyagtalan tündöklésednek!
+Dicsőség anyagtalan tündöklésednek!
 Dicsőség néked, aki világosságot derít a mindenségre,
-dicsőség néked, aki fénybe borítja a világot!
+Dicsőség néked, aki fénybe borítja a világot!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "5.",
-        text: `Isteni utasításoddal felékesítetted az isteni
-ékességű világot, az egész földet, ó, mindenek Királya, minden táplálékul szolgáló maggal és a gyümölcstermő fák virágzó szépségével, hogy minden élőlény ehessék, és jóságod
-dicséretéül így kiáltson: Alliluia!
-Hogy erőd túláradó bősége megnyilvánuljon,
-megparancsoltad a vizeknek, hogy hozzák elő a cetek és halak sokaságát, a földön pedig szárnyas madarakat, hogy gyönyörűségükre
-szolgáljanak az embereknek, akik így kiáltanak:
+        text: `Isteni utasításoddal felékesítetted az isteni ékességű világot, az egész földet, ó, mindenek Királya, minden táplálékul szolgáló maggal és a gyümölcstermő fák virágzó szépségével, hogy minden élőlény ehessék, és jóságod dicséretéül így kiáltson: Alliluia!
+
+Hogy erőd túláradó bősége megnyilvánuljon, megparancsoltad a vizeknek, hogy hozzák elő a cetek és halak sokaságát, a földön pedig szárnyas madarakat, hogy gyönyörűségükre szolgáljanak az embereknek, akik így kiáltanak:
+
 Dicsőség mondhatatlan gondviselésednek,
-dicsőség végtelen jóságodnak!
+Dicsőség végtelen jóságodnak!
 Dicsőség néked, aki fákkal ékesítetted fel a földet,
-dicsőség néked, aki táplálékot készítettél minden élőnek!
+Dicsőség néked, aki táplálékot készítettél minden élőnek!
 Dicsőség néked, aki a hegyekből forrásokat fakasztottál,
-dicsőség néked, aki a vizekből madarakat röptettél!
-Dicsőség néked, aki a tengerben megalkottad
-az állatokat,
-dicsőség néked, aki halakat adtál a halandóknak!
+Dicsőség néked, aki a vizekből madarakat röptettél!
+Dicsőség néked, aki a tengerben megalkottad az állatokat,
+Dicsőség néked, aki halakat adtál a halandóknak!
 Dicsőség a te isteni akaratodnak,
-dicsőség kimondhatatlan parancsodnak!
+Dicsőség kimondhatatlan parancsodnak!
 Dicsőség legyőzhetetlen hatalmadnak,
-dicsőség elképzelhetetlen erődnek!
+Dicsőség elképzelhetetlen erődnek!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "6.",
-        text: `Homokkal szegélyezted a tengert, hogy
-gátat szabjon a tenger mélyéből feltörő, majd ugyanoda visszaáramló hullámoknak, hogy ne borítsák el a szárazföldet velünk
-együtt, akik így kiáltunk: Alliluia!
+        text: `Homokkal szegélyezted a tengert, hogy gátat szabjon a tenger mélyéből feltörő, majd ugyanoda visszaáramló hullámoknak, hogy ne borítsák el a szárazföldet velünk együtt, akik így kiáltunk: Alliluia!
 
-Mennydörgéssel leküldöd villámló ragyogásodat az esőt szülő felhőkből, és az
-évszakok szerint teljes összhangban kevered
-a szeleket, hogy alkalmas eledelt érleljenek
-mindazoknak, akik így kiáltanak hozzád:
+Mennydörgéssel leküldöd villámló ragyogásodat az esőt szülő felhőkből, és az évszakok szerint teljes összhangban kevered a szeleket, hogy alkalmas eledelt érleljenek mindazoknak, akik így kiáltanak hozzád:
 
 Dicsőség néked, aki az éterben ragyogsz,
-dicsőség néked, aki a levegőben villámlasz!
+Dicsőség néked, aki a levegőben villámlasz!
 Dicsőség néked, aki esőt árasztasz a földre,
-dicsőség néked, aki sokféle szelet fújsz!
+Dicsőség néked, aki sokféle szelet fújsz!
 Dicsőség hatalmad mennydörgő erejének,
-dicsőség magokat sarjasztó mondhatatlan
-mélységednek!
-Dicsőség néked, aki évszakonként megadod a
-kellő szelet,
-dicsőség néked, aki minden időben adsz friss
-eledelt!
+Dicsőség magokat sarjasztó mondhatatlan mélységednek!
+Dicsőség néked, aki évszakonként megadod a kellő szelet,
+Dicsőség néked, aki minden időben adsz friss eledelt!
 Dicsőség néked, aki leheletet ajándékozol minden élőnek,
-dicsőség néked, aki életet adsz mindeneknek!
+Dicsőség néked, aki életet adsz mindeneknek!
 Dicsőség isteni munkálkodásodnak,
-dicsőség mindent beteljesítő gondviselésednek!
+Dicsőség mindent beteljesítő gondviselésednek!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "7.",
-        text: `A világegyetem elemei tökéletes összhangban készült, változhatatlan keverékben
-jöttek létre, megőrzik határaikat, és romolhatatlanul maradnak meg bennünk, akik téged
-imádunk, és így énekelünk néked: Alliluia!
-I
-steni hatású intéseddel a földből teremtettél
-minden állatot, a csúszómászókat és a vadállatokat, a négylábúakat és az összes madarat nemük szerint, hogy betöltsék az egész szárazföldet,
-és szolgálják a híveket, akik így kiáltanak hozzád:
+        text: `A világegyetem elemei tökéletes összhangban készült, változhatatlan keverékben jöttek létre, megőrzik határaikat, és romolhatatlanul maradnak meg bennünk, akik téged imádunk, és így énekelünk néked: Alliluia!
+
+Isteni hatású intéseddel a földből teremtettél minden állatot, a csúszómászókat és a vadállatokat, a négylábúakat és az összes madarat nemük szerint, hogy betöltsék az egész szárazföldet, és szolgálják a híveket, akik így kiáltanak hozzád:
+
 Dicsőség a mindenek Teremtőjének,
-dicsőség a mindeneket Életrekeltőnek!
+Dicsőség a mindeneket Életrekeltőnek!
 Dicsőség a mindent rendben Létrehozónak,
-dicsőség néked, mert állatokat adtál a halandóknak!
+Dicsőség néked, mert állatokat adtál a halandóknak!
 Dicsőség az állatokat földből Előhívónak,
-dicsőség a földet élőlényekkel Betöltőnek!
+Dicsőség a földet élőlényekkel Betöltőnek!
 Dicsőség néked, aki a barmokat szolgálatunkra rendelted,
-dicsőség néked, mert a vadállatokat félelemmel töltötted!
+Dicsőség néked, mert a vadállatokat félelemmel töltötted!
 Dicsőség mindent-okozó akaratodnak,
-dicsőség felfoghatatlan tanácsodnak!
+Dicsőség felfoghatatlan tanácsodnak!
 Dicsőség világteremtő alkotásodnak,
-dicsőség mindent véghezvivő akaratodnak!
+Dicsőség mindent véghezvivő akaratodnak!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "8.",
-        text: `Csodálatos ideák által teremtetted a tündöklő égből és a földből, vizekből, magvakból és növényekből, napból, holdból és
-csillagokból, napokból, sötétségből, halakból
-és az állatok összes fajából álló mindenséget,
-értünk, akik így kiáltunk hozzád: Alliluia!
-Hogy megmutasd hármas ragyogású istenségedet, így szóltál: Teremtsünk embert
-hozzánk hasonló képmásra! Ki mint Isten, lelket leheltél a földdarabba, értelemmel, ésszel
-és szellemmel tökéletesíted az embert, hogy
-így szóljon:
+        text: `Csodálatos ideák által teremtetted a tündöklő égből és a földből, vizekből, magvakból és növényekből, napból, holdból és csillagokból, napokból, sötétségből, halakból és az állatok összes fajából álló mindenséget, értünk, akik így kiáltunk hozzád: Alliluia!
+
+Hogy megmutasd hármas ragyogású istenségedet, így szóltál: Teremtsünk embert hozzánk hasonló képmásra! Ki mint Isten, lelket leheltél a földdarabba, értelemmel, ésszel és szellemmel tökéletesíted az embert, hogy így szóljon:
+
 Dicsőség a mindenek egyetlen Istenének,
-dicsőség az egyedüli Felfoghatatlannak!
+Dicsőség az egyedüli Felfoghatatlannak!
 Dicsőség néked, Háromság az istenség Egyetlenségében,
-dicsőség néked, Egyetlenség a három személyben!
+Dicsőség néked, Egyetlenség a három személyben!
 Dicsőség lényegiséged felfoghatatlan Alakjának,
-dicsőség a több mint kimondhatatlan isteni
-Megvilágosításnak!
+Dicsőség a több mint kimondhatatlan isteni Megvilágosításnak!
 Dicsőség a több mint kezdetnélküli, nemszületett Szülőnek,
-dicsőség az Atyától vele együtt kezdet nélkül
-Szülöttnek,
-dicsőség az Atyától eredő isteni Személynek!
+Dicsőség az Atyától vele együtt kezdet nélkül Szülöttnek,
+Dicsőség az Atyától eredő isteni Személynek!
 Dicsőség annak, akitől az ember lett,
-dicsőség annak, aki által a halandó természet
-alakot nyert,
-dicsőség annak, akiben az fennmarad!
+Dicsőség annak, aki által a halandó természet alakot nyert,
+Dicsőség annak, akiben az fennmarad!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "9.",
-        text: `Mint Isten elrendelted, hogy az ember
-uralkodjék minden teremtményen,
-mennyeieken, földieken, a vizeken és a vízben élőkön azért, hogy egyedül téged, a három
-személyű Istent dicsőítse mint Urát, így szólva: Alliluia!
+        text: `Mint Isten elrendelted, hogy az ember uralkodjék minden teremtményen, mennyeieken, földieken, a vizeken és a vízben élőkön azért, hogy egyedül téged, a három személyű Istent dicsőítse mint Urát, így szólva: Alliluia!
 
-Nincs nyelv, legyen bármilyen ékesszóló,
-amely képes lenne alkotásaid dicséretére,
-amelyeket hat nap alatt alkottál, majd a hetedik napon megpihentél minden munkádtól,
-és megáldottad és megszentelted azt a napot.
-Ezért így kiáltunk hozzád:
+Nincs nyelv, legyen bármilyen ékesszóló, amely képes lenne alkotásaid dicséretére, amelyeket hat nap alatt alkottál, majd a hetedik napon megpihentél minden munkádtól, és megáldottad és megszentelted azt a napot. Ezért így kiáltunk hozzád:
+
 Dicsőség mindenek Megalkotójának,
-dicsőség a mindenség Beteljesítőjének!
+Dicsőség a mindenség Beteljesítőjének!
 Dicsőség néked, mert gondviseléseddel megalapoztad a teremtést,
-dicsőség néked, mert erőddel bevégezted
-a világot!
-Dicsőség kimondhatatlan Igédnek, aki által a
-világ látható lett,
-dicsőség isteni végzésednek, amely által minden nagyon jó lett!
-Dicsőség néked, aki hat nap alatt bevégeztél
-mindent,
-dicsőség néked, aki a hetedik napon mindentől megpihent!
+Dicsőség néked, mert erőddel bevégezted a világot!
+Dicsőség kimondhatatlan Igédnek, aki által a világ látható lett,
+Dicsőség isteni végzésednek, amely által minden nagyon jó lett!
+Dicsőség néked, aki hat nap alatt bevégeztél mindent,
+Dicsőség néked, aki a hetedik napon mindentől megpihent!
 Dicsőség néked, akitől minden eredt,
-dicsőség néked, aki által minden megszületett,
-dicsőség néked, akiben minden beteljesedett,
-dicsőség néked, Isten, aki uralkodsz mindenek
-felett!
+Dicsőség néked, aki által minden megszületett,
+Dicsőség néked, akiben minden beteljesedett,
+Dicsőség néked, Isten, aki uralkodsz mindenek felett!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "10.",
-        text: `Mivel azt akartad, hogy üdvözüljön az
-emberi természet, gyönyörű paradicsomkertet ültettél a föld összes fájával, és elrendelted, hogy mindegyikkel élhessünk, de
-tartózkodjunk a tudás fájától, így énekelve néked: Alliluia!
-Az oktalan állatok természetét odavezetted
-ahhoz, akit te okosítottál fel, hogy lásd,
-minek nevezi őket, és aminek hívta őket, az
-maradt a nevük, s rajtuk uralkodván így kiált
-hozzád:
+        text: `Mivel azt akartad, hogy üdvözüljön az emberi természet, gyönyörű paradicsomkertet ültettél a föld összes fájával, és elrendelted, hogy mindegyikkel élhessünk, de tartózkodjunk a tudás fájától, így énekelve néked: Alliluia!
+
+Az oktalan állatok természetét odavezetted ahhoz, akit te okosítottál fel, hogy lásd, minek nevezi őket, és aminek hívta őket, az maradt a nevük, s rajtuk uralkodván így kiált hozzád:
+
 Dicsőség a megközelíthetetlen Úrnak,
-dicsőség az egyedüli Mindenhatónak!
+Dicsőség az egyedüli Mindenhatónak!
 Dicsőség néked, aki a szóba tudást árasztasz,
-dicsőség néked, aki a lehelettel a szónak jelentést adsz!
-Dicsőség néked, aki az oktalan állatokat
-alávetetted,
-dicsőség néked, aki az okos természetet
-felemelted!
+Dicsőség néked, aki a lehelettel a szónak jelentést adsz!
+Dicsőség néked, aki az oktalan állatokat alávetetted,
+Dicsőség néked, aki az okos természetet felemelted!
 Dicsőség néked, aki a Paradicsomot az embernek juttattad,
-dicsőség néked, aki a földet minden élőlénynek adtad!
+Dicsőség néked, aki a földet minden élőlénynek adtad!
 Dicsőség néked, aki kezeddel forgatod a mindenség körforgását,
-dicsőség a te végtelen jóságodnak!
+Dicsőség a te végtelen jóságodnak!
 Dicsőség néked, a mindenség Istenfejedelmének,
-dicsőség a te isteni uralmadnak!
+Dicsőség a te isteni uralmadnak!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "11.",
-        text: `Az állatok között nem volt egyetlen lény
-sem az emberhez hasonló, hogy segítőtársa lehetett volna. Ezért önkívületet bocsátottál rá, kivetted egy oldalbordáját, és asszonyt
-formáltál belőle, hogy növekedjenek és sokasodjanak, és így énekeljenek néked, Megformálójuknak: Alliluia!
-A bosszúálló démon nem tudta elviselni a
-halandókra fényt derítő dicsőséget, amelyet a halandó természetnek adtál, ezért magára öltötte a ravasz kígyó alakját, s az asszonyra
-lövellte az önistenítés mérgét, az pedig átadta
-a férfinak, aki megfeledkezett róla, hogy téged
-dicsőítsen így szólva:
+        text: `Az állatok között nem volt egyetlen lény sem az emberhez hasonló, hogy segítőtársa lehetett volna. Ezért önkívületet bocsátottál rá, kivetted egy oldalbordáját, és asszonyt formáltál belőle, hogy növekedjenek és sokasodjanak, és így énekeljenek néked, Megformálójuknak: Alliluia!
+
+A bosszúálló démon nem tudta elviselni a halandókra fényt derítő dicsőséget, amelyet a halandó természetnek adtál, ezért magára öltötte a ravasz kígyó alakját, s az asszonyra lövellte az önistenítés mérgét, az pedig átadta a férfinak, aki megfeledkezett róla, hogy téged dicsőítsen így szólva:
+
 Dicsőség az egyetlen Istennek, aki van,
-dicsőség néked, az egyedüli Halhatatlannak!
-Dicsőség néked, aki a nemlétből teremtetted a
-mindenséget,
-dicsőség néked, aki kezeddel formáltad az embert!
+Dicsőség néked, az egyedüli Halhatatlannak!
+Dicsőség néked, aki a nemlétből teremtetted a mindenséget,
+Dicsőség néked, aki kezeddel formáltad az embert!
 Dicsőség néked, aki jóságodban a Paradicsomot adtad lakhelyéül,
-dicsőség néked, aki arra méltattad, hogy uralkodjék az egész földön,
-dicsőség néked, aki megadtad, hogy ehessék
-minden fáról!
+Dicsőség néked, aki arra méltattad, hogy uralkodjék az egész földön,
+Dicsőség néked, aki megadtad, hogy ehessék minden fáról!
 Dicsőség néked, Fiú, aki fenntartod a világot,
-dicsőség néked, Lehelet, akiben minden
-fennmarad,
-dicsőség néked, egyetlen istenfejedelmi
-Háromság!
+Dicsőség néked, Lehelet, akiben minden fennmarad,
+Dicsőség néked, egyetlen istenfejedelmi Háromság!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "12.",
-        text: `A vétek miatt a halandók természete hirtelen lemeztelenedett az isteni kegyelemtől,
-kizáratott a Paradicsom gyönyöréből, s keserű
-halál lett az osztályrésze. Mert téged vádolt, és
-nem tudott hozzád kiáltani így énekelve: Alliluia!
-Azáltal, hogy alászállt és testet vett a tiszta Szűztől, kinyilatkoztattad, ó, egyedüli Háromság a lélekmentő Igét, aki az Atyától született, és örökké együtt van a Lélekkel.
-Ezért nevezte Ádám Életnek Évát, így kiáltva
-hozzád:
+        text: `A vétek miatt a halandók természete hirtelen lemeztelenedett az isteni kegyelemtől, kizáratott a Paradicsom gyönyöréből, s keserű halál lett az osztályrésze. Mert téged vádolt, és nem tudott hozzád kiáltani így énekelve: Alliluia!
+
+Azáltal, hogy alászállt és testet vett a tiszta Szűztől, kinyilatkoztattad, ó, egyedüli Háromság a lélekmentő Igét, aki az Atyától született, és örökké együtt van a Lélekkel. Ezért nevezte Ádám Életnek Évát, így kiáltva hozzád:
+
 Dicsőség néked, ó, emberszerető Atyám,
-dicsőség néked, jóságos és irgalmas Istenem!
+Dicsőség néked, jóságos és irgalmas Istenem!
 Dicsőség néked, ó, Fiú, aki újjáalkottál engem,
-dicsőség néked, aki arra készülsz, hogy a tiszta
-Szűztől születve megments engem!
+Dicsőség néked, aki arra készülsz, hogy a tiszta Szűztől születve megments engem!
 Dicsőség néked is Szentlélek, aki beárnyékoltad a Tisztaságost,
-dicsőség néked, aki beteljesítetted a félelmetes
-misztériumot!
+Dicsőség néked, aki beteljesítetted a félelmetes misztériumot!
 Dicsőség a kimondhatatlan és isteni leereszkedésnek,
-dicsőség az emberi lényeg üdvösségének!
+Dicsőség az emberi lényeg üdvösségének!
 Dicsőség néked, akitől élet fakad számomra,
-dicsőség néked, akitől lelkem üdvösséget kap!
+Dicsőség néked, akitől lelkem üdvösséget kap!
 Dicsőség néked, akiben újraformálódom,
-dicsőség néked, aki által megújul a teremtés!
+Dicsőség néked, aki által megújul a teremtés!
 Dicsőség néked, Istenünk!`,
       },
       {
         heading: "13.",
-        text: `meg a híveket, akiket a te kezed formázott, az
-ellenség minden gonoszságától, és méltasd
-őket, hogy elnyerjék örök dicsőségedet, így
-énekelve: Alliluia!`,
+        text: `Ó, szentséges Háromság, Atya, Ige és Lélek, mindenek egyetlen Istensége, mentsd meg a híveket, akiket a te kezed formázott, az ellenség minden gonoszságától, és méltasd őket, hogy elnyerjék örök dicsőségedet, így énekelve: Alliluia!`,
       },
       {
         heading: "Kondákion (8. hang)",
-        text: `Dicsőítjük a háromszemélyű egy Istenséget, a kezdetnélküli Atyát, a Fiút és a
-Szentlelket. Méltass bennünket, akik téged, a
-lényegiség egyesült Egyedüliségét imádunk,
-vétkeink bocsánatára és a te dicsőséged elnyerésére, hogy így énekeljünk néked: Dicsőség
-néked, egyedüli Istenünk!`,
+        text: `Dicsőítjük a háromszemélyű egy Istenséget, a kezdetnélküli Atyát, a Fiút és a Szentlelket. Méltass bennünket, akik téged, a lényegiség egyesült Egyedüliségét imádunk, vétkeink bocsánatára és a te dicsőséged elnyerésére, hogy így énekeljünk néked: Dicsőség néked, egyedüli Istenünk!`,
       },
     ],
     image: "",
@@ -2432,30 +2083,11 @@ ${COME_LET_US}`,
       {
         heading: "Evangélium",
         subheading: "(Mt 9, 9-13)",
-        text: `Abban az időben Jézus Názáretben járt,
-meglátott egy embert ülni a vámsorompónál, akit Máténak hívtak, és így szólt hozzá:
-„Kövess engem!” Az felkelt, és követte őt. Történt pedig, hogy Jézus asztalhoz ült egy házban, és íme sok vámszedő és bűnös jött oda,
-és asztalhoz ültek Jézussal és tanítványaival
-együtt. A farizeusok, amikor ezt látták, megkérdezték a tanítványait: „Miért eszik a ti mesteretek vámszedőkkel és bűnösökkel együtt?”
-Amikor ezt meghallotta Jézus, így válaszolt
-nekik: „Nem az egészségeseknek van szükségük orvosra, hanem a betegeknek. Menjetek,
-és tanuljátok meg, mit jelent ez: ’Irgalmasságot
-akarok, nem áldozatot’ (Hós 6, 6)! Mert nem
-azért jöttem, hogy az igazakat hívjam, hanem
-a bűnösöket a megtérésre.”`,
+        text: `Abban az időben Jézus Názáretben járt, meglátott egy embert ülni a vámsorompónál, akit Máténak hívtak, és így szólt hozzá: „Kövess engem!” Az felkelt, és követte őt. Történt pedig, hogy Jézus asztalhoz ült egy házban, és íme sok vámszedő és bűnös jött oda, és asztalhoz ültek Jézussal és tanítványaival együtt. A farizeusok, amikor ezt látták, megkérdezték a tanítványait: „Miért eszik a ti mesteretek vámszedőkkel és bűnösökkel együtt?” Amikor ezt meghallotta Jézus, így válaszolt nekik: „Nem az egészségeseknek van szükségük orvosra, hanem a betegeknek. Menjetek, és tanuljátok meg, mit jelent ez: ’Irgalmasságot akarok, nem áldozatot’ (Hós 6, 6)! Mert nem azért jöttem, hogy az igazakat hívjam, hanem a bűnösöket a megtérésre.”`,
       },
       {
         heading: "Ima",
-        text: `Szent Atyánk, lelkünk és testünk orvosa, aki
-elküldted egyszülött Fiadat, a mi Urunk
-Jézus Krisztust, hogy meggyógyítson minden
-betegséget és megmentsen bennünket a haláltól, Krisztusod kegyelme által gyógyítsd meg
-a te N. szolgádat (szolgálódat) is a lelki és testi betegségtől, amely most hatalmában tartja!
-Keltsd őt életre tetszésed szerint a mi legáldottabb, dicsőséges Úrnőnknek, örökszűz Máriának és minden szentednek közbenjárása és esedezése által, hogy jótettekkel rója le a hálát és
-hódolatot, amivel neked tartozik! Mert te vagy
-minden gyógyulás forrása, és néked zengünk
-dicsőséget, a kezdet nélküli Atyának, egyszülött Fiaddal és Szentlelkeddel együtt, most és
-mindenkor és mindörökkön örökké. Ámin.`,
+        text: `Szent Atyánk, lelkünk és testünk orvosa, aki elküldted egyszülött Fiadat, a mi Urunk Jézus Krisztust, hogy meggyógyítson minden betegséget és megmentsen bennünket a haláltól, Krisztusod kegyelme által gyógyítsd meg a te N. szolgádat (szolgálódat) is a lelki és testi betegségtől, amely most hatalmában tartja! Keltsd őt életre tetszésed szerint a mi legáldottabb, dicsőséges Úrnőnknek, örökszűz Máriának és minden szentednek közbenjárása és esedezése által, hogy jótettekkel rója le a hálát és hódolatot, amivel neked tartozik! Mert te vagy minden gyógyulás forrása, és néked zengünk dicsőséget, a kezdet nélküli Atyának, egyszülött Fiaddal és Szentlelkeddel együtt, most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Tropárion, 4. plagális hang",
@@ -2463,8 +2095,15 @@ mindenkor és mindörökkön örökké. Ámin.`,
         
 ${HOLY_FATHERS}`,
       },
+    ],
+    image: "",
+  },
+  {
+    id: "",
+    title: "Imádságok diákok és tanulók számára",
+    header_title: "Imádságok diákok és tanulók számára",
+    sections: [
       {
-        heading: "Imádságok diákok és tanulók számára",
         text: `${INTRO}`,
       },
       {
@@ -2474,34 +2113,13 @@ ${HOLY_FATHERS}`,
       },
       {
         heading: "Ima",
-        text: `Urunk, Jézus Krisztus Istenünk, aki apostolaid szívében lakoztál Szentlelked kegyelme által, aki tüzes nyelvek alakjában leszállt,
-megnyitotta ajkukat, és képessé tette őket arra,
-hogy idegen nyelveken is szóljanak, küldd le,
-Urunk, Jézus Krisztus, a Szentlelket rám, a te
-szolgádra is! Világosíts meg, hogy megértsem a te Szentírásodat és minden jó és hasznos tanítást! Küldd le elmémre és szívemre a
-bölcsesség, a tudás, a kegyesség és az istenfélelem Lelkét, a jóságos Lelket, amely az egyenes ösvényekre vezet, minden Istennek tetsző
-cselekedet megismerésére és véghezvitelére,
-hogy örökké dicsőítsem a te nevedet, tisztaságos Anyádnak, bölcs apostolaidnak és minden
-szentednek közbenjárása által. Mert te vagy
-lelkünk és testünk megvilágosodása, és neked
-zengünk dicsőséget, kezdet nélküli Atyáddal
-és szentséges, jóságos és megelevenítő Lelkeddel együtt most és mindenkor és mindörökkön
-örökké. Ámin.`,
+        text: `Urunk, Jézus Krisztus Istenünk, aki apostolaid szívében lakoztál Szentlelked kegyelme által, aki tüzes nyelvek alakjában leszállt, megnyitotta ajkukat, és képessé tette őket arra, hogy idegen nyelveken is szóljanak, küldd le, Urunk, Jézus Krisztus, a Szentlelket rám, a te szolgádra is! Világosíts meg, hogy megértsem a te Szentírásodat és minden jó és hasznos tanítást! Küldd le elmémre és szívemre a bölcsesség, a tudás, a kegyesség és az istenfélelem Lelkét, a jóságos Lelket, amely az egyenes ösvényekre vezet, minden Istennek tetsző cselekedet megismerésére és véghezvitelére, hogy örökké dicsőítsem a te nevedet, tisztaságos Anyádnak, bölcs apostolaidnak és minden szentednek közbenjárása által. Mert te vagy lelkünk és testünk megvilágosodása, és neked zengünk dicsőséget, kezdet nélküli Atyáddal és szentséges, jóságos és megelevenítő Lelkeddel együtt most és mindenkor és mindörökkön örökké. Ámin.`,
       },
       {
         heading: "Ima tanóra vagy tanulás előtt",
-        text: `Jóságos Urunk, küldd le ránk Szentlelked
-kegyelmét, hogy megvilágítsa elménket, és
-megerősítse lelki képességeinket! Add meg nekünk, ó, Istenünk és Teremtőnk, hogy a kapott
-tanítás révén mindenben előre haladjunk a te
-dicsőségedre és a te szent Egyházadéra, szüleink áldására és az emberek szolgálatára! Ámin.
-Hálát adunk neked, Istenünk és Teremtőnk, hogy kegyelmeddel a tanulás iránti
-buzgalomra méltattál bennünket. Áldd meg
-életünket, és vezess minket a jónak ismeretére!
-Erősíts meg és szilárdíts meg bennünket, hogy
-akaratod szerint növekedjünk és erősödjünk
-lélekben most és mindenkor és mindörökkön
-örökké! Ámin.
+        text: `Jóságos Urunk, küldd le ránk Szentlelked kegyelmét, hogy megvilágítsa elménket, és megerősítse lelki képességeinket! Add meg nekünk, ó, Istenünk és Teremtőnk, hogy a kapott tanítás révén mindenben előre haladjunk a te dicsőségedre és a te szent Egyházadéra, szüleink áldására és az emberek szolgálatára! Ámin.
+
+Hálát adunk neked, Istenünk és Teremtőnk, hogy kegyelmeddel a tanulás iránti buzgalomra méltattál bennünket. Áldd meg életünket, és vezess minket a jónak ismeretére! Erősíts meg és szilárdíts meg bennünket, hogy akaratod szerint növekedjünk és erősödjünk lélekben most és mindenkor és mindörökkön örökké! Ámin.
 
 ${HOLY_FATHERS}`,
       },

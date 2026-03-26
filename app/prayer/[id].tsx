@@ -12,8 +12,6 @@ import {
 import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import useOrientation from "../../hooks/useOrientation";
-import { storage } from "../../services/storage";
-import { STORAGE_KEYS } from "../../services/storageKeys";
 import { Ionicons } from "@expo/vector-icons";
 import { bookmarkService } from "../../services/bookmarkService";
 import { haptic } from "../../utils/haptic";
@@ -145,27 +143,29 @@ export default function PrayerScreen() {
                     ? "right"
                     : "left";
 
-                const repetitionMarkerRegex = /\(\d{1,2}x\)/;
-                let repetitionMarker = null;
-                let bodyWithoutRepetitionMarker = paragraphBody;
+                const verseLabelRegex = /\d?.? ?vers:/g;
+                let verseLabel = null;
+                let afterVerse = paragraphBody;
 
-                if (repetitionMarkerRegex.test(paragraphBody)) {
-                  repetitionMarker = paragraphBody.match(repetitionMarkerRegex);
-                  bodyWithoutRepetitionMarker = paragraphBody.replace(
-                    repetitionMarkerRegex,
-                    ""
+                if (verseLabelRegex.test(paragraph)) {
+                  verseLabel = paragraph.match(verseLabelRegex)![0];
+                  afterVerse = paragraphBody.slice(
+                    verseLabel!.length
                   );
                 }
 
-                const verseLabelRegex = /\d?.? ?vers:/g;
-                let verseLabel = null;
-                let bodyWithoutVerseLabel = bodyWithoutRepetitionMarker;
+                const repetitionMarkerRegex = /\(\d{1,2}x\)/;
+                let repetitionLabel = null;
+                let repetitionIndex = null;
+                let beforeRepetition = afterVerse;
+                let afterRepetition = null;
 
-                if (verseLabelRegex.test(paragraph)) {
-                  verseLabel = paragraph.match(verseLabelRegex);
-                  bodyWithoutVerseLabel = bodyWithoutRepetitionMarker.replace(
-                    verseLabelRegex,
-                    ""
+                if (repetitionMarkerRegex.test(afterVerse)) {
+                  repetitionLabel = afterVerse.match(repetitionMarkerRegex)![0];
+                  repetitionIndex = afterVerse.indexOf(repetitionLabel);
+                  beforeRepetition = afterVerse.slice(0, repetitionIndex);
+                  afterRepetition = afterVerse.slice(
+                    repetitionIndex + repetitionLabel.length 
                   );
                 }
 
@@ -183,10 +183,11 @@ export default function PrayerScreen() {
                     <Text style={[styles.text, { color: theme.subheading }]}>
                       {verseLabel}
                     </Text>
-                    {bodyWithoutVerseLabel}
+                    {beforeRepetition}
                     <Text style={[styles.text, { color: theme.subheading }]}>
-                      {repetitionMarker}
+                      {repetitionLabel}
                     </Text>
+                    {afterRepetition}
                   </Text>
                 );
               })}

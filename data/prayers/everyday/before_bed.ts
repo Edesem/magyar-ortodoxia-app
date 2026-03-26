@@ -1,7 +1,7 @@
 export const before_bed = {
   id: "before_bed",
   title: "Imák lefekvés előtt",
-  header_title: "Imák lefekvés előtt",
+  header_title: "Lefekvéskor",
   image: "",
   sections: [
     {

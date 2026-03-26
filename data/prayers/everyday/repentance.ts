@@ -4,7 +4,7 @@ import { NAME_OF, COME_LET_US, HOLY_FATHERS } from "../constants/repeatedPrayers
 export const repentance = {
   id: "repentance",
   title: "Bűnbánati imádság",
-  header_title: "Bűnbánati imádság",
+  header_title: "Bűnbánatnak",
   image: "",
   sections: [
     {

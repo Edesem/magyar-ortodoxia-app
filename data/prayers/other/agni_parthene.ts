@@ -3,7 +3,7 @@ import { XAIRE } from "../constants/repeatedPrayers";
 export const agni_parthene = {
   id: "agni_parthene",
   title: "Himnusz a legszentebb Istenszülőhöz",
-  header_title: "Ἁγνὴ Παρθένε",
+  header_title: "Ágni Párthene",
   image: require("../../../assets/orthodox/Theotokos.png"),
   imageSize: 300,
   sections: [

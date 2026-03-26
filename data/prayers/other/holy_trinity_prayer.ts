@@ -1,7 +1,7 @@
 export const holy_trinity_prayer = {
   id: "holy_trinity_prayer",
   title: "Imádságok a legszentebb Háromsághoz",
-  header_title: "Imádságok a legszentebb Háromsághoz",
+  header_title: "A Szentháromsághoz",
   image: "",
   sections: [
     {

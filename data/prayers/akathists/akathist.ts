@@ -2,7 +2,7 @@ export const akathist = {
   id: "akathist",
   heading: "Akathisztoszok",
   title: "Az Istenszülő köszöntése",
-  header_title: "Akathisztosz-himnusz",
+  header_title: "Akathisztosz",
   image: "",
   sections: [
     {

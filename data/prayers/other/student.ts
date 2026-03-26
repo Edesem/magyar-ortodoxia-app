@@ -3,7 +3,7 @@ import { INTRO, HOLY_FATHERS } from "../constants/repeatedPrayers";
 export const student = {
   id: "student",
   title: "Imádságok diákok és tanulók számára",
-  header_title: "Imádságok diákok és tanulók számára",
+  header_title: "Diákoknak",
   image: "",
   sections: [
     {

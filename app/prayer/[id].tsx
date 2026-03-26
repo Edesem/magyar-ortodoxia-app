@@ -8,22 +8,7 @@ import {
   Image,
   Pressable,
 } from "react-native";
-import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import {
-  BOTH_NOW,
-  GLORY,
-  GLORY_BOTH,
-  GLORY_TO_YOU,
-  MOST_HOLY,
-  Prayer,
-  prayerData,
-  TRISAGION,
-  U_I_12,
-  U_I_3,
-  U_I_40,
-  XAIRE,
-} from "../../data/prayers";
-import { COLOURS } from "../../constants/colours";
+
 import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import useOrientation from "../../hooks/useOrientation";
@@ -32,6 +17,19 @@ import { STORAGE_KEYS } from "../../services/storageKeys";
 import { Ionicons } from "@expo/vector-icons";
 import { bookmarkService } from "../../services/bookmarkService";
 import { haptic } from "../../utils/haptic";
+import { prayerData } from "../../data/prayers";
+import { Prayer } from "../../types/types";
+import {
+  U_I_3,
+  U_I_12,
+  U_I_40,
+  GLORY,
+  BOTH_NOW,
+  GLORY_TO_YOU,
+  MOST_HOLY,
+  TRISAGION,
+  XAIRE,
+} from "../../data/prayers/constants/repeatedPrayers";
 
 export default function PrayerScreen() {
   const [progress, setProgress] = useState(0);

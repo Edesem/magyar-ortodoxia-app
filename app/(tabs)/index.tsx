@@ -8,15 +8,16 @@ import {
   Image,
   Platform,
 } from "react-native";
-import { Prayer, prayerData } from "../../data/prayers";
 import React, { useState } from "react";
 import { Link } from "expo-router";
 import { moderateScale, verticalScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import MaterialCommunityIcons from "@expo/vector-icons/MaterialCommunityIcons";
 import useOrientation from "../../hooks/useOrientation";
-import { HEADERS } from "../../data/headers";
+import { HEADERS } from "../../constants/headers";
 import { haptic } from "../../utils/haptic";
+import { prayerData } from "../../data/prayers";
+import { Prayer } from "../../types/types";
 
 const prayers: Prayer[] = prayerData;
 

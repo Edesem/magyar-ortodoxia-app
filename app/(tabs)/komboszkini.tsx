@@ -19,7 +19,7 @@ import FontAwesome from "@expo/vector-icons/FontAwesome";
 import useOrientation from "../../hooks/useOrientation";
 import { Picker } from "@react-native-picker/picker";
 
-export default function Index() {
+export default function Komboszkini() {
   const [count, setCount] = useState(0);
   const [rotation, setRotation] = useState(0);
   const [komboszkini, setKomboszkini] = useState<100 | 50 | 33>(100);

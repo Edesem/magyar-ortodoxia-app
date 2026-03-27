@@ -1,7 +1,8 @@
+import { Prayer } from "../../../types/types";
 import { PSALM_50, PSALM_69, PSALM_142 } from "../constants/psalms";
 import { INTRO, INTO_KATHISMA, CREED, MIDDLE, GLORY, BOTH_NOW, LORD_HAVE_MERCY_40, LORD_HAVE_MERCY_3, GLORY_BOTH, MORE_HONOURABLE, LORD_HAVE_MERCY_12, THROUGH_THE_PRAYERS, WHO_AT_ALL_TIMES } from "../constants/repeatedPrayers";
 
-export const small_compline = {
+export const small_compline: Prayer = {
   id: "small_compline",
   title: "Kis Lenyugvási",
   header_title: "Kis Lenyugvási",

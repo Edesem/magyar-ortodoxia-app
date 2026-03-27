@@ -1,9 +1,12 @@
-export const akathist = {
+import { Prayer } from "../../../types/types";
+
+export const akathist: Prayer = {
   id: "akathist",
   heading: "Akathisztoszok",
   title: "Az Istenszülő köszöntése",
   header_title: "Akathisztosz",
-  image: "",
+  image: require("../../../assets/orthodox/annunciation.png"),
+  imageSize: 300,
   sections: [
     {
       heading: "Apolitikion (4. plagális hang)",

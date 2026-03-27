@@ -1,8 +1,11 @@
-export const holy_trinity_prayer = {
+import { Prayer } from "../../../types/types";
+
+export const holy_trinity_prayer: Prayer = {
   id: "holy_trinity_prayer",
   title: "Imádságok a legszentebb Háromsághoz",
   header_title: "A Szentháromsághoz",
-  image: "",
+  image: require("../../../assets/orthodox/3angels.png"),
+  imageSize: 200,
   sections: [
     {
       heading: "A mindenható és emberszerető Atyaistenhez",

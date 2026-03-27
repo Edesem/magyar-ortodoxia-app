@@ -1,12 +1,13 @@
+import { Prayer } from "../../../types/types";
 import { PSALM_142, PSALM_50 } from "../constants/psalms";
 import { IN_THE_NAME, GOD_IS_THE_LORD, GLORY_BOTH, MOST_HOLY, GLORY, BOTH_NOW, AXION, MIDDLE_NO_AXION, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
-export const paraklesis = {
+export const paraklesis: Prayer = {
   id: "paraklesis",
   title: "Kis könyörgő kánon a legszentebb Istenszülőhöz",
   header_title: "Paraklisz",
-  image: require("../../../assets/orthodox/annunciation.png"),
-  imageSize: 300,
+  image: require("../../../assets/orthodox/theotokos_christ.png"),
+  imageSize: 250,
   sections: [
     {
       text: IN_THE_NAME,

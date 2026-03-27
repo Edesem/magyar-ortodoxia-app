@@ -1,11 +1,14 @@
+import useTheme from "../../../hooks/useTheme";
+import { Prayer } from "../../../types/types";
 import { INTRO, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
-export const night_before = {
+export const night_before: Prayer = {
   id: "night_before",
   heading: "A szentáldozás imái",
   title: "Imádság a szentáldozás előtti estén",
   header_title: "Előtti estén",
-  image: require("../../../assets/orthodox/JerusalemCross.png"),
+  image: require("../../../assets/orthodox/entombed_invert.png"),
+  imageSize: 300,
   sections: [
     {
       text: INTRO,

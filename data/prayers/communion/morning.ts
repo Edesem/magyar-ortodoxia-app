@@ -1,11 +1,13 @@
+import { Prayer } from "../../../types/types";
 import { PSALM_22, PSALM_23 } from "../constants/psalms";
 import { INTRO, INTO_KATHISMA, GLORY_BOTH, LORD_HAVE_MERCY_3, GLORY, BOTH_NOW, LORD_HAVE_MERCY_40 } from "../constants/repeatedPrayers";
 
-export const morning_before = {
+export const morning_before: Prayer = {
   id: "morning_before",
   title: "Imádság reggel, szentáldozás előtt",
   header_title: "Imádság reggel",
-  image: require("../../../assets/orthodox/Seraph.png"),
+  image: require("../../../assets/orthodox/mourning.png"),
+  imageSize: 400,
   sections: [
     {
       text: `${INTRO} 

@@ -1,6 +1,7 @@
+import { Prayer } from "../../../types/types";
 import { REJOICE } from "../constants/repeatedPrayers";
 
-export const agni_parthene = {
+export const agni_parthene: Prayer = {
   id: "agni_parthene",
   title: "Himnusz a legszentebb Istenszülőhöz",
   header_title: "Ágni Párthene",

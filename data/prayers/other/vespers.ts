@@ -1,13 +1,15 @@
+import { Prayer } from "../../../types/types";
 import { PSALM_103, PSALM_140, PSALM_141, PSALM_129, PSALM_116 } from "../constants/psalms";
 import { IN_THE_NAME, COME_LET_US, MIDDLE_NO_AXION, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
 
-export const vespers = {
+export const vespers: Prayer = {
   id: "vespers",
   heading: "Más imák",
   title: "Az alkonyati szolgálat imáiból",
   header_title: "Alkonyati",
-  image: "",
+  image: require("../../../assets/orthodox/girl_lighting_candle.png"),
+  imageSize: 500,
   sections: [
     {
       text: `${IN_THE_NAME}

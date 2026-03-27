@@ -22,7 +22,8 @@ export const first_hour: Prayer = {
   title: "I. imaóra",
   heading: "Az imaórák",
   header_title: "I. imaóra",
-  image: "",
+  image: require("../../../assets/orthodox/church.png"),
+  imageSize: 400,
   sections: [
     {
       text: `${IN_THE_NAME}

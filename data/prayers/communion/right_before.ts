@@ -1,4 +1,6 @@
-export const right_before = {
+import { Prayer } from "../../../types/types";
+
+export const right_before: Prayer = {
   id: "right_before",
   title: "Közvetlenül áldozás előtt",
   header_title: "Áldozás előtt",

@@ -1,11 +1,13 @@
+import { Prayer } from "../../../types/types";
 import { PSALM_6, PSALM_31 } from "../constants/psalms";
 import { IN_THE_NAME, COME_LET_US, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
-export const repentance = {
+export const repentance: Prayer = {
   id: "repentance",
   title: "Bűnbánati imádság",
   header_title: "Bűnbánatnak",
-  image: "",
+  image: require("../../../assets/orthodox/mary_of_egypt.png"),
+  imageSize: 300,
   sections: [
     {
       text: `${IN_THE_NAME}

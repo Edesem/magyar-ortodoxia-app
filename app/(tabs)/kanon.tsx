@@ -18,7 +18,7 @@ import { Prayer } from "../../types/types";
 
 const prayers: Prayer[] = prayerData;
 
-export default function kanon() {
+export default function Kanon() {
   const [bookmarks, setBookmarks] = useState<string[]>([]);
 
   const theme = useTheme();
@@ -55,6 +55,13 @@ export default function kanon() {
       >
         KÜnon
       </Text>
+
+      {bookmark.length === 0 && (
+        <Text style={styles.tutorial}>
+          A gyakran használt imák a jobb felső sarokban található könyvjelző
+          ikonnal a Kánonba menthetők.
+        </Text>
+      )}
 
       {bookmark.map((prayer, _) => (
         <View style={{ marginBottom: 10 }} key={prayer.id}>
@@ -145,5 +152,11 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     alignSelf: "center",
     opacity: 0.2,
+  },
+  tutorial: {
+    fontFamily: "Alegreya_400Regular",
+    fontSize: moderateScale(18, 0.8),
+    flex: 1,
+    paddingHorizontal: 25,
   },
 });

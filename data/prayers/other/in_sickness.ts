@@ -1,11 +1,13 @@
+import { Prayer } from "../../../types/types";
 import { PSALM_142, PSALM_22 } from "../constants/psalms";
 import { INTRO, COME_LET_US, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
-export const in_sickness = {
+export const in_sickness: Prayer = {
   id: "in_sickness",
   title: "Ima betegségben",
   header_title: "Ima betegségben",
-  image: "",
+  image: require("../../../assets/orthodox/mama.png"),
+  imageSize: 400,
   sections: [
     {
       text: `${INTRO}

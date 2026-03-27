@@ -1,10 +1,12 @@
+import { Prayer } from "../../../types/types";
 import { INTRO, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
-export const student = {
+export const student: Prayer = {
   id: "student",
   title: "Imádságok diákok és tanulók számára",
   header_title: "Diákoknak",
-  image: "",
+  image: require("../../../assets/orthodox/students.png"),
+  imageSize: 500,
   sections: [
     {
       text: `${INTRO}`,

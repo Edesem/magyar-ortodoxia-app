@@ -1,9 +1,12 @@
-export const holy_trinity_akathist = {
+import { Prayer } from "../../../types/types";
+
+export const holy_trinity_akathist: Prayer = {
   id: "holy_trinity_akathist",
   title: `Az egylényegű, mindenható és oszthatatlan Háromsághoz`,
   header_title:
     "A Szentháromsághoz",
-  image: "",
+  image: require("../../../assets/orthodox/ht.png"),
+  imageSize: 200,
   sections: [
     {
       heading: "Kondákion",

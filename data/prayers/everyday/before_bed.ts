@@ -1,8 +1,11 @@
-export const before_bed = {
+import { Prayer } from "../../../types/types";
+
+export const before_bed: Prayer = {
   id: "before_bed",
   title: "Imák lefekvés előtt",
   header_title: "Lefekvéskor",
-  image: "",
+  image: require("../../../assets/orthodox/icon_corner.png"),
+  imageSize: 300,
   sections: [
     {
       heading: "Első ima",

@@ -6,7 +6,8 @@ export const ninth_hour: Prayer = {
     id: "ninth_hour",
     title: "IX. imaóra",
     header_title: "IX. imaóra",
-    image: "",
+    image: require("../../../assets/orthodox/decorative3.png"),
+    imageSize: 400,
     sections: [
         {
             text: `${INTRO}

@@ -1,10 +1,12 @@
+import { Prayer } from "../../../types/types";
 import { MIDDLE_NO_AXION, GLORY, BOTH_NOW, LORD_HAVE_MERCY_12, GLORY_BOTH, MORE_HONOURABLE, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 
-export const right_after = {
+export const right_after: Prayer = {
   id: "right_after",
   title: "Hálaadás szentáldozás után",
   header_title: "Áldozás után",
-  image: require("../../../assets/orthodox/star3.png"),
+  image: require("../../../assets/orthodox/transfiguration.png"),
+  imageSize: 400,
   sections: [
     {
       heading: "Buzdító versek",

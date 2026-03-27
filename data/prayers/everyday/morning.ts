@@ -1,3 +1,4 @@
+import { Prayer } from "../../../types/types";
 import { PSALM_50, PSALM_5, PSALM_33 } from "../constants/psalms";
 import {
   INTRO,
@@ -9,7 +10,7 @@ import {
   THROUGH_THE_PRAYERS,
 } from "../constants/repeatedPrayers";
 
-export const morning = {
+export const morning: Prayer = {
   id: "morning",
   heading: "Mindennapi imák",
   title: "Reggeli Imák",

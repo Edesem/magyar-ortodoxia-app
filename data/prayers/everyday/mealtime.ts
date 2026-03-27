@@ -1,10 +1,12 @@
+import { Prayer } from "../../../types/types";
 import { GLORY_BOTH, OUR_FATHER, LORD_HAVE_MERCY_3 } from "../constants/repeatedPrayers";
 
-export const mealtime = {
+export const mealtime: Prayer = {
   id: "mealtime",
   title: "Imádság étkezéskor",
   header_title: "Étkezéskor",
-  image: require("../../../assets/orthodox/ArmenianOrnament.png"),
+  image: require("../../../assets/orthodox/fellowship.png"),
+  imageSize: 300,
   sections: [
     {
       heading: "Étkezés előtt",

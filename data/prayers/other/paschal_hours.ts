@@ -1,3 +1,4 @@
+import { Prayer } from "../../../types/types";
 import {
   CHRIST_IS_RISEN,
   GLORY,
@@ -7,11 +8,12 @@ import {
   MORE_HONOURABLE,
 } from "../constants/repeatedPrayers";
 
-export const paschal_hours = {
+export const paschal_hours: Prayer = {
   id: "paschal_hours",
   title: "Húsvéti imaóra",
   header_title: "Húsvéti imaóra",
-  image: "",
+  image: require("../../../assets/orthodox/resurrection.png"),
+  imageSize: 300,
   sections: [
     {
       heading: "Húsvét után fényes héten szombatig",

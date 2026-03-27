@@ -19,8 +19,7 @@ export const holy_trinity_prayer: Prayer = {
 
 Áldalak téged, Uram, mert bár erőtlen vagyok, megerősítesz gyöngeségemben, nem engeded, hogy egészen elbukjak, hanem azonnal kinyújtod odafentről segítő kezedet, és visszavezetsz magadhoz.
 
-Miként viszonozhatom néked, legjóságosabb Uralkodónk, mindazt a jótéteményt, amelyel elhalmoztál és most is elhalmozol engem, bűnöst? Milyen köszönetet ajánljak fel neked? Akár egy fecske, napkeltétől éjszakáig így kiáltok hozzád, és mint egy csalogány, így énekelek néked: Szüntelenül dicsőítelek téged
-életemnek minden napján, mint Teremtőmet, Jótevőmet és Gondviselőmet. Ámde nem vagyok méltó arra, én Uram, hogy megszólítsalak, sok vétkem miatt.
+Miként viszonozhatom néked, legjóságosabb Uralkodónk, mindazt a jótéteményt, amelyel elhalmoztál és most is elhalmozol engem, bűnöst? Milyen köszönetet ajánljak fel neked? Akár egy fecske, napkeltétől éjszakáig így kiáltok hozzád, és mint egy csalogány, így énekelek néked: Szüntelenül dicsőítelek téged életemnek minden napján, mint Teremtőmet, Jótevőmet és Gondviselőmet. Ámde nem vagyok méltó arra, én Uram, hogy megszólítsalak, sok vétkem miatt.
 
 Hálát adok néked, Uram, mert türelmes voltál vétkeim iránt, és mindezidáig nem büntettél meg engem. Hálát adok néked, Uram, mert nem akarod a bűnös halálát, hanem hogy megtérjen és éljen. Mert bár megérdemelném, Uram, hogy sokat szenvedjek és hogy eltaszíts színed elől, ámde a te rosszat felejtő emberszereteted türelmet gyakorolt irántam. Hálát adok néked, Uram, habár nincs elegendő erőm arra, hogy hálát adjak könyörületedért.
 

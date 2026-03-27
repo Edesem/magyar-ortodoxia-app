@@ -57,7 +57,7 @@ export default function Kanon() {
       </Text>
 
       {bookmark.length === 0 && (
-        <Text style={styles.tutorial}>
+        <Text style={[styles.tutorial, {color: theme.text}]}>
           A gyakran használt imák a jobb felső sarokban található könyvjelző
           ikonnal a Kánonba menthetők.
         </Text>

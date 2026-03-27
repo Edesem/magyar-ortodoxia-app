@@ -131,7 +131,7 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   banner: {
-    fontSize: moderateScale(70, 0.8),
+    fontSize: moderateScale(65, 0.8),
     fontFamily: "Athonite",
     textAlign: "center",
     paddingVertical: 40,

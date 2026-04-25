@@ -44,9 +44,7 @@ ${BOTH_NOW}`,
     },
     {
       heading: "Theotokion",
-      text: `Nagy az én vétkeim sokasága, Istennek Szülője! Hozzád menekültem, Tisztaságos, üdvösségért könyörögve. Látogasd meg beteg lelkemet, és járj közre Fiadnál és Istenünknél, hogy adja meg elkövetett gonoszságaim bocsánatát, ó, egyedül Áldott!
-      
-`,
+      text: `Nagy az én vétkeim sokasága, Istennek Szülője! Hozzád menekültem, Tisztaságos, üdvösségért könyörögve. Látogasd meg beteg lelkemet, és járj közre Fiadnál és Istenünknél, hogy adja meg elkövetett gonoszságaim bocsánatát, ó, egyedül Áldott!\n`,
     },
     {
       subheading: "Nagycsütörtökön hozzáfűzzük",

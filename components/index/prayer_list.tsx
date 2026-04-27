@@ -24,22 +24,20 @@ export function PrayerList() {
           />
         </>
       )}
-      <View style={styles.card}>
-        <Link
-          key={prayer.id}
-          href={`./prayer/${prayer.id}`}
-          style={[styles.prayer, { color: theme.text }]}
-          onPress={haptic}
-        >
-          {prayer.title}
-        </Link>
-        <View>
-          <Image
-            source={require("../../assets/orthodox/star1.png")}
-            style={[styles.chevron, { tintColor: theme.text }]}
-          />
+      <Link key={prayer.id} href={`./prayer/${prayer.id}`} onPress={haptic}>
+        <View style={styles.card}>
+          <Text style={[styles.prayer, { color: theme.text }]}>
+            {prayer.title}
+          </Text>
+          <View>
+            <Image
+              source={require("../../assets/orthodox/star1.png")}
+              style={[styles.chevron, { tintColor: theme.text }]}
+            />
+          </View>
         </View>
-      </View>
+      </Link>
+
       <View style={[styles.prayer_divider, { backgroundColor: theme.text }]} />
     </View>
   ));
@@ -71,9 +69,8 @@ const styles = StyleSheet.create({
   prayer: {
     fontFamily: "Alegreya_400Regular",
     fontSize: moderateScale(25, 0.8),
-    maxWidth: "80%",
+    maxWidth: "85%",
     flex: 1,
-    paddingLeft: 25,
   },
   card: {
     borderRadius: 16,
@@ -82,5 +79,6 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "space-between",
+    paddingLeft: 25,
   },
 });

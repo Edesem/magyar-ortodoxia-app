@@ -96,6 +96,28 @@ export default function PrayerScreen() {
 
   const Footer = React.memo(() => <BottomImage prayer={prayer} />);
 
+  const flattened = sections.flatMap((section) => {
+    const items = [];
+
+    if (section.heading) {
+      items.push({ type: "heading", content: section.heading });
+    }
+
+    if (section.subheading) {
+      items.push({ type: "subheading", content: section.subheading });
+    }
+
+    if (section.text) {
+      items.push({ type: "text", content: section.text });
+    }
+
+    if (section.postheading) {
+      items.push({ type: "postheading", content: section.postheading });
+    }
+
+    return items;
+  });
+
   return (
     <View style={{ flexDirection: "row" }}>
       <Animated.FlatList
@@ -108,7 +130,7 @@ export default function PrayerScreen() {
           layoutHeight.value = e.nativeEvent.layout.height;
         }}
         scrollEventThrottle={16}
-        keyExtractor={(section, index) => index.toString()}
+        keyExtractor={(section, index) => `${section.heading}-${index}`}
         contentInsetAdjustmentBehavior="automatic"
         contentContainerStyle={{
           paddingHorizontal: orientationPadding,
@@ -119,24 +141,22 @@ export default function PrayerScreen() {
         ListFooterComponent={Footer}
         renderItem={({ item: section }) => (
           <>
-            <React.Fragment>
-              <Heading section={section} />
-              <Subheading section={section} />
+            <Heading section={section} />
+            <Subheading section={section} />
 
-              {section.paragraphs.map((p, i) => (
-                <Paragraphs
-                  key={`${section.heading || "s"}-${i}`}
-                  paragraph={p}
-                />
-              ))}
+            {section.paragraphs.map((p, i) => (
+              <Paragraphs
+                key={`${section.heading || "s"}-${i}`}
+                paragraph={p}
+              />
+            ))}
 
-              <Postheading section={section} />
-            </React.Fragment>
+            <Postheading section={section} />
           </>
         )}
       />
 
-      <Scrollbar progress={progress} />
+      {/*<Scrollbar progress={progress} />*/}
     </View>
   );
 }

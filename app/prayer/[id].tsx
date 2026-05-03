@@ -108,7 +108,11 @@ export default function PrayerScreen() {
     }
 
     if (section.text) {
-      items.push({ type: "text", content: section.text });
+      const paragraphs = section.text.split("\n");
+      paragraphs.map(paragraph => {
+        items.push({ type: "text", content: paragraph });
+      })
+      
     }
 
     if (section.postheading) {
@@ -121,7 +125,7 @@ export default function PrayerScreen() {
   return (
     <View style={{ flexDirection: "row" }}>
       <Animated.FlatList
-        data={sectionsWithParagraphs}
+        data={flattened}
         onScroll={handleScroll}
         onContentSizeChange={(w, h) => {
           contentHeight.value = h;
@@ -130,7 +134,7 @@ export default function PrayerScreen() {
           layoutHeight.value = e.nativeEvent.layout.height;
         }}
         scrollEventThrottle={16}
-        keyExtractor={(section, index) => `${section.heading}-${index}`}
+        keyExtractor={(section, index) => `${section.type}-${index}`}
         contentInsetAdjustmentBehavior="automatic"
         contentContainerStyle={{
           paddingHorizontal: orientationPadding,
@@ -139,21 +143,18 @@ export default function PrayerScreen() {
         }}
         style={{ flex: 1, backgroundColor: theme.bg }}
         ListFooterComponent={Footer}
-        renderItem={({ item: section }) => (
-          <>
-            <Heading section={section} />
-            <Subheading section={section} />
-
-            {section.paragraphs.map((p, i) => (
-              <Paragraphs
-                key={`${section.heading || "s"}-${i}`}
-                paragraph={p}
-              />
-            ))}
-
-            <Postheading section={section} />
-          </>
-        )}
+        renderItem={({ item: section }) => {
+          switch (section.type) {
+            case "heading":
+              return <Heading heading={section.content} />;
+            case "subheading":
+              return <Subheading subheading={section.content} />;
+            case "text":
+              return <Paragraphs paragraph={section.content} />;
+            case "postheading":
+              return <Postheading postheading={section.content} />;
+          }
+        }}
       />
 
       {/*<Scrollbar progress={progress} />*/}

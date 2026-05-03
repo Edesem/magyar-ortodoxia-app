@@ -1,17 +1,19 @@
 import { moderateScale } from "react-native-size-matters";
-import { PrayerSection } from "../../types/types";
+import { PrayerSection as string } from "../../types/types";
 import { Text, StyleSheet } from "react-native";
 import useTheme from "../../hooks/useTheme";
 
-export default function Postheading({ section }: { section: PrayerSection }) {
+export default function Postheading({
+  postheading: postheading,
+}: {
+  postheading: string;
+}) {
   const theme = useTheme();
 
   return (
-    section.postheading && (
-      <Text style={[styles.postheading, { color: theme.header }]}>
-        {section.postheading}
-      </Text>
-    )
+    <Text style={[styles.postheading, { color: theme.header }]}>
+      {postheading}
+    </Text>
   );
 }
 

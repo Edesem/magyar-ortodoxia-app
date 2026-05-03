@@ -28,6 +28,24 @@ import Paragraphs from "../../components/prayer/paragraphs";
 import Postheading from "../../components/prayer/postheading";
 import BottomImage from "../../components/prayer/bottomImage";
 import Scrollbar from "../../components/prayer/scrollBar";
+import parseParagraph, {
+  ParsedParagraphItem,
+} from "../../components/prayer/parseParagraph";
+
+type FlatItem =
+  | {
+      type: "heading";
+      content: string;
+    }
+  | {
+      type: "subheading";
+      content: string;
+    }
+  | ParsedParagraphItem
+  | {
+      type: "postheading";
+      content: string;
+    };
 
 export default function PrayerScreen() {
   const [isBookmarked, setIsBookedmarked] = useState(false);
@@ -97,7 +115,7 @@ export default function PrayerScreen() {
   const Footer = React.memo(() => <BottomImage prayer={prayer} />);
 
   const flattened = sections.flatMap((section) => {
-    const items = [];
+    const items: FlatItem[] = [];
 
     if (section.heading) {
       items.push({ type: "heading", content: section.heading });
@@ -109,10 +127,9 @@ export default function PrayerScreen() {
 
     if (section.text) {
       const paragraphs = section.text.split("\n");
-      paragraphs.map(paragraph => {
-        items.push({ type: "text", content: paragraph });
-      })
-      
+      paragraphs.forEach((paragraph) => {
+        items.push(parseParagraph(paragraph));
+      });
     }
 
     if (section.postheading) {
@@ -124,7 +141,7 @@ export default function PrayerScreen() {
 
   return (
     <View style={{ flexDirection: "row" }}>
-      <Animated.FlatList
+      <Animated.FlatList<FlatItem>
         data={flattened}
         onScroll={handleScroll}
         onContentSizeChange={(w, h) => {
@@ -150,10 +167,10 @@ export default function PrayerScreen() {
             case "subheading":
               return <Subheading subheading={section.content} />;
             case "text":
-              return <Paragraphs paragraph={section.content} />;
+              return <Paragraphs paragraph={section} />;
             case "postheading":
               return <Postheading postheading={section.content} />;
-            
+
             default:
               return null;
           }

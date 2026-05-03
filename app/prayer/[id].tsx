@@ -153,6 +153,9 @@ export default function PrayerScreen() {
               return <Paragraphs paragraph={section.content} />;
             case "postheading":
               return <Postheading postheading={section.content} />;
+            
+            default:
+              return null;
           }
         }}
       />

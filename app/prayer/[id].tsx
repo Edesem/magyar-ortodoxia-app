@@ -31,6 +31,8 @@ import Scrollbar from "../../components/prayer/scrollBar";
 import parseParagraph, {
   ParsedParagraphItem,
 } from "../../components/prayer/parseParagraph";
+import { FlashList } from "@shopify/flash-list";
+
 
 type FlatItem =
   | {
@@ -114,6 +116,8 @@ export default function PrayerScreen() {
 
   const Footer = React.memo(() => <BottomImage prayer={prayer} />);
 
+  console.time("flatten");
+
   const flattened = sections.flatMap((section) => {
     const items: FlatItem[] = [];
 
@@ -138,12 +142,14 @@ export default function PrayerScreen() {
 
     return items;
   });
+  console.timeEnd("flatten");
+
 
   return (
     <View style={{ flexDirection: "row" }}>
-      <Animated.FlatList<FlatItem>
+      <FlashList<FlatItem>
         data={flattened}
-        onScroll={handleScroll}
+        //onScroll={handleScroll}
         onContentSizeChange={(w, h) => {
           contentHeight.value = h;
         }}

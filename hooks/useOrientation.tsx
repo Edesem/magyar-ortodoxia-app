@@ -12,7 +12,6 @@ const getOrientation = () => {
     useEffect(() => {
         Dimensions.addEventListener("change", () => {
           setOrientation(getOrientation());
-          console.log(orientation);
         });
       });
 

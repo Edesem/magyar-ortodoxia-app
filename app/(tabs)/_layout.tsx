@@ -10,7 +10,7 @@ import {
   ThemeProvider,
   DarkTheme,
   DefaultTheme,
-} from "@react-navigation/native";
+} from "expo-router/react-navigation";
 
 function IOSTabs({ theme }: { theme: Theme }) {
   const colorScheme = useColorScheme();
@@ -19,16 +19,18 @@ function IOSTabs({ theme }: { theme: Theme }) {
     <ThemeProvider value={colorScheme === "dark" ? DarkTheme : DefaultTheme}>
       <NativeTabs tintColor={theme.header}>
         <NativeTabs.Trigger name="index">
-          <Label>Imák</Label>
-          <Icon sf={"book.fill"} />
+          <NativeTabs.Trigger.Label>Imák</NativeTabs.Trigger.Label>
+          <NativeTabs.Trigger.Icon sf={"book.fill"} />
         </NativeTabs.Trigger>
+        
         <NativeTabs.Trigger name="kanon">
-          <Label>Kánon</Label>
-          <Icon sf={"bookmark.fill"} />
+          <NativeTabs.Trigger.Label>Kánon</NativeTabs.Trigger.Label>
+          <NativeTabs.Trigger.Icon sf={"bookmark.fill"} />
         </NativeTabs.Trigger>
+
         <NativeTabs.Trigger name="komboszkini">
-          <Label>Komboszkini</Label>
-          <Icon sf={"circle.grid.cross.fill"} />
+          <NativeTabs.Trigger.Label>Komboszkini</NativeTabs.Trigger.Label>
+          <NativeTabs.Trigger.Icon sf={"circle.grid.cross.fill"} />
         </NativeTabs.Trigger>
       </NativeTabs>
     </ThemeProvider>

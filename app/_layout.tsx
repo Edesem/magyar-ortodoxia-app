@@ -17,7 +17,7 @@ import {
   ThemeProvider,
   DarkTheme,
   DefaultTheme,
-} from "@react-navigation/native";
+} from "expo-router/react-navigation";
 
 SplashScreen.preventAutoHideAsync();
 

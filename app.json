@@ -6,7 +6,7 @@
     "userInterfaceStyle": "automatic",
     "scheme": "myapp",
     "ios": {
-      "supportsTablet": true,
+      "supportsTablet": false,
       "deploymentTarget": "16.4",
       "icon": "assets/magyar-ortodox.icon",
       "bundleIdentifier": "com.leventezoltan.magyarortodoxia",
@@ -53,7 +53,7 @@
       [
         "expo-screen-orientation",
         {
-          "initialOrientation": "DEFAULT"
+          "initialOrientation": "PORTRAIT_UP"
         }
       ],
       "expo-status-bar"

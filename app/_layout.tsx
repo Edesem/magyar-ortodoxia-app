@@ -23,7 +23,6 @@ SplashScreen.preventAutoHideAsync();
 
 export default function RootLayout() {
   const colorScheme = useColorScheme();
-  console.log(colorScheme);
 
   const [fontsLoaded] = useFonts({
     Alegreya_400Regular,

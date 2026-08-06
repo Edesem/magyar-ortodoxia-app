@@ -105,8 +105,6 @@ export default function PrayerScreen() {
     paragraphs: section.text.split("\n"),
   }));
 
-  console.time("flatten");
-
   const flattened = sections.flatMap((section) => {
     const items: FlatItem[] = [];
 
@@ -131,7 +129,6 @@ export default function PrayerScreen() {
 
     return items;
   });
-  console.timeEnd("flatten");
 
   return (
     <>

@@ -1,19 +1,11 @@
 import Animated, {
-  interpolate,
-  useAnimatedScrollHandler,
-  useAnimatedStyle,
-  useDerivedValue,
-  useSharedValue,
+  useAnimatedScrollHandler, useDerivedValue,
+  useSharedValue
 } from "react-native-reanimated";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import {
-  StyleSheet,
-  ScrollView,
-  View,
-  Image,
-  Pressable,
-  FlatList,
+  View, Pressable
 } from "react-native";
 import useTheme from "../../hooks/useTheme";
 import useOrientation from "../../hooks/useOrientation";
@@ -31,23 +23,22 @@ import Scrollbar from "../../components/prayer/scrollBar";
 import parseParagraph, {
   ParsedParagraphItem,
 } from "../../components/prayer/parseParagraph";
-import { FlashList } from "@shopify/flash-list";
 
 
 type FlatItem =
   | {
-      type: "heading";
-      content: string;
-    }
+    type: "heading";
+    content: string;
+  }
   | {
-      type: "subheading";
-      content: string;
-    }
+    type: "subheading";
+    content: string;
+  }
   | ParsedParagraphItem
   | {
-      type: "postheading";
-      content: string;
-    };
+    type: "postheading";
+    content: string;
+  };
 
 export default function PrayerScreen() {
   const [isBookmarked, setIsBookedmarked] = useState(false);
@@ -142,12 +133,10 @@ export default function PrayerScreen() {
   });
   console.timeEnd("flatten");
 
-
   return (
-    <View style={{ flexDirection: "row" }}>
-      <FlashList<FlatItem>
-        data={flattened}
-        //onScroll={handleScroll}
+    <>
+      <Animated.ScrollView
+        onScroll={handleScroll}
         onContentSizeChange={(w, h) => {
           contentHeight.value = h;
         }}
@@ -155,7 +144,6 @@ export default function PrayerScreen() {
           layoutHeight.value = e.nativeEvent.layout.height;
         }}
         scrollEventThrottle={16}
-        keyExtractor={(section, index) => `${section.type}-${index}`}
         contentInsetAdjustmentBehavior="automatic"
         contentContainerStyle={{
           paddingHorizontal: orientationPadding,
@@ -163,25 +151,26 @@ export default function PrayerScreen() {
           paddingTop: 10,
         }}
         style={{ flex: 1, backgroundColor: theme.bg }}
-        ListFooterComponent={<BottomImage prayer={prayer} />}
-        renderItem={({ item: section }) => {
+      >
+        {flattened.map((section, index) => {
+          const key = `${section.type}-${index}`;
+
           switch (section.type) {
             case "heading":
-              return <Heading heading={section.content} />;
+              return <Heading key={key} heading={section.content} />;
             case "subheading":
-              return <Subheading subheading={section.content} />;
+              return <Subheading key={key} subheading={section.content} />;
             case "text":
-              return <Paragraphs paragraph={section} />;
+              return <Paragraphs key={key} paragraph={section} />;
             case "postheading":
-              return <Postheading postheading={section.content} />;
+              return <Postheading key={key} postheading={section.content} />;
 
             default:
               return null;
           }
-        }}
-      />
-
-      {/*<Scrollbar progress={progress} />*/}
-    </View>
+        })}
+        <BottomImage prayer={prayer} />
+      </Animated.ScrollView><Scrollbar progress={progress} />
+    </>
   );
 }

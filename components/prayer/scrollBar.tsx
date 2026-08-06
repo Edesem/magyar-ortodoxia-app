@@ -1,6 +1,7 @@
 import { View  } from "react-native";
 import useTheme from "../../hooks/useTheme";
 import Animated, { SharedValue, useAnimatedStyle } from "react-native-reanimated";
+import React from "react";
 
 export default function Scrollbar({
   progress,

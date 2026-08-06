@@ -2,6 +2,7 @@ import { moderateScale } from "react-native-size-matters";
 import { PrayerSection as string } from "../../types/types";
 import { Text, StyleSheet } from "react-native";
 import useTheme from "../../hooks/useTheme";
+import React from "react";
 
 export default function Postheading({
   postheading: postheading,

@@ -1,6 +1,7 @@
 import { View, Image } from "react-native";
 import { Prayer } from "../../types/types";
 import useTheme from "../../hooks/useTheme";
+import React from "react";
 
 export default function BottomImage({ prayer }: { prayer: Prayer }) {
   const imageSize = prayer.imageSize ? prayer.imageSize : 100;

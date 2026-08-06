@@ -1,5 +1,6 @@
 import { Image } from "react-native";
 import useTheme from "../../hooks/useTheme";
+import React from "react";
 
 export function BottomImage() {
   const theme = useTheme();

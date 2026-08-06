@@ -1,7 +1,6 @@
 import React from "react";
-import { Icon, Label, NativeTabs } from "expo-router/unstable-native-tabs";
-import { DynamicColorIOS, Platform, Image, useColorScheme } from "react-native";
-import { COLOURS } from "../../constants/colours";
+import { NativeTabs } from "expo-router/unstable-native-tabs";
+import { Platform, useColorScheme } from "react-native";
 import { Tabs } from "expo-router";
 import MaterialIcons from "@expo/vector-icons/MaterialCommunityIcons.js";
 import { FontAwesome6 } from "@expo/vector-icons";

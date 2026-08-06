@@ -3,6 +3,7 @@ import { Link } from "expo-router";
 import { haptic } from "../../utils/haptic";
 import useOrientation from "../../hooks/useOrientation";
 import useTheme from "../../hooks/useTheme";
+import React from "react";
 
 export function InformationButton() {
   const theme = useTheme();

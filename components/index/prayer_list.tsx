@@ -5,6 +5,7 @@ import { haptic } from "../../utils/haptic";
 import { prayerData } from "../../data/prayers";
 import { verticalScale, moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
+import React from "react";
 
 export function PrayerList() {
   const prayers: Prayer[] = prayerData;

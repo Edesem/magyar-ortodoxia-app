@@ -10,11 +10,12 @@ import useTheme from "../../hooks/useTheme";
 import useOrientation from "../../hooks/useOrientation";
 import { bookmarkService } from "../../services/bookmarkService";
 import { useEffect, useState } from "react";
-import { Link } from "expo-router";
+import { Link, useFocusEffect } from "expo-router";
 import { moderateScale, verticalScale } from "react-native-size-matters";
 import { haptic } from "../../utils/haptic";
 import { prayerData } from "../../data/prayers";
 import { Prayer } from "../../types/types";
+import React from "react";
 
 const prayers: Prayer[] = prayerData;
 
@@ -29,14 +30,16 @@ export default function Kanon() {
     useOrientation() === "landscape" ? 80 : 10;
   const orientationVerticalPadding = useOrientation() === "landscape" ? 20 : 0;
 
-  useEffect(() => {
-    const loadBookmarks = async () => {
-      const list = await bookmarkService.getAll();
-      setBookmarks(list);
-    };
+  useFocusEffect(
+    React.useCallback(() => {
+      const loadBookmarks = async () => {
+        const list = await bookmarkService.getAll();
+        setBookmarks(list);
+      };
 
-    loadBookmarks();
-  }, [bookmarks]);
+      loadBookmarks();
+    }, [])
+  );
 
   const bookmark = prayers.filter((prayer) => bookmarks.includes(prayer.id));
 

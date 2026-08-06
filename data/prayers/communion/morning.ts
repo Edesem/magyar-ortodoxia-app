@@ -1,5 +1,5 @@
 import { Prayer } from "../../../types/types";
-import { PSALM_22, PSALM_23 } from "../constants/psalms";
+import { PSALM_115, PSALM_22, PSALM_23 } from "../constants/psalms";
 import { INTRO, INTO_KATHISMA, GLORY_BOTH, LORD_HAVE_MERCY_3, GLORY, BOTH_NOW, LORD_HAVE_MERCY_40 } from "../constants/repeatedPrayers";
 
 export const morning_before: Prayer = {
@@ -24,7 +24,7 @@ ${INTO_KATHISMA}`,
     },
     {
       heading: "115. zsoltár",
-      text: `
+      text: `${PSALM_115}
 
 ${GLORY_BOTH}
 

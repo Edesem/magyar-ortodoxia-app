@@ -114,8 +114,6 @@ export default function PrayerScreen() {
     paragraphs: section.text.split("\n"),
   }));
 
-  const Footer = React.memo(() => <BottomImage prayer={prayer} />);
-
   console.time("flatten");
 
   const flattened = sections.flatMap((section) => {
@@ -165,7 +163,7 @@ export default function PrayerScreen() {
           paddingTop: 10,
         }}
         style={{ flex: 1, backgroundColor: theme.bg }}
-        ListFooterComponent={Footer}
+        ListFooterComponent={<BottomImage prayer={prayer} />}
         renderItem={({ item: section }) => {
           switch (section.type) {
             case "heading":

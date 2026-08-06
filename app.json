@@ -6,7 +6,7 @@
     "userInterfaceStyle": "automatic",
     "scheme": "myapp",
     "ios": {
-      "supportsTablet": false,
+      "supportsTablet": true,
       "deploymentTarget": "16.4",
       "icon": "assets/magyar-ortodox.icon",
       "bundleIdentifier": "com.leventezoltan.magyarortodoxia",

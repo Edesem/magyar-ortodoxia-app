@@ -1,15 +1,12 @@
-import { Stack, useLocalSearchParams, useNavigation } from "expo-router";
+import Animated, {
+  useAnimatedScrollHandler, useDerivedValue,
+  useSharedValue
+} from "react-native-reanimated";
+import { useLocalSearchParams, useNavigation } from "expo-router";
 import React, { useEffect, useLayoutEffect, useState } from "react";
 import {
-  Text,
-  StyleSheet,
-  ScrollView,
-  View,
-  Image,
-  Pressable,
+  View, Pressable
 } from "react-native";
-
-import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
 import useOrientation from "../../hooks/useOrientation";
 import { Ionicons } from "@expo/vector-icons";
@@ -17,20 +14,33 @@ import { bookmarkService } from "../../services/bookmarkService";
 import { haptic } from "../../utils/haptic";
 import { prayerData } from "../../data/prayers";
 import { Prayer } from "../../types/types";
-import {
-  LORD_HAVE_MERCY_3,
-  LORD_HAVE_MERCY_12,
-  LORD_HAVE_MERCY_40,
-  GLORY,
-  BOTH_NOW,
-  GLORY_TO_YOU,
-  MOST_HOLY,
-  HOLY_GOD,
-  REJOICE,
-} from "../../data/prayers/constants/repeatedPrayers";
+import Heading from "../../components/prayer/heading";
+import Subheading from "../../components/prayer/subheading";
+import Paragraphs from "../../components/prayer/paragraphs";
+import Postheading from "../../components/prayer/postheading";
+import BottomImage from "../../components/prayer/bottomImage";
+import Scrollbar from "../../components/prayer/scrollBar";
+import parseParagraph, {
+  ParsedParagraphItem,
+} from "../../components/prayer/parseParagraph";
+
+
+type FlatItem =
+  | {
+    type: "heading";
+    content: string;
+  }
+  | {
+    type: "subheading";
+    content: string;
+  }
+  | ParsedParagraphItem
+  | {
+    type: "postheading";
+    content: string;
+  };
 
 export default function PrayerScreen() {
-  const [progress, setProgress] = useState(0);
   const [isBookmarked, setIsBookedmarked] = useState(false);
 
   const { id } = useLocalSearchParams();
@@ -38,22 +48,24 @@ export default function PrayerScreen() {
   const navigation = useNavigation();
   const theme = useTheme();
 
+  const scrollY = useSharedValue(0);
+  const contentHeight = useSharedValue(1);
+  const layoutHeight = useSharedValue(1);
+
   // For prayers (p) check p.id and see if it's equal to id
   const prayer: Prayer = prayerData.find((p) => p.id === id)!;
   const sections = prayer.sections;
 
-  const imageSize = prayer.imageSize ? prayer.imageSize : 100;
+  const handleScroll = useAnimatedScrollHandler({
+    onScroll: (event) => {
+      scrollY.value = event.contentOffset.y;
+    },
+  });
 
-  const handleScroll = (event) => {
-    const { contentOffset, contentSize, layoutMeasurement } = event.nativeEvent;
-
-    const scrollY = contentOffset.y;
-    const height = contentSize.height - layoutMeasurement.height;
-
-    if (height > 0) {
-      setProgress(scrollY / height);
-    }
-  };
+  const progress = useDerivedValue(() => {
+    const maxScroll = contentHeight.value - layoutHeight.value;
+    return maxScroll > 0 ? scrollY.value / maxScroll : 0;
+  });
 
   useEffect(() => {
     const loadBookmark = async () => {
@@ -88,10 +100,47 @@ export default function PrayerScreen() {
 
   const orientationPadding = useOrientation() === "landscape" ? 80 : 25;
 
+  const sectionsWithParagraphs = sections.map((section) => ({
+    ...section,
+    paragraphs: section.text.split("\n"),
+  }));
+
+  const flattened = sections.flatMap((section) => {
+    const items: FlatItem[] = [];
+
+    if (section.heading) {
+      items.push({ type: "heading", content: section.heading });
+    }
+
+    if (section.subheading) {
+      items.push({ type: "subheading", content: section.subheading });
+    }
+
+    if (section.text) {
+      const paragraphs = section.text.split("\n");
+      paragraphs.forEach((paragraph) => {
+        items.push(parseParagraph(paragraph));
+      });
+    }
+
+    if (section.postheading) {
+      items.push({ type: "postheading", content: section.postheading });
+    }
+
+    return items;
+  });
+
   return (
-    <View style={{ flexDirection: "row" }}>
-      <ScrollView
+    <>
+      <Animated.ScrollView
         onScroll={handleScroll}
+        onContentSizeChange={(w, h) => {
+          contentHeight.value = h;
+        }}
+        onLayout={(e) => {
+          layoutHeight.value = e.nativeEvent.layout.height;
+        }}
+        scrollEventThrottle={16}
         contentInsetAdjustmentBehavior="automatic"
         contentContainerStyle={{
           paddingHorizontal: orientationPadding,
@@ -100,154 +149,25 @@ export default function PrayerScreen() {
         }}
         style={{ flex: 1, backgroundColor: theme.bg }}
       >
-        {sections.map((section, sectionIndex) => {
-          const paragraphs = section.text.split("\n");
+        {flattened.map((section, index) => {
+          const key = `${section.type}-${index}`;
 
-          return (
-            <React.Fragment key={sectionIndex}>
-              {/* heading */}
-              {section.heading && (
-                <Text style={[styles.heading, { color: theme.header }]}>
-                  {section.heading}
-                </Text>
-              )}
+          switch (section.type) {
+            case "heading":
+              return <Heading key={key} heading={section.content} />;
+            case "subheading":
+              return <Subheading key={key} subheading={section.content} />;
+            case "text":
+              return <Paragraphs key={key} paragraph={section} />;
+            case "postheading":
+              return <Postheading key={key} postheading={section.content} />;
 
-              {/* subheading */}
-              {section.subheading && (
-                <Text style={[styles.subheading, { color: theme.header }]}>
-                  {section.subheading}
-                </Text>
-              )}
-
-              {/* paragraphs */}
-              {paragraphs.map((paragraph, paragraphIndex) => {
-                const dropCap = paragraph.charAt(0);
-                const paragraphBody = paragraph.slice(1);
-
-                const isCenteredParagraph = [
-                  LORD_HAVE_MERCY_3,
-                  LORD_HAVE_MERCY_12,
-                  LORD_HAVE_MERCY_40,
-                  GLORY,
-                  BOTH_NOW,
-                  GLORY_TO_YOU,
-                  MOST_HOLY,
-                  HOLY_GOD,
-                ].includes(paragraph);
-                const isRightAlignedParagraph = [REJOICE].includes(paragraph);
-
-                const textAlign: "left" | "center" | "right" =
-                  isCenteredParagraph
-                    ? "center"
-                    : isRightAlignedParagraph
-                    ? "right"
-                    : "left";
-
-                const verseLabelRegex = /\d?.? ?vers:/g;
-                let verseLabel = null;
-                let afterVerse = paragraphBody;
-
-                if (verseLabelRegex.test(paragraph)) {
-                  verseLabel = paragraph.match(verseLabelRegex)![0];
-                  afterVerse = paragraphBody.slice(
-                    verseLabel!.length
-                  );
-                }
-
-                const repetitionMarkerRegex = /\(\d{1,2}x\)/;
-                let repetitionLabel = null;
-                let repetitionIndex = null;
-                let beforeRepetition = afterVerse;
-                let afterRepetition = null;
-
-                if (repetitionMarkerRegex.test(afterVerse)) {
-                  repetitionLabel = afterVerse.match(repetitionMarkerRegex)![0];
-                  repetitionIndex = afterVerse.indexOf(repetitionLabel);
-                  beforeRepetition = afterVerse.slice(0, repetitionIndex);
-                  afterRepetition = afterVerse.slice(
-                    repetitionIndex + repetitionLabel.length 
-                  );
-                }
-
-                return (
-                  <Text
-                    style={[
-                      styles.text,
-                      { color: theme.text, textAlign: textAlign },
-                    ]}
-                    key={paragraphIndex}
-                  >
-                    <Text style={[styles.dropCap, { color: theme.subheading }]}>
-                      {dropCap}
-                    </Text>
-                    <Text style={[styles.text, { color: theme.subheading }]}>
-                      {verseLabel}
-                    </Text>
-                    {beforeRepetition}
-                    <Text style={[styles.text, { color: theme.subheading }]}>
-                      {repetitionLabel}
-                    </Text>
-                    {afterRepetition}
-                  </Text>
-                );
-              })}
-            </React.Fragment>
-          );
+            default:
+              return null;
+          }
         })}
-
-        <View style={{ alignItems: "center", paddingVertical: 70 }}>
-          <Image
-            source={prayer.image}
-            style={{
-              height: imageSize,
-              resizeMode: "contain",
-              tintColor: theme.heading,
-            }}
-          />
-        </View>
-      </ScrollView>
-
-      <View style={{ width: 12, height: "100%", position: "absolute" }}>
-        <View
-          style={{
-            width: "100%",
-            backgroundColor: theme.header,
-            height: `${progress * 100}%`,
-            borderBottomRightRadius: 10,
-          }}
-        />
-      </View>
-    </View>
+        <BottomImage prayer={prayer} />
+      </Animated.ScrollView><Scrollbar progress={progress} />
+    </>
   );
 }
-
-const styles = StyleSheet.create({
-  text: {
-    fontSize: moderateScale(24),
-    lineHeight: moderateScale(34),
-    textAlign: "left",
-    fontFamily: "Alegreya_400Regular",
-  },
-  heading: {
-    fontSize: moderateScale(30),
-    textAlign: "center",
-    paddingVertical: moderateScale(15),
-    fontFamily: "AlegreyaSC_400Regular",
-  },
-  subheading: {
-    fontSize: moderateScale(25),
-    textAlign: "center",
-    paddingBottom: 25,
-    fontFamily: "Alegreya_400Regular_Italic",
-  },
-  postheading: {
-    fontSize: moderateScale(24),
-    textAlign: "left",
-    paddingBottom: 25,
-    fontFamily: "Alegreya_400Regular_Italic",
-  },
-  dropCap: {
-    lineHeight: moderateScale(40),
-    fontSize: moderateScale(32),
-  },
-});

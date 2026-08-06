@@ -17,7 +17,7 @@ import {
   ThemeProvider,
   DarkTheme,
   DefaultTheme,
-} from "@react-navigation/native";
+} from "expo-router/react-navigation";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -62,7 +62,7 @@ export default function RootLayout() {
               headerLargeTitleEnabled: true,
               headerLargeTitleStyle: {
                 fontFamily: "AlegreyaSC_700Bold",
-                fontSize: moderateScale(50, 0.8),
+                fontSize: moderateScale(35, 0.8),
                 color: theme.header,
               },
             }),

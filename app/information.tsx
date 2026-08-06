@@ -6,6 +6,7 @@ import useTheme from "../hooks/useTheme";
 import * as Application from "expo-application";
 import { moderateScale } from "react-native-size-matters";
 import useOrientation from "../hooks/useOrientation";
+import React from "react";
 
 export default function info() {
   const navigation = useNavigation();

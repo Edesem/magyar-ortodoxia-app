@@ -2,12 +2,12 @@
   "expo": {
     "name": "Ortodoxia",
     "slug": "magyar-ortodoxia-app",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
     "scheme": "myapp",
     "ios": {
       "supportsTablet": true,
+      "deploymentTarget": "16.4",
       "icon": "assets/magyar-ortodox.icon",
       "bundleIdentifier": "com.leventezoltan.magyarortodoxia",
       "infoPlist": {
@@ -19,7 +19,6 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#f5f5f5"
       },
-      "edgeToEdgeEnabled": true,
       "predictiveBackGestureEnabled": false,
       "package": "com.leventezoltan.magyarortodoxia"
     },
@@ -30,17 +29,17 @@
       "expo-router",
       "expo-font",
       [
-      "expo-build-properties",
+        "expo-build-properties",
         {
-            "android": {
-              "colorPrimary": "#fff",
-              "colorPrimaryDark": "#121212",
-              "colorAccent": "#8B0000"
-            }
+          "android": {
+            "colorPrimary": "#fff",
+            "colorPrimaryDark": "#121212",
+            "colorAccent": "#8B0000"
+          }
         }
       ],
       [
-      "expo-splash-screen",
+        "expo-splash-screen",
         {
           "backgroundColor": "#f5f5f5",
           "image": "./assets/splash-icon-light.png",
@@ -54,9 +53,10 @@
       [
         "expo-screen-orientation",
         {
-          "initialOrientation": "DEFAULT"
+          "initialOrientation": "PORTRAIT_UP"
         }
-      ]
+      ],
+      "expo-status-bar"
     ],
     "extra": {
       "router": {},

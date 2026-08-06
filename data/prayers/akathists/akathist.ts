@@ -204,7 +204,9 @@ Felragyogtatva Egyiptomban az igazság fényét, elűzted a hazugság sötétsé
     },
     {
       heading: "7.",
-      text: `Midőn Simeon elköltözni készült a jelenvaló csalóka világból, mint kisdedet vett a karjaiba téged, de mint tökéletes Isten is megmutatkoztál neki; elámult ezért kimondhatatlan bölcsességeden, így kiáltva fel: Alliluia! Új alkotást mutatott meg az Alkotó nekünk, akik általa lettünk, mag nélküli méhből sarjadva, és sértetlenül őrizve meg azt, amilyen volt, hogy látván a csodát, magasztaljuk a Szüzet, így kiáltva:
+      text: `Midőn Simeon elköltözni készült a jelenvaló csalóka világból, mint kisdedet vett a karjaiba téged, de mint tökéletes Isten is megmutatkoztál neki; elámult ezért kimondhatatlan bölcsességeden, így kiáltva fel: Alliluia! 
+      
+Új alkotást mutatott meg az Alkotó nekünk, akik általa lettünk, mag nélküli méhből sarjadva, és sértetlenül őrizve meg azt, amilyen volt, hogy látván a csodát, magasztaljuk a Szüzet, így kiáltva:
 
 Örvendezz, romolhatatlanság virága,
 
@@ -234,7 +236,9 @@ Felragyogtatva Egyiptomban az igazság fényét, elűzted a hazugság sötétsé
     },
     {
       heading: "8.",
-      text: `Különös szülést látván, különüljünk el a világtól, az égbe emelve értelmünket. Hiszen a magasságos Isten azért jelent meg a földön alázatos emberként, hogy a magasba emelje azokat, kik így kiáltanak hozzá: Alliluia! Egészen a földiek között volt, de egyáltalán nem távozott el az égiek közül a leírhatat lan Ige; mert isteni leereszkedés történt, nem pedig helyváltoztatás, és az Istent befogadó Szűztől történt születése, aki ezt hallgatta:
+      text: `Különös szülést látván, különüljünk el a világtól, az égbe emelve értelmünket. Hiszen a magasságos Isten azért jelent meg a földön alázatos emberként, hogy a magasba emelje azokat, kik így kiáltanak hozzá: Alliluia!
+      
+Egészen a földiek között volt, de egyáltalán nem távozott el az égiek közül a leírhatat lan Ige; mert isteni leereszkedés történt, nem pedig helyváltoztatás, és az Istent befogadó Szűztől történt születése, aki ezt hallgatta:
 
 Örvendezz, befogadhatatlan Isten befogadója,
 
@@ -328,7 +332,9 @@ Várfala vagy a szüzeknek és minden hozzád folyamodónak, Istennek szűz Szü
     },
     {
       heading: "11.",
-      text: `Minden dicsérőének hiába, ha a te könyörületed sokaságát akarja felsorolni, szent Királyunk. Hiszen, ha annyi éneket ajánlanánk is fel néked, mint a homokszem, még semmi méltót nem mondanánk ahhoz, amit nekünk adtál, kik így kiáltunk hozzád: Alliluia! A sötétben járók fényhordozó fáklyájának látjuk a szent Szüzet, aki meggyújtván az anyagtalan világosságot, isteni ismeretre vezet mindeneket, s míg ragyogásával megvilágítja az értelmet, ezzel a kiáltással arat tiszteletet:
+      text: `Minden dicsérőének hiába, ha a te könyörületed sokaságát akarja felsorolni, szent Királyunk. Hiszen, ha annyi éneket ajánlanánk is fel néked, mint a homokszem, még semmi méltót nem mondanánk ahhoz, amit nekünk adtál, kik így kiáltunk hozzád: Alliluia!
+      
+A sötétben járók fényhordozó fáklyájának látjuk a szent Szüzet, aki meggyújtván az anyagtalan világosságot, isteni ismeretre vezet mindeneket, s míg ragyogásával megvilágítja az értelmet, ezzel a kiáltással arat tiszteletet:
 
 Örvendezz, értelmi napnak sugara,
 

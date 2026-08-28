@@ -1,54 +1,68 @@
 import { Prayer } from "../../../types/types";
 import { PSALM_83, PSALM_84, PSALM_85 } from "../constants/psalms";
-import { ALLELUIA, BOTH_NOW, COME_LET_US, GLORY, GLORY_BOTH, HOLY_GOD, IN_THE_NAME, INTRO, LORD_HAVE_MERCY_12, LORD_HAVE_MERCY_3, LORD_HAVE_MERCY_40, MIDDLE_NO_AXION, MORE_HONOURABLE, THROUGH_THE_PRAYERS, WHO_AT_ALL_TIMES } from "../constants/repeatedPrayers";
+import {
+  ALLELUIA,
+  BOTH_NOW,
+  COME_LET_US,
+  GLORY,
+  GLORY_BOTH,
+  INTRO,
+  LORD_HAVE_MERCY_12,
+  LORD_HAVE_MERCY_3,
+  LORD_HAVE_MERCY_40,
+  MIDDLE_NO_AXION,
+  MORE_HONOURABLE,
+  THROUGH_THE_PRAYERS,
+  WHO_AT_ALL_TIMES,
+} from "../constants/repeatedPrayers";
 
 export const ninth_hour: Prayer = {
-    id: "ninth_hour",
-    title: "IX. imaóra",
-    header_title: "IX. imaóra",
-    image: require("../../../assets/orthodox/decorative3.png"),
-    imageSize: 400,
-    sections: [
-        {
-            text: `${INTRO}
+  id: "ninth_hour",
+  title: "IX. imaóra",
+  header_title: "IX. imaóra",
+  image: require("../../../assets/orthodox/decorative3.png"),
+  imageSize: 400,
+  sections: [
+    {
+      text: `${INTRO}
             
 ${LORD_HAVE_MERCY_12}
 
 ${GLORY_BOTH}
 
-${COME_LET_US}`
-        },
-        {
-            heading: "83. zsoltár",
-            text: `${PSALM_83}`
-        },
-        {
-            heading: "84. zsoltár",
-            text: `${PSALM_84}`
-        },
-        {
-            heading: "85. zsoltár",
-            text: `${PSALM_85}
+${COME_LET_US}`,
+    },
+    {
+      heading: "83. zsoltár",
+      text: `${PSALM_83}`,
+    },
+    {
+      heading: "84. zsoltár",
+      text: `${PSALM_84}`,
+    },
+    {
+      heading: "85. zsoltár",
+      text: `${PSALM_85}
             
 ${ALLELUIA}
 
 ${GLORY}
-`
-        },
-        {
-            subheading: "Apolytikion",
-            text: `${BOTH_NOW}
+`,
+    },
+    {
+      subheading: "Apolytikion",
+      text: `${BOTH_NOW}
             
 Aki miérettünk a Szűztől születtél, és keresztrefeszítést szenvedtél, óh Jóságos, ki a halált haláloddal leigáztad, és mint Isten megmutattad a feltámadást, meg ne vesd a kezed alkotásait; mutasd meg emberszeretetedet, óh Irgalmas, fogadd a Szülődnek, Isten Szülőjének érettünk való közbenjárását, és üdvözítsd, Üdvözítőnk, keservesen bánkódó népedet.
 
 Ne adj át minket a pusztulásnak, a Te szent nevedért, és ne bontsd fel a Te szövetségedet, és ne vond meg tőlünk irgalmadat, Ábrahámért, a Te kedveltedért, és Izsákért, a Te szolgádért, és Izráelért, a Te szentedért.
 
 ${MIDDLE_NO_AXION}
-`
-        },
-        {
-            subheading: "Kondákion",
-            text: `${LORD_HAVE_MERCY_40}
+`,
+    },
+    {
+      subheading: "Kondákion",
+      text: `${LORD_HAVE_MERCY_40}
             
 ${WHO_AT_ALL_TIMES}
 
@@ -66,8 +80,7 @@ ${GLORY_BOTH}
 
 ${LORD_HAVE_MERCY_3}
 
-${THROUGH_THE_PRAYERS}`
-        }
-    ],
-  };
-  
+${THROUGH_THE_PRAYERS}`,
+    },
+  ],
+};

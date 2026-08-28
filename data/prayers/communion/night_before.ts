@@ -1,4 +1,3 @@
-import useTheme from "../../../hooks/useTheme";
 import { Prayer } from "../../../types/types";
 import { INTRO, THROUGH_THE_PRAYERS } from "../constants/repeatedPrayers";
 

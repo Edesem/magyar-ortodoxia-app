@@ -1,20 +1,11 @@
-import { StatusBar } from "expo-status-bar";
-import {
-  Pressable,
-  ScrollView,
-  StyleSheet,
-  Text,
-  View,
-  Image,
-  Platform,
-} from "react-native";
-import React, { useState } from "react";
-import useTheme from "../../hooks/useTheme";
-import useOrientation from "../../hooks/useOrientation";
-import { InformationButton } from "../../components/index/information";
-import { Header } from "../../components/index/header";
-import { PrayerList } from "../../components/index/prayer_list";
+import React from "react";
+import { Platform, ScrollView, StyleSheet } from "react-native";
 import { BottomImage } from "../../components/index/bottomImage";
+import { Header } from "../../components/index/header";
+import { InformationButton } from "../../components/index/information";
+import { PrayerList } from "../../components/index/prayer_list";
+import useOrientation from "../../hooks/useOrientation";
+import useTheme from "../../hooks/useTheme";
 
 export default function Index() {
   const theme = useTheme();

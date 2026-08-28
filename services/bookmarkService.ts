@@ -37,7 +37,7 @@ export const bookmarkService = {
     const bookmarks = await this.getAll();
     await storage.set(
       STORAGE_KEYS.KANON,
-      bookmarks.filter((id) => id !== prayerId)
+      bookmarks.filter((id) => id !== prayerId),
     );
   },
 };

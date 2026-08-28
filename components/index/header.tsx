@@ -1,9 +1,9 @@
-import { Pressable, Text, StyleSheet } from "react-native";
-import { HEADERS } from "../../constants/headers";
-import { haptic } from "../../utils/haptic";
 import React, { useState } from "react";
+import { Pressable, StyleSheet, Text } from "react-native";
 import { moderateScale } from "react-native-size-matters";
+import { HEADERS } from "../../constants/headers";
 import useTheme from "../../hooks/useTheme";
+import { haptic } from "../../utils/haptic";
 
 export function Header() {
   const [header, setHeader] = useState(0);
@@ -13,7 +13,7 @@ export function Header() {
     <Pressable
       onPress={() => {
         haptic();
-        if (header == HEADERS.length - 1) {
+        if (header === HEADERS.length - 1) {
           setHeader(0);
         } else {
           setHeader(header + 1);

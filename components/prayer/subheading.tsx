@@ -1,16 +1,15 @@
-import { moderateScale } from "react-native-size-matters";
-import { PrayerSection as string } from "../../types/types";
-import { Text, StyleSheet } from "react-native";
-import useTheme from "../../hooks/useTheme";
 import React from "react";
+import { StyleSheet, Text } from "react-native";
+import { moderateScale } from "react-native-size-matters";
+import useTheme from "../../hooks/useTheme";
 
 export default function Subheading({ subheading }: { subheading: string }) {
   const theme = useTheme();
 
   return (
-      <Text style={[styles.subheading, { color: theme.header }]}>
-        {subheading}
-      </Text>
+    <Text style={[styles.subheading, { color: theme.header }]}>
+      {subheading}
+    </Text>
   );
 }
 

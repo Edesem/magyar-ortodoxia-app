@@ -1,44 +1,42 @@
-import Animated, {
-  useAnimatedScrollHandler, useDerivedValue,
-  useSharedValue
-} from "react-native-reanimated";
+import { Ionicons } from "@expo/vector-icons";
 import { useLocalSearchParams, useNavigation } from "expo-router";
 import React, { useEffect, useLayoutEffect, useState } from "react";
-import {
-  View, Pressable
-} from "react-native";
-import useTheme from "../../hooks/useTheme";
-import useOrientation from "../../hooks/useOrientation";
-import { Ionicons } from "@expo/vector-icons";
-import { bookmarkService } from "../../services/bookmarkService";
-import { haptic } from "../../utils/haptic";
-import { prayerData } from "../../data/prayers";
-import { Prayer } from "../../types/types";
-import Heading from "../../components/prayer/heading";
-import Subheading from "../../components/prayer/subheading";
-import Paragraphs from "../../components/prayer/paragraphs";
-import Postheading from "../../components/prayer/postheading";
+import { Pressable } from "react-native";
+import Animated, {
+  useAnimatedScrollHandler,
+  useDerivedValue,
+  useSharedValue,
+} from "react-native-reanimated";
 import BottomImage from "../../components/prayer/bottomImage";
-import Scrollbar from "../../components/prayer/scrollBar";
+import Heading from "../../components/prayer/heading";
+import Paragraphs from "../../components/prayer/paragraphs";
 import parseParagraph, {
   ParsedParagraphItem,
 } from "../../components/prayer/parseParagraph";
-
+import Postheading from "../../components/prayer/postheading";
+import Scrollbar from "../../components/prayer/scrollBar";
+import Subheading from "../../components/prayer/subheading";
+import { prayerData } from "../../data/prayers";
+import useOrientation from "../../hooks/useOrientation";
+import useTheme from "../../hooks/useTheme";
+import { bookmarkService } from "../../services/bookmarkService";
+import { Prayer } from "../../types/types";
+import { haptic } from "../../utils/haptic";
 
 type FlatItem =
   | {
-    type: "heading";
-    content: string;
-  }
+      type: "heading";
+      content: string;
+    }
   | {
-    type: "subheading";
-    content: string;
-  }
+      type: "subheading";
+      content: string;
+    }
   | ParsedParagraphItem
   | {
-    type: "postheading";
-    content: string;
-  };
+      type: "postheading";
+      content: string;
+    };
 
 export default function PrayerScreen() {
   const [isBookmarked, setIsBookedmarked] = useState(false);
@@ -96,14 +94,9 @@ export default function PrayerScreen() {
         </Pressable>
       ),
     });
-  }, [navigation, prayer, isBookmarked]);
+  }, [navigation, prayer, isBookmarked, prayerId, theme.text]);
 
   const orientationPadding = useOrientation() === "landscape" ? 80 : 25;
-
-  const sectionsWithParagraphs = sections.map((section) => ({
-    ...section,
-    paragraphs: section.text.split("\n"),
-  }));
 
   const flattened = sections.flatMap((section) => {
     const items: FlatItem[] = [];
@@ -167,7 +160,8 @@ export default function PrayerScreen() {
           }
         })}
         <BottomImage prayer={prayer} />
-      </Animated.ScrollView><Scrollbar progress={progress} />
+      </Animated.ScrollView>
+      <Scrollbar progress={progress} />
     </>
   );
 }

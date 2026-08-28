@@ -1,23 +1,22 @@
+import FontAwesome from "@expo/vector-icons/FontAwesome";
+import { Picker } from "@react-native-picker/picker";
+import * as Haptics from "expo-haptics";
+import React, { useState } from "react";
 import {
   GestureResponderEvent,
+  Image,
+  Modal,
+  Platform,
   Pressable,
   StyleSheet,
   Text,
-  View,
-  Image,
   Vibration,
-  Modal,
-  Button,
-  Platform,
+  View,
 } from "react-native";
-import React, { useState } from "react";
-import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import * as Haptics from "expo-haptics";
+import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { moderateScale, verticalScale } from "react-native-size-matters";
-import useTheme from "../../hooks/useTheme";
-import FontAwesome from "@expo/vector-icons/FontAwesome";
 import useOrientation from "../../hooks/useOrientation";
-import { Picker } from "@react-native-picker/picker";
+import useTheme from "../../hooks/useTheme";
 
 export default function Komboszkini() {
   const [count, setCount] = useState(0);
@@ -218,7 +217,7 @@ export default function Komboszkini() {
                 fontFamily: "Alegreya_400Regular",
                 marginBottom: 40,
                 fontSize: moderateScale(18, 0.8),
-                alignSelf: "center"
+                alignSelf: "center",
               }}
             >
               Hosszan nyomva nullázás

@@ -1,23 +1,23 @@
-import { Stack } from "expo-router";
-import React, { useEffect, useState } from "react";
 import {
-  useFonts,
   Alegreya_400Regular,
   Alegreya_400Regular_Italic,
+  useFonts,
 } from "@expo-google-fonts/alegreya";
 import {
   AlegreyaSC_400Regular,
   AlegreyaSC_700Bold,
 } from "@expo-google-fonts/alegreya-sc";
-import { Platform, Pressable, useColorScheme } from "react-native";
-import * as SplashScreen from "expo-splash-screen";
-import { moderateScale } from "react-native-size-matters";
-import useTheme from "../hooks/useTheme";
+import { Stack } from "expo-router";
 import {
-  ThemeProvider,
   DarkTheme,
   DefaultTheme,
+  ThemeProvider,
 } from "expo-router/react-navigation";
+import * as SplashScreen from "expo-splash-screen";
+import React, { useEffect } from "react";
+import { Platform, useColorScheme } from "react-native";
+import { moderateScale } from "react-native-size-matters";
+import useTheme from "../hooks/useTheme";
 
 SplashScreen.preventAutoHideAsync();
 
@@ -55,7 +55,7 @@ export default function RootLayout() {
           name="prayer/[id]"
           options={{
             headerBackTitle: "Vissza",
-            
+
             headerBackTitleStyle: { fontFamily: "AlegreyaSC_400Regular" },
 
             ...(Platform.OS === "ios" && {

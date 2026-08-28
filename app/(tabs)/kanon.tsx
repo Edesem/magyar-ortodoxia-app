@@ -1,20 +1,20 @@
+import { Link, useFocusEffect } from "expo-router";
+import React, { useState } from "react";
 import {
+  Image,
   Platform,
   ScrollView,
   StyleSheet,
   Text,
   View,
-  Image,
 } from "react-native";
-import useTheme from "../../hooks/useTheme";
-import useOrientation from "../../hooks/useOrientation";
-import { bookmarkService } from "../../services/bookmarkService";
-import React, { useEffect, useState } from "react";
-import { Link, useFocusEffect } from "expo-router";
 import { moderateScale, verticalScale } from "react-native-size-matters";
-import { haptic } from "../../utils/haptic";
 import { prayerData } from "../../data/prayers";
+import useOrientation from "../../hooks/useOrientation";
+import useTheme from "../../hooks/useTheme";
+import { bookmarkService } from "../../services/bookmarkService";
 import { Prayer } from "../../types/types";
+import { haptic } from "../../utils/haptic";
 
 const prayers: Prayer[] = prayerData;
 
@@ -37,7 +37,7 @@ export default function Kanon() {
       };
 
       loadBookmarks();
-    }, [])
+    }, []),
   );
 
   const bookmark = prayers.filter((prayer) => bookmarks.includes(prayer.id));
@@ -59,7 +59,7 @@ export default function Kanon() {
       </Text>
 
       {bookmark.length === 0 && (
-        <Text style={[styles.tutorial, {color: theme.text}]}>
+        <Text style={[styles.tutorial, { color: theme.text }]}>
           A gyakran használt imák a jobb felső sarokban található könyvjelző
           ikonnal a Kánonba menthetők.
         </Text>

@@ -1,16 +1,16 @@
+import * as Application from "expo-application";
 import { useNavigation } from "expo-router";
 import React, { useLayoutEffect } from "react";
-import { Text, View, StyleSheet, ScrollView } from "react-native";
-import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import useTheme from "../hooks/useTheme";
-import * as Application from "expo-application";
+import { ScrollView, StyleSheet, Text, View } from "react-native";
 import { moderateScale } from "react-native-size-matters";
 import useOrientation from "../hooks/useOrientation";
+import useTheme from "../hooks/useTheme";
 
 export default function info() {
   const navigation = useNavigation();
   const theme = useTheme();
-  const orientationHorizontalPadding = useOrientation() === 'landscape' ? 60 : 10;
+  const orientationHorizontalPadding =
+    useOrientation() === "landscape" ? 60 : 10;
 
   useLayoutEffect(() => {
     navigation.setOptions({
@@ -49,7 +49,7 @@ robertlzoltan@gmail.com`}</Text>
         <Text
           style={[
             styles.text,
-            { color: theme.subtext, alignSelf: "center", marginTop: 100  },
+            { color: theme.subtext, alignSelf: "center", marginTop: 100 },
           ]}
         >
           {version} verzió

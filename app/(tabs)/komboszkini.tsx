@@ -45,7 +45,6 @@ export default function Komboszkini() {
     if (count >= komboszkini - 1) {
       Vibration.vibrate();
       setCount(0);
-      ``;
     }
   };
 

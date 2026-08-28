@@ -47,7 +47,7 @@
     "expo-screen-orientation": "~56.0.5",
     "expo-splash-screen": "~56.0.10",
     "expo-status-bar": "~56.0.4",
-    "expo-symbols": "~56.0.6",
+    "expo-symbols": "~57.0.2",
     "expo-system-ui": "~56.0.5",
     "install": "^0.13.0",
     "npx": "^10.2.2",

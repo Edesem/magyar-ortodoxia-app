@@ -6,7 +6,7 @@ import { moderateScale } from "react-native-size-matters";
 import useOrientation from "../hooks/useOrientation";
 import useTheme from "../hooks/useTheme";
 
-export default function info() {
+export default function Information() {
   const navigation = useNavigation();
   const theme = useTheme();
   const orientationHorizontalPadding =

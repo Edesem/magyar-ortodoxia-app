@@ -14,7 +14,17 @@
     "lint:fix": "eslint . --fix"
   },
   "jest": {
-    "preset": "jest-expo"
+    "preset": "jest-expo",
+    "collectCoverageFrom": [
+      "**/*.{ts,tsx}",
+      "!**/node_modules/**",
+      "!**/coverage/**",
+      "!**/*.d.ts",
+      "!**/assets/**",
+      "!**/data/**",
+      "!**/constants/**",
+      "!**/types/**"
+    ]
   },
   "dependencies": {
     "@expo-google-fonts/alegreya": "^0.4.1",

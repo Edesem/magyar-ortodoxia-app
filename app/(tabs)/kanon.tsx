@@ -9,13 +9,12 @@ import {
 import useTheme from "../../hooks/useTheme";
 import useOrientation from "../../hooks/useOrientation";
 import { bookmarkService } from "../../services/bookmarkService";
-import { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link, useFocusEffect } from "expo-router";
 import { moderateScale, verticalScale } from "react-native-size-matters";
 import { haptic } from "../../utils/haptic";
 import { prayerData } from "../../data/prayers";
 import { Prayer } from "../../types/types";
-import React from "react";
 
 const prayers: Prayer[] = prayerData;
 

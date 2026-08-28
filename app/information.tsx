@@ -1,12 +1,11 @@
 import { useNavigation } from "expo-router";
-import { useLayoutEffect } from "react";
+import React, { useLayoutEffect } from "react";
 import { Text, View, StyleSheet, ScrollView } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import useTheme from "../hooks/useTheme";
 import * as Application from "expo-application";
 import { moderateScale } from "react-native-size-matters";
 import useOrientation from "../hooks/useOrientation";
-import React from "react";
 
 export default function info() {
   const navigation = useNavigation();

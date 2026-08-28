@@ -1,10 +1,9 @@
 import { Pressable, Text, StyleSheet } from "react-native";
 import { HEADERS } from "../../constants/headers";
 import { haptic } from "../../utils/haptic";
-import { useState } from "react";
+import React, { useState } from "react";
 import { moderateScale } from "react-native-size-matters";
 import useTheme from "../../hooks/useTheme";
-import React from "react";
 
 export function Header() {
   const [header, setHeader] = useState(0);

@@ -27,7 +27,6 @@ export default function Kanon() {
 
   const orientationHorizontalPadding =
     useOrientation() === "landscape" ? 80 : 10;
-  const orientationVerticalPadding = useOrientation() === "landscape" ? 20 : 0;
 
   useFocusEffect(
     React.useCallback(() => {

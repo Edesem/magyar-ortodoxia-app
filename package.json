@@ -51,7 +51,7 @@
     "expo-system-ui": "~57.0.3",
     "install": "^0.13.0",
     "npx": "^10.2.2",
-    "react": "19.2.3",
+    "react": "19.2.8",
     "react-dom": "19.2.3",
     "react-native": "0.86.3",
     "react-native-reanimated": "4.5.1",
